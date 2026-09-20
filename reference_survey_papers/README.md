@@ -11,6 +11,8 @@
 | `The Evolution of AI Office From Passive Assistants to Goal-Driven Agents.pdf` | The Evolution of AI Office: From Passive Assistants to Goal-Driven Agents | https://www.alphaxiv.org/pdf/2609.evolution-ai-office-agents |
 | `2501.07278v2.pdf` | Lifelong Learning of Large Language Model based Agents: A Roadmap (TPAMI 2026) | https://ieeexplore.ieee.org/document/11328884 (paywalled); file is the arXiv v2 preprint: https://arxiv.org/pdf/2501.07278v2 |
 | `A SURVEY OF SELF-EVOLVING AGENTS.pdf` | A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence | https://arxiv.org/pdf/2507.21046v3 |
+| `A Survey on Latent Reasoning.pdf` | A Survey on Latent Reasoning | https://arxiv.org/pdf/2507.06203v2 |
+| `Externalization in LLM Agents_ A Unified Review of Memory, Skills, Protocols and Harness Engineering.pdf` | Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering | https://arxiv.org/pdf/2604.08224 |
 
 ## Notes
 
