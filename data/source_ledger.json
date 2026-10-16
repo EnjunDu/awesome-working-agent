@@ -1,0 +1,2288 @@
+{
+  "document_id": "WA-Ch2-Ch4-2026-10-16",
+  "items": [
+    {
+      "list_id": "L001",
+      "catalog_id": "WA-0217",
+      "source_title": "AA-Briefcase v1.1（含公开 AA-Briefcase-Lite 样例）",
+      "source_url": "https://artificialanalysis.ai/evaluations/aa-briefcase",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方项目。",
+        "具体贡献": "把知识工作放入含多项关联任务与大量源文件的项目，分辨任务标准、分析质量和呈现质量。",
+        "对综述的用途": "与GDPval并列可解释：给定材料制作交付物，与在复杂项目中发现并整合材料，要求不同。",
+        "建议位置": "2.2开放性；2.3.1证据发现；评估章项目任务；2.1 工作空间/成果；2.2 开放性；2.3 专业推理。",
+        "适用边界": "官方v1.1明确各任务独立执行、不带入此前提交，不能作为跨任务状态延续的直接证据。正式私有题库未全部公开；Lite只是示范且不计正式成绩。此条是基准项目与数据集，非已确认的独立论文。",
+        "版本／年份说明": "现bib题名：AA-Briefcase-Lite: Public Example Scenario and Evaluation Documentation；请按引用版本统一，不自动改写现bib。",
+        "补充一手来源": "[官方发布说明：项目设计与三类评价信号。](https://artificialanalysis.ai/articles/aa-briefcase/)；[公开示例及送测协议；示例不代表正式题库完整分布。](https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite)。"
+      },
+      "reconciliation": "resource"
+    },
+    {
+      "list_id": "L002",
+      "catalog_id": "WA-0227",
+      "source_title": "APEX-Agents",
+      "source_url": "https://arxiv.org/abs/2601.14242",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "由投行、咨询和企业法律从业者编写跨应用长程任务，并提供文件、工具及验收标准。",
+        "对综述的用途": "补足一般桌面任务与专业业务判断之间的距离。",
+        "建议位置": "2.3.2领域知识；2.3.3任务组织；评估章职业任务；2.1 工作范围；2.3 专业判断/协调。",
+        "适用边界": "职业范围有限；论文发布版、后续公开版本及运行基础设施需分清。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L003",
+      "catalog_id": "WA-0305",
+      "source_title": "Back to the Future: A workbook time machine for spread sheet creation benchmarks",
+      "source_url": "https://arxiv.org/abs/2608.07873",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "逆向移除真实工作簿的公式、图表、透视表与格式，再依赖图采样可达变换及不同具体程度的指令。",
+        "对综述的用途": "既支持原生对象语义重要，也提供模型与接口共同决定表现的受控例子。",
+        "建议位置": "2.3.1原生结构；2.3.4工具限制；评估章任务构造。",
+        "适用边界": "主要是派生成果创建；不覆盖所有单元格编辑或开放业务判断，不能把目标可验证等同现实全覆盖。",
+        "补充一手来源": "[§3任务三元组；§4依赖图；接口与指令具体程度比较。](https://arxiv.org/html/2608.07873)；[官方实现名WTM-Bench，避免另记一篇重复论文。](https://github.com/microsoft/WTM-Bench)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L004",
+      "catalog_id": "WA-0306",
+      "source_title": "Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability",
+      "source_url": "https://arxiv.org/abs/2606.25819",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；原文相关章节。",
+        "具体贡献": "ToolBench-X对可执行工作流注入规范漂移、调用错误、执行故障、输出漂移及多来源冲突，同时保留有效恢复路径。",
+        "对综述的用途": "说明正确选函数和填参数仍不保证完成工作；诊断、重试、替代与交叉核查是额外要求。",
+        "建议位置": "2.2开放性；2.3验证恢复；6扰动与恢复。",
+        "适用边界": "确定性工具和人为注入风险提高可控性，也限制对真实服务故障分布的外推。",
+        "补充一手来源": "[核对引言和任务设置中工具可靠性假设、可恢复风险类别及替代路径；未把他表覆盖判断直接当作事实。](https://arxiv.org/html/2606.25819v2)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L005",
+      "catalog_id": "WA-0039",
+      "source_title": "DeepPresenter: Environment-Grounded Reflection for Agentic Presentation Generation",
+      "source_url": "https://arxiv.org/abs/2602.22839",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "将中间成果渲染后的可感知状态反馈给生成过程，以发现与修复演示文稿问题。",
+        "对综述的用途": "是“检查实际成果，而不只反思自身文字推理”的直接例子。",
+        "建议位置": "2.3.5验证与恢复。",
+        "适用边界": "属于具体生成系统，不能从其自我修订机制推出所有任务都必须多轮。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L006",
+      "catalog_id": "WA-0307",
+      "source_title": "Dr. DocBench: A Comprehensive Benchmark for Expert-Level and Difficult Document Parsing",
+      "source_url": "https://arxiv.org/abs/2606.01393",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "按现有解析器失败挑选专家领域困难页面，涵盖布局、阅读顺序、层级和专业符号。",
+        "对综述的用途": "说明通用OCR成绩不能保证化学公式、乐谱及跨页表格等职业材料可可靠读取。",
+        "建议位置": "2.3.1领域敏感感知；评估章困难文档。",
+        "适用边界": "困难样本选择会改变数据分布；不能将其平均分直接当真实全部工作文档失败率。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L007",
+      "catalog_id": "WA-0308",
+      "source_title": "From Question Answering to Task Completion: A Survey on Agent System and Harness Design",
+      "source_url": "https://arxiv.org/abs/2606.20683",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "§2.2明确使用Model与Harness的实现视角，分解观察、上下文、控制、行动、状态及验证职责。",
+        "对综述的用途": "这是本轮需要优先对读的近邻综述；可直接支持系统分工，也要求我们讲清工作对象、成果、验收和工作组织的独特主线。",
+        "建议位置": "2.1系统与形式化；2.4相关综述定位。",
+        "适用边界": "不能把Model加Harness本身写成我们的新颖性；该文职责划分不等于本文六要素。",
+        "补充一手来源": "[阅读§2.1、§2.2及章节结构，核对Model与Harness及其六项职责。](https://arxiv.org/html/2606.20683)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L008",
+      "catalog_id": "WA-0309",
+      "source_title": "How Well Does Agent Development Reflect Real-World Work?",
+      "source_url": "https://arxiv.org/abs/2603.01203",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "把多个benchmark任务映射到职业领域与技能，分析其与就业和工资分布的差异。",
+        "对综述的用途": "直接支持领域与跨领域能力分开组织，也支持综述超出软件工程benchmark。",
+        "建议位置": "引言必要性；2.1 范围；第六章覆盖分析。",
+        "适用边界": "映射依赖taxonomy、抽样和LLM标注；覆盖比例不等于充分测量或可自动化比例。",
+        "补充一手来源": "[已读§2映射/抽样、§3.1领域分布；工资×就业为经济价值代理。](https://arxiv.org/html/2603.01203v1)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L009",
+      "catalog_id": "WA-0062",
+      "source_title": "InfiAgent: An Infinite-Horizon Framework for General-Purpose Autonomous Agents",
+      "source_url": "https://arxiv.org/abs/2601.03204",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "将持久工作信息外置到文件状态，以工作空间快照和有限近期行动重建推理上下文。",
+        "对综述的用途": "具体解释上下文窗口有限时，运行时系统怎样保存进度并支撑任务延续。",
+        "建议位置": "2.3状态管理；5运行时支撑优化。",
+        "适用边界": "题名中的无限时域不是无限可靠性的证明；报告任务范围有限，仍需状态有效性检查。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L010",
+      "catalog_id": "WA-0310",
+      "source_title": "Intelligent AI Delegation",
+      "source_url": "https://arxiv.org/abs/2602.11865",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "§2.1把委托与权限、责任、角色边界、意图和信任联系起来，并讨论监测与可验证完成。",
+        "对综述的用途": "可强化Task不只是自然语言目标，还包括行动边界和完成条件的论证。",
+        "建议位置": "2.1 Task与权限；2.2责任；2.3协调。",
+        "适用边界": "概念框架提出设计要求，不能当作智能体已能可靠承担这些职责的实证。",
+        "补充一手来源": "[阅读§2.1委托定义及监测、权限、可验证完成等结构。](https://arxiv.org/html/2602.11865v1)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L011",
+      "catalog_id": "WA-0260",
+      "source_title": "JobBench: Aligning Agent Work With Human Will",
+      "source_url": "https://arxiv.org/abs/2605.26329",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "以专家愿意委托的工作选择任务，提供异构/冲突资料，并以事实与推理相连的rubric链评分。",
+        "对综述的用途": "补足仅按GDP或工资选任务：用户希望委托什么，以及结果为何可接受，都影响研究对象。",
+        "建议位置": "2.1 委托目标；2.3 来源解释；第六章任务选取。",
+        "适用边界": "作者把GDPval称为replacement属于研究立场；不能直接当作本稿对GDPval的事实结论。",
+        "补充一手来源": "[已读§2.1设计原则、任务来源与rubric-chain描述。](https://arxiv.org/html/2605.26329v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L012",
+      "catalog_id": "WA-0261",
+      "source_title": "Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents",
+      "source_url": "https://arxiv.org/abs/2610.00609",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "律师构造法律研究问题；结合搜索与案例检索，要求标准通过且引用可验证。",
+        "对综述的用途": "直接支撑专业知识决定有效结果：还须判断权威适用性、时效及冲突，而不只是找到资料。",
+        "建议位置": "2.3 专业判断/验证；第六章验收。",
+        "适用边界": "美国法且偏可达客观共识问题；多数题目未公开；all-pass与部分分数回答不同问题。",
+        "补充一手来源": "[已读§3.1–3.3、§4.1–4.2：来源时效/冲突、all-pass与URL核验、律师校准。](https://arxiv.org/html/2610.00609v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L013",
+      "catalog_id": "WA-0311",
+      "source_title": "LLMs Corrupt Your Documents When You Delegate",
+      "source_url": "https://arxiv.org/abs/2604.15597",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "DELEGATE-52用可逆编辑与往返重建测量多轮委托过程中文档内容丢失/篡改。",
+        "对综述的用途": "为现稿“避免改变无关状态”和“恢复应保留已正确工作”提供直接且更贴办公对象的证据。",
+        "建议位置": "2.2.1持续性；2.3.4状态管理；2.3.5避免回归；2.2 持久性；2.3 执行/验证。",
+        "适用边界": "主实验是文本文件上的独立单轮编辑串接，并非完整多轮对话；可逆性限制任务范围，往返不等于全部真实工作成功。",
+        "补充一手来源": "[可逆编辑评估、领域解析评分及短程/长程区别。](https://arxiv.org/html/2604.15597)；[官方round-trip relay、领域评估器与发布数据子集。](https://github.com/microsoft/DELEGATE52)；[作者后续说明artifact integrity与任务成功/用户满意不同。](https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L014",
+      "catalog_id": "WA-0312",
+      "source_title": "LongDS-Bench: On the Failure of Long-Horizon Agentic Data Analysis",
+      "source_url": "https://arxiv.org/abs/2605.30434",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "基于持续执行环境构造多轮数据分析，后续请求依赖早先定义、过滤条件和中间结果，含更新、局部反事实、回滚及状态组合。",
+        "对综述的用途": "最直接补充“工作状态不是会话摘要”：要知道哪个定义/版本当前有效，以及临时修改是否应覆盖默认状态。",
+        "建议位置": "2.2持续性；2.3状态与恢复；6长程分析。",
+        "适用边界": "任务主要转为可量化分析问题，未全面覆盖可视化交付；其多轮是用户请求序列，不能与工具回合混计。",
+        "补充一手来源": "[读§2任务定义、§3.1状态演化和§3.2构建：环境跨请求不重置，临时反事实与永久更新区分。](https://arxiv.org/html/2605.30434v3#S2)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L015",
+      "catalog_id": "WA-0313",
+      "source_title": "Office Comprehension Benchmark",
+      "source_url": "https://arxiv.org/abs/2607.01245",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "以原生Word、Excel和PowerPoint文件设File Fidelity及Domain Q&A两个轨道，逐原子断言评分。",
+        "对综述的用途": "很直接地支持“读对文字≠读懂对象”；还可用来解释感知与专业推理为何相关但不能合并。",
+        "建议位置": "2.3.1工作对象语义；2.3.2领域推理；评估章能力划分。",
+        "适用边界": "测理解/问答，不测原生文件写回或工作流完成；其人类基线不能无条件读成全面超人。",
+        "补充一手来源": "[两轨道定义、对象分类、原子断言与局限。](https://arxiv.org/html/2607.01245)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L016",
+      "catalog_id": "WA-0273",
+      "source_title": "OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning",
+      "source_url": "https://arxiv.org/abs/2603.08655",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "在大规模Treasury Bulletin语料上进行精确多文档问答，比较材料解析、检索与推理配置。",
+        "对综述的用途": "把解析/证据定位的错误与后续专业推理联系起来，避免把一切失败归为知识不足。",
+        "建议位置": "2.3 理解到推理的连接；Workspace材料表示；2.3.1检索与原生语义；2.3.2证据推理。",
+        "适用边界": "不是Word/PPT制作benchmark；Pro、Full和后续版本不能混用。",
+        "补充一手来源": "[前序表核验已读§2.2、§4.2；本轮复核官方摘要与身份。](https://arxiv.org/html/2603.08655v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L017",
+      "catalog_id": "WA-0274",
+      "source_title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "source_url": "https://arxiv.org/abs/2607.27155",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方项目。",
+        "具体贡献": "以真实办公请求构建任务，用细粒度标准及代码检查评估成果，并给出人时与价格代理。",
+        "对综述的用途": "支持“可交付质量、成本、速度分别观察”，为6章ROI提供材料。",
+        "建议位置": "2.4.3办公智能体；评估章成果质量/ROI。",
+        "适用边界": "价格代理不是已实现商业回报；允许的GUI/脚本/API路径不等于任务本身指定每一种。",
+        "补充一手来源": "[文件类型、任务设计、经济信号与轨迹无关评价。](https://omegause-officeval.github.io/)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L018",
+      "catalog_id": "WA-0314",
+      "source_title": "Open-World Evaluations for Measuring Frontier AI Capabilities",
+      "source_url": "https://arxiv.org/abs/2605.20520",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "主张用开放世界、较长跨度的真实项目评价补充标准基准，并讨论具体项目案例。",
+        "对综述的用途": "支撑材料、目标和环境不断变化的工作场景为何需要额外证据。",
+        "建议位置": "2.2开放性；第六章评估范围。",
+        "适用边界": "小样本项目案例不能代表总体成功率或职业可替代程度。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L019",
+      "catalog_id": "WA-0315",
+      "source_title": "PPT-Eval: A Benchmark for Computer-Use Agents on PowerPoint Tasks",
+      "source_url": "https://arxiv.org/abs/2606.31154",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "以创建/编辑任务的细粒度量规评估进度，包含非必要更改与美观问题的扣分。",
+        "对综述的用途": "补充“完成目标”之外的保持原有正确内容，并避免二元成功掩盖部分进展。",
+        "建议位置": "2.3.4图形软件执行；2.3.5可观察检查；评估章rubric。",
+        "适用边界": "与PPTAgent论文中的PPTEval不是同一个资源；不要因名称相近合并数据或结论。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L020",
+      "catalog_id": "WA-0027",
+      "source_title": "PresentBench: A Fine-Grained Rubric-Based Benchmark for Slide Generation",
+      "source_url": "https://arxiv.org/abs/2603.07244",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；原文相关章节。",
+        "具体贡献": "为带参考材料的完整幻灯片生成设置逐任务二元检查项，覆盖内容和视觉要求。",
+        "对综述的用途": "能说明为什么文件能打开仍不足以验收，以及检查标准需要连接具体任务。",
+        "建议位置": "2.3.5成果检查；评估章输出与证据。",
+        "适用边界": "最终成果评价不规定必须采用某种多轮生成流程；接受PDF/PPTX不等于完全评价可编辑性。",
+        "补充一手来源": "[输出格式与评审输入；不把内部PDF渲染当全部任务需求。](https://arxiv.org/html/2603.07244v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L021",
+      "catalog_id": "WA-0058",
+      "source_title": "SpreadsheetBench 2: Evaluating Agents on End-to-End Business Spreadsheet Workflows",
+      "source_url": "https://arxiv.org/abs/2606.29955",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "从专业业务数据构造生成、调试、可视化任务，覆盖多工作表依赖和大规模修改。",
+        "对综述的用途": "可用于更新只依赖V1局部编辑例子的叙述；失败分析指向检查不足与目标单元格定位。",
+        "建议位置": "2.3.1跨表语义；2.3.3步骤依赖；评估章端到端任务。",
+        "适用边界": "作者称workflow-level并不自动与本综述的Workflow定义完全重合，仍需按任务结构映射。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L022",
+      "catalog_id": "WA-0296",
+      "source_title": "Towards Long-Horizon Agents: A Survey",
+      "source_url": "https://doi.org/10.20944/preprints202607.1328.v1",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方项目。",
+        "具体贡献": "项目页以模型与Harness耦合讨论长时程执行，区分上下文内、跨上下文和跨任务的跨度。",
+        "对综述的用途": "可支撑运行时系统的重要性，并帮助区分执行跨度与持续工作责任。",
+        "建议位置": "2.1 Model/Harness；2.2持久性；2.4长时程智能体；2.1 系统观；2.4 related paradigms。",
+        "适用边界": "六个Harness组件不是本文Task/Model/Harness/Workspace/Outcome/Verification六要素；当前核查依据为作者项目页。",
+        "版本／年份说明": "现bib题名：Towards Long-Horizon Agents: A Survey --- Foundation, Evolution, Harness, Optimization, Application, and Frontier；请按引用版本统一，不自动改写现bib。",
+        "补充一手来源": "[阅读作者项目页的跨度划分、模型与Harness视角及BibTeX元数据；不是全文逐页复核。](https://long-horizon-agents.github.io/)；[官方Citation给出2026年7月DOI与短标题；OpenReview PDF本次遇浏览器验证。](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L023",
+      "catalog_id": "WA-0191",
+      "source_title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
+      "source_url": "https://arxiv.org/abs/2608.10875",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "模拟多周任务，世界按自己的时钟推进，部分变化需主动检查；评价结果和时效。",
+        "对综述的用途": "比单次多步任务更直接支持无需新提示仍需维持计划和及时行动的责任。",
+        "建议位置": "2.2 persistence直接例子。",
+        "适用边界": "脚本时间线与mock services不是实际长期生活部署。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L024",
+      "catalog_id": "WA-0316",
+      "source_title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+      "source_url": "https://arxiv.org/abs/2606.09426",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "要求同一任务交替使用GUI与命令行或代码；评价器检查产物、截图、文件与操作轨迹，并识别违反任务规定的捷径。",
+        "对综述的用途": "“提供多个接口”和“任务必须协调多个接口”应区分；有力支持为什么只看最终产物有时会误判工作完成。",
+        "建议位置": "2.3执行与验证；6混合环境与轨迹审计。",
+        "适用边界": "论文对其他基准的比较仍需独立核查；其特定轨迹约束不能视为所有工作通用规范。",
+        "补充一手来源": "[读§3.1准入条件及§3.4轨迹评价：接口不可替代、跨应用状态、主动重新获取证据和条款级核验。](https://arxiv.org/html/2606.09426v3#S3)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L025",
+      "catalog_id": "WA-0019",
+      "source_title": "Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies",
+      "source_url": "https://arxiv.org/abs/2605.03596",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；原文相关章节。",
+        "具体贡献": "以真实工作空间及文件依赖图组织检索、推理、更新任务。",
+        "对综述的用途": "使“理解工作空间”具体化为发现来源、依赖和相关对象，避免只统计附件数。",
+        "建议位置": "2.1 Workspace；2.3.1对象关系；原4.1材料表移交6；2.1工作空间；2.3对象关系；3工作空间形态；6文件依赖。",
+        "适用边界": "构建工作空间不等于完整组织流程；官方不同版本/Full与Lite要固定，不能混用数量。",
+        "补充一手来源": "[工作材料与依赖结构；与同主题表格核查共用已核证据。](https://arxiv.org/html/2605.03596v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L026",
+      "catalog_id": "WA-0317",
+      "source_title": "A Comprehensive Survey of Agents for Computer Use: Foundations, Challenges, and Future Directions",
+      "source_url": "https://arxiv.org/abs/2501.16150",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "按领域、交互方式与智能体组织计算机使用研究，区分观察与行动接口。",
+        "对综述的用途": "支撑文件材料、观察表示、执行接口分列；也说明computer use是实现交互的一种路线。",
+        "建议位置": "2.4计算机使用智能体；原第四章表格口径。",
+        "适用边界": "同一arXiv的旧题名为AI Agents for Computer Use: A Review...；不能重复计数。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L027",
+      "catalog_id": "WA-0318",
+      "source_title": "Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems",
+      "source_url": "https://arxiv.org/abs/2504.01990",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "按认知、记忆、世界模型、感知、行动和协作组织通用agent研究。",
+        "对综述的用途": "提供模块之间为何连接的对照，本稿应通过工作要求解释能力组合。",
+        "建议位置": "2.3 能力组织；2.4 相关范式；2.1系统视角；2.4相关范式。",
+        "适用边界": "不为本稿六要素/五形态提供既定标准；无需照搬其所有模块。",
+        "补充一手来源": "[核对原文模块目录及各模块关系章节；仅用于结构对照。](https://arxiv.org/html/2504.01990v1)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L028",
+      "catalog_id": "WA-0075",
+      "source_title": "Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks",
+      "source_url": "https://arxiv.org/abs/2508.00828",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；原文相关章节。",
+        "具体贡献": "专家金融研究问题结合SEC材料、搜索检索和数值分析，从信息查找延伸到金融建模。",
+        "对综述的用途": "说明专业定义、时间口径和证据解释共同决定分析结果；有工具不等于判断正确。",
+        "建议位置": "2.3 Domain Knowledge和专业判断。",
+        "适用边界": "属于工具辅助金融研究与问答，不是实际交易/金融业务执行；费用每题不等于ROI。",
+        "补充一手来源": "[前序表核验已读§2/表1、§3.1；本轮复核标题年份。](https://arxiv.org/html/2508.00828v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L029",
+      "catalog_id": "WA-0064",
+      "source_title": "GDPval: Evaluating AI Model Performance on Real-World Economically Valuable Tasks",
+      "source_url": "https://arxiv.org/abs/2510.04374",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；原文相关章节。",
+        "具体贡献": "把职业请求、参考材料和专家成果成对组织，采用专家盲评比较交付质量。",
+        "对综述的用途": "给“完成工作”提供明确成果对象，连接专业判断、原生文件制作与验收。",
+        "建议位置": "2.1工作结果；2.3.2职业判断；评估章成果质量；2.1 定义/成果；2.3 专业判断；评估细节交第六章。",
+        "适用边界": "任务主要是给定充分上下文的一次性委托；不能由成果好坏单独识别规划、长期状态或协作能力。",
+        "补充一手来源": "[原文任务设计、专家判断、工具配置与局限。](https://arxiv.org/html/2510.04374)；[官方职业选择、任务/成果形式和评价；paper链接指向2510.04374。](https://openai.com/index/gdpval/)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L030",
+      "catalog_id": "WA-0319",
+      "source_title": "Hell or High Water: Evaluating Agentic Recovery from External Failures",
+      "source_url": "https://arxiv.org/abs/2508.11027",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "在函数组合任务中使原可用功能突然失效，同时保证仍存在可行替代路径，考察备用计划。",
+        "对综述的用途": "区分任务本来不可解和智能体未能适应外部变化；很适合支撑重新规划作为独立工作要求。",
+        "建议位置": "2.3恢复与重新规划；6故障注入。",
+        "适用边界": "受控函数环境的可解性保证不等于真实开放环境总有替代路径。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L031",
+      "catalog_id": "WA-0017",
+      "source_title": "Measuring AI Ability to Complete Long Software Tasks",
+      "source_url": "https://arxiv.org/abs/2503.14499",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "用人类任务完成时间标定长度，估计特定成功概率下agent能完成的任务范围。",
+        "对综述的用途": "支持通过任务跨度理解长程能力，而非仅看token数。",
+        "建议位置": "2.2 Work Persistence经验背景。",
+        "适用边界": "human time horizon不等于agent运行时长或跨周监控责任，不能替代本稿persistence定义。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L032",
+      "catalog_id": "WA-0031",
+      "source_title": "MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents",
+      "source_url": "https://arxiv.org/abs/2501.14654",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "医生构造患者特定任务，以FHIR接口访问交互式电子病历环境。",
+        "对综述的用途": "具体说明专业知识须结合当前患者状态，才能决定下一步操作。",
+        "建议位置": "2.3 专业判断；Workspace/State实例。",
+        "适用边界": "虚拟EHR和离线任务不是临床部署有效性或患者获益证据。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L033",
+      "catalog_id": "WA-0267",
+      "source_title": "Memory in the Age of AI Agents",
+      "source_url": "https://arxiv.org/abs/2512.13564",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "从记忆形式、功能和动态过程组织研究，包含事实、经验与工作记忆。",
+        "对综述的用途": "为持久性所需的信息保留提供术语框架，再用LongDS等补充外部工作状态证据。",
+        "建议位置": "2.2持久性；2.3.4状态管理。",
+        "适用边界": "记忆问答成绩不能替代持续任务接续或对象完整性评价。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L034",
+      "catalog_id": "WA-0320",
+      "source_title": "MMDocIR: Benchmarking Multimodal Retrieval for Long Documents",
+      "source_url": "https://aclanthology.org/2025.emnlp-main.1576/",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "区分页级与布局元素级检索，以文字、图表、公式等证据为目标。",
+        "对综述的用途": "补上“知道要找什么”与“能在长材料中找对证据”之间的能力环节。",
+        "建议位置": "2.3.1发现相关材料；评估章检索与理解分开。",
+        "适用边界": "检索相关性不能直接当最终回答正确率，也不证明Agent执行能力。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L035",
+      "catalog_id": "WA-0063",
+      "source_title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+      "source_url": "https://arxiv.org/abs/2503.01935",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "在多种交互场景中用任务完成和里程碑指标评价协作、竞争及不同通信拓扑。",
+        "对综述的用途": "支持评价团队工作应关注协作贡献和阶段进展，而非仅数智能体个数。",
+        "建议位置": "2.3协调；6协作质量。",
+        "适用边界": "不同场景的拓扑效果不能推广为普遍最优组织；里程碑取决于任务设计。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L036",
+      "catalog_id": "WA-0321",
+      "source_title": "PPTArena: A Benchmark for Agentic PowerPoint Editing",
+      "source_url": "https://arxiv.org/abs/2512.03042v1",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "针对现有演示文稿的指定修改，结合结构差异和渲染图评价指令遵循与视觉质量。",
+        "对综述的用途": "比纯text-to-slides更直接支持“修改指定部分并保留其他结构”的论点。",
+        "建议位置": "2.3.1对象定位；2.3.4编辑；2.3.5检查。",
+        "适用边界": "当前依据摘要；双评审协议、评分粒度与人工一致性需读全文后再引用数值结论。 本条固定v1题名；现行v3题名已去掉Agentic，引用时需统一。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L037",
+      "catalog_id": "WA-0322",
+      "source_title": "Ready Jurist One: Benchmarking Language Agents for Legal Intelligence in Dynamic Environments",
+      "source_url": "https://arxiv.org/abs/2507.04037",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "J1-ENVS构造中国法律实践交互场景，agent与多方参与者在程序规则下开展任务。",
+        "对综述的用途": "提供从知道法律到按角色和程序行动的实例，连接领域知识与工作系统。",
+        "建议位置": "2.2 开放性；2.3 协调和规则。",
+        "适用边界": "模拟环境；其复杂度层级不等同本稿五种形态。预印本2025、ACL2026。",
+        "补充一手来源": "[官方J1-Envs/J1-Eval身份及ACL2026信息；首版2025。](https://github.com/FudanDISC/J1Bench)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L038",
+      "catalog_id": "WA-0290",
+      "source_title": "SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?",
+      "source_url": "https://arxiv.org/abs/2502.12115",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方项目。",
+        "具体贡献": "真实自由职业软件项目包含工程实现与管理方案选择，并关联历史报酬。",
+        "对综述的用途": "可解释决策不只是下个工具，也包括比较技术实施方案；报酬联系工作价值。",
+        "建议位置": "2.3 技术取舍；第六章ROI。",
+        "适用边界": "历史报酬不是agent净利润；原始全集、公开集及更新版本须区分。",
+        "补充一手来源": "[官方IC/Manager任务与真实报酬；2025-07更新取消联网要求。](https://openai.com/index/swe-lancer/)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L039",
+      "catalog_id": "WA-0323",
+      "source_title": "SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering",
+      "source_url": "https://arxiv.org/abs/2502.06994",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "基于代码库演化构造认知与真实环境不同步的场景，比较自主探索和向协作者询问两种恢复方式。",
+        "对综述的用途": "直接补充共享工作空间会被他人改变的情形；恢复需要更新对环境的认识，不能只保存自己的旧上下文。",
+        "建议位置": "2.2开放性；2.3状态和协作恢复；6恢复成本。",
+        "适用边界": "代码库与测试提供可执行验证；资源成本有实验设定的假想成本，不能照搬成真实ROI。",
+        "补充一手来源": "[读§2.1—2.3：知识缺口/状态不匹配/任务失败，独立与协作恢复，以及时间和假想成本。](https://arxiv.org/html/2502.06994v2#S2)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L040",
+      "catalog_id": "WA-0294",
+      "source_title": "The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution",
+      "source_url": "https://arxiv.org/abs/2510.25726",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "以32个应用、604项工具和108个任务构造真实初始状态下的跨应用执行，配套执行检查。",
+        "对综述的用途": "补充单一网页或桌面任务，说明执行难点来自跨应用依赖、工具选择和连续状态改变。",
+        "建议位置": "2.3跨工具执行；6长程任务。",
+        "适用边界": "工具回合数不等于用户对话数；程序检查不能自动覆盖全部职业成果质量。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L041",
+      "catalog_id": "WA-0324",
+      "source_title": "Where LLM Agents Fail and How They can Learn From Failures",
+      "source_url": "https://arxiv.org/abs/2509.25370",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "给出记忆、反思、规划、行动和系统层的错误分类，构建AgentErrorBench并提出定位根因的AgentDebug。",
+        "对综述的用途": "用“根因如何传播到后续动作”解释为什么恢复需要诊断，不能只重新生成最终答案。",
+        "建议位置": "2.3验证恢复；6诊断；5定向反馈。",
+        "适用边界": "实验集中在ALFWorld、GAIA和WebShop等任务；错误分类不可直接等同本文五能力的一对一测量。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L042",
+      "catalog_id": "WA-0325",
+      "source_title": "Why Do Multi-Agent LLM Systems Fail?",
+      "source_url": "https://arxiv.org/abs/2503.13657",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "基于多框架轨迹建立失败分类，涵盖系统设计、智能体间不一致和任务验证等问题。",
+        "对综述的用途": "直接推动“增加智能体为何不必然提高工作可靠性”的论证，连接组织与验证。",
+        "建议位置": "2.3协调和验证；6失败诊断。",
+        "适用边界": "观察性轨迹归因不能单独证明某类机制对所有任务都有因果优势。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L043",
+      "catalog_id": "WA-0016",
+      "source_title": "τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+      "source_url": "https://arxiv.org/abs/2506.07982",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "在电信环境中让用户和智能体都能改变共享世界，评估沟通、推理和行动协调。",
+        "对综述的用途": "最适合解释协调为什么是一种工作能力：完成任务取决于引导他人实施其掌握的操作。",
+        "建议位置": "2.3协调；6双主体控制评测；2.2 开放性/反馈；2.3 协调。",
+        "适用边界": "领域和用户行为受到模拟器约束；不能据此声称覆盖任意人类组织协作。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L044",
+      "catalog_id": "WA-0082",
+      "source_title": "Agent Workflow Memory",
+      "source_url": "https://arxiv.org/abs/2409.07429",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "从成功经验中提取可复用工作程序，并按当前任务检索这些程序以辅助后续行动。",
+        "对综述的用途": "说明经验可被外部结构保存和复用，能力不只来自模型参数。",
+        "建议位置": "2.3规划与状态；5运行时支撑优化。",
+        "适用边界": "该文workflow指复用的行动程序，不能直接等同于本文Workflow-Level Work这一委托范围分类。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L045",
+      "catalog_id": "WA-0168",
+      "source_title": "Agent-as-a-Judge: Evaluate Agents with Agents",
+      "source_url": "https://arxiv.org/abs/2410.10934",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；核心。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "让评价智能体主动检查工作产物与中间过程，在DevAI任务上按层次化需求给出评价。",
+        "对综述的用途": "将验证解释为证据收集与要求对应，而不只是模型对答案的主观打分。",
+        "建议位置": "2.3验证；6智能体评估器。",
+        "适用边界": "主要在AI开发任务验证；不能直接推断所有职业专家评审均可被替代。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L046",
+      "catalog_id": "WA-0038",
+      "source_title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "source_url": "https://arxiv.org/abs/2406.13352",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "在工具返回的非可信内容中注入攻击，评估任务完成与违背用户意图的行为。",
+        "对综述的用途": "说明外部信息既是工作依据，也可能改变行动方向；执行可靠性需要保护授权边界。",
+        "建议位置": "2.2开放性；2.3执行约束；6安全评估。",
+        "适用边界": "安全攻击实验只刻画工作风险的一部分，不等于全面职业质量评价。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L047",
+      "catalog_id": "WA-0013",
+      "source_title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+      "source_url": "https://arxiv.org/abs/2407.18901",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；原文相关章节。",
+        "具体贡献": "提供多应用API世界，智能体在执行反馈中迭代编写代码；状态单元测试兼顾目标完成和附带损害。",
+        "对综述的用途": "支持执行能力应包括保持无关状态、落实跨应用效果；同时为“工具反馈不是用户对话”提供清晰实例。",
+        "建议位置": "2.3执行与验证；6跨应用状态评测。",
+        "适用边界": "智能体与代码环境多轮交互不等于用户多轮交代任务；环境为可控模拟应用。",
+        "补充一手来源": "[复核任务定义、代码执行循环和状态测试；正文指出含问答任务，不能把全套任务等同于状态修改。](https://arxiv.org/html/2407.18901v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L048",
+      "catalog_id": "WA-0326",
+      "source_title": "LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locating",
+      "source_url": "https://arxiv.org/abs/2412.18424",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "分别测长文档理解、数值推理与跨元素定位，把最终回答和证据位置区分。",
+        "对综述的用途": "帮助区分感知、定位与推理的任务要求，而不是笼统合称文档能力；具体失败机制仍需结合实验分析。",
+        "建议位置": "2.3.1定位；2.3.2推理；评估章感知分解。",
+        "适用边界": "ACL2025，2024已有预印本；仅从任务划分不能推定各子任务完全独立。 此处用首发2024年，ACL正式发表2025年。",
+        "补充一手来源": "[ACL标题、摘要、2025会议年份已核；其Table1用于追溯M-LongDoc等文献。](https://aclanthology.org/2025.acl-long.57/)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L049",
+      "catalog_id": "WA-0087",
+      "source_title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+      "source_url": "https://arxiv.org/abs/2410.10813",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "通过信息提取、跨会话与时间推理、知识更新和拒答等维度评价长期交互记忆。",
+        "对综述的用途": "可作为会话记忆的参照，帮助讲清长期工作还需要进度和外部对象状态，而非只记住历史谈话。",
+        "建议位置": "2.3执行与状态的边界；6记忆评测。",
+        "适用边界": "主要评价历史信息问答，不直接测量恢复未完成工作、提交文件或维持外部状态。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L050",
+      "catalog_id": "WA-0024",
+      "source_title": "MMLongBench-Doc: Benchmarking Long-context Document Understanding with Visualizations",
+      "source_url": "https://arxiv.org/abs/2407.01523",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "联合文本、图像、图表、表格和布局信息，覆盖跨页问题与无法回答的问题。",
+        "对综述的用途": "将“找到并理解证据”展开为多源、多位置整合，支持识别证据不足。",
+        "建议位置": "2.3.1跨页理解；2.3.2证据判断。",
+        "适用边界": "长上下文问答不是长程工作执行；不能用页面数替代持续责任。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L051",
+      "catalog_id": "WA-0057",
+      "source_title": "OfficeBench: Benchmarking Language Agents across Multiple Applications for Office Automation",
+      "source_url": "https://arxiv.org/abs/2407.19056",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；原文相关章节。",
+        "具体贡献": "在多种办公应用间构建操作链，结合精确、模糊和执行式检查。",
+        "对综述的用途": "提供应用切换及前后状态依赖的早期实证，可和单文档操作区分。",
+        "建议位置": "2.3.3规划；2.3.4执行；2.4.3办公智能体。",
+        "适用边界": "定制接口与有限应用集合限制外推；原论文没有原生PowerPoint应用，不能照搬宽泛办公格式标签。",
+        "补充一手来源": "[原始应用/操作、PDF和Shell等执行证据。](https://arxiv.org/html/2407.19056v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L052",
+      "catalog_id": "WA-0023",
+      "source_title": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations",
+      "source_url": "https://arxiv.org/abs/2412.07626",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "多种文档类型和细粒度版面/属性标注，用于分层评价文档内容提取。",
+        "对综述的用途": "支撑解析阶段也会造成工作错误，不能把文字抽取当无损前处理。",
+        "建议位置": "2.3.1原生对象解析；评估章感知证据。",
+        "适用边界": "解析正确性不等于任务推理或职业成果质量；本单不把v1和后续版本统计混用。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L053",
+      "catalog_id": "WA-0004",
+      "source_title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+      "source_url": "https://arxiv.org/abs/2404.07972",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；原文相关章节。",
+        "具体贡献": "提供真实操作系统中的网页、桌面、文件与跨应用任务，并配有初始状态配置和执行结果检查。",
+        "对综述的用途": "把界面定位、对象操作、最终状态验证联系起来；可解释为何会说答案并不足以完成工作。",
+        "建议位置": "2.3感知和执行；6计算机环境评测。",
+        "适用边界": "GUI是交互方式，不能仅据此给任务判定工作形态；检查程序只覆盖任务指定条件。",
+        "补充一手来源": "[复核任务构建、执行环境与评测机制；避免把桌面接口误写成单独工作层级。](https://arxiv.org/html/2404.07972v1)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L054",
+      "catalog_id": "WA-0025",
+      "source_title": "SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation",
+      "source_url": "https://arxiv.org/abs/2406.14991",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "使用真实Excel论坛请求与复杂工作簿，并为同一指令构造多个数值变化测试用例。",
+        "对综述的用途": "支持验证的是操作的行为正确性，而非仅让一个静态结果看起来对。",
+        "建议位置": "2.3.1对象理解；2.3.4执行；2.3.5验证。",
+        "适用边界": "V1不等于V2；不能从多测试用例推成职业流程或全部图表/透视表覆盖。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L055",
+      "catalog_id": "WA-0008",
+      "source_title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+      "source_url": "https://arxiv.org/abs/2405.15793",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "设计适合模型的代码搜索、编辑和测试接口，并分析接口对行为与结果的影响。",
+        "对综述的用途": "直接支持模型能力经harness和workspace接口转成系统表现。",
+        "建议位置": "2.1 Model/Harness；2.3 决策到执行。",
+        "适用边界": "软件接口证据不代表所有职业；也不支持系统能力与模型能力互斥。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L056",
+      "catalog_id": "WA-0020",
+      "source_title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+      "source_url": "https://arxiv.org/abs/2412.14161",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "搭建软件公司式环境，任务涉及内部网站、文件、代码、应用操作及与同事通信。",
+        "对综述的用途": "能把协调落到信息获取、职责分工和跨工具工作，而不把协作简化成多模型讨论。",
+        "建议位置": "2.3协调与执行；6仿真企业工作；2.1 Workspace；2.2 开放性。",
+        "适用边界": "公司规模与职业覆盖有限；同事和公司环境受实验设置约束，不能代表所有真实组织。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L057",
+      "catalog_id": "WA-0012",
+      "source_title": "ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities",
+      "source_url": "https://arxiv.org/abs/2408.04682",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "结合有状态工具、隐式状态依赖、随智能体行动生成的用户交互，以及中间与终局里程碑检查。",
+        "对综述的用途": "适合说明工具前提、信息澄清与中间过程要求，支持将对话和工具反馈分别编码。",
+        "建议位置": "2.3执行和协调；6状态与里程碑。",
+        "适用边界": "里程碑是预先定义的部分要求；模拟用户不能替代真实人的沟通成本和行为。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L058",
+      "catalog_id": "WA-0021",
+      "source_title": "WorkArena++: Towards Compositional Planning and Reasoning-based Common Knowledge Work Tasks",
+      "source_url": "https://arxiv.org/abs/2407.05291",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方项目。",
+        "具体贡献": "将企业工作组织成682个组合式工作流，覆盖规划、信息检索、上下文理解及逻辑与算术推理。",
+        "对综述的用途": "支持“流程的关键是子任务依赖和业务组合，不只是操作次数多”；适合接续WorkArena。",
+        "建议位置": "2.3规划；3工作流；6组合任务评测。",
+        "适用边界": "它的组合构造不证明本文五种形态具有严格包含关系；首发2024，后续修订年份不替代首发年份。",
+        "补充一手来源": "[官方仓库区分WorkArena的原子任务与WorkArena++组合任务。](https://github.com/ServiceNow/WorkArena/blob/main/README.md)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L059",
+      "catalog_id": "WA-0007",
+      "source_title": "WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?",
+      "source_url": "https://arxiv.org/abs/2403.07718",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "在ServiceNow企业平台构造常见知识工作任务，并提供可重复的网页智能体评估环境。",
+        "对综述的用途": "可与WorkArena++对照，说明局部任务完成和组合成业务流程之间的区别。",
+        "建议位置": "2.3执行；3原子动作与流程的衔接；6企业评测。",
+        "适用边界": "单个平台的任务覆盖不能推广为全部职业工作；具体任务仍须看对象、约束和目标。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L060",
+      "catalog_id": "WA-0015",
+      "source_title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "source_url": "https://arxiv.org/abs/2406.12045",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "结合用户模拟器、领域工具和业务政策，通过终态数据库及重复试验指标评价任务完成与稳定性。",
+        "对综述的用途": "区分真实的工具—用户双重交互与纯工具循环；为政策约束和重复执行可靠性提供证据。",
+        "建议位置": "2.3协调；6用户互动与重复运行可靠性。",
+        "适用边界": "终态数据库一致不自动证明全部对话行为合规；用户仍是模拟器。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L061",
+      "catalog_id": "WA-0327",
+      "source_title": "Cognitive Architectures for Language Agents",
+      "source_url": "https://arxiv.org/abs/2309.02427",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；核心。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "以记忆、内部和外部行动、决策过程描述语言智能体；决策循环包含提出、评价、选择和执行。",
+        "对综述的用途": "帮助把Model提出候选与运行时组织执行的职责说清楚，避免把所有规划都等同模型的一次推理。",
+        "建议位置": "2.1系统组成；2.3推理与规划。",
+        "适用边界": "属于概念架构，不是本文六要素有效性的实验验证；首发2023，TMLR发表2024。",
+        "补充一手来源": "[阅读§4.6决策循环及工作记忆相关内容。](https://arxiv.org/html/2309.02427v3)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L062",
+      "catalog_id": "WA-0093",
+      "source_title": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models",
+      "source_url": "https://arxiv.org/abs/2310.04406",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "结合树搜索、模型价值评估、自我反思和环境反馈来探索行动路径。",
+        "对综述的用途": "使规划从一次性文本计划发展为根据反馈评估和选择后续路径。",
+        "建议位置": "2.3规划与恢复；5搜索优化。",
+        "适用边界": "搜索通常依赖可评估的分支；真实工作中的不可逆动作不能无条件按树节点重置。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L063",
+      "catalog_id": "WA-0026",
+      "source_title": "PPTC Benchmark: Evaluating Large Language Models for PowerPoint Task Completion",
+      "source_url": "https://arxiv.org/abs/2311.01767",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "在多轮指令下创建/编辑PPT，并根据最终文件而非唯一API序列检查完成情况。",
+        "对综述的用途": "支持多条执行路径可以得到同一合格成果，以及单步成功和整会话成功不同。",
+        "建议位置": "2.3.4编辑；2.3.5原生结构验证。",
+        "适用边界": "不能把多轮指令等同必须自发检查纠错，也不等同完整文稿生成任务。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L064",
+      "catalog_id": "WA-0092",
+      "source_title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "source_url": "https://arxiv.org/abs/2303.11366",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "把反馈转为语言反思并保存在情景记忆中，以改进后续尝试，无需直接更新模型权重。",
+        "对综述的用途": "解释失败反馈怎样改变下一次行动，也展示模型之外的运行时记忆作用。",
+        "建议位置": "2.3恢复；5经验驱动改进。",
+        "适用边界": "反思历史不等于恢复已经改变的外部世界；不能直接证明事务回滚或不可逆操作修复。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L065",
+      "catalog_id": "WA-0003",
+      "source_title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+      "source_url": "https://arxiv.org/abs/2307.13854",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "提供电商、论坛、协同开发和内容管理等可操作网站，以功能完成情况评估真实网页任务。",
+        "对综述的用途": "说明工作空间包含可改变的应用状态，工作结果需要由环境中的效果来核验。",
+        "建议位置": "2.1工作空间；2.3执行；6环境与评测协议。",
+        "适用边界": "网页任务设置不能自动代表长期职责；页面操作轮数不等于用户对话轮数。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L066",
+      "catalog_id": "WA-0081",
+      "source_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "source_url": "https://arxiv.org/abs/2210.03629",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；核心。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "把推理与行动交替组织，使后续决策利用环境反馈。",
+        "对综述的用途": "是模型提出行动、环境返回观察这一循环的基础证据。",
+        "建议位置": "2.1工作轨迹；2.3推理与执行；2.1工作循环；2.3推理与执行；2.3 Decision and Action Selection基础。",
+        "适用边界": "通用交互机制不能直接推出特定职业任务已被可靠完成。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L067",
+      "catalog_id": "WA-0328",
+      "source_title": "C-World: A Computer Use Agent Environment Creator",
+      "source_url": "https://arxiv.org/abs/2601.06328v2",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "通过行动空间、任务分布、状态转移和奖励设置构造计算机使用环境，包含真实API与模拟模式。",
+        "对综述的用途": "为区分任务、环境状态和执行接口提供具体参照。",
+        "建议位置": "2.2环境；第六章环境构造。",
+        "适用边界": "同一标识的旧版本曾以ToolGym题名出现；应按版本引用，不能算成两个独立新基准。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L068",
+      "catalog_id": "WA-0329",
+      "source_title": "Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use",
+      "source_url": "https://arxiv.org/abs/2607.01084",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "在受控环境中改变查询、行动、观察和领域，考查工具智能体对变化的泛化。",
+        "对综述的用途": "将“开放性”拆成可研究的变化来源，而不只等同访问互联网。",
+        "建议位置": "2.2开放性；2.3适应；第六章受控评估。",
+        "适用边界": "受控分布变化仍不覆盖现实工作中所有开放条件。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L069",
+      "catalog_id": "WA-0165",
+      "source_title": "EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings",
+      "source_url": "https://arxiv.org/abs/2603.13594",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "企业沙箱用持久数据库与大量工具考查计划、访问协议和状态变化，包括不可行任务。",
+        "对综述的用途": "使职业约束具体化：对象状态、权限、副作用及是否应执行都是决策的一部分。",
+        "建议位置": "2.2 环境；2.3 规划决策。",
+        "适用边界": "oracle-plan改善不证明所有企业错误仅由规划导致；本轮未逐项审核全部checker。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L070",
+      "catalog_id": "WA-0255",
+      "source_title": "GDP.pdf: Benchmarking Grounded Multimodal Reasoning over Professional PDF Documents",
+      "source_url": "https://arxiv.org/abs/2607.11192",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "使用从业者提出的专业PDF问题，要求答案依据文档中的多模态证据。",
+        "对综述的用途": "在阅读文件和专业判断之间增加来自工作材料的连接，补充一般学术文档。",
+        "建议位置": "2.3.1工作材料；2.3.2专业知识。",
+        "适用边界": "是PDF专业推理，不是OpenAI GDPval或GDPval子集；不测试交付文件制作。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L071",
+      "catalog_id": "WA-0330",
+      "source_title": "Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems",
+      "source_url": "https://arxiv.org/abs/2609.00006",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "从十一套编码智能体系统的源代码研究运行时架构及其演变。",
+        "对综述的用途": "为Harness作为实际系统组成提供具体工程证据。",
+        "建议位置": "2.1 Harness职责；2.3执行与状态。",
+        "适用边界": "样本是编码智能体，不能直接把每个工程特征推广到全部职业工作。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L072",
+      "catalog_id": "WA-0077",
+      "source_title": "HealthAgentBench: A Unified Benchmark Suite of Realistic Agentic Healthcare Environments for Challenging Frontier AI Agents",
+      "source_url": "https://arxiv.org/abs/2606.31179",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "多类患者旅程任务要求探索原始健康数据，并在相应环境执行多步解题。",
+        "对综述的用途": "补足只用医学QA或EHR代表医疗工作的窄化，展示材料、知识与工具组合。",
+        "建议位置": "2.3 专业能力组合；第六章领域覆盖。",
+        "适用边界": "本轮核对官方摘要与套件概述，未逐项审查每个环境或真实医疗收益。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L073",
+      "catalog_id": "WA-0331",
+      "source_title": "VibeSearchBench: Benchmarking Long-horizon Proactive Search in the Wild",
+      "source_url": "https://arxiv.org/abs/2605.27882",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "通过多轮用户模拟和逐步披露信息，从模糊需求形成结构化知识。",
+        "对综述的用途": "补充openness不只是环境变化，目标/偏好本身也需交互澄清。",
+        "建议位置": "2.2 Work Openness；2.3 理解/沟通。",
+        "适用边界": "模拟器交互不等于真实用户满意度；搜索任务也未必是持续职责。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L074",
+      "catalog_id": "WA-0332",
+      "source_title": "We are Changing our Developer Productivity Experiment Design",
+      "source_url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方项目。",
+        "具体贡献": "解释后续试验中的参与选择、付费变化和多agent并行对时间测量的影响。",
+        "对综述的用途": "ROI应以完整人机工作单位衡量，任务选择、审阅投入与并行会改变收益判断。",
+        "建议位置": "第六/七章ROI；第二章只简述工作收益含义。",
+        "适用边界": "官方方法更新而非独立论文；原始后续加速数不是可靠最新因果结论。"
+      },
+      "reconciliation": "resource"
+    },
+    {
+      "list_id": "L075",
+      "catalog_id": "WA-0030",
+      "source_title": "CRMArena-Pro: Holistic Assessment of LLM Agents Across Diverse Business Scenarios and Interactions",
+      "source_url": "https://arxiv.org/abs/2505.18878",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "销售、服务与报价任务加入多轮用户交互和保密要求。",
+        "对综述的用途": "说明领域知识包含业务实体、规则与可披露范围，直接限制可选动作。",
+        "建议位置": "2.3 Domain Knowledge/协调/约束。",
+        "适用边界": "CRM不能代表全部企业；任务成功与保密应分别解释。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L076",
+      "catalog_id": "WA-0333",
+      "source_title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+      "source_url": "https://arxiv.org/abs/2507.21504",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "区分评价什么与如何评价，并讨论企业场景中的可靠性、访问控制等挑战。",
+        "对综述的用途": "帮助把能力定义与测量协议分层，避免第二章变成基准目录。",
+        "建议位置": "2.3能力导语；第六章评估结构。",
+        "适用边界": "某基准覆盖某项能力不等于它单独、充分地测量该能力。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L077",
+      "catalog_id": "WA-0334",
+      "source_title": "Levels of Autonomy for AI Agents",
+      "source_url": "https://arxiv.org/abs/2506.12469",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；补充。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "以人在交互中的角色区分自主程度，如操作者、合作者、顾问、批准者和观察者。",
+        "对综述的用途": "支撑工作组织形态与自主程度应分开描述；多步骤任务不等于更高自主性。",
+        "建议位置": "2.4范式边界；第三章分类说明。",
+        "适用边界": "人的参与程度不是本文五类工作形态的替代尺度。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L078",
+      "catalog_id": "WA-0211",
+      "source_title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "source_url": "https://arxiv.org/abs/2507.09089",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "分析／框架／研究；补充。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "在成熟项目真实任务中随机允许或禁止AI，测量开发者完成时间。",
+        "对综述的用途": "提供能力评测与实际收益分离的证据：审阅和上下文理解等成本改变总时间。",
+        "建议位置": "2.1 工作价值简短引入；ROI细节交第六/七章。",
+        "适用边界": "特定早期2025人员/项目；19%减速不能当作当前所有agent通用结论，须结合作者2026更新。",
+        "补充一手来源": "[追踪作者后续研究说明；不能将早期减速或后续不可靠估计外推所有agent。](https://metr.org/blog/2026-02-24-uplift-update/)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L079",
+      "catalog_id": "WA-0164",
+      "source_title": "PaperBench: Evaluating AI’s Ability to Replicate AI Research",
+      "source_url": "https://arxiv.org/abs/2504.01848",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "理解论文、开发代码、执行实验，并通过与论文作者协作制定的分层rubric评估复现。",
+        "对综述的用途": "展示工作目标如何拆成可检验成果，以及专业理解、执行和验证如何结合。",
+        "建议位置": "2.1 结果/验证；2.3 能力组合。",
+        "适用边界": "复现不是新发现；部分rubric分数不能等同全部关键实验已完成。",
+        "版本／年份说明": "现bib题名：PaperBench: Evaluating AI\\textquotesingle s Ability to Replicate AI Research；请按引用版本统一，不自动改写现bib。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L080",
+      "catalog_id": "WA-0006",
+      "source_title": "PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides",
+      "source_url": "https://arxiv.org/abs/2501.03936",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "依据参考幻灯片分析功能/内容结构后编辑生成，并用PPTEval观察内容、设计与连贯性。",
+        "对综述的用途": "提供跨页组织与视觉设计不能由纯文本质量替代的具体方法。",
+        "建议位置": "2.3.1演示文稿语义；2.3.5多维评价。",
+        "适用边界": "此处PPTEval是该论文评估框架，和Microsoft 2026 PPT-Eval必须分开。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L081",
+      "catalog_id": "WA-0174",
+      "source_title": "Remote Labor Index: Measuring AI Automation of Remote Work",
+      "source_url": "https://arxiv.org/abs/2510.26787",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方项目。",
+        "具体贡献": "跨设计、开发、分析和多媒体的远程真实项目测试端到端交付。",
+        "对综述的用途": "支撑working的跨职业对象范围，避免从一般推理分数直接推断真实交付能力。",
+        "建议位置": "2.1 范围；第六章成果评估。",
+        "适用边界": "项目集automation rate不是整个职业/市场自动化比例，也不是实际雇佣收益。",
+        "补充一手来源": "[作者项目的任务类型与正式Citation。](https://www.remotelabor.ai/)。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L082",
+      "catalog_id": "WA-0335",
+      "source_title": "Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging Topics",
+      "source_url": "https://arxiv.org/abs/2505.00675",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "区分参数化与上下文记忆，并梳理更新、索引、遗忘、检索等记忆操作。",
+        "对综述的用途": "帮助说明保存历史信息与维护当前有效工作状态之间的关系。",
+        "建议位置": "2.3.4执行与状态管理。",
+        "适用边界": "记忆机制不自动等于外部业务状态、文件版本或事务一致性。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L083",
+      "catalog_id": "WA-0336",
+      "source_title": "Scaling Beyond Context: A Survey of Multimodal Retrieval-Augmented Generation for Document Understanding",
+      "source_url": "https://arxiv.org/abs/2510.15253",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；补充。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "按领域、检索模态与粒度整理文档RAG，并讨论图结构和Agent框架。",
+        "对综述的用途": "帮助把感知理解段落按材料表示—证据获取—理解组织，避免成为格式或模型名单。",
+        "建议位置": "2.3.1背景组织；原4.1压缩时的文献入口。",
+        "适用边界": "范围是文档RAG，不是working agent整体；本轮核摘要、分类与参考列表，未逐条复核其综述结论。",
+        "补充一手来源": "[参考列表追踪方法与文档理解基准；其年份为首次2025而非后续修订日期。](https://arxiv.org/html/2510.15253)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L084",
+      "catalog_id": "WA-0337",
+      "source_title": "Survey on Evaluation of LLM-based Agents",
+      "source_url": "https://arxiv.org/abs/2503.16416",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "现行摘要从核心能力、应用、通用智能体、基准维度及框架工具等角度组织评价。",
+        "对综述的用途": "为能力维度与任务设置分开编表提供参照。",
+        "建议位置": "2.3能力概览；第六章评估。",
+        "适用边界": "当前版本与早期结构不同，引用分类数量时需要绑定版本。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L085",
+      "catalog_id": "WA-0338",
+      "source_title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+      "source_url": "https://arxiv.org/abs/2407.01449",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "以页面图像多向量表示和晚交互检索避免只依赖OCR文本；同时提出ViDoRe。",
+        "对综述的用途": "给“版面和图像是有用信息”一个可操作的检索方案，而不是泛泛强调多模态。",
+        "建议位置": "2.3.1感知与材料发现。",
+        "适用边界": "页检索不保留所有原生对象可编辑结构；视觉检索优势不能直接推出端到端工作成果更好。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L086",
+      "catalog_id": "WA-0073",
+      "source_title": "Data Interpreter: An LLM Agent For Data Science",
+      "source_url": "https://arxiv.org/abs/2402.18679",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "以分层图建模任务依赖，并通过可编程节点生成、验证和迭代求解。",
+        "对综述的用途": "提供执行后中间数据如何改变后续子问题的机制例子。",
+        "建议位置": "2.3 推理/规划/执行连接；细节交第五章。",
+        "适用边界": "所测方法不是working agent必需架构；基础章节宜短述，避免方法堆砌。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L087",
+      "catalog_id": "WA-0078",
+      "source_title": "DiscoveryBench: Towards Data-Driven Discovery with Large Language Models",
+      "source_url": "https://arxiv.org/abs/2407.01725",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "由数据、元数据和目标定义数据驱动发现，评估假设搜索与验证。",
+        "对综述的用途": "支撑专业推理围绕证据形成、检验和修正结论，而不只是输出答案。",
+        "建议位置": "2.3 分析与验证的联系。",
+        "适用边界": "给定数据发现不等于完整科研自动化、实验设计或新数据采集。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L088",
+      "catalog_id": "WA-0339",
+      "source_title": "DOCBENCH: A Benchmark for Evaluating LLM-based Document Reading Systems",
+      "source_url": "https://arxiv.org/abs/2407.10701",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "以用户上传原始文件后问答的系统为评测对象，覆盖解析、元信息、多模态及长上下文问题。",
+        "对综述的用途": "支持模型能力与文件处理管线共同构成实际表现，而不是只给已抽取文本。",
+        "建议位置": "2.1系统视角；2.3.1文档理解。",
+        "适用边界": "主要是文档阅读系统，不能把含pipeline就等同自主工作Agent。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L089",
+      "catalog_id": "WA-0088",
+      "source_title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+      "source_url": "https://arxiv.org/abs/2402.17753",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "构造长期多会话交互，评价问答、事件总结和多模态对话中的长期记忆。",
+        "对综述的用途": "适合支持时间与事件依赖难点，同时和工作执行状态形成有意义区分。",
+        "建议位置": "2.3状态管理边界；6记忆评测。",
+        "适用边界": "长期对话一致性不能自动视为长期业务状态一致性或持续职责完成。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L090",
+      "catalog_id": "WA-0080",
+      "source_title": "Executable Code Actions Elicit Better LLM Agents",
+      "source_url": "https://arxiv.org/abs/2402.01030",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "以可执行Python统一动作表示，支持工具组合与根据新观察修订动作。",
+        "对综述的用途": "说明从判断到实际工作需可执行接口及反馈，而非把代码文本等同完成。",
+        "建议位置": "2.3 执行与状态管理。",
+        "适用边界": "代码只是动作接口之一，不能把所有工作定义为编程。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L091",
+      "catalog_id": "WA-0340",
+      "source_title": "M-Longdoc: A Benchmark For Multimodal Super-Long Document Understanding And A Retrieval-Aware Tuning Framework",
+      "source_url": "https://arxiv.org/abs/2411.06176",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "面向数百页文档的开放式答案，另提出利用检索页并忽略干扰页的训练方法。",
+        "对综述的用途": "补充仅短答案或定位任务不足以覆盖综合分析的证据。",
+        "建议位置": "2.3.1工作材料检索；评估章长文档。",
+        "适用边界": "2024预印本/EMNLP2025；读文档仍不代表修改文件或维护工作状态。",
+        "补充一手来源": "[官方代码，确认EMNLP2025版本。](https://github.com/kenchan0226/multimodal-docs-public)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L092",
+      "catalog_id": "WA-0189",
+      "source_title": "Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance",
+      "source_url": "https://arxiv.org/abs/2410.12361",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "利用活动信号判断何时主动提供帮助，并评价用户接受情况。",
+        "对综述的用途": "给主动触发提供具体机制参照，有助于解释收到提示后的长任务与无新提示的主动协助。",
+        "建议位置": "2.2持久性边界；第七章主动性。",
+        "适用边界": "主动提出建议不等于承担长期工作责任；首发2024、ICLR2025。",
+        "版本／年份说明": "现bib proactiveagent 年份为2025，本条所列版本年份为2024；先区分首发与正式出版，不能直接判定旧年份错误。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L093",
+      "catalog_id": "WA-0018",
+      "source_title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
+      "source_url": "https://arxiv.org/abs/2411.15114",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "在研究工程任务上比较agent与专家使用不同预算的进展。",
+        "对综述的用途": "支持质量、成本和时间联合讨论；长时间预算是否能转化为进展是关键。",
+        "建议位置": "2.2 长任务；第六章预算。",
+        "适用边界": "狭义AI研发，多次尝试预算和单条持续职责不同；不是企业ROI。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L094",
+      "catalog_id": "WA-0055",
+      "source_title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "source_url": "https://arxiv.org/abs/2410.05080",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "从科学论文提取任务，输出独立Python程序，检查程序、执行结果和成本。",
+        "对综述的用途": "把科学知识落实为可运行计算与可检查结果，避免只列学科名称。",
+        "建议位置": "2.1 Outcome；2.3 专业分析和执行。",
+        "适用边界": "具体科研任务不等于完整自主发现；首版2024，修订2025。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L095",
+      "catalog_id": "WA-0033",
+      "source_title": "SheetAgent: Towards A Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models",
+      "source_url": "https://arxiv.org/abs/2403.03636",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "SheetRM与SheetAgent联结推理及表格操作，用规划、信息获取与检索模块迭代完成任务。",
+        "对综述的用途": "能够具体说明为什么工作决策依赖中间表格观察，而非一次性生成计划。",
+        "建议位置": "2.3.2执行中决策；2.3.3规划。",
+        "适用边界": "2024预印本，WWW2025；SheetRM为该论文基准名，不应误称其本身是奖励模型。",
+        "版本／年份说明": "现bib chen2025sheetagentgeneralistagentspreadsheet 年份为2025，本条所列版本年份为2024；先区分首发与正式出版，不能直接判定旧年份错误。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L096",
+      "catalog_id": "WA-0022",
+      "source_title": "SpreadsheetLLM: Encoding Spreadsheets for Large Language Models",
+      "source_url": "https://arxiv.org/abs/2407.09025",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "编码单元格地址、值、格式并用结构锚点等压缩来保留工作簿信息。",
+        "对综述的用途": "为“对象语义超出文本”提供方法证据，说明扁平文本可能丢失位置/结构。",
+        "建议位置": "2.3.1工作对象理解。",
+        "适用边界": "主要支持理解与问答，不能直接作为原生编辑或执行可靠性的证据。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L097",
+      "catalog_id": "WA-0341",
+      "source_title": "Tool Learning with Large Language Models: A Survey",
+      "source_url": "https://arxiv.org/abs/2405.17935",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "以任务规划、工具选择、调用和响应生成组织工具学习流程。",
+        "对综述的用途": "说明工具调用是工作执行的实现步骤，应与更广泛的状态管理和验收区分。",
+        "建议位置": "2.3执行能力；第五章方法。",
+        "适用边界": "首发2024；后续期刊年份不作为新论文计数。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L098",
+      "catalog_id": "WA-0342",
+      "source_title": "Understanding the planning of LLM agents: A survey",
+      "source_url": "https://arxiv.org/abs/2402.02716",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "从任务分解、候选选择、外部模块、反思与记忆等角度梳理规划。",
+        "对综述的用途": "帮助把规划定义为组织依赖行动，并以具体任务论文补充协调参与者的证据。",
+        "建议位置": "2.3.3规划能力。",
+        "适用边界": "其分类对象是规划方法，与本文五项工作能力不同。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L099",
+      "catalog_id": "WA-0343",
+      "source_title": "A Survey on Large Language Model based Autonomous Agents",
+      "source_url": "https://arxiv.org/abs/2308.11432",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；补充。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "从构建、应用和评价组织自主智能体研究。",
+        "对综述的用途": "提供基础章节如何连接定义、组件与应用的结构参照。",
+        "建议位置": "2.1基础；2.4相关范式。",
+        "适用边界": "首发2023；后续出版或修订年份不能当作另一篇新文献。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L100",
+      "catalog_id": "WA-0295",
+      "source_title": "Identifying the Risks of LM Agents with an LM-Emulated Sandbox",
+      "source_url": "https://arxiv.org/abs/2309.15817",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "以语言模型模拟工具行为和长尾风险场景，并用评估器分析风险，辅以人工检查。",
+        "对综述的用途": "用于解释仿真反馈和真实执行证据的区别；有助于第6章比较评估环境。",
+        "建议位置": "6评估环境与证据来源；2.3验证边界。",
+        "适用边界": "模拟工具效果不是实际外部状态变化；模型模拟器和评价器可能共享偏差。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L101",
+      "catalog_id": "WA-0046",
+      "source_title": "InstructExcel: A Benchmark for Natural Language Instruction in Excel",
+      "source_url": "https://aclanthology.org/2023.findings-emnlp.265/",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "把Excel操作与自然语言请求及OfficeScripts关联，覆盖多种电子表格操作。",
+        "对综述的用途": "是从意图到可执行操作的早期基线，可作为新业务工作簿基准的历史起点。",
+        "建议位置": "2.3.4动作到接口；第3章原子/多步示例候选。",
+        "适用边界": "指令到代码的任务不直接证明长程状态管理或开放目标规划。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L102",
+      "catalog_id": "WA-0043",
+      "source_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+      "source_url": "https://arxiv.org/abs/2308.11462",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "法律专业人士构建多种法律推理任务。",
+        "对综述的用途": "支撑领域推理本身有结构，再用J1/LRB解释动态环境新增哪些要求。",
+        "建议位置": "2.3 专业知识；对照交互式法律工作。",
+        "适用边界": "静态法律任务不代表完整法律agent的程序遵循、检索时效或跨角色协作。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L103",
+      "catalog_id": "WA-0005",
+      "source_title": "SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models",
+      "source_url": "https://arxiv.org/abs/2305.19308",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "以电子表格原子动作抽象软件功能，结合状态机计划和自动评估。",
+        "对综述的用途": "提供harness怎样把模型意图变成软件操作的清晰代表。",
+        "建议位置": "2.3.3规划；2.3.4执行。",
+        "适用边界": "受具体动作接口和工作簿环境约束；不是通用所有办公软件的直接证据。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L104",
+      "catalog_id": "WA-0344",
+      "source_title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "source_url": "https://arxiv.org/abs/2309.07864",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；补充。",
+        "引用状态与阅读深度": "本轮新增候选；原文相关章节。",
+        "具体贡献": "以brain、perception、action梳理架构，并讨论知识、记忆和推理规划。",
+        "对综述的用途": "为基础闭环及知识的位置提供对照；本稿可继续推进到成果与验收。",
+        "建议位置": "2.1 定义背景；2.3 能力；2.1系统视角；2.3能力；2.4相关范式。",
+        "适用边界": "较早通用综述不能单独支撑2026职业表现，brain组织也不等同Model/Harness边界。",
+        "补充一手来源": "[已定位§3.1.2知识、§3.1.4推理规划、§3.2感知、§3.3行动；仅用于结构对照。](https://arxiv.org/html/2309.07864v3)。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L105",
+      "catalog_id": "WA-0009",
+      "source_title": "DocVQA: A Dataset for VQA on Document Images",
+      "source_url": "https://arxiv.org/abs/2007.00398",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；补充。",
+        "引用状态与阅读深度": "第2／原第4章已引；官方摘要。",
+        "具体贡献": "以真实文档图像问答测试文字与版面结构理解。",
+        "对综述的用途": "可保留作历史基线，再用新原生文件和长文档基准延伸。",
+        "建议位置": "2.3.1感知理解的经典依据。",
+        "适用边界": "2020预印本/WACV2021；主要是文档图像问答，不测试原生编辑和跨文件工作。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L106",
+      "catalog_id": "WA-0345",
+      "source_title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+      "source_url": "https://arxiv.org/abs/2609.31590",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；候选。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "在多人游戏沙盒中以角色不对称、通信、共同计划和资源共享构造长程协作，并追踪行动因果贡献。",
+        "对综述的用途": "可借鉴“团队做了多少真正有用的配合”的评价思路，补足单一完成率。",
+        "建议位置": "2.3协调的概念证据；6协作衡量。",
+        "适用边界": "游戏任务不能直接证明职业协作能力；新论文当前仅摘要核实，适合候选证据。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L107",
+      "catalog_id": "WA-0346",
+      "source_title": "AI Agent Systems: Architectures, Applications, and Evaluation",
+      "source_url": "https://arxiv.org/abs/2601.01743",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；候选。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "综合智能体架构、应用与评价，讨论推理、规划、工具使用及部署。",
+        "对综述的用途": "用作系统层面的交叉检查，核对本文是否遗漏实现与评价的连接。",
+        "建议位置": "2.4相关综述；第五/六章参考。",
+        "适用边界": "目前只做摘要筛选，不建议凭此新增具体机制或性能论断。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L108",
+      "catalog_id": "WA-0347",
+      "source_title": "Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows",
+      "source_url": "https://arxiv.org/abs/2602.14849",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；候选。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "以事务式机制管理工具读取、效果和提交边界，并区别缓冲、可逆和不可逆效果。",
+        "对综述的用途": "支持执行需要明确提交和补偿语义，重试工具并不总是安全或等价。",
+        "建议位置": "2.3执行和恢复；5运行时执行控制。",
+        "适用边界": "依赖可识别的效果与事务边界；不能把任意真实操作都宣称为可回滚。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L109",
+      "catalog_id": "WA-0348",
+      "source_title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
+      "source_url": "https://arxiv.org/abs/2610.04672",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；候选。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "在部分信息条件下比较协议、记忆和路由机制，评价推理、调度、游戏任务以及通信开销。",
+        "对综述的用途": "为协调的必要性提供具体前提：不同参与者拥有不同信息，沟通有成本。",
+        "建议位置": "2.2开放性；2.3协调；6成本与协作。",
+        "适用边界": "新近预印本且任务分布受控；不能将其中三类场景直接用作本文工作形态层级。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L110",
+      "catalog_id": "WA-0349",
+      "source_title": "Rollback the World, Keep the Reflection: Rollback-Induced Reflection for Long-Horizon LLM Agents",
+      "source_url": "https://arxiv.org/abs/2609.18304",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；候选。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "同时控制何时回退、回到哪里和保留何种经验，把环境状态恢复与反思记忆保留结合。",
+        "对综述的用途": "揭示只改上下文不一定修复外部世界，而完全重置又可能丢失失败经验，补全恢复机制的逻辑。",
+        "建议位置": "2.3恢复；5运行时干预。",
+        "适用边界": "要求存在可恢复的环境状态；不宜推广成现实系统中不可逆动作都可撤销。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L111",
+      "catalog_id": "WA-0202",
+      "source_title": "StateGuard: Analytical-State Management with Validity-Aware Intervention for Long-Horizon Data Agents",
+      "source_url": "https://arxiv.org/abs/2609.34134",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "方法／系统；候选。",
+        "引用状态与阅读深度": "文献库已有，2／4未引；官方摘要。",
+        "具体贡献": "显式维护约束、版本化变量、中间结论及关系，依据有效性检查采取分层干预。",
+        "对综述的用途": "填补“记得过去”到“知道什么结果仍然有效”的推理环节，适合长程分析工作。",
+        "建议位置": "2.3状态有效性；5改进方法。",
+        "适用边界": "新近数据分析方法，当前核查到官方摘要；进入正文前宜进一步读状态图构建和干预实验。"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L112",
+      "catalog_id": "WA-0350",
+      "source_title": "YC-Bench: Benchmarking AI Agents for Long-Term Planning and Consistent Execution",
+      "source_url": "https://arxiv.org/abs/2604.01212",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；候选。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "让智能体经营模拟创业公司，持续管理员工、合同和资金，在部分可观察条件下承受决策的累积后果。",
+        "对综述的用途": "可把长期能力从操作链延伸到目标一致性和资源分配，并与ROI讨论衔接。",
+        "建议位置": "2.2持续性；2.3规划；6长期成本收益；7持续职责。",
+        "适用边界": "模拟创业收益不是实际经济价值或真实ROI；当前主要读官方摘要，不能把模拟经营成功等同职业胜任。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L113",
+      "catalog_id": "WA-0351",
+      "source_title": "Document Haystack: A Long Context Multimodal Image/Document Understanding Vision LLM Benchmark",
+      "source_url": "https://arxiv.org/abs/2507.15882",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "基准／数据集；候选。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "针对长且视觉复杂文档评测视觉语言模型的文档理解。",
+        "对综述的用途": "作为检查长文档证据检索覆盖的补充候选。",
+        "建议位置": "2.3.1材料检索与注意分配。",
+        "适用边界": "本轮仅核摘要，尚未核具体needle构造和任务协议；不把其结果直接归因长期记忆。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L114",
+      "catalog_id": "WA-0352",
+      "source_title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+      "source_url": "https://arxiv.org/abs/2404.13501",
+      "appendix": false,
+      "source_fields": {
+        "类型与优先级": "综述；候选。",
+        "引用状态与阅读深度": "本轮新增候选；官方摘要。",
+        "具体贡献": "系统梳理智能体为何需要记忆、如何设计以及如何评价。",
+        "对综述的用途": "作为记忆研究的基础背景，可与近期状态管理研究形成发展线索。",
+        "建议位置": "2.3.4记忆背景。",
+        "适用边界": "已有更新综述；不必同时堆叠多篇功能相同的综述。"
+      },
+      "reconciliation": "new"
+    },
+    {
+      "list_id": "L115",
+      "catalog_id": "WA-0079",
+      "source_title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+      "source_url": "https://arxiv.org/abs/2601.11868",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "terminalbench"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L116",
+      "catalog_id": "WA-0061",
+      "source_title": "Towards Robust Real-World Spreadsheet Understanding with Multi-Agent Multi-Format Reasoning",
+      "source_url": "https://arxiv.org/abs/2604.12282",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "ren2026robustrealworldspreadsheetunderstanding"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L117",
+      "catalog_id": "WA-0071",
+      "source_title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+      "source_url": "https://arxiv.org/abs/2504.00906",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "agents2"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L118",
+      "catalog_id": "WA-0091",
+      "source_title": "Demystifying LLM-Based Software Engineering Agents",
+      "source_url": "",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "agentless"
+      },
+      "reconciliation": "alias"
+    },
+    {
+      "list_id": "L119",
+      "catalog_id": "WA-0050",
+      "source_title": "GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents",
+      "source_url": "https://arxiv.org/abs/2506.03143",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "wu2025guiactorcoordinatefreevisualgrounding"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L120",
+      "catalog_id": "WA-0086",
+      "source_title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+      "source_url": "https://arxiv.org/abs/2504.19413",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "mem0"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L121",
+      "catalog_id": "WA-0084",
+      "source_title": "UFO2: The Desktop AgentOS",
+      "source_url": "https://arxiv.org/abs/2504.14603",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "ufo2"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L122",
+      "catalog_id": "WA-0059",
+      "source_title": "AFlow: Automating Agentic Workflow Generation",
+      "source_url": "https://arxiv.org/abs/2410.10762",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "aflow"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L123",
+      "catalog_id": "WA-0068",
+      "source_title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+      "source_url": "https://arxiv.org/abs/2405.14573",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "androidworld"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L124",
+      "catalog_id": "WA-0072",
+      "source_title": "AutoCodeRover: Autonomous Program Improvement",
+      "source_url": "https://arxiv.org/abs/2404.05427",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "autocoderover"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L125",
+      "catalog_id": "WA-0090",
+      "source_title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+      "source_url": "https://arxiv.org/abs/2305.11738",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "critic"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L126",
+      "catalog_id": "WA-0032",
+      "source_title": "CRMArena: Understanding the Capacity of LLM Agents to Perform Professional CRM Tasks in Realistic Environments",
+      "source_url": "https://arxiv.org/abs/2411.02305",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "crmarena"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L127",
+      "catalog_id": "WA-0053",
+      "source_title": "DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?",
+      "source_url": "https://arxiv.org/abs/2409.07703",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "dsbench"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L128",
+      "catalog_id": "WA-0070",
+      "source_title": "OmniParser for Pure Vision Based GUI Agent",
+      "source_url": "https://arxiv.org/abs/2408.00203",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "omniparser"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L129",
+      "catalog_id": "WA-0083",
+      "source_title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+      "source_url": "https://arxiv.org/abs/2407.16741",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "openhands"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L130",
+      "catalog_id": "WA-0048",
+      "source_title": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
+      "source_url": "https://aclanthology.org/2024.acl-long.505/",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "cheng-etal-2024-seeclick"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L131",
+      "catalog_id": "WA-0069",
+      "source_title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+      "source_url": "https://arxiv.org/abs/2411.07763",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "spider2"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L132",
+      "catalog_id": "WA-0035",
+      "source_title": "TravelPlanner: A Benchmark for Real-World Planning with Language Agents",
+      "source_url": "https://arxiv.org/abs/2402.01622",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "travelplanner"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L133",
+      "catalog_id": "WA-0066",
+      "source_title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+      "source_url": "https://arxiv.org/abs/2401.13649",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "visualwebarena"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L134",
+      "catalog_id": "WA-0067",
+      "source_title": "Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale",
+      "source_url": "https://arxiv.org/abs/2409.08264",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "windowsarena"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L135",
+      "catalog_id": "WA-0065",
+      "source_title": "WorkBench: a Benchmark Dataset for Agents in a Realistic Workplace Setting",
+      "source_url": "https://arxiv.org/abs/2405.00823",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "workbench"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L136",
+      "catalog_id": "WA-0002",
+      "source_title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+      "source_url": "https://arxiv.org/abs/2304.08244",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "第二章",
+        "引用键": "apibank"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L137",
+      "catalog_id": "WA-0036",
+      "source_title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "source_url": "https://arxiv.org/abs/2308.08155",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "autogen"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L138",
+      "catalog_id": "WA-0076",
+      "source_title": "LawBench: Benchmarking Legal Knowledge of Large Language Models",
+      "source_url": "https://arxiv.org/abs/2309.16289",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "lawbench"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L139",
+      "catalog_id": "WA-0085",
+      "source_title": "MemGPT: Towards LLMs as Operating Systems",
+      "source_url": "https://arxiv.org/abs/2310.08560",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "memgpt"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L140",
+      "catalog_id": "WA-0037",
+      "source_title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+      "source_url": "https://arxiv.org/abs/2308.00352",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "metagpt"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L141",
+      "catalog_id": "WA-0014",
+      "source_title": "MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback",
+      "source_url": "https://arxiv.org/abs/2309.10691",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "第二章",
+        "引用键": "mint"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L142",
+      "catalog_id": "WA-0029",
+      "source_title": "RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems",
+      "source_url": "https://arxiv.org/abs/2306.03091",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "repobench"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L143",
+      "catalog_id": "WA-0089",
+      "source_title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "source_url": "https://arxiv.org/abs/2303.17651",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "selfrefine"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L144",
+      "catalog_id": "WA-0028",
+      "source_title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+      "source_url": "https://arxiv.org/abs/2310.06770",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "swebench"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L145",
+      "catalog_id": "WA-0001",
+      "source_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "source_url": "https://arxiv.org/abs/2302.04761",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "第二章",
+        "引用键": "toolformer"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L146",
+      "catalog_id": "WA-0074",
+      "source_title": "ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering",
+      "source_url": "https://arxiv.org/abs/2210.03849",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章",
+        "引用键": "convfinqa"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L147",
+      "catalog_id": "WA-0034",
+      "source_title": "PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change",
+      "source_url": "https://arxiv.org/abs/2206.10498",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "planbench"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L148",
+      "catalog_id": "WA-0010",
+      "source_title": "FinQA: A Dataset of Numerical Reasoning over Financial Data",
+      "source_url": "https://arxiv.org/abs/2109.00122",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "finqa"
+      },
+      "reconciliation": "existing"
+    },
+    {
+      "list_id": "L149",
+      "catalog_id": "WA-0011",
+      "source_title": "TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance",
+      "source_url": "https://arxiv.org/abs/2105.07624",
+      "appendix": true,
+      "source_fields": {
+        "原稿位置": "原第四章、第二章",
+        "引用键": "tatqa"
+      },
+      "reconciliation": "existing"
+    }
+  ]
+}

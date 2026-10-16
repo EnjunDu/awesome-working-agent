@@ -1,59 +1,1243 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "date": "2026-10-16",
   "categories": [
-    {"id":"artifact","name":"Artifact-Centric Agents","zh":"工作产物生成与编辑","scope":"Create or edit a spreadsheet, slide deck, or document. Use workspace when discovering dependencies across deliverables is central. Read-only understanding belongs in related foundations.","examples":["SheetCopilot","SpreadsheetBench","PPTAgent","DeepPresenter"]},
-    {"id":"workspace","name":"Workspace & Cross-Artifact Agents","zh":"工作空间与跨文件工作","scope":"Discover and connect files, applications, and deliverables in a workspace; occupational work packages.","examples":["Workspace-Bench","OfficeBench","GDPval","APEX-Agents"]},
-    {"id":"computer-use","name":"Computer-Use & Application Agents","zh":"计算机与应用操作","scope":"GUI grounding, web navigation, desktop and mobile control. A GUI interface alone does not override a more distinctive work objective.","examples":["OSWorld","WebArena","SeeClick","AndroidWorld"]},
-    {"id":"tool-enterprise","name":"Tool, API & Enterprise Workflow Agents","zh":"工具调用与企业流程","scope":"Function calling, tool-mediated work, stateful business processes, and user-tool interaction.","examples":["Toolformer","ReAct","AppWorld","ToolSandbox","tau-bench","CRMArena"]},
-    {"id":"persistent","name":"Persistent & Long-Horizon Work Agents","zh":"持续责任与长期工作","scope":"Memory, asynchronous work, proactive assistance, personalization, and long-horizon evaluation. Execution length does not itself prove persistent responsibility.","examples":["MemGPT","LongMemEval","Proactive Agent","TimeArena"]},
-    {"id":"harness","name":"Harnesses, Training & Optimization","zh":"运行框架、训练与优化","scope":"Execution platforms and cross-domain environment, data, model, harness, and joint optimization. Domain-specific methods stay in their work category; optimization mechanism is recorded independently.","examples":["OpenHands","AutoGen","AFlow","GEPA","HiPER","SkillRL"]},
-    {"id":"verification","name":"Verification, Judging & Recovery","zh":"验证、评判与恢复","scope":"Feedback, self-correction, evaluators, state validity, recovery, and transaction guarantees.","examples":["Self-Refine","CRITIC","Reflexion","Agent-as-a-Judge","SagaLLM"]},
-    {"id":"safety","name":"Safety, Injection & Authorization","zh":"安全、注入与授权","scope":"Prompt injection, harmful tool use, permission boundaries, delegation, and side-effect control.","examples":["AgentDojo","InjecAgent","ToolEmu","AgentHarm"]},
-    {"id":"related","name":"Related Foundations & Work Impact","zh":"相关基础与工作影响","scope":"Document/answer-only tasks, planning foundations, coordination and database theory, productivity and occupational studies. Retain as context and distinguish from end-to-end working-agent evidence.","examples":["DocVQA","FinQA","TAT-QA","PlanBench","Future of Work with AI Agents"]},
-    {"id":"swe-science","name":"Software, Data Science & Research Agents","zh":"软件、数据科学与科研工作","scope":"Software development, executable data analysis, ML experiments, and research replication. Record an interface or optimization tag separately.","examples":["SWE-bench","SWE-agent","DSBench","ScienceAgentBench","PaperBench"]}
+    {
+      "id": "artifact",
+      "name": "Artifact-Centric Agents",
+      "zh": "工作产物生成与编辑",
+      "scope": "Create or edit a spreadsheet, slide deck, or document. Use workspace when discovering dependencies across deliverables is central. Read-only understanding belongs in related foundations.",
+      "examples": [
+        "SheetCopilot",
+        "SpreadsheetBench",
+        "PPTAgent",
+        "DeepPresenter"
+      ]
+    },
+    {
+      "id": "workspace",
+      "name": "Workspace & Cross-Artifact Agents",
+      "zh": "工作空间与跨文件工作",
+      "scope": "Discover and connect files, applications, and deliverables in a workspace; occupational work packages.",
+      "examples": [
+        "Workspace-Bench",
+        "OfficeBench",
+        "GDPval",
+        "APEX-Agents"
+      ]
+    },
+    {
+      "id": "computer-use",
+      "name": "Computer-Use & Application Agents",
+      "zh": "计算机与应用操作",
+      "scope": "GUI grounding, web navigation, desktop and mobile control. A GUI interface alone does not override a more distinctive work objective.",
+      "examples": [
+        "OSWorld",
+        "WebArena",
+        "SeeClick",
+        "AndroidWorld"
+      ]
+    },
+    {
+      "id": "tool-enterprise",
+      "name": "Tool, API & Enterprise Workflow Agents",
+      "zh": "工具调用与企业流程",
+      "scope": "Function calling, tool-mediated work, stateful business processes, and user-tool interaction.",
+      "examples": [
+        "Toolformer",
+        "ReAct",
+        "AppWorld",
+        "ToolSandbox",
+        "tau-bench",
+        "CRMArena"
+      ]
+    },
+    {
+      "id": "persistent",
+      "name": "Persistent & Long-Horizon Work Agents",
+      "zh": "持续责任与长期工作",
+      "scope": "Memory, asynchronous work, proactive assistance, personalization, and long-horizon evaluation. Execution length does not itself prove persistent responsibility.",
+      "examples": [
+        "MemGPT",
+        "LongMemEval",
+        "Proactive Agent",
+        "TimeArena"
+      ]
+    },
+    {
+      "id": "harness",
+      "name": "Harnesses, Training & Optimization",
+      "zh": "运行框架、训练与优化",
+      "scope": "Execution platforms and cross-domain environment, data, model, harness, and joint optimization. Domain-specific methods stay in their work category; optimization mechanism is recorded independently.",
+      "examples": [
+        "OpenHands",
+        "AutoGen",
+        "AFlow",
+        "GEPA",
+        "HiPER",
+        "SkillRL"
+      ]
+    },
+    {
+      "id": "verification",
+      "name": "Verification, Judging & Recovery",
+      "zh": "验证、评判与恢复",
+      "scope": "Feedback, self-correction, evaluators, state validity, recovery, and transaction guarantees.",
+      "examples": [
+        "Self-Refine",
+        "CRITIC",
+        "Reflexion",
+        "Agent-as-a-Judge",
+        "SagaLLM"
+      ]
+    },
+    {
+      "id": "safety",
+      "name": "Safety, Injection & Authorization",
+      "zh": "安全、注入与授权",
+      "scope": "Prompt injection, harmful tool use, permission boundaries, delegation, and side-effect control.",
+      "examples": [
+        "AgentDojo",
+        "InjecAgent",
+        "ToolEmu",
+        "AgentHarm"
+      ]
+    },
+    {
+      "id": "related",
+      "name": "Related Foundations & Work Impact",
+      "zh": "相关基础与工作影响",
+      "scope": "Document/answer-only tasks, planning foundations, coordination and database theory, productivity and occupational studies. Retain as context and distinguish from end-to-end working-agent evidence.",
+      "examples": [
+        "DocVQA",
+        "FinQA",
+        "TAT-QA",
+        "PlanBench",
+        "Future of Work with AI Agents"
+      ]
+    },
+    {
+      "id": "swe-science",
+      "name": "Software, Data Science & Research Agents",
+      "zh": "软件、数据科学与科研工作",
+      "scope": "Software development, executable data analysis, ML experiments, and research replication. Record an interface or optimization tag separately.",
+      "examples": [
+        "SWE-bench",
+        "SWE-agent",
+        "DSBench",
+        "ScienceAgentBench",
+        "PaperBench"
+      ]
+    }
   ],
   "kinds": [
-    {"id":"Method","zh":"方法","definition":"A proposed agent, algorithm, training recipe, or optimization method."},
-    {"id":"Benchmark","zh":"评测","definition":"A task set, dataset, evaluation protocol, or benchmark environment."},
-    {"id":"Framework","zh":"框架","definition":"A reusable runtime, platform, or research infrastructure with a paper."},
-    {"id":"Survey","zh":"综述","definition":"A literature survey or roadmap."},
-    {"id":"Background","zh":"背景研究","definition":"Foundational theory or an empirical work-impact study."},
-    {"id":"Product/Resource","zh":"产品或资源","definition":"Documentation, a product page, or a resource without an identified research paper. Excluded from the paper count."}
+    {
+      "id": "Method",
+      "zh": "方法",
+      "definition": "A proposed agent, algorithm, training recipe, or optimization method."
+    },
+    {
+      "id": "Benchmark",
+      "zh": "评测",
+      "definition": "A task set, dataset, evaluation protocol, or benchmark environment."
+    },
+    {
+      "id": "Framework",
+      "zh": "框架",
+      "definition": "A reusable runtime, platform, or research infrastructure with a paper."
+    },
+    {
+      "id": "Survey",
+      "zh": "综述",
+      "definition": "A literature survey or roadmap."
+    },
+    {
+      "id": "Background",
+      "zh": "背景研究",
+      "definition": "Foundational theory or an empirical work-impact study."
+    },
+    {
+      "id": "Product/Resource",
+      "zh": "产品或资源",
+      "definition": "Documentation, a product page, or a resource without an identified research paper. Excluded from the paper count."
+    }
   ],
   "capabilities": [
-    {"id":"perception","zh":"感知与理解","section":"4.1"},
-    {"id":"reasoning","zh":"推理与决策","section":"4.2"},
-    {"id":"planning","zh":"规划","section":"4.3"},
-    {"id":"coordination","zh":"协作与协调","section":"4.3"},
-    {"id":"execution","zh":"执行","section":"4.4"},
-    {"id":"state-management","zh":"状态管理","section":"4.4"},
-    {"id":"memory","zh":"记忆","section":"4.4;5.3.3;7.2"},
-    {"id":"verification","zh":"验证","section":"4.5;6.2"},
-    {"id":"recovery","zh":"恢复与重规划","section":"4.5"},
-    {"id":"learning","zh":"学习与优化（辅助研究标签）","section":"5","auxiliary":true}
+    {
+      "id": "perception",
+      "zh": "感知与理解",
+      "section": "2.3.1"
+    },
+    {
+      "id": "reasoning",
+      "zh": "推理与决策",
+      "section": "2.3.2"
+    },
+    {
+      "id": "planning",
+      "zh": "规划",
+      "section": "2.3.3"
+    },
+    {
+      "id": "coordination",
+      "zh": "协作与协调",
+      "section": "2.3.3"
+    },
+    {
+      "id": "execution",
+      "zh": "执行",
+      "section": "2.3.4"
+    },
+    {
+      "id": "state-management",
+      "zh": "状态管理",
+      "section": "2.3.4"
+    },
+    {
+      "id": "memory",
+      "zh": "记忆",
+      "section": "2.3.4;5.3.3;7.2"
+    },
+    {
+      "id": "verification",
+      "zh": "验证",
+      "section": "2.3.5;6.2"
+    },
+    {
+      "id": "recovery",
+      "zh": "恢复与重规划",
+      "section": "2.3.5"
+    },
+    {
+      "id": "learning",
+      "zh": "学习与优化（辅助研究标签）",
+      "section": "5",
+      "auxiliary": true
+    }
   ],
   "optimization_types": [
-    {"id":"environment-synthesis","zh":"任务与环境合成","section":"5.1.1","examples":["NexForge","GraphForge","WorkGenesis","EnvScaler"]},
-    {"id":"trajectory-curation","zh":"轨迹收集与筛选","section":"5.1.2","examples":["SEE","OpenThoughts-Agent","CurateEvo"]},
-    {"id":"reward-verification","zh":"奖励与验证信号","section":"5.1.3","examples":["Spreadsheet-RL","AeSlides","Learning to Present"]},
-    {"id":"mid-training-sft","zh":"中期训练与监督微调","section":"5.2.1","examples":["daVinci-Dev","TrajLong","Function-Aware FIM"]},
-    {"id":"agentic-rl","zh":"智能体强化学习","section":"5.2.2","examples":["HiPER","Adaptive Milestone Reward","ReTool"]},
-    {"id":"on-policy-distillation","zh":"同策略蒸馏","section":"5.2.3","examples":["TCOD","SOD","Skill-SD"]},
-    {"id":"self-improving-training","zh":"自改进模型训练","section":"5.2.4","examples":["Socratic-SWE","Self-Retrospection Distillation"]},
-    {"id":"tool-interface","zh":"接口与工具优化","section":"5.3.1","examples":["SWE-agent","JTPRO","Beyond Prompts"]},
-    {"id":"prompt-workflow","zh":"提示与工作流优化","section":"5.3.2","examples":["AFlow","GEPA","Meta-Harness"]},
-    {"id":"memory-skill","zh":"记忆与技能优化","section":"5.3.3","examples":["Agent Workflow Memory","ReasoningBank","SkillOpt"]},
-    {"id":"model-harness-coupling","zh":"模型与运行框架耦合优化","section":"5.4","examples":["UI-Copilot","SkillRL","Optimas"]}
+    {
+      "id": "environment-synthesis",
+      "zh": "任务与环境合成",
+      "section": "5.1.1",
+      "examples": [
+        "NexForge",
+        "GraphForge",
+        "WorkGenesis",
+        "EnvScaler"
+      ]
+    },
+    {
+      "id": "trajectory-curation",
+      "zh": "轨迹收集与筛选",
+      "section": "5.1.2",
+      "examples": [
+        "SEE",
+        "OpenThoughts-Agent",
+        "CurateEvo"
+      ]
+    },
+    {
+      "id": "reward-verification",
+      "zh": "奖励与验证信号",
+      "section": "5.1.3",
+      "examples": [
+        "Spreadsheet-RL",
+        "AeSlides",
+        "Learning to Present"
+      ]
+    },
+    {
+      "id": "mid-training-sft",
+      "zh": "中期训练与监督微调",
+      "section": "5.2.1",
+      "examples": [
+        "daVinci-Dev",
+        "TrajLong",
+        "Function-Aware FIM"
+      ]
+    },
+    {
+      "id": "agentic-rl",
+      "zh": "智能体强化学习",
+      "section": "5.2.2",
+      "examples": [
+        "HiPER",
+        "Adaptive Milestone Reward",
+        "ReTool"
+      ]
+    },
+    {
+      "id": "on-policy-distillation",
+      "zh": "同策略蒸馏",
+      "section": "5.2.3",
+      "examples": [
+        "TCOD",
+        "SOD",
+        "Skill-SD"
+      ]
+    },
+    {
+      "id": "self-improving-training",
+      "zh": "自改进模型训练",
+      "section": "5.2.4",
+      "examples": [
+        "Socratic-SWE",
+        "Self-Retrospection Distillation"
+      ]
+    },
+    {
+      "id": "tool-interface",
+      "zh": "接口与工具优化",
+      "section": "5.3.1",
+      "examples": [
+        "SWE-agent",
+        "JTPRO",
+        "Beyond Prompts"
+      ]
+    },
+    {
+      "id": "prompt-workflow",
+      "zh": "提示与工作流优化",
+      "section": "5.3.2",
+      "examples": [
+        "AFlow",
+        "GEPA",
+        "Meta-Harness"
+      ]
+    },
+    {
+      "id": "memory-skill",
+      "zh": "记忆与技能优化",
+      "section": "5.3.3",
+      "examples": [
+        "Agent Workflow Memory",
+        "ReasoningBank",
+        "SkillOpt"
+      ]
+    },
+    {
+      "id": "model-harness-coupling",
+      "zh": "模型与运行框架耦合优化",
+      "section": "5.4",
+      "examples": [
+        "UI-Copilot",
+        "SkillRL",
+        "Optimas"
+      ]
+    }
   ],
-  "verification_statuses": ["verified","metadata-only","pending"],
-  "reading_statuses": ["未分配","待读","阅读中","已读"],
+  "verification_statuses": [
+    "verified",
+    "metadata-only",
+    "pending"
+  ],
+  "reading_statuses": [
+    "未分配",
+    "待读",
+    "阅读中",
+    "已读"
+  ],
   "principles": [
-    "One academic paper is counted once. Multi-role papers may have several kinds, capabilities, optimization types and survey sections.",
-    "Choose one primary category for browsing. It is an editorial assignment, not an author's claim or a ranking of autonomy.",
-    "Separate work form, work persistence, and work-world openness. Do not infer a persistent obligation from elapsed execution time, file count, or application count.",
-    "Capability tags on benchmarks describe what tasks probe, not a demonstrated capability of any model.",
-    "Affiliations describe paper-time participating organizations, not current employment or necessarily every affiliation. Cite front matter or the official project.",
-    "This is a provisional narrative-review taxonomy. Discuss terminology changes with examples and update the vocabulary before reclassifying records."
+    "Public README uses three broad paper lists; detailed authoring classifications live in the Excel.",
+    "Primary classification is a manuscript destination, with secondary sections for other uses. The former chapter 4 capability material moves to chapter 2.3.",
+    "Detailed research topics, five core capabilities, optimization mechanisms, and legacy work domains are independent fields.",
+    "Source reading-depth claims are provenance and do not change the team reading status.",
+    "One paper is counted once across aliases and versions. Non-paper resources are excluded from paper counts.",
+    "Benchmark task coverage and achieved capability are distinct. State continuity, elapsed execution, and delegated responsibility require different evidence."
+  ],
+  "basis": "2026-10-16 补充清单 §4 论点表与原稿明确目录；原第4章材料迁移，未创造新编号小节。",
+  "survey_nodes": [
+    {
+      "code": "2.1",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.1",
+      "section_name": "定义与系统视角",
+      "name": "定义与系统视角",
+      "scope": "连接任务、执行系统、工作对象、结果和验收。"
+    },
+    {
+      "code": "2.1.1",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.1",
+      "section_name": "定义与系统视角",
+      "name": "定义与范围",
+      "scope": "界定数字知识工作与可接受的工作结果，区分问答、操作和交付。"
+    },
+    {
+      "code": "2.1.2",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.1",
+      "section_name": "定义与系统视角",
+      "name": "工作过程六要素",
+      "scope": "Task、Model、Harness、Workspace、Outcome、Verification 及委托权限与职责。"
+    },
+    {
+      "code": "2.1.3",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.1",
+      "section_name": "定义与系统视角",
+      "name": "工作过程形式化",
+      "scope": "任务、工作区初始状态、交互轨迹、最终状态、成果与验收的关系。"
+    },
+    {
+      "code": "2.2",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.2",
+      "section_name": "工作条件",
+      "name": "工作条件",
+      "scope": "持久性与开放性是独立条件，不能由执行长度或应用数互相推出。"
+    },
+    {
+      "code": "2.2.1",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.2",
+      "section_name": "工作条件",
+      "name": "工作持久性",
+      "scope": "委托责任何时关闭、是否跨请求或事件继续保留；工作状态、依赖和承诺的保存支撑这种连续性。执行耗时本身不能证明持续责任。"
+    },
+    {
+      "code": "2.2.2",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.2",
+      "section_name": "工作条件",
+      "name": "工作开放性",
+      "scope": "对象发现、表示异构性、环境变化、外部参与者、权限和多条可行路径。"
+    },
+    {
+      "code": "2.3",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.3",
+      "section_name": "五项核心能力",
+      "name": "五项核心能力",
+      "scope": "围绕完成可靠工作解释能力组合，不能把领域、接口和能力并成一层。"
+    },
+    {
+      "code": "2.3.1",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.3",
+      "section_name": "五项核心能力",
+      "name": "感知与理解",
+      "scope": "读懂内容、原生结构、来源及跨对象关系，发现与定位支持行动的证据。"
+    },
+    {
+      "code": "2.3.2",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.3",
+      "section_name": "五项核心能力",
+      "name": "推理与决策",
+      "scope": "把证据、专业知识与规则联系起来，判断行动和结果是否适用。"
+    },
+    {
+      "code": "2.3.3",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.3",
+      "section_name": "五项核心能力",
+      "name": "规划与协调",
+      "scope": "组织目标、行动依赖及参与者掌握的信息、权限与进度。"
+    },
+    {
+      "code": "2.3.4",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.3",
+      "section_name": "五项核心能力",
+      "name": "执行与状态管理",
+      "scope": "对正确对象实现变化，保持无关正确内容、有效版本和任务进度。"
+    },
+    {
+      "code": "2.3.5",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.3",
+      "section_name": "五项核心能力",
+      "name": "验证、恢复与重新规划",
+      "scope": "对照实际成果与状态检查要求，诊断问题、修复对象或调整路线。"
+    },
+    {
+      "code": "2.4",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.4",
+      "section_name": "相关智能体范式",
+      "name": "相关智能体范式",
+      "scope": "区分工作完成视角、执行跨度、交互方式与办公领域。"
+    },
+    {
+      "code": "2.4.1",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.4",
+      "section_name": "相关智能体范式",
+      "name": "长时程智能体",
+      "scope": "讨论长运行与上下文跨度；长执行本身不证明持续工作责任。"
+    },
+    {
+      "code": "2.4.2",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.4",
+      "section_name": "相关智能体范式",
+      "name": "计算机使用智能体",
+      "scope": "以 GUI、浏览器、桌面和移动应用为交互路线。"
+    },
+    {
+      "code": "2.4.3",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.4",
+      "section_name": "相关智能体范式",
+      "name": "办公智能体",
+      "scope": "以办公文件及应用作为研究对象，区分理解与可交付产物操作。"
+    },
+    {
+      "code": "2.4.4",
+      "chapter_code": "2",
+      "chapter_name": "基础：定义、工作条件与核心能力",
+      "section_code": "2.4",
+      "section_name": "相关智能体范式",
+      "name": "范式间关系",
+      "scope": "范式可重叠；工作形态、自主程度、跨度和交互方式不应排列成同一等级。"
+    },
+    {
+      "code": "3.1",
+      "chapter_code": "3",
+      "chapter_name": "工作形态：代理承担什么工作",
+      "section_code": "3.1",
+      "section_name": "响应级工作",
+      "name": "响应级工作",
+      "scope": "验收对象主要是信息性回答；不据此推断外部状态已改变。"
+    },
+    {
+      "code": "3.2",
+      "chapter_code": "3",
+      "chapter_name": "工作形态：代理承担什么工作",
+      "section_code": "3.2",
+      "section_name": "原子动作级工作",
+      "name": "原子动作级工作",
+      "scope": "落实一个边界明确、具有可观察效果的操作。"
+    },
+    {
+      "code": "3.3",
+      "chapter_code": "3",
+      "chapter_name": "工作形态：代理承担什么工作",
+      "section_code": "3.3",
+      "section_name": "多步骤级工作",
+      "name": "多步骤级工作",
+      "scope": "通过多个相互关联的动作实现一个连贯目标。"
+    },
+    {
+      "code": "3.4",
+      "chapter_code": "3",
+      "chapter_name": "工作形态：代理承担什么工作",
+      "section_code": "3.4",
+      "section_name": "工作流级工作",
+      "name": "工作流级工作",
+      "scope": "满足具有依赖、业务规则与阶段条件的工作过程。"
+    },
+    {
+      "code": "3.5",
+      "chapter_code": "3",
+      "chapter_name": "工作形态：代理承担什么工作",
+      "section_code": "3.5",
+      "section_name": "工作空间级工作",
+      "name": "工作空间级工作",
+      "scope": "发现和维护多个相关对象、文件及成套交付物之间的关系。"
+    },
+    {
+      "code": "5.1",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.1",
+      "section_name": "训练环境、数据与奖励",
+      "name": "训练环境、数据与奖励",
+      "scope": "构造可执行并带有可用反馈的工作经验。"
+    },
+    {
+      "code": "5.1.1",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.1",
+      "section_name": "训练环境、数据与奖励",
+      "name": "任务与环境合成",
+      "scope": "从真实对象、职业需求、技能或程序化规格构建任务与执行环境。"
+    },
+    {
+      "code": "5.1.2",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.1",
+      "section_name": "训练环境、数据与奖励",
+      "name": "轨迹采集与筛选",
+      "scope": "收集、组合、过滤及修订能支持学习的交互记录。"
+    },
+    {
+      "code": "5.1.3",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.1",
+      "section_name": "训练环境、数据与奖励",
+      "name": "奖励与验证信号",
+      "scope": "设计结果、工件质量及阶段进度等训练反馈。"
+    },
+    {
+      "code": "5.2",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.2",
+      "section_name": "模型优化",
+      "name": "模型优化",
+      "scope": "通过监督、强化、蒸馏或自改进训练更新模型参数。"
+    },
+    {
+      "code": "5.2.1",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.2",
+      "section_name": "模型优化",
+      "name": "中期训练与监督微调",
+      "scope": "让训练分布匹配交互与工作过程所需行为。"
+    },
+    {
+      "code": "5.2.2",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.2",
+      "section_name": "模型优化",
+      "name": "智能体强化学习",
+      "scope": "从多轮环境交互及稀疏或过程反馈学习行动策略。"
+    },
+    {
+      "code": "5.2.3",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.2",
+      "section_name": "模型优化",
+      "name": "同策略蒸馏",
+      "scope": "在学生生成的状态与轨迹上使用教师监督，缓解分布偏移。"
+    },
+    {
+      "code": "5.2.4",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.2",
+      "section_name": "模型优化",
+      "name": "自改进模型训练",
+      "scope": "把自身失败、经验或反馈转为新的参数学习信号。"
+    },
+    {
+      "code": "5.3",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.3",
+      "section_name": "运行框架优化",
+      "name": "运行框架优化",
+      "scope": "保持模型或主要执行器固定，改进接口、提示、流程、记忆及技能。"
+    },
+    {
+      "code": "5.3.1",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.3",
+      "section_name": "运行框架优化",
+      "name": "接口与工具优化",
+      "scope": "改进动作表示、工具描述、观测压缩和执行边界。"
+    },
+    {
+      "code": "5.3.2",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.3",
+      "section_name": "运行框架优化",
+      "name": "提示与工作流优化",
+      "scope": "从执行证据搜索和更新提示、流程或 harness 代码。"
+    },
+    {
+      "code": "5.3.3",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.3",
+      "section_name": "运行框架优化",
+      "name": "记忆与技能优化",
+      "scope": "把经验选择、抽象和维护为可复用外部支持。"
+    },
+    {
+      "code": "5.4",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.4",
+      "section_name": "模型—运行框架耦合优化",
+      "name": "模型—运行框架耦合优化",
+      "scope": "研究模型训练与外部支持之间的耦合或联合更新。"
+    },
+    {
+      "code": "5.4.1",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.4",
+      "section_name": "模型—运行框架耦合优化",
+      "name": "运行框架感知训练",
+      "scope": "在特定接口、记忆或工具条件下训练执行策略。"
+    },
+    {
+      "code": "5.4.2",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.4",
+      "section_name": "模型—运行框架耦合优化",
+      "name": "学习式运行框架设计",
+      "scope": "训练设计者为下游执行器生成 harness 或技能。"
+    },
+    {
+      "code": "5.4.3",
+      "chapter_code": "5",
+      "chapter_name": "优化：从工作经验到系统能力",
+      "section_code": "5.4",
+      "section_name": "模型—运行框架耦合优化",
+      "name": "模型与运行框架联合优化",
+      "scope": "协调模型参数与外部记忆、提示或技能的更新。"
+    },
+    {
+      "code": "6.1",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.1",
+      "section_name": "基准与任务构造",
+      "name": "基准与任务构造",
+      "scope": "组织任务、环境、领域和工作要求；覆盖不等于能力的独立测量。"
+    },
+    {
+      "code": "6.1.1",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.1",
+      "section_name": "基准与任务构造",
+      "name": "任务构造策略",
+      "scope": "真实任务重建、人工设计、程序或模型合成与故障设置。"
+    },
+    {
+      "code": "6.1.2",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.1",
+      "section_name": "基准与任务构造",
+      "name": "领域覆盖与工作要求",
+      "scope": "记录职业材料、接口、操作、领域规则与任务分布。"
+    },
+    {
+      "code": "6.2",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.2",
+      "section_name": "评估方法",
+      "name": "评估方法",
+      "scope": "区分评估目标、可观察证据及判定程序。"
+    },
+    {
+      "code": "6.2.1",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.2",
+      "section_name": "评估方法",
+      "name": "评估目标与可观察证据",
+      "scope": "回答、产物、最终状态、执行过程及跨会话证据各能支持什么结论。"
+    },
+    {
+      "code": "6.2.2",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.2",
+      "section_name": "评估方法",
+      "name": "评判程序",
+      "scope": "程序检查、人工 rubric、模型裁判及其组合和偏差。"
+    },
+    {
+      "code": "6.3",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.3",
+      "section_name": "结果对齐指标",
+      "name": "结果对齐指标",
+      "scope": "将成功、质量、可靠性、成本与时间联系到验收要求。"
+    },
+    {
+      "code": "6.3.1",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.3",
+      "section_name": "结果对齐指标",
+      "name": "任务成功与成果质量",
+      "scope": "区分全项通过、部分进展、重复运行可靠性与资源成本。"
+    },
+    {
+      "code": "6.4",
+      "chapter_code": "6",
+      "chapter_name": "评估与资源：如何检验工作完成",
+      "section_code": "6.4",
+      "section_name": "开放框架与执行环境",
+      "name": "开放框架与执行环境",
+      "scope": "可复用运行平台、沙箱、统一接口、基准接入及产品文档。"
+    },
+    {
+      "code": "7.1",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.1",
+      "section_name": "环境扩展",
+      "name": "环境扩展",
+      "scope": "跨真实职业环境扩展与保持环境可信度。"
+    },
+    {
+      "code": "7.1.1",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.1",
+      "section_name": "环境扩展",
+      "name": "职业与领域泛化",
+      "scope": "职业分布、真实材料、跨域转移及覆盖缺口。"
+    },
+    {
+      "code": "7.1.2",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.1",
+      "section_name": "环境扩展",
+      "name": "环境保真与泛化",
+      "scope": "仿真与真实系统之间的差异及评估外部有效性。"
+    },
+    {
+      "code": "7.1.3",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.1",
+      "section_name": "环境扩展",
+      "name": "可扩展执行基础设施",
+      "scope": "隔离、并发、环境生命周期与大规模 agent 训练执行。"
+    },
+    {
+      "code": "7.2",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.2",
+      "section_name": "从被动执行到持续责任",
+      "name": "从被动执行到持续责任",
+      "scope": "长期状态、事件触发与跨任务适应。"
+    },
+    {
+      "code": "7.2.1",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.2",
+      "section_name": "从被动执行到持续责任",
+      "name": "持久用户记忆与工作状态",
+      "scope": "区分历史事实、用户偏好与当前有效工作状态。"
+    },
+    {
+      "code": "7.2.2",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.2",
+      "section_name": "从被动执行到持续责任",
+      "name": "主动与事件驱动工作",
+      "scope": "无新提示时识别触发、时机与应执行的职责。"
+    },
+    {
+      "code": "7.2.3",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.2",
+      "section_name": "从被动执行到持续责任",
+      "name": "持续个性化与自我演化",
+      "scope": "跨任务保留经验并检验适应收益、遗忘与退化。"
+    },
+    {
+      "code": "7.3",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.3",
+      "section_name": "从专业质量到使用价值",
+      "name": "从专业质量到使用价值",
+      "scope": "处理主观工作质量、可适应验证和真实收益。"
+    },
+    {
+      "code": "7.3.1",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.3",
+      "section_name": "从专业质量到使用价值",
+      "name": "情境性与主观质量",
+      "scope": "质量依赖用途、专业情境、偏好和协作对象。"
+    },
+    {
+      "code": "7.3.2",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.3",
+      "section_name": "从专业质量到使用价值",
+      "name": "可泛化与自适应验证",
+      "scope": "验证器有效性、独立性、偏差与随系统演化的维护。"
+    },
+    {
+      "code": "7.3.3",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.3",
+      "section_name": "从专业质量到使用价值",
+      "name": "质量判断与使用价值",
+      "scope": "评价分数、时间成本和真实使用收益之间的关系。"
+    },
+    {
+      "code": "7.4",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.4",
+      "section_name": "以工作为中心的系统",
+      "name": "以工作为中心的系统",
+      "scope": "个人、组织与经济系统中的 Working Agents。"
+    },
+    {
+      "code": "7.4.1",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.4",
+      "section_name": "以工作为中心的系统",
+      "name": "个人工作智能体",
+      "scope": "结合用户长期情境、交互与持续职责。"
+    },
+    {
+      "code": "7.4.2",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.4",
+      "section_name": "以工作为中心的系统",
+      "name": "数字劳动力孪生",
+      "scope": "角色、工作过程、协作与组织结构的映射。"
+    },
+    {
+      "code": "7.4.3",
+      "chapter_code": "7",
+      "chapter_name": "前沿：下一代 Working Agents",
+      "section_code": "7.4",
+      "section_name": "以工作为中心的系统",
+      "name": "组织集成与经济价值",
+      "scope": "授权、交接、组织互补投入及真实生产率与劳动价值。"
+    }
+  ],
+  "detailed_type_vocab": [
+    {
+      "code": "system-architecture",
+      "name": "定义、系统职责与工作循环",
+      "definition": "定义工作范围，区分模型与运行框架职责，并用观察—决策—行动轨迹连接工作结果。",
+      "section_code": "2.1"
+    },
+    {
+      "code": "delegation-authority",
+      "name": "委托、责任与权限",
+      "definition": "明确为谁工作、目标、权限、角色、责任、交接边界和验收条件。",
+      "section_code": "2.1"
+    },
+    {
+      "code": "work-persistence",
+      "name": "跨请求工作连续性",
+      "definition": "验收相关状态、承诺与依赖需要跨步骤或请求保持。",
+      "section_code": "2.2"
+    },
+    {
+      "code": "world-openness",
+      "name": "开放与变化条件",
+      "definition": "材料、目标、外部行动者、工具或环境变化带来的不确定性。",
+      "section_code": "2.2"
+    },
+    {
+      "code": "object-semantics",
+      "name": "对象结构、模态与语义",
+      "definition": "读懂表格公式、文档层级、版面、图表或视频；把语言目标对应到原生对象和界面元素。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "object-relations",
+      "name": "对象关系、来源与依赖",
+      "definition": "识别文件、实体、版本、来源和证据推导链，以及关联对象或交付物之间的依赖。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "evidence-discovery",
+      "name": "材料发现与证据定位",
+      "definition": "从工作空间、长文档或网页中检索并定位相关材料。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "professional-judgment",
+      "name": "职业知识与专业判断",
+      "definition": "用领域定义、规范、时效和专业取舍决定证据或行动是否适用。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "evidence-reasoning",
+      "name": "证据整合与推理",
+      "definition": "聚合多源材料，执行数值、因果或多跳推理并识别不足。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "action-decision",
+      "name": "证据与规则约束下的决策",
+      "definition": "依据新观测、专业或业务约束与任务进展选择适用行动。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "planning-dependencies",
+      "name": "任务分解与行动依赖",
+      "definition": "组织子目标、前提、分支、顺序和可并行部分，使其服务最终要求。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "participant-coordination",
+      "name": "分布信息、澄清与协调",
+      "definition": "围绕不同参与者掌握的信息、权限和操作组织分工沟通、意图澄清、进展对齐与工作交接。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "artifact-editing",
+      "name": "原生工件生成与编辑",
+      "definition": "把意图落实为可编辑工作簿、演示文稿、文档或设计对象。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "tool-execution",
+      "name": "工具、界面与应用执行",
+      "definition": "通过函数、代码、终端、GUI 或应用接口产生具体可观察工作效果。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "state-validity",
+      "name": "当前状态与版本有效性",
+      "definition": "判断既有分析、文件版本、事实或结果在后续修改后是否仍有效。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "continuous-editing",
+      "name": "连续编辑与内容保持",
+      "definition": "在一系列修改中落实目标变化并保留已正确且无关的内容。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "state-resynchronization",
+      "name": "变化后的重新同步",
+      "definition": "外部参与者或环境改变后重新观察、对齐并接续执行。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "context-memory",
+      "name": "上下文与记忆管理",
+      "definition": "存储、压缩、检索历史和经验；不自动等于维护外部工作状态。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "asynchronous-execution",
+      "name": "异步与并行执行",
+      "definition": "管理延迟返回、并发工具和时间依赖。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "transaction-commit",
+      "name": "提交、幂等与副作用",
+      "definition": "处理实际提交、不确定结果、重复执行与事务一致性。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "outcome-verification",
+      "name": "成果与实际状态核验",
+      "definition": "将任务要求对应到产物、状态或执行证据。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "failure-diagnosis",
+      "name": "失败定位与根因诊断",
+      "definition": "区分需求、对象、动作与环境中的根因及错误传播。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "recovery-replanning",
+      "name": "回滚、补偿与路径调整",
+      "definition": "诊断后依据当前提交状态选择重试、回退、补偿或新的可行计划。",
+      "section_code": "2.3"
+    },
+    {
+      "code": "paradigm-comparison",
+      "name": "范式与自主性边界",
+      "definition": "区分工作形态、交互方式、领域、执行跨度和人的角色。",
+      "section_code": "2.4"
+    },
+    {
+      "code": "work-composition",
+      "name": "工作形态与验收组织",
+      "definition": "区分响应、原子操作、多步骤目标、依赖工作流和关联工作空间。",
+      "section_code": "3.1"
+    },
+    {
+      "code": "environment-synthesis",
+      "name": "任务与环境合成",
+      "definition": "构建可执行任务、工作区、工具状态及验收环境。",
+      "section_code": "5.1"
+    },
+    {
+      "code": "trajectory-curation",
+      "name": "轨迹采集与策划",
+      "definition": "组合、筛选、修订交互经验以支撑训练。",
+      "section_code": "5.1"
+    },
+    {
+      "code": "reward-verification",
+      "name": "训练奖励与可验证信号",
+      "definition": "把成果、过程或阶段要求转成学习反馈。",
+      "section_code": "5.1"
+    },
+    {
+      "code": "model-training",
+      "name": "模型参数学习",
+      "definition": "通过中训练、监督微调、多轮强化学习、同策略蒸馏或自改进训练更新模型。",
+      "section_code": "5.2"
+    },
+    {
+      "code": "tool-interface",
+      "name": "接口与观测优化",
+      "definition": "优化工具描述、动作表示、压缩或执行边界。",
+      "section_code": "5.3"
+    },
+    {
+      "code": "prompt-workflow",
+      "name": "提示、流程与 harness 搜索",
+      "definition": "从执行反馈搜索或演化外部控制结构。",
+      "section_code": "5.3"
+    },
+    {
+      "code": "memory-skill",
+      "name": "经验记忆与技能优化",
+      "definition": "抽象、检索及维护可复用策略或程序性技能。",
+      "section_code": "5.3"
+    },
+    {
+      "code": "model-harness-coupling",
+      "name": "模型与运行框架耦合",
+      "definition": "研究接口感知训练、学习式框架设计及模型和外部支持的联合更新。",
+      "section_code": "5.4"
+    },
+    {
+      "code": "task-environment-design",
+      "name": "任务、环境与扰动构造",
+      "definition": "构造评测起始状态、目标、真实或模拟接口以及可控外部故障。",
+      "section_code": "6.1"
+    },
+    {
+      "code": "coverage-work-requirements",
+      "name": "任务覆盖与泛化边界",
+      "definition": "记录职业、材料、接口、操作和领域要求，检视跨任务或跨域代表性。",
+      "section_code": "6.1"
+    },
+    {
+      "code": "observable-evidence",
+      "name": "答案、产物、状态与过程证据",
+      "definition": "区分各种观察能支持的工作完成结论。",
+      "section_code": "6.2"
+    },
+    {
+      "code": "rubric-judging",
+      "name": "标准、量规与裁判",
+      "definition": "用程序、专家 rubric 或模型裁判将任务要求对应到工作证据。",
+      "section_code": "6.2"
+    },
+    {
+      "code": "verification-validity",
+      "name": "验证证据的有效性",
+      "definition": "检验裁判偏差、相关错误、模拟外部有效性以及验证器随系统变化的可信性。",
+      "section_code": "6.2"
+    },
+    {
+      "code": "success-reliability",
+      "name": "成功、部分进展与稳定性",
+      "definition": "区分全项成功、阶段进展及重复运行可靠性。",
+      "section_code": "6.3"
+    },
+    {
+      "code": "quality-cost-value",
+      "name": "质量、时间成本与使用价值",
+      "definition": "区分情境质量、分数、资源开销、执行跨度和实际人机工作收益。",
+      "section_code": "6.3"
+    },
+    {
+      "code": "runtime-infrastructure",
+      "name": "执行平台、隔离与规模化",
+      "definition": "通过统一观察动作接口、沙箱隔离、并发调度、生命周期管理和评测接入支撑复用及规模化执行。",
+      "section_code": "6.4"
+    },
+    {
+      "code": "event-driven-work",
+      "name": "主动触发与时机选择",
+      "definition": "无需新提示时识别事件并履行适当的持续职责。",
+      "section_code": "7.2"
+    },
+    {
+      "code": "continual-adaptation",
+      "name": "跨任务个性化与自演化",
+      "definition": "保存经验、适应任务流并检查遗忘和退化。",
+      "section_code": "7.2"
+    },
+    {
+      "code": "organizational-productivity",
+      "name": "组织协作与真实生产率",
+      "definition": "考察团队角色、授权、组织互补投入、真实工作实验和经济劳动价值。",
+      "section_code": "7.4"
+    },
+    {
+      "code": "safety-authorization",
+      "name": "安全、隐私与授权边界",
+      "definition": "检验注入、越权、有害请求、隐私泄露或不当副作用与工作效用的关系。",
+      "section_code": "6.2"
+    }
+  ],
+  "core_capabilities": [
+    {
+      "code": "perception-understanding",
+      "name": "感知与理解",
+      "survey_node": "2.3.1"
+    },
+    {
+      "code": "reasoning-decision",
+      "name": "推理与决策",
+      "survey_node": "2.3.2"
+    },
+    {
+      "code": "planning-coordination",
+      "name": "规划与协调",
+      "survey_node": "2.3.3"
+    },
+    {
+      "code": "execution-state",
+      "name": "执行与状态管理",
+      "survey_node": "2.3.4"
+    },
+    {
+      "code": "verification-recovery",
+      "name": "验证、恢复与重新规划",
+      "survey_node": "2.3.5"
+    }
+  ],
+  "editorial_rules": [
+    "主位置表示当前写作论证用途，而非作者宣称、阅读完成或能力已测得。",
+    "同一文献可承担多个论证角色；详细类型独立于章节编号、领域和界面。",
+    "原4.1–4.5映射至2.3.1–2.3.5；方法机制交5，评测设置与矩阵交6。",
+    "旧章节保留为历史出处，不能继续用作当前主分类。",
+    "长运行、会话记忆和项目跨周背景均不自动证明持续工作责任。"
   ]
 }

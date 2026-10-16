@@ -1,46 +1,50 @@
 # Contributing
 
-Add missing papers, improve category boundaries, correct links or affiliations, and share reading notes. Classification v0.1 is provisional. A terminology change should include examples of what moves and why.
+Contributions can add missing papers, correct metadata, improve classification boundaries, or share reading notes. Public-facing text is in English. The internal Excel uses Chinese labels and notes for the writing team.
 
-## Team workflow
+## Edit the Excel, then synchronize
 
-1. Download or open `paper_list.xlsx`. Filter `Paper List` by primary category, detailed subtype, optimization type, or survey section. The yellow columns are reading status, owner, writing section, and writing notes. Initial entries are **unassigned**, even when their bibliographic metadata has been checked.
-2. Edit the workbook. Add new records at the bottom of the table. Use a new, unused stable ID in the form `WA-xxxx`; never reuse or renumber existing IDs. Keep each paper on one row. Use semicolons in the multi-value fields listed below.
-3. Save the workbook, then run from the repository root:
+1. Open `paper_list.xlsx`. `Paper List` contains academic work; `Resources` contains products, official articles, documentation, and projects without an identified paper. Keep one record per paper and retain its stable `WA-xxxx` ID.
+2. Choose a manuscript section code in column H. Columns F, G, and I automatically show its chapter, section, and subsection through lookups into `Taxonomy`. These three columns are derived labels. Add research subtypes, core capabilities, other relevant sections, and optimization mechanisms in their separate columns.
+3. Use the yellow columns for the team's reading status, owner, writing section, and writing notes. The source list's reading-depth claim is a separate provenance field. It does not mean a team member has read the paper.
+4. Save the workbook, then run from the repository root:
 
    ```bash
    python3 scripts/catalog.py --import-xlsx paper_list.xlsx
    python3 scripts/catalog.py --check
+   python3 -m unittest discover -s tests
    ```
 
-   The script reads the Excel, validates IDs and vocabulary, and updates `data/papers.json` and `README.md`. It does not modify the workbook. Workbook values are authoritative: a blank cell clears the corresponding field. Review and commit all three files together. No Python packages are needed.
-4. Use a pull request to coordinate simultaneous edits. Excel files do not merge reliably. If two people edit at once, reconcile by stable ID before importing; never replace a colleague's newer workbook with an older copy.
+   Python's standard library is sufficient. The importer validates before updating the JSON catalog and README. It reads but does not reformat the workbook. Workbook values are authoritative: a blank cell clears the corresponding field.
+5. Review and commit the Excel, `data/papers.json`, and generated `README.md` together. Coordinate simultaneous workbook edits through pull requests and reconcile conflicts by stable ID. Excel files do not merge reliably.
 
-中文：先在 Excel 认领和补充，再运行导入命令同步 JSON 与 README。保留原 ID，新增论文只分配新 ID。多人同时修改时按 ID 合并；优先通过 PR 协调，避免直接覆盖二进制 Excel。
+## Add a paper
 
-## Required evidence
+- Append a row to the correct Excel table. Choose a new unused stable ID; never renumber existing IDs. Copy the derived formulas in F, G, and I from the previous row and select a valid section code in H.
+- Use the full English title, a primary paper URL, and the first confirmed public release year when available. A conference version, renamed project, and preprint of the same work share one record.
+- Record publication-time affiliations from the paper's front matter or an official project source. Explain a shortened institution list or version-specific affiliation in the verification notes. Do not infer historical affiliations from current employment.
+- Keep methods, benchmarks, frameworks, surveys, background studies, and non-paper resources distinct. A multi-role paper may use `Method;Benchmark`. `Product/Resource` must stand alone and belongs in `Resources`.
+- Add code and data URLs only when identified by the paper or official project. Distinguish a sample from the full dataset, and a resource collection from a direct dataset download.
+- Record the contribution, its use in the survey, and the limits of the evidence separately. Do not promote an abstract-level candidate to a detailed experimental or causal claim without checking the relevant methods and results.
 
-- Give the full title, a primary paper link, first public preprint year when known, entry kind, one primary category, and a specific subtype.
-- Check title and link identity. Prefer arXiv, ACL Anthology, a publisher, or an official project page. Use the paper's publication-time affiliations, with a front-matter or official-project source. Name a shortened institution list explicitly in the verification notes.
-- Use `verified` only when both identity and affiliation have evidence. Use `metadata-only` for a checked paper whose affiliation is incomplete. Use `pending` when paper identity or the proposed link is unresolved. Pending entries are retained in the Excel and JSON but omitted from the README paper tables.
-- Record a code or dataset link only when the paper or official project identifies it. A project page is not automatically a code repository or dataset. Leave unknown links empty.
-- Keep methods, benchmarks, frameworks, surveys, background research, and products distinct. A product or documentation entry uses `Product/Resource` and belongs in the `Resources` sheet, outside the research-paper count. A dataset with an identified research paper is represented by that paper; a standalone data/project resource is not counted as another paper.
-- Deduplicate conference/preprint versions, renamed projects, and aliases. A newer version of the same work keeps its ID. Explain a title change in the verification notes.
+## Classification and vocabulary
 
-## Fields and vocabulary
+The public README has only three broad paper lists: **Agents, Methods & Systems**, **Benchmarks & Evaluation**, and **Surveys & Foundations**. Fine classification belongs in the Excel, following [the manuscript guide](docs/taxonomy.md).
 
-See [the classification guide](docs/taxonomy.md) and `Taxonomy` in Excel. The machine-readable vocabulary is `data/taxonomy.json`.
+- The primary section is an authoring destination. Additional uses belong in the secondary-section field. The retired chapter 4 capability material moves to 2.3.1-2.3.5; original section mappings remain in a separate legacy field.
+- Research subtypes, the five core capabilities, optimization mechanisms, and legacy work domains are different dimensions. Do not merge them into a single type hierarchy.
+- Multi-value fields use English semicolons. Controlled fields accept either vocabulary codes or their Chinese labels from `Taxonomy`. Secondary sections accept codes with or without their displayed names.
+- Keep titles and short names in English. The README generator rejects Chinese public titles. Chinese contributions, evidence limits, classifications, and team notes are supported in the Excel and catalog.
+- Edit `data/taxonomy.json` and the Excel glossary together when changing vocabulary. Extend the lookup and validation ranges when adding section nodes. Use examples and counterexamples to explain a proposed boundary change. `data/workbook_schema.json` defines the workbook's columns and import rules.
 
-- Multi-value fields: `能力标签`, `优化类型`, `Survey章节`, `草稿引用编号`, `收录来源` use `;` separators. `条目类型` may also contain multiple allowed kinds, e.g. `Method;Benchmark`.
-- `主分类` is a single browsing category. `细分类` is a concise specific description; reuse an existing term where applicable. Capability and optimization labels must come from the controlled vocabulary.
-- `Survey章节` is a proposed cross-reference to the supplied survey outline, not evidence that the paper has been written up or read. `写作章节` and `写作备注` are team decisions.
-- `草稿引用编号` preserves the bibliography number in the supplied 2026-10-16 draft. These numbers are provenance, not stable identifiers and not a promise that later drafts keep the numbering.
-- Keep URLs as HTTPS strings and years as numbers. Literal URL cells and `HYPERLINK("url","url")` formulas are accepted by the importer. Other catalog formulas and renamed headers are not supported. `Overview` formulas count up to 1,999 papers and 199 resources; extend those ranges when the catalog grows beyond them.
+## Verification and source provenance
 
-The importer refuses duplicate IDs/URLs, unknown controlled vocabulary, missing required fields, unsupported catalog formulas, resources on the wrong sheet, and imports that silently remove existing IDs. It validates before writing. For a deliberate deletion, review and remove the record from the JSON and Excel together, then run `--build-readme` and `--check`.
+`verified` means the paper identity and the recorded affiliation have source evidence. `metadata-only` means the identity is checked but the affiliation is incomplete. `pending` means the identity remains unresolved; these records stay in the workbook and JSON but are omitted from public paper tables.
 
-## Scope and counts
+These statuses do not imply full-paper reading, peer review, or exhaustive coverage. The 2026-10-16 supplement's original reading-depth and citation-status statements are preserved as source claims. Its appendix explicitly says the entries were not rechecked; previous independent bibliographic verification is kept separate. `data/source_ledger.json` reconciles every supplement item to a stable catalog ID.
 
-Broad coverage should follow the conceptual gaps in the survey. Do not add unrelated papers to reach a round number. Retain foundational QA and planning work in the related section, and distinguish a benchmark's task requirements from the properties its grader actually inspects. A long run or many files does not by itself establish persistent responsibility or greater autonomy.
+The importer rejects unknown controlled terms, unsupported formulas, duplicate IDs or canonical paper URLs, resources on the wrong sheet, and any import that silently removes an existing ID. Literal URL cells and `HYPERLINK("url","url")` are supported; other formulas are allowed only in the three derived classification-label columns. Both Excel date systems are supported.
 
-The README is generated. To change the presentation or curation text, edit `scripts/catalog.py`, run `python3 scripts/catalog.py --build-readme`, and check the diff. For metadata changes, edit the Excel first so that the workbook, JSON, and README stay synchronized.
+The summary formulas cover up to 1,999 academic records and 199 non-paper resources. Extend their ranges when the collection grows beyond those bounds. For a deliberate deletion, review and remove the same ID from the JSON and Excel together, then run `--build-readme` and `--check`.
+
+The README is generated. Edit its layout or English curation text in `scripts/catalog.py`, then run `python3 scripts/catalog.py --build-readme`. Add work to close conceptual gaps, rather than to reach a round paper count.

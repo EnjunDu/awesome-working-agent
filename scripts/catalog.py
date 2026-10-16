@@ -15,18 +15,17 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-FIELDS = [
-    ('id','ID'),('title','论文名称'),('short_name','简称'),('year','年份'),
-    ('url','论文链接'),('institutions','单位'),('kind','条目类型'),
-    ('primary_category','主分类'),('subcategory','细分类'),('capabilities','能力标签'),
-    ('optimization_types','优化类型'),('survey_sections','Survey章节'),
-    ('contribution','核心贡献'),('code_url','代码链接'),('data_url','数据链接'),
-    ('verification_status','核验状态'),('institution_source','单位来源'),
-    ('metadata_source','元数据来源'),('draft_refs','草稿引用编号'),('origin','收录来源'),
-    ('checked_on','复核日期'),('reading_status','阅读状态'),('owner','负责人'),
-    ('writing_section','写作章节'),('writing_notes','写作备注'),('notes','核验备注')
-]
-LIST_FIELDS = {'capabilities','optimization_types','survey_sections','draft_refs','origin'}
+SCHEMA=json.loads((ROOT/'data/workbook_schema.json').read_text())['fields']
+FIELDS=[(f['key'],f['label']) for f in SCHEMA]
+FIELD_SPEC={f['key']:f for f in SCHEMA}
+LIST_FIELDS={f['key'] for f in SCHEMA if f.get('format') in ['list','int_list','vocab_list','node_list']}
+DERIVED_FIELDS={f['key'] for f in SCHEMA if f.get('format')=='derived'}
+
+def item_code(item):
+    return item.get('code',item.get('id'))
+
+def vocabulary(taxonomy,name):
+    return {item_code(x):x for x in taxonomy[name]}
 
 def load():
     return (json.loads((ROOT/'data/papers.json').read_text()),
@@ -40,6 +39,9 @@ def canonical_url(url):
 def validate(records,taxonomy):
     errors=[]
     allowed={key:{x['id'] for x in taxonomy[key]} for key in ['categories','kinds','capabilities','optimization_types']}
+    node_codes=set(vocabulary(taxonomy,'survey_nodes'))
+    detail_codes=set(vocabulary(taxonomy,'detailed_type_vocab'))
+    core_codes=set(vocabulary(taxonomy,'core_capabilities'))
     seen_ids=set(); seen_links=set()
     for p in records:
         tag=p.get('id','<missing>')
@@ -47,6 +49,17 @@ def validate(records,taxonomy):
         seen_ids.add(tag)
         for f in ['id','title','short_name','kind','primary_category','verification_status']:
             if not p.get(f): errors.append(f'{tag}: missing {f}')
+        if not re.fullmatch(r'WA-\d{4,}',tag):errors.append(f'{tag}: invalid stable ID')
+        if p.get('primary_survey_node') not in node_codes:errors.append(f'{tag}: invalid primary manuscript section')
+        for field,codes in [('secondary_survey_nodes',node_codes),('detailed_types',detail_codes),('core_capabilities',core_codes)]:
+            if not isinstance(p.get(field),list):errors.append(f'{tag}: {field} must be a list');continue
+            for value in p[field]:
+                if value not in codes:errors.append(f'{tag}: invalid {field}: {value}')
+        if not p.get('detailed_types'):errors.append(f'{tag}: missing detailed research type')
+        expected=list(dict.fromkeys([p.get('primary_survey_node')]+p.get('secondary_survey_nodes',[])))
+        if p.get('survey_sections')!=expected:errors.append(f'{tag}: manuscript section fields disagree')
+        if any(s.startswith('4') for s in p.get('survey_sections',[])):errors.append(f'{tag}: retired chapter 4 belongs only in legacy_survey_sections')
+        if p.get('reading_priority','') not in ['', '核心','补充','候选']:errors.append(f'{tag}: invalid source reading priority')
         if p.get('primary_category') not in allowed['categories']: errors.append(f'{tag}: unknown category')
         for k in p.get('kind','').split(';'):
             if k.strip() not in allowed['kinds']: errors.append(f'{tag}: unknown kind {k}')
@@ -80,16 +93,13 @@ def render_readme(records,taxonomy):
     lines=[
       '# Awesome Working Agents','','![Working Agents research map](assets/working-agents.svg)','',
       '> From answering questions to completing digital work: papers on artifacts, workspaces, tools, computer use, persistent responsibilities, and the systems that make them reliable.','',
-      f'**{len(papers)} linked research papers and surveys** · **{len(resources)} separate resources** · Updated **{taxonomy["date"]}** · Taxonomy **v{taxonomy["version"]}**','',
-      '[Download the detailed Excel paper list](paper_list.xlsx) · [Classification guide](docs/taxonomy.md) · [How to contribute](CONTRIBUTING.md) · [Machine-readable catalog](data/papers.json)','',
-      'The public list is organized by the work or system being studied. The Excel adds paper-time institutions, detailed types, capability tags, optimization mechanisms, survey-section mappings, source checks, and editable reading/writing fields. Each paper has one stable ID and appears once below.','',
-      '**Scope.** We cover digital knowledge work: producing artifacts, changing application or business state, connecting workspace objects, and maintaining delegated responsibilities. Document QA, general planning, theory, and work-impact studies are retained as supporting context in their own section. Products and documentation are counted separately.','',
-      '**Start here.** [SheetCopilot](https://arxiv.org/abs/2305.19308) and [PPTAgent](https://arxiv.org/abs/2501.03936) for artifacts; [Workspace-Bench](https://arxiv.org/abs/2605.03596) and [OfficeBench](https://arxiv.org/abs/2407.19056) for workspaces; [OSWorld](https://arxiv.org/abs/2404.07972) for computer use; [AppWorld](https://arxiv.org/abs/2407.18901) and [τ-bench](https://arxiv.org/abs/2406.12045) for stateful tool use; [MemGPT](https://arxiv.org/abs/2310.08560) for memory; [SWE-agent](https://arxiv.org/abs/2405.15793), [AFlow](https://arxiv.org/abs/2410.10762), and [GEPA](https://arxiv.org/abs/2507.19457) for system design and optimization.','',
-      '## Contents',''
+      f'**{len(papers)} papers, surveys, and foundational studies** · **{len(resources)} non-paper resources** · Updated **{taxonomy["date"]}**','',
+      '[Excel paper list](paper_list.xlsx) · [Classification guide](docs/taxonomy.md) · [Contributing](CONTRIBUTING.md) · [Catalog data](data/papers.json)','',
+      'A broad reading list for agents that create artifacts, operate applications and tools, connect workspace objects, and maintain delegated work. Supporting research covers document understanding, planning, state management, verification, safety, and the value of work.','',
+      'Browse the three paper lists below. The companion Excel provides the detailed manuscript classification, institutions, contributions, evidence limits, and team reading notes. Each paper appears once.','',
+      '**Start here:** [ReAct](https://arxiv.org/abs/2210.03629), [SheetCopilot](https://arxiv.org/abs/2305.19308), [PPTAgent](https://arxiv.org/abs/2501.03936), [AppWorld](https://arxiv.org/abs/2407.18901), [OSWorld](https://arxiv.org/abs/2404.07972), [Workspace-Bench](https://arxiv.org/abs/2605.03596), [DELEGATE-52](https://arxiv.org/abs/2604.15597), [LongDS-Bench](https://arxiv.org/abs/2605.30434), and [GDPval](https://arxiv.org/abs/2510.04374).','',
+      '[Agents, Methods & Systems](#methods) · [Benchmarks & Evaluation](#benchmarks) · [Surveys & Foundations](#surveys) · [Resources](#resources)',''
     ]
-    for c in taxonomy['categories']:
-        lines.append(f'- [{c["name"]}](#{c["id"]})')
-    lines+=['- [Surveys and roadmaps](#surveys)','- [Resources](#resources)','- [Curation and maintenance](#curation)','']
     def table(ps):
         if not ps:return []
         out=['| Paper | First year | Resources |','| --- | --- | --- |']
@@ -101,36 +111,22 @@ def render_readme(records,taxonomy):
                 if p.get(k):links.append(f'[{label2}]({p[k]})')
             out.append(f'| {label} | {p.get("year") or "—"} | {" · ".join(links)} |')
         return out+['']
-    for c in taxonomy['categories']:
-        ps=[p for p in papers if p['primary_category']==c['id'] and 'Survey' not in p['kind']]
-        lines += [f'<a id="{c["id"]}"></a>',f'## {c["name"]}','',c['scope'],'']
-        if c['id']=='harness':
-            platform=[p for p in ps if not p.get('optimization_types')]
-            if platform:lines+=['### Platforms and execution systems','']+table(platform)
-            remaining=list(ps)
-            for p in platform:remaining.remove(p)
-            for opt in taxonomy['optimization_types']:
-                group=[p for p in remaining if opt['id'] in p.get('optimization_types',[])]
-                if group:
-                    lines += [f'### {opt["id"].replace("-"," ").capitalize()}','']+table(group)
-                    for p in group:remaining.remove(p)
-            lines+=table(remaining)
-        else:lines+=table(ps)
-    surveys=[p for p in papers if 'Survey' in p['kind']]
-    lines+=['<a id="surveys"></a>','## Surveys and roadmaps','']+table(surveys)
-    lines+=['<a id="resources"></a>','## Resources','','Non-paper documentation and project resources. These do not contribute to the research-paper count.','', '| Resource | Link |','| --- | --- |']
+    groups={'methods':[],'benchmarks':[],'surveys':[]}
+    for p in papers:
+        kinds={x.strip() for x in p['kind'].split(';')}
+        group='surveys' if 'Survey' in kinds else ('methods' if kinds & {'Method','Framework'} else ('benchmarks' if 'Benchmark' in kinds else 'surveys'))
+        groups[group].append(p)
+    for group,name in [('methods','Agents, Methods & Systems'),('benchmarks','Benchmarks & Evaluation'),('surveys','Surveys & Foundations')]:
+        lines += [f'<a id="{group}"></a>','',f'## {name}','']+table(groups[group])
+    lines+=['<a id="resources"></a>','','## Resources','','Products, documentation, and standalone projects without an identified paper. These are excluded from the paper count.','', '| Resource | Link |','| --- | --- |']
     for p in resources:lines.append(f'| {esc(p["title"])} | [Source]({p["url"]}) |')
-    lines+=['','<a id="curation"></a>','## Curation and maintenance','',
-      'This is a structured, evolving reading list. Coverage starts from the companion survey bibliography and the previous repository list, then reconciles identifiers against primary paper or project pages. It is not an exhaustive systematic census.','',
-      '- **Identity checks:** paper titles and links are checked against primary sources. Excel distinguishes `verified` (identity plus affiliation evidence), `metadata-only` (identity checked; affiliation incomplete), and `pending` (identity still requires confirmation). A checked entry is not a claim that a team member has read the full paper.',
-      '- **Years:** the first public preprint year is used when available, independently of later conference publication.',
-      '- **Institutions:** the detailed list records paper-time participating institutions and their evidence. A shortened list of main institutions is labeled in the record.',
-      '- **Classification:** the taxonomy is a provisional editorial scheme. Work form, persistence, and openness are different dimensions. Benchmark capability tags describe task demands; they do not establish a model’s competence.',
-      (f'- **Open items:** {len(pending)} entries await identity confirmation in the Excel and catalog; they are excluded from the linked-paper count and tables.' if pending else f'- **Open items:** paper identities have source evidence; {sum(p["verification_status"]=="metadata-only" for p in papers)} affiliation records remain incomplete in the Excel.'),
-      '- **Contributions:** add missing work, improve category boundaries, correct metadata, or help read and summarize a paper. See [CONTRIBUTING.md](CONTRIBUTING.md).','',
-      'The Excel is the team editing surface. After editing it, run `python3 scripts/catalog.py --import-xlsx paper_list.xlsx` to update the catalog and this README. The command validates before writing and matches records by stable ID. Workbook values are authoritative; blank cells clear the corresponding fields. Run `python3 scripts/catalog.py --check` for a local consistency check.',''
+    lines+=['',
+      '**Curation.** Entries are reconciled against primary paper or official project sources and deduplicated across versions and aliases. Years use the first confirmed public release when available. Bibliographic verification is separate from full-paper reading; detailed evidence and limitations are recorded in the Excel. This is an evolving narrative-review collection.','',
+      f'**Open metadata:** {len(pending)} identities await confirmation and are omitted from the lists; {sum(p["verification_status"]=="metadata-only" for p in papers)} paper affiliations remain incomplete. See [Contributing](CONTRIBUTING.md) for the maintenance workflow.',''
     ]
-    return '\n'.join(lines)
+    output='\n'.join(lines)
+    if re.search(r'[\u3400-\u9fff]',output):raise ValueError('Public README must be entirely English; check titles and resource names')
+    return output
 
 NS={'m':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
 
@@ -142,6 +138,8 @@ def read_workbook(path):
             for si in ET.fromstring(z.read('xl/sharedStrings.xml')):
                 strings.append(''.join(t.text or '' for t in si.iter(f'{{{NS["m"]}}}t')))
         wb=ET.fromstring(z.read('xl/workbook.xml'))
+        props=wb.find('m:workbookPr',NS)
+        epoch=datetime.datetime(1904,1,1) if props is not None and props.get('date1904','0').lower() in ['1','true'] else datetime.datetime(1899,12,30)
         rels=ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))
         targets={r.attrib['Id']:r.attrib['Target'] for r in rels}
         result=[]
@@ -150,23 +148,28 @@ def read_workbook(path):
             rid=sheet.attrib['{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id']
             target=targets[rid]
             target=target.lstrip('/') if target.startswith('/') else 'xl/'+target
-            rows=[]
+            rows=[]; header=None
             for row in ET.fromstring(z.read(target)).findall('.//m:sheetData/m:row',NS):
                 cells={}
                 for cell in row:
+                    col=re.match(r'[A-Z]+',cell.attrib['r']).group()
+                    key=next((f['key'] for f in SCHEMA if header and header.get(col)==f['label']),None)
                     formula=cell.findtext('m:f',None,NS)
                     hyperlink=None
                     if formula is not None:
+                        if key in DERIVED_FIELDS:
+                            cells[col]='';continue
                         match=re.fullmatch(r'(?:_xlfn\.)?HYPERLINK\("((?:""|[^"])*)","((?:""|[^"])*)"\)',formula)
-                        col=re.match(r'[A-Z]+',cell.attrib['r']).group()
-                        if not match or col not in ['E','N','O','Q','R'] or match[1]!=match[2]:raise ValueError(f'Catalog cells must be literal values or identical literal URL hyperlinks: {sheet.attrib["name"]}!{cell.attrib["r"]}')
+                        if not match or FIELD_SPEC.get(key,{}).get('format')!='url' or match[1]!=match[2]:raise ValueError(f'Unsupported formula in {sheet.attrib["name"]}!{cell.attrib["r"]}; only derived classification labels and literal URL hyperlinks are supported')
                         hyperlink=match[1].replace('""','"')
                     value=cell.findtext('m:v','',NS)
                     if cell.attrib.get('t')=='s':value=strings[int(value)]
                     elif cell.attrib.get('t')=='inlineStr':value=''.join(t.text or '' for t in cell.findall('.//m:t',NS))
                     if hyperlink is not None:value=hyperlink
-                    col=re.match(r'[A-Z]+',cell.attrib['r']).group()
+                    if FIELD_SPEC.get(key,{}).get('format')=='date' and re.fullmatch(r'\d+(?:\.\d+)?',value):
+                        value=(epoch+datetime.timedelta(days=float(value))).date().isoformat()
                     cells[col]=value
+                if header is None:header=cells
                 rows.append(cells)
             result.append((sheet.attrib['name'],rows))
         return result
@@ -184,16 +187,25 @@ def import_xlsx(path,existing,taxonomy):
             ident=row.get(columns['id'],'').strip()
             p=copy.deepcopy(old.get(ident,{}))
             for field,_ in FIELDS:
+                if field in DERIVED_FIELDS:continue
                 value=row.get(columns[field],'').strip()
                 if field in LIST_FIELDS:
                     value=[v.strip() for v in value.split(';') if v.strip()]
-                    if field=='draft_refs':value=[int(x) for x in value]
+                    fmt=FIELD_SPEC[field].get('format')
+                    if fmt=='int_list':value=[int(x) for x in value]
+                    elif fmt=='node_list':value=[re.match(r'^\d+(?:\.\d+)*',x).group() if re.match(r'^\d+(?:\.\d+)*',x) else x for x in value]
+                    elif fmt=='vocab_list':
+                        vocab=vocabulary(taxonomy,FIELD_SPEC[field]['vocab'])
+                        reverse={v.get('name',v.get('zh','')):k for k,v in vocab.items()}
+                        value=[x if x in vocab else reverse.get(x,x) for x in value]
                 elif field=='year':value=int(float(value)) if value else None
+                elif field=='kind':value=';'.join(x.strip() for x in value.split(';'))
                 elif field=='checked_on' and value:
                     if re.fullmatch(r'\d+(?:\.\d+)?',value):
                         value=(datetime.datetime(1899,12,30)+datetime.timedelta(days=float(value))).date().isoformat()
                     else:value=datetime.datetime.fromisoformat(value.replace('Z','+00:00')).date().isoformat()
                 p[field]=value
+            p['survey_sections']=list(dict.fromkeys([p['primary_survey_node']]+p['secondary_survey_nodes']))
             if (sheet=='Resources') != (p['kind']=='Product/Resource'):
                 raise ValueError(f'{p["id"]}: resource rows belong in Resources; academic papers belong in Paper List')
             records.append(p)
@@ -210,10 +222,11 @@ def main():
     args=ap.parse_args(); records,taxonomy=load()
     if args.import_xlsx:records=import_xlsx(args.import_xlsx,records,taxonomy)
     stats=validate(records,taxonomy)
+    readme=render_readme(records,taxonomy) if args.import_xlsx or args.build_readme else None
     if args.import_xlsx:
         (ROOT/'data/papers.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
-    if args.import_xlsx or args.build_readme:
-        (ROOT/'README.md').write_text(render_readme(records,taxonomy))
+    if readme is not None:
+        (ROOT/'README.md').write_text(readme)
     print(json.dumps(stats,ensure_ascii=False))
     if args.check and (ROOT/'README.md').read_text()!=render_readme(records,taxonomy):raise ValueError('README differs from catalog; run --build-readme')
 
