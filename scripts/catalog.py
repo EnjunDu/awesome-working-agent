@@ -60,6 +60,14 @@ def validate(records,taxonomy):
         if p.get('survey_sections')!=expected:errors.append(f'{tag}: manuscript section fields disagree')
         if any(s.startswith('4') for s in p.get('survey_sections',[])):errors.append(f'{tag}: retired chapter 4 belongs only in legacy_survey_sections')
         if p.get('reading_priority','') not in ['', '核心','补充','候选']:errors.append(f'{tag}: invalid source reading priority')
+        if p.get('publication_status','') not in ['', 'published','accepted','preprint','unconfirmed']:errors.append(f'{tag}: invalid publication status')
+        py=p.get('publication_year')
+        if py is not None and (not isinstance(py,int) or not 1900<=py<=int(taxonomy['date'][:4])):errors.append(f'{tag}: invalid publication year')
+        if p.get('publication_status')=='published' and py is None:errors.append(f'{tag}: published record needs publication year')
+        claims=p.get('section3_claim_ids',[])
+        if not isinstance(claims,list) or any(x not in vocabulary(taxonomy,'section3_claims') for x in claims):errors.append(f'{tag}: unknown Section 3 claim')
+        if claims and not p.get('section3_evidence_url'):errors.append(f'{tag}: Section 3 claims need an evidence URL')
+        if p.get('section3_priority','') not in ['', 'A','B','F']:errors.append(f'{tag}: invalid Section 3 writing priority')
         if p.get('primary_category') not in allowed['categories']: errors.append(f'{tag}: unknown category')
         for k in p.get('kind','').split(';'):
             if k.strip() not in allowed['kinds']: errors.append(f'{tag}: unknown kind {k}')
@@ -71,7 +79,7 @@ def validate(records,taxonomy):
         if p.get('verification_status') not in taxonomy['verification_statuses']: errors.append(f'{tag}: unknown verification status')
         if p.get('reading_status') not in taxonomy['reading_statuses']: errors.append(f'{tag}: unknown reading status')
         if p.get('year') is not None and (not isinstance(p['year'],int) or not 1900<=p['year']<=int(taxonomy['date'][:4])): errors.append(f'{tag}: invalid year')
-        for field in ['url','institution_source','metadata_source','code_url','data_url']:
+        for field in ['url','institution_source','metadata_source','code_url','data_url','publication_url','section3_evidence_url']:
             u=p.get(field,'')
             if u and (not re.match(r'^https?://\S+$',u) or any(x in u for x in ['<','>','"'])): errors.append(f'{tag}: invalid {field}')
         if p.get('verification_status')!='pending' and not p.get('url'): errors.append(f'{tag}: confirmed record lacks URL')
@@ -109,6 +117,9 @@ def render_readme(records,taxonomy):
             links=[f'[Paper]({p["url"]})']
             for k,label2 in [('code_url','Code'),('data_url','Data')]:
                 if p.get(k):links.append(f'[{label2}]({p[k]})')
+            if p.get('publication_url') and p['publication_url']!=p['url'] and p.get('publication_status') in ['published','accepted']:
+                label2='Accepted' if p['publication_status']=='accepted' else 'Publication'
+                links.append(f'[{label2}]({p["publication_url"]})')
             out.append(f'| {label} | {p.get("year") or "—"} | {" · ".join(links)} |')
         return out+['']
     groups={'methods':[],'benchmarks':[],'surveys':[]}
@@ -123,6 +134,7 @@ def render_readme(records,taxonomy):
     lines+=['',
       '**Curation.** Entries are reconciled against primary paper or official project sources and deduplicated across versions and aliases. Years use the first confirmed public release when available. Bibliographic verification is separate from full-paper reading; detailed evidence and limitations are recorded in the Excel. This is an evolving narrative-review collection.','',
       '**Literature sources.** The [AI Office bibliography crosswalk](data/literature_sources/ai_office_2026.json) accounts for all 292 references in [The Evolution of AI Office](https://www.alphaxiv.org/abs/2609.evolution-ai-office-agents), including non-paper references outside this collection. The [work-form research crosswalk](data/literature_sources/work_forms_2026.json) records 11 additional candidates, primary-source matches, and classification corrections.','',
+      'The [Section 3 evidence pack](data/literature_sources/section3_2026.json) maps 76 papers to 18 writing claims and preserves 40 citation audits. The Excel separates publication status, evidence locations, and task-specific scope. A [BibTeX collection](data/literature_sources/section3_2026.bib) is also available.','',
       f'**Open metadata:** {len(pending)} identities await confirmation and are omitted from the lists; {sum(p["verification_status"]=="metadata-only" for p in papers)} paper affiliations remain incomplete. See [Contributing](CONTRIBUTING.md) for the maintenance workflow.',''
     ]
     output='\n'.join(lines)
@@ -199,7 +211,7 @@ def import_xlsx(path,existing,taxonomy):
                         vocab=vocabulary(taxonomy,FIELD_SPEC[field]['vocab'])
                         reverse={v.get('name',v.get('zh','')):k for k,v in vocab.items()}
                         value=[x if x in vocab else reverse.get(x,x) for x in value]
-                elif field=='year':value=int(float(value)) if value else None
+                elif FIELD_SPEC[field].get('format')=='year':value=int(float(value)) if value else None
                 elif field=='kind':value=';'.join(x.strip() for x in value.split(';'))
                 elif field=='checked_on' and value:
                     if re.fullmatch(r'\d+(?:\.\d+)?',value):

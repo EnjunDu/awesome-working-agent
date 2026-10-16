@@ -1,4 +1,4 @@
-# Manuscript classification v0.2
+# Manuscript classification v0.3
 
 The public awesome list uses three broad paper groups. The companion Excel carries the detailed authoring classification, following the revised manuscript outline and the 2026-10-16 literature supplement. Classification is an editorial judgment about how a source supports the survey, not an author's claim about the paper.
 
@@ -34,6 +34,16 @@ The Excel displays chapter, section, subsection, research subtype, core capabili
 Five capability tags summarize the research focus or task requirements. They do not establish that an evaluated model possesses the capability, and a benchmark's aggregate success rate is not an isolated capability measurement.
 
 The original ten work-domain categories remain as legacy metadata for continuity. They no longer determine the public README sections or the main Excel classification.
+
+## Section 3 evidence and publication metadata
+
+The Section 3 research pack links 76 papers to 18 writing claims. These claim codes are displayed in the workbook's `Taxonomy` sheet; they are evidence labels, not additional manuscript subsections. The pack's primary work form is added as a secondary writing use when a paper already has a primary authoring destination.
+
+Columns AN to AX record publication status, venue, publication year, publication URL, claim codes, evidence locations, evidence URLs, the applicable task or subset, BibTeX keys, citation audits, and source writing priorities. `published`, `accepted`, and `preprint` are distinct from affiliation verification. The existing year column retains the first confirmed public year; the publication-year column records formal publication only. Empty publication metadata means it was not covered by this source update.
+
+Source priorities A, B, and F mean main-text choice, supporting or boundary evidence, and historical foundation. They do not grade research quality. The original source's reading-depth statements remain separate from team reading assignments.
+
+Work forms depend on the delegated task and the evaluated setting. Grounding coordinates and function-call syntax do not establish a successful state change. Workflow generation or prediction does not establish business workflow execution. Given-context and full-workspace settings from the same paper can support different forms. The five forms are not assumed to be mutually exclusive or a strict capability ranking.
 
 ## Optimization mechanisms
 

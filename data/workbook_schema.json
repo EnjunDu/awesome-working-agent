@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "fields": [
     {"key":"id","label":"ID","width":14},
     {"key":"short_name","label":"简称","width":25},
@@ -39,6 +39,17 @@
     {"key":"origin","label":"收录来源","width":38,"format":"list"},
     {"key":"checked_on","label":"复核日期","width":16,"format":"date"},
     {"key":"notes","label":"核验备注","width":78},
-    {"key":"legacy_survey_sections","label":"旧章节映射","width":30,"format":"list"}
+    {"key":"legacy_survey_sections","label":"旧章节映射","width":30,"format":"list"},
+    {"key":"publication_status","label":"出版状态","width":18},
+    {"key":"publication_venue","label":"会议或期刊","width":44},
+    {"key":"publication_year","label":"正式出版年","width":14,"format":"year"},
+    {"key":"publication_url","label":"出版或预印本链接","width":55,"format":"url"},
+    {"key":"section3_claim_ids","label":"Section3对应论点","width":72,"format":"vocab_list","vocab":"section3_claims"},
+    {"key":"section3_evidence_locator","label":"Section3证据位置","width":65},
+    {"key":"section3_evidence_url","label":"Section3证据链接","width":60,"format":"url"},
+    {"key":"section3_support_scope","label":"Section3支持任务与子集","width":85},
+    {"key":"bib_keys","label":"BibTeX引用键","width":52,"format":"list"},
+    {"key":"section3_citation_audit","label":"Section3原引文审计","width":90},
+    {"key":"section3_priority","label":"Section3写作优先级","width":22}
   ]
 }
