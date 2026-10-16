@@ -1,0 +1,3515 @@
+{
+  "source_id": "AI-Office-2026-09-18-v1",
+  "title": "The Evolution of AI Office: From Passive Assistants to Goal-Driven Agents",
+  "url": "https://www.alphaxiv.org/abs/2609.evolution-ai-office-agents",
+  "pdf_url": "https://pdfs.assets.alphaxiv.org/2609.evolution-ai-office-agentsv1.pdf",
+  "retrieved_on": "2026-10-16",
+  "reference_pages": [
+    45,
+    66
+  ],
+  "policy": "All 292 bibliography references reconciled. Academic papers are deduplicated by canonical identity. Selected technical documentation and releases are resources. Other non-paper references are retained here without increasing paper counts. Existing reading assignments are preserved.",
+  "counts": {
+    "added-paper": 100,
+    "source-only-resource": 98,
+    "added-resource": 35,
+    "existing": 54,
+    "resource-alias": 5
+  },
+  "items": [
+    {
+      "ref_id": "AIO-001",
+      "pages": [
+        45
+      ],
+      "raw": "Chris Adams, Arjun Singh Banga, Parveen Bansal, Souvik Bhattacharya, Rujin Cao, Pedro Canahuati, Nate Cook, Brian Ellis, Prabhakar Goyal, Gurinder Grewal, Tianyu He, Matt Labunka, Alex Manners, David Molnar, Ging Cee Ng, Vishal Parekh, Jiefu Pei, Frederic Sagnes, James Saindon, Will Shackleton, Sid Sidhu, Gursharan Singh, Karthik Chengayan Sridhar, Matt Steiner, Pratibha Udmalpet, Sean Xia, Stacey Yan, Audris Mockus, Peter Rigby, and Nachiappan Nagappan. Automating low-risk code review at Meta: RADAR, risk calibration, and review efficiency.arXiv preprint arXiv:2605.30208, 2026. URL https: //arxiv.org/abs/2605.30208.",
+      "links": [
+        "https://arxiv.org/abs/2605.30208"
+      ],
+      "catalog_id": "WA-0356",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-002",
+      "pages": [
+        45
+      ],
+      "raw": "Adobe. Adobe Firefly: Generative AI creative studio.https://firefly.adobe.com/, 2023. Generative AI for image, video, and audio creation, integrated with Photoshop and Creative Cloud.",
+      "links": [
+        "https://firefly.adobe.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-003",
+      "pages": [
+        45
+      ],
+      "raw": "Adobe. Adobe Acrobat AI Assistant.https://www.adobe.com/acrobat/generative-ai-pdf.html, 2024.",
+      "links": [
+        "https://www.adobe.com/acrobat/generative-ai-pdf.html"
+      ],
+      "catalog_id": "WA-0467",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-004",
+      "pages": [
+        45
+      ],
+      "raw": "Saaket Agashe, Jiuzhou Han, Shuyu Gan, Jiachen Yang, Ang Li, and Xin Eric Wang. Agent s: An open agentic framework that uses computers like a human. InThe Thirteenth International Conference on Learning Representations (ICLR), 2024.",
+      "links": [],
+      "catalog_id": "WA-0357",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-005",
+      "pages": [
+        45
+      ],
+      "raw": "Airtable. Airtable Omni: AI-native app builder and assistant.https://www.airtable.com/newsroom/ introducing-the-ai-native-airtable, 2025. Conversational AI that builds apps, edits data, and runs operations inside Airtable bases.",
+      "links": [
+        "https://www.airtable.com/newsroom/introducing-the-ai-native-airtable"
+      ],
+      "catalog_id": "WA-0468",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-006",
+      "pages": [
+        45
+      ],
+      "raw": "Alibaba Cloud. Tongyi Wanxiang: AI image and video generation.https://tongyi.aliyun.com/wan/, 2023a. Alibaba Cloud’s multimodal generative model for text/image-to-image and video creation.",
+      "links": [
+        "https://tongyi.aliyun.com/wan/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-007",
+      "pages": [
+        45
+      ],
+      "raw": "Alibaba Cloud. Tongyi Tingwu: AI work and study assistant.https://tingwu.aliyun.com/, 2023b. AI audio/video assistant for transcription, speaker separation, summarization, and translation.",
+      "links": [
+        "https://tingwu.aliyun.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-008",
+      "pages": [
+        45
+      ],
+      "raw": "Alibaba Group. Quark: AI super assistant application. https://www.quark.cn , 2025. Alibaba’s AI super-app integrating search, deep research, writing, and task execution on the Tongyi model.",
+      "links": [
+        "https://www.quark.cn"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-009",
+      "pages": [
+        45
+      ],
+      "raw": "Alibaba Group. Qwen App and Quark: Consumer AI assistants.https://qwen.ai/; https://www.quar k.cn/, 2026a. Official Qwen and Quark websites; Alibaba Group’s 2026 announcement describes Qwen App’s agentic capabilities.",
+      "links": [
+        "https://qwen.ai/",
+        "https://www.quark.cn/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-010",
+      "pages": [
+        45
+      ],
+      "raw": "Alibaba Group. Wukong: An AI-native agentic platform for enterprises.https://www.alibabagroup.c om/en-US/document-1971078136456019968, 2026b. Multi-agent office automation with enterprise sandboxes, role-based access control, and a modular skill registry.",
+      "links": [
+        "https://www.alibabagroup.com/en-US/document-1971078136456019968"
+      ],
+      "catalog_id": "WA-0469",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-011",
+      "pages": [
+        45
+      ],
+      "raw": "Karthik Ragunath Ananda Kumar and Subrahmanyam Arunachalam. Learning to present: Inverse specification rewards for agentic slide generation.arXiv preprint arXiv:2603.16839, 2026.",
+      "links": [],
+      "catalog_id": "WA-0108",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-012",
+      "pages": [
+        45
+      ],
+      "raw": "Anthropic. Introducing computer use, a new claude 3.5 sonnet, and claude 3.5 haiku, October 2024a. URL https://www.anthropic.com/news/3-5-models-and-computer-use/ . Published: 2024-10-22.",
+      "links": [
+        "https://www.anthropic.com/news/3-5-models-and-computer-use/"
+      ],
+      "catalog_id": "WA-0470",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-013",
+      "pages": [
+        45
+      ],
+      "raw": "Anthropic. Introducing the model context protocol, November 2024b. URLhttps://www.anthropic.co m/news/model-context-protocol. Published: 2024-11-25.",
+      "links": [
+        "https://www.anthropic.com/news/model-context-protocol"
+      ],
+      "catalog_id": "WA-0471",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-014",
+      "pages": [
+        45
+      ],
+      "raw": "Anthropic. Introducing Claude 4. https://www.anthropic.com/news/claude-4 , May 2025a. Published: 2025-05-22.",
+      "links": [
+        "https://www.anthropic.com/news/claude-4"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-015",
+      "pages": [
+        45
+      ],
+      "raw": "Anthropic. Claude Code: An agentic command-line tool.https://www.anthropic.com/claude-code, 2025b. Anthropic product page.",
+      "links": [
+        "https://www.anthropic.com/claude-code"
+      ],
+      "catalog_id": "WA-0171",
+      "disposition": "resource-alias",
+      "reason": "Same product or implementation; preserve the source URL here without a duplicate catalog row."
+    },
+    {
+      "ref_id": "AIO-016",
+      "pages": [
+        45
+      ],
+      "raw": "Anthropic. Claude Code on desktop: Desktop application.https://code.claude.com/docs/en/desk top, 2025c. Official Claude Code documentation for the Claude Desktop Code tab.",
+      "links": [
+        "https://code.claude.com/docs/en/desktop"
+      ],
+      "catalog_id": "WA-0171",
+      "disposition": "resource-alias",
+      "reason": "Same product or implementation; preserve the source URL here without a duplicate catalog row."
+    },
+    {
+      "ref_id": "AIO-017",
+      "pages": [
+        45
+      ],
+      "raw": "Anthropic. Equipping agents for the real world with Agent Skills.https://www.anthropic.com/engi neering/equipping-agents-for-the-real-world-with-agent-skills , 2025d. Anthropic engineering blog.",
+      "links": [
+        "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
+      ],
+      "catalog_id": "WA-0472",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-018",
+      "pages": [
+        46
+      ],
+      "raw": "Anthropic. Agent Skills: Public skill library for Claude.https://github.com/anthropics/skills , 2025e. Open- and source-available skill folders, including the DOCX, PPTX, XLSX, and PDF document skills that power Claude’s document capabilities.",
+      "links": [
+        "https://github.com/anthropics/skills"
+      ],
+      "catalog_id": "WA-0472",
+      "disposition": "resource-alias",
+      "reason": "Same product or implementation; preserve the source URL here without a duplicate catalog row."
+    },
+    {
+      "ref_id": "AIO-019",
+      "pages": [
+        46
+      ],
+      "raw": "Anthropic. Claude Cowork: Agentic AI for knowledge work.https://www.anthropic.com/product/ claude-cowork, 2026a. Desktop agent that reads, edits, and creates files in user-specified folders; general availability 2026.",
+      "links": [
+        "https://www.anthropic.com/product/claude-cowork"
+      ],
+      "catalog_id": "WA-0473",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-020",
+      "pages": [
+        46
+      ],
+      "raw": "Anthropic. Dynamic workflows: Orchestrate subagents at scale.https://code.claude.com/docs/en/ workflows, 2026b. Claude Code documentation, v2.1.154+.",
+      "links": [
+        "https://code.claude.com/docs/en/workflows"
+      ],
+      "catalog_id": "WA-0474",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-021",
+      "pages": [
+        46
+      ],
+      "raw": "Anthropic. What 81,000 people want from AI, March 2026c. URLhttps://www.anthropic.com/feat ures/81k-interviews. Survey of 80,508 respondents across 159 countries and 70 languages.",
+      "links": [
+        "https://www.anthropic.com/features/81k-interviews"
+      ],
+      "catalog_id": "WA-0475",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-022",
+      "pages": [
+        46
+      ],
+      "raw": "Anthropic. Introducing Claude Design by Anthropic Labs.https://www.anthropic.com/news/claud e-design-anthropic-labs, 2026d. AI tool that generates and refines designs, prototypes, slides, and one-pagers.",
+      "links": [
+        "https://www.anthropic.com/news/claude-design-anthropic-labs"
+      ],
+      "catalog_id": "WA-0476",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-023",
+      "pages": [
+        46
+      ],
+      "raw": "Autodesk. Forma Site Design: Autodesk AI-powered cloud software for data-driven planning. https: //www.autodesk.com/products/forma/overview , 2023. Official Autodesk product page for AI-powered cloud software used in early-stage architecture and planning.",
+      "links": [
+        "https://www.autodesk.com/products/forma/overview"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-024",
+      "pages": [
+        46
+      ],
+      "raw": "Autodesk. Autodesk Fusion: AI and automation for CAD/CAM.https://www.autodesk.com/produ cts/fusion-360/ai-automation , 2024. AI features in Fusion including the Autodesk Assistant, AutoConstrain, automated drawings, and generative design.",
+      "links": [
+        "https://www.autodesk.com/products/fusion-360/ai-automation"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-025",
+      "pages": [
+        46
+      ],
+      "raw": "Rahul Suresh Babu and Adarsh Agrawal. Self-healing agentic orchestrators for reliable tool-augmented large language model systems.arXiv preprint arXiv:2606.01416, 2026.",
+      "links": [],
+      "catalog_id": "WA-0358",
+      "disposition": "added-paper",
+      "editorial_note": "首页第一作者注明独立研究者，第二作者仅列IEEE身份，不能据邮箱推断其机构；单位信息不完整。"
+    },
+    {
+      "ref_id": "AIO-026",
+      "pages": [
+        46
+      ],
+      "raw": "Hao Bai, Yifei Zhou, Jiayi Pan, Mert Cemri, Alane Suhr, Sergey Levine, and Aviral Kumar. Digirl: Training in-the-wild device-control agents with autonomous reinforcement learning.NeurIPS, 2024a.",
+      "links": [],
+      "catalog_id": "WA-0243",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-027",
+      "pages": [
+        46
+      ],
+      "raw": "Shuai Bai, Keqin Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, Sibo Song, Kai Dang, Peng Wang, Shijie Wang, Jun Tang, Humen Zhong, Yuanzhi Zhu, Ming-Hsuan Yang, Zhaohai Li, Jianqiang Wan, Pengfei Wang, Wei Ding, Zheren Fu, Yiheng Xu, Jiabo Ye, Xi Zhang, Tianbao Xie, Zesen Cheng, Hang Zhang, Zhibo Yang, Haiyang Xu, and Junyang Lin. Qwen2.5-vl technical report.arXiv (Cornell University), 2025.",
+      "links": [],
+      "catalog_id": "WA-0359",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-028",
+      "pages": [
+        46
+      ],
+      "raw": "Yushi Bai, Xin Lv, Jiajie Zhang, Hongchang Lyu, Jiankai Tang, Zhidian Huang, Zhengxiao Du, Xiao Liu, Aohan Zeng, Lei Hou, Yuxiao Dong, Jie Tang, and Juanzi Li. LongBench: A bilingual, multitask benchmark for long context understanding. InProceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Bangkok, Thailand, 2024b. Association for Computational Linguistics. doi: 10.18653/v1/2024.acl-long.172. URLhttps://aclanthology.org/2024.acl-long.172/.",
+      "links": [
+        "https://aclanthology.org/2024.acl-long.172/"
+      ],
+      "catalog_id": "WA-0360",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-029",
+      "pages": [
+        46
+      ],
+      "raw": "Baidu. Baidu Wenku: One-stop AI content creation platform. https://wenku.baidu.com/ , 2023. AI-powered document platform that generates slides, mind maps, and reports alongside its document repository.",
+      "links": [
+        "https://wenku.baidu.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-030",
+      "pages": [
+        46
+      ],
+      "raw": "Lisanne Bainbridge. Ironies of automation.Automatica, 19(6):775–779, 1983. doi: 10.1016/0005-1098(83)9 0046-8. URLhttps://doi.org/10.1016/0005-1098(83)90046-8.",
+      "links": [
+        "https://doi.org/10.1016/0005-1098(83)90046-8"
+      ],
+      "catalog_id": "WA-0361",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-031",
+      "pages": [
+        46
+      ],
+      "raw": "Beautiful.ai. Beautiful.ai — presentation software with AI.https://www.beautiful.ai/, 2023.",
+      "links": [
+        "https://www.beautiful.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-032",
+      "pages": [
+        46,
+        47
+      ],
+      "raw": "Rishi Bommasani, Drew A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael S. Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, Erik Brynjolfsson, Shyamal Buch, Dallas Card, Rodrigo Castellon, Niladri Chatterji, Annie Chen, Kathleen Creel, Jared Quincy Davis, Dora Demszky, Chris Donahue, Moussa Doumbouya, Esin Durmus, Stefano Ermon, John Etchemendy, Kawin Ethayarajh, Li Fei-Fei, Chelsea Finn, Trevor Gale, Lauren Gillespie, Karan Goel, Noah Goodman, Shelby Grossman, Neel Guha, Tatsunori Hashimoto, Peter Henderson, John Hewitt, Daniel E. Ho, Jenny Hong, Kyle Hsu, Jing Huang, Thomas Icard, Saahil Jain, Dan Jurafsky, Pratyusha Kalluri, Siddharth Karamcheti, Geoff Keeling, Fereshte Khani, Omar Khattab, Pang Wei Koh, Mark Krass, Ranjay Krishna, Rohith Kuditipudi, Ananya Kumar, Faisal Ladhak, Mina Lee, Tony Lee, Jure Leskovec, Isabelle Levent, Xiang Lisa Li, Xuechen Li, Tengyu Ma, Ali Malik, Christopher D. Manning, Suvir Mirchandani, Eric Mitchell, Zanele Munyikwa, Suraj Nair, Avanika Narayan, Deepak Narayanan, Ben Newman, Allen Nie, Juan Carlos Niebles, Hamed Nilforoshan, Julian Nyarko, Giray Ogut, Laurel Orr, Isabel Papadimitriou, Joon Sung Park, Chris Piech, Eva Portelance, Christopher Potts, Aditi Raghunathan, Rob Reich, Hongyu Ren, Frieda Rong, Yusuf Roohani, Camilo Ruiz, Jack Ryan, Christopher Ré, Dorsa Sadigh, Shiori Sagawa, Keshav Santhanam, Andy Shih, Krishnan Srinivasan, Alex Tamkin, Rohan Taori, Armin W. Thomas, Florian Tramèr, Rose E. Wang, William Wang, Bohan Wu, Jiajun Wu, Yuhuai Wu, Sang Michael Xie, Michihiro Yasunaga, Jiaxuan You, Matei Zaharia, Michael Zhang, Tianyi Zhang, Xikun Zhang, Yuhui Zhang, Lucia Zheng, Kaitlyn Zhou, and Percy Liang. On the opportunities and risks of foundation models.arXiv (Cornell University), 2022.",
+      "links": [],
+      "catalog_id": "WA-0362",
+      "disposition": "added-paper",
+      "editorial_note": "综述书目写2022；本记录按arXiv首次公开的2021年。"
+    },
+    {
+      "ref_id": "AIO-033",
+      "pages": [
+        47
+      ],
+      "raw": "Rogerio Bonatti, Dan Zhao, Francesco Bonacci, Dillon Dupont, Sara Abdali, Yinheng Li, Yadong Lu, Justin Wagle, Kazuhito Koishida, Arthur Bucker, Lawrence Jang, and Zack Hui. WindowsAgentArena: Evaluating multi-modal OS agents at scale.arXiv preprint arXiv:2409.08264, 2024. URLhttps://arxiv.org/abs/ 2409.08264.",
+      "links": [
+        "https://arxiv.org/abs/2409.08264"
+      ],
+      "catalog_id": "WA-0067",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-034",
+      "pages": [
+        47
+      ],
+      "raw": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Nee- lakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Win- ter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Language mod- els are few-shot learners.Advances in Neural Information Processing Systems 33 (NeurIPS), 2020. URL https://arxiv.org/abs/2005.14165.",
+      "links": [
+        "https://arxiv.org/abs/2005.14165"
+      ],
+      "catalog_id": "WA-0363",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-035",
+      "pages": [
+        47
+      ],
+      "raw": "Erik Brynjolfsson. The productivity paradox of information technology.Communications of the ACM, 36(12): 66–77, 1993. URLhttps://doi.org/10.1145/163298.163309.",
+      "links": [
+        "https://doi.org/10.1145/163298.163309"
+      ],
+      "catalog_id": "WA-0364",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-036",
+      "pages": [
+        47
+      ],
+      "raw": "Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, Harsha Nori, Hamid Palangi, Marco Tulio Ribeiro, and Yi Zhang. Sparks of artificial general intelligence: Early experiments with GPT-4.arXiv preprint arXiv:2303.12712, 2023. URLhttps://arxiv.org/abs/2303.12712.",
+      "links": [
+        "https://arxiv.org/abs/2303.12712"
+      ],
+      "catalog_id": "WA-0365",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-037",
+      "pages": [
+        47
+      ],
+      "raw": "J Bughin, M Chui, and J Manyika. Capturing business value with social technologies. Technical report, McKinsey & Company, 2012. URLhttps://www.mckinsey.com/industries/technology-media-and-t elecommunications/our-insights/capturing-business-value-with-social-technol ogies.",
+      "links": [
+        "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/capturing-business-value-with-social-technologies"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-038",
+      "pages": [
+        47
+      ],
+      "raw": "ByteDance. Doubao: ByteDance’s AI assistant.https://www.doubao.com/, 2023. Multimodal AI assistant for chat, writing, image generation, voice interaction, and document analysis.",
+      "links": [
+        "https://www.doubao.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-039",
+      "pages": [
+        47
+      ],
+      "raw": "ByteDance. CapCut: AI video editor.https://www.capcut.com/, 2024a. AI-powered video editor offering auto-captions, script-to-video, text-to-speech, and AI generation.",
+      "links": [
+        "https://www.capcut.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-040",
+      "pages": [
+        47
+      ],
+      "raw": "ByteDance. Jimeng AI: AI image and video creation.https://jimeng.jianying.com/, 2024b. ByteDance Jianying/CapCut team’s one-stop AI platform for text-to-image and image-to-video generation.",
+      "links": [
+        "https://jimeng.jianying.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-041",
+      "pages": [
+        47
+      ],
+      "raw": "Canva. Magic Design: AI-powered design generation.https://www.canva.com/magic-design/, 2025.",
+      "links": [
+        "https://www.canva.com/magic-design/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-042",
+      "pages": [
+        47
+      ],
+      "raw": "Dongping Chen, Ruoxi Chen, Shilin Zhang, Yinuo Liu, Yaochen Wang, Huichi Zhou, Qihui Zhang, Yao Wan, Pan Zhou, and Lichao Sun. MLLM-as-a-judge: Assessing multimodal LLM-as-a-judge with vision-language benchmark. InProceedings of the 41st International Conference on Machine Learning, 2024. doi: 10.48550/a rXiv.2402.04788. URLhttps://arxiv.org/abs/2402.04788.",
+      "links": [
+        "https://arxiv.org/abs/2402.04788"
+      ],
+      "catalog_id": "WA-0366",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-043",
+      "pages": [
+        47,
+        48
+      ],
+      "raw": "Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, and Wojciech Zaremba. Evaluating large language models trained on code.arXiv preprint arXiv:2107.03374, 2021a. doi: 10.48550/arXiv.2107.03374. URL https://arxiv.org/abs/2107.03374.",
+      "links": [
+        "https://arxiv.org/abs/2107.03374"
+      ],
+      "catalog_id": "WA-0367",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-044",
+      "pages": [
+        48
+      ],
+      "raw": "Minghao Chen, Xinyi Hu, Zhou Yu, and Yufei Yin. Autorpa: Efficient gui automation through llm-driven code synthesis from interactions.arXiv preprint arXiv:2605.21082, 2026.",
+      "links": [],
+      "catalog_id": "WA-0368",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-045",
+      "pages": [
+        48
+      ],
+      "raw": "Wenhu Chen, Xueguang Ma, Xinyi Wang, and William W Cohen. Program of thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks.arXiv preprint arXiv:2211.12588, 2022.",
+      "links": [],
+      "catalog_id": "WA-0369",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-046",
+      "pages": [
+        48
+      ],
+      "raw": "Xinyun Chen, Petros Maniatis, Rishabh Singh, Charles Sutton, Hanjun Dai, Max Lin, and Denny Zhou. Spread- sheetCoder: Formula prediction from semi-structured context. InProceedings of the 38th International Conference on Machine Learning (ICML), volume 139 ofProceedings of Machine Learning Research, pp. 1661– 1672, 2021b. URLhttps://proceedings.mlr.press/v139/chen21m.html.",
+      "links": [
+        "https://proceedings.mlr.press/v139/chen21m.html"
+      ],
+      "catalog_id": "WA-0370",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-047",
+      "pages": [
+        48
+      ],
+      "raw": "Yibin Chen, Yifu Yuan, Zeyu Zhang, Yan Zheng, Jinyi Liu, Fei Ni, Jianye Hao, Hangyu Mao, and Fuzheng Zhang. SheetAgent: Towards a generalist agent for spreadsheet reasoning and manipulation via large language models. InProceedings of the ACM Web Conference 2025 (WWW ’25). ACM, 2025. doi: 10.1145/3696410.37 14962. URLhttps://doi.org/10.1145/3696410.3714962.",
+      "links": [
+        "https://doi.org/10.1145/3696410.3714962"
+      ],
+      "catalog_id": "WA-0033",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-048",
+      "pages": [
+        48
+      ],
+      "raw": "Kanzhi Cheng, Qiushi Sun, Yougang Chu, Fangzhi Xu, Yantao Li, Jianbing Zhang, and Zhiyong Wu. SeeClick: Harnessing GUI grounding for advanced visual GUI agents. InProceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 9313–9332, Bangkok, Thailand, 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.acl-long.505. URL https: //aclanthology.org/2024.acl-long.505/.",
+      "links": [
+        "https://aclanthology.org/2024.acl-long.505/"
+      ],
+      "catalog_id": "WA-0048",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-049",
+      "pages": [
+        48
+      ],
+      "raw": "Zhoujun Cheng, Tianbao Xie, Peng Shi, Chengzu Li, Rahul Nadkarni, Yushi Hu, Caiming Xiong, Dragomir R. Radev, M. Ostendorf, Luke S. Zettlemoyer, N. A. Smith, and Tao Yu. Binding language models in symbolic languages. InThe Eleventh International Conference on Learning Representations (ICLR), 2022.",
+      "links": [],
+      "catalog_id": "WA-0371",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-050",
+      "pages": [
+        48
+      ],
+      "raw": "Banghao Chi, Yining Xie, Mingyuan Wu, Jingcheng Yang, Jize Jiang, Zhaoheng Li, Shengyi Qian, Minjia Zhang, Klara Nahrstedt, Rui Hou, Xiangjun Fan, and Hanchao Yu. Spreadsheet-rl: Advancing large language model agents on realistic spreadsheet tasks via reinforcement learning.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0105",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-051",
+      "pages": [
+        48
+      ],
+      "raw": "P. Christiano, Jan Leike, Tom B. Brown, Miljan Martic, S. Legg, and Dario Amodei. Deep reinforcement learning from human preferences. InAdvances in Neural Information Processing Systems (NeurIPS), 2017.",
+      "links": [],
+      "catalog_id": "WA-0372",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-052",
+      "pages": [
+        48
+      ],
+      "raw": "Cleo AI. Cleo: AI personal finance assistant.https://web.meetcleo.com/ , 2023. Conversational AI assistant for budgeting, spending tracking, savings automation, and bill negotiation.",
+      "links": [
+        "https://web.meetcleo.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-053",
+      "pages": [
+        48
+      ],
+      "raw": "Cognition. Introducing Devin, the first AI software engineer.https://cognition.com/blog/introdu cing-devin, 2024. Autonomous software-engineering agent that plans, writes, tests, and ships code.",
+      "links": [
+        "https://cognition.com/blog/introducing-devin"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-054",
+      "pages": [
+        48
+      ],
+      "raw": "Cursor. Cursor: The AI code editor.https://cursor.com/, 2025. Anysphere product page.",
+      "links": [
+        "https://cursor.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-055",
+      "pages": [
+        48
+      ],
+      "raw": "Dassault Systèmes. SOLIDWORKS 2026: AI-powered 3d design.https://www.3ds.com/newsroom/m edia-alerts/dassault-systemes-announces-solidworks-2026-ai-powered-design-a nd-collaboration-generative-economy, 2026. AI-powered SOLIDWORKS release with generative drawing automation and the LEO virtual design assistant.",
+      "links": [
+        "https://www.3ds.com/newsroom/media-alerts/dassault-systemes-announces-solidworks-2026-ai-powered-design-and-collaboration-generative-economy"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-056",
+      "pages": [
+        48
+      ],
+      "raw": "DataCamp. DataLab: AI-powered data notebook. https://www.datacamp.com/datalab , 2024. AI-enabled cloud data notebook for chatting with data and running Python/R/SQL analysis.",
+      "links": [
+        "https://www.datacamp.com/datalab"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-057",
+      "pages": [
+        48
+      ],
+      "raw": "DeepSeek-AI. DeepSeek-R1: Incentivizing reasoning capability in LLMs via reinforcement learning.arXiv preprint arXiv:2501.12948, 2025.",
+      "links": [],
+      "catalog_id": "WA-0373",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-058",
+      "pages": [
+        48
+      ],
+      "raw": "Xiang Deng, Yu Gu, Boyuan Zheng, Shijie Chen, Sam Stevens, Boshi Wang, Huan Sun, and Yu Su. Mind2web: Towards a generalist agent for the web.Advances in Neural Information Processing Systems, 36:28091–28114, 2023.",
+      "links": [],
+      "catalog_id": "WA-0268",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-059",
+      "pages": [
+        48
+      ],
+      "raw": "Descript. Descript: AI video and podcast editor.https://www.descript.com/, 2024. Edits video and audio by editing text, with AI transcription, filler-word removal, and an AI assistant.",
+      "links": [
+        "https://www.descript.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-060",
+      "pages": [
+        49
+      ],
+      "raw": "Yihao Ding, Siwen Luo, Yue Dai, Yanbei Jiang, Zechuan Li, Qiang Sun, Geoffrey Martin, Wei Liu, and Yifan Peng. A survey on mllm-based visually rich document understanding: Methods, challenges, and emerging trends, 2026. URLhttps://arxiv.org/abs/2507.09861.",
+      "links": [
+        "https://arxiv.org/abs/2507.09861"
+      ],
+      "catalog_id": "WA-0374",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-061",
+      "pages": [
+        49
+      ],
+      "raw": "Haoyu Dong, Jianbo Zhao, Yuzhang Tian, Junyu Xiong, Mengyu Zhou, Yun Lin, José Cambronero, Yeye He, Shi Han, and Dongmei Zhang. Encoding spreadsheets for large language models. InProceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 20728–20748, Miami, Florida, USA, 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.emnlp-main.1154. URL https://aclanthology.org/2024.emnlp-main.1154/.",
+      "links": [
+        "https://aclanthology.org/2024.emnlp-main.1154/"
+      ],
+      "catalog_id": "WA-0375",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-062",
+      "pages": [
+        49
+      ],
+      "raw": "Haoyu Dong, Pengkun Zhang, Yan Gao, Xuanyu Dong, Yilin Cheng, Mingzhe Lu, Adina Yakefu, and Shuxin Zheng. Finch: Benchmarking finance & accounting across spreadsheet-centric enterprise workflows. In Findings of the Association for Computational Linguistics: ACL 2026, pp. 10768–10794, 2026.",
+      "links": [],
+      "catalog_id": "WA-0252",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-063",
+      "pages": [
+        49
+      ],
+      "raw": "AlexandreDrouin,MaximeGasse,MassimoCaccia,IssamH.Laradji,ManuelDelVerme,TomMarty,LéoBoisvert, Megh Thakkar, Quentin Cappart, David Vazquez, Nicolas Chapados, and Alexandre Lacoste. WorkArena: How capable are web agents at solving common knowledge work tasks? InProceedings of the 41st International Conference on Machine Learning (ICML), volume 235 ofProceedings of Machine Learning Research, pp. 11642– 11662, 2024. URLhttps://proceedings.mlr.press/v235/drouin24a.html.",
+      "links": [
+        "https://proceedings.mlr.press/v235/drouin24a.html"
+      ],
+      "catalog_id": "WA-0007",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-064",
+      "pages": [
+        49
+      ],
+      "raw": "ElevenLabs. ElevenLabs: AI voice generator and voice agents platform.https://elevenlabs.io/, 2023. AI text-to-speech, voice cloning, and conversational voice agents across many languages.",
+      "links": [
+        "https://elevenlabs.io/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-065",
+      "pages": [
+        49
+      ],
+      "raw": "Tyna Eloundou, Sam Manning, Pamela Mishkin, and Daniel Rock. GPTs are GPTs: An early look at the labor market impact potential of large language models.arXiv preprint arXiv:2303.10130, 2023. doi: 10.48550/arXiv.2303.10130. URLhttps://arxiv.org/abs/2303.10130.",
+      "links": [
+        "https://arxiv.org/abs/2303.10130"
+      ],
+      "catalog_id": "WA-0376",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-066",
+      "pages": [
+        49
+      ],
+      "raw": "Weixi Feng, Wanrong Zhu, Tsu-Jui Fu, Varun Jampani, Arjun R. Akula, Xuehai He, Sugato Basu, Xin Eric Wang, and William Yang Wang. Layoutgpt: Compositional visual planning and generation with large language models. InAdvances in Neural Information Processing Systems (NeurIPS), 2023.",
+      "links": [],
+      "catalog_id": "WA-0377",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-067",
+      "pages": [
+        49
+      ],
+      "raw": "Figma. Figma Make: Prompt-to-app and prototype generation.https://www.figma.com/blog/fig ma-make-general-availability/ , 2025. AI tool that turns prompts and designs into interactive, high-fidelity prototypes and apps.",
+      "links": [
+        "https://www.figma.com/blog/figma-make-general-availability/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-068",
+      "pages": [
+        49
+      ],
+      "raw": "FinchatAI. FinchatAI: Chatgpt for personal finance.https://www.finchatai.com/ , 2023. Personal- finance assistant.",
+      "links": [
+        "https://www.finchatai.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-069",
+      "pages": [
+        49
+      ],
+      "raw": "Fireflies.ai. Fireflies.ai: AI meeting notetaker.https://fireflies.ai/, 2023. Auto-joins calls to record, transcribe, and summarize meetings across major conferencing platforms.",
+      "links": [
+        "https://fireflies.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-070",
+      "pages": [
+        49
+      ],
+      "raw": "Fiscal.ai. Fiscal.ai: AI-powered financial data platform.https://fiscal.ai/, 2025. Conversational AI and APIs for institutional-grade financial data and investment research; formerly FinChat.",
+      "links": [
+        "https://fiscal.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-071",
+      "pages": [
+        49
+      ],
+      "raw": "Flourish. Flourish: Interactive data visualization.https://flourish.studio/ , 2022. Browser-based platform (acquired by Canva) for interactive charts, maps, and data storytelling.",
+      "links": [
+        "https://flourish.studio/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-072",
+      "pages": [
+        49
+      ],
+      "raw": "Framer. Framer AI: AI website builder.https://www.framer.com/ai/ , 2023. Generates responsive websites from prompts with AI agents for refinement.",
+      "links": [
+        "https://www.framer.com/ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-073",
+      "pages": [
+        49
+      ],
+      "raw": "Tsu-Jui Fu, William Yang Wang, Daniel McDuff, and Yale Song. DOC2PPT: Automatic presentation slides generationfromscientificdocuments. InProceedingsoftheAAAIConferenceonArtificialIntelligence, volume36, pp. 634–642, 2022. doi: 10.1609/aaai.v36i1.19943. URLhttps://ojs.aaai.org/index.php/AAA I/article/view/19943.",
+      "links": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/19943"
+      ],
+      "catalog_id": "WA-0378",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-074",
+      "pages": [
+        49
+      ],
+      "raw": "Gamma. Gamma — a new medium for presenting ideas, powered by AI.https://gamma.app/, 2023.",
+      "links": [
+        "https://gamma.app/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-075",
+      "pages": [
+        49
+      ],
+      "raw": "Gamma. Gamma: AI-powered presentations.https://gamma.app/, 2025.",
+      "links": [
+        "https://gamma.app/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-076",
+      "pages": [
+        49
+      ],
+      "raw": "Luyu Gao, Aman Madaan, Shuyan Zhou, Uri Alon, Pengfei Liu, Yiming Yang, Jamie Callan, and Graham Neubig. PAL: Program-aided language models. InProceedings of the 40th International Conference on Machine Learning, 2023. URLhttps://proceedings.mlr.press/v202/gao23f.html.",
+      "links": [
+        "https://proceedings.mlr.press/v202/gao23f.html"
+      ],
+      "catalog_id": "WA-0379",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-077",
+      "pages": [
+        50
+      ],
+      "raw": "Jiaxin Ge, Zora Zhiruo Wang, Xuhui Zhou, Yi-Hao Peng, Sanjay Subramanian, Qinyue Tan, Maarten Sap, Alane Suhr, Daniel Fried, Graham Neubig, et al. Autopresent: Designing structured visuals from scratch. In Proceedings of the Computer Vision and Pattern Recognition Conference, pp. 2902–2911, 2025.",
+      "links": [],
+      "catalog_id": "WA-0230",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-078",
+      "pages": [
+        50
+      ],
+      "raw": "Genspark. Genspark: All-in-one AI workspace and super agent.https://www.genspark.ai/, 2025. AI super agent that turns prompts into actions using a mixture-of-agents system for research, slides, and content.",
+      "links": [
+        "https://www.genspark.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-079",
+      "pages": [
+        50
+      ],
+      "raw": "Google. Supercharge productivity and creativity with Duet AI in Google Workspace.https://workspac e.google.com/blog/product-announcements/duet-ai-in-workspace-now-available , 2023a. Duet AI for Google Workspace was rebranded to Gemini for Google Workspace on February 8, 2024 (Sundar Pichai blog), with the Gemini Enterprise/Business add-on rolled out February 21, 2024.",
+      "links": [
+        "https://workspace.google.com/blog/product-announcements/duet-ai-in-workspace-now-available"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-080",
+      "pages": [
+        50
+      ],
+      "raw": "Google. NotebookLM: AI-powered research and note-taking tool.https://notebooklm.google.com/, 2023b. AI notebook grounded in user-uploaded sources that summarizes, answers questions, and generates audio overviews.",
+      "links": [
+        "https://notebooklm.google.com/"
+      ],
+      "catalog_id": "WA-0477",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-081",
+      "pages": [
+        50
+      ],
+      "raw": "Google. Google Workspace: Help me write in Docs.https://workspace.google.com/solutions/ai/, 2025.",
+      "links": [
+        "https://workspace.google.com/solutions/ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-082",
+      "pages": [
+        50
+      ],
+      "raw": "Google DeepMind. Gemini 2.5: Our most intelligent AI model, March 2025. URLhttps://blog.googl e/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinkin g-updates-march-2025/. Published: 2025-03-25; updated: 2025-03-26.",
+      "links": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-083",
+      "pages": [
+        50
+      ],
+      "raw": "Google Developers Blog. Announcing the agent2agent protocol (a2a), April 2025. URLhttps://deve lopers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/ . Published: 2025-04-09.",
+      "links": [
+        "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/"
+      ],
+      "catalog_id": "WA-0478",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-084",
+      "pages": [
+        50
+      ],
+      "raw": "Google Workspace. New ai capabilities in workspace to help every business drive results, April 2025a. URL https://workspace.google.com/blog/product-announcements/new-ai-drives-busin ess-results. Published: 2025-04-10.",
+      "links": [
+        "https://workspace.google.com/blog/product-announcements/new-ai-drives-business-results"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-085",
+      "pages": [
+        50
+      ],
+      "raw": "Google Workspace. Introducing google workspace studio: Automate everyday work with ai agents, December 2025b. URL https://workspace.google.com/blog/product-announcements/introducing -google-workspace-studio-agents-for-everyday-work. Published: 2025-12-04.",
+      "links": [
+        "https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work"
+      ],
+      "catalog_id": "WA-0479",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-086",
+      "pages": [
+        50
+      ],
+      "raw": "Grammarly. Grammarly: Free AI writing assistance. https://www.grammarly.com/ , 2024. Official Grammarly homepage.",
+      "links": [
+        "https://www.grammarly.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-087",
+      "pages": [
+        50
+      ],
+      "raw": "Granola. Granola: The AI notepad for back-to-back meetings.https://www.granola.ai/ , 2023. AI meeting notepad that transcribes in the background and combines user notes with audio into enhanced notes.",
+      "links": [
+        "https://www.granola.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-088",
+      "pages": [
+        50
+      ],
+      "raw": "Sumit Gulwani. Automating string processing in spreadsheets using input-output examples. InProceedings of the 38th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL), pp. 317–330, 2011.",
+      "links": [],
+      "catalog_id": "WA-0380",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-089",
+      "pages": [
+        50
+      ],
+      "raw": "Sumit Gulwani and Mark Marron. Nlyze: Interactive programming by natural language for spreadsheet data analysis and manipulation. InProceedings of the 2014 ACM SIGMOD international conference on Management of data, pp. 803–814, 2014.",
+      "links": [],
+      "catalog_id": "WA-0381",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-090",
+      "pages": [
+        50
+      ],
+      "raw": "Yiduo Guo, Zekai Zhang, Yaobo Liang, Dongyan Zhao, and Nan Duan. Pptc benchmark: Evaluating large language models for powerpoint task completion. InFindings of the Association for Computational Linguistics: ACL 2024, pp. 8682–8701, 2024.",
+      "links": [],
+      "catalog_id": "WA-0026",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-091",
+      "pages": [
+        50
+      ],
+      "raw": "Kunal Handa, Alex Tamkin, Miles McCain, Saffron Huang, Esin Durmus, Sarah Heck, Jared Mueller, Jerry Hong, Stuart Ritchie, Tim Belonax, Kevin K. Troy, Dario Amodei, Jared Kaplan, Jack Clark, and Deep Ganguli. Which economic tasks are performed with AI? evidence from millions of Claude conversations.arXiv preprint arXiv:2503.04761, 2025. doi: 10.48550/arXiv.2503.04761. URLhttps://arxiv.org/abs/2503.047 61.",
+      "links": [
+        "https://arxiv.org/abs/2503.04761"
+      ],
+      "catalog_id": "WA-0382",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-092",
+      "pages": [
+        50
+      ],
+      "raw": "Harvey. Harvey: AI for legal and professional services.https://www.harvey.ai/, 2023. Generative AI platform for law firms and corporate legal teams: research, drafting, and workflow automation.",
+      "links": [
+        "https://www.harvey.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-093",
+      "pages": [
+        51
+      ],
+      "raw": "Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Yong Dai, Hongming Zhang, Zhenzhong Lan, and Dong Yu. WebVoyager: Building an end-to-end web agent with large multimodal models. InProceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 6864–6890, Bangkok, Thailand, 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.acl-long.371. URLhttps://aclanthology.org/2024.acl-long.371/.",
+      "links": [
+        "https://aclanthology.org/2024.acl-long.371/"
+      ],
+      "catalog_id": "WA-0302",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-094",
+      "pages": [
+        51
+      ],
+      "raw": "Jonathan Herzig, Paweł Krzysztof Nowak, Thomas Müller, Francesco Piccinno, and Julian Martin Eisenschlos. TaPas: Weakly supervised table parsing via pre-training. InProceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), pp. 4320–4333. Association for Computational Linguistics, 2020. doi: 10.18653/v1/2020.acl-main.398. URL https://aclanthology.org/2020.acl-main. 398/.",
+      "links": [
+        "https://aclanthology.org/2020.acl-main.398/"
+      ],
+      "catalog_id": "WA-0383",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-095",
+      "pages": [
+        51
+      ],
+      "raw": "Hex Technologies. Hex Magic: AI for data notebooks.https://hex.tech/blog/magic-ai/, 2023. AI assistant in Hex notebooks that generates SQL, Python, and charts from natural language.",
+      "links": [
+        "https://hex.tech/blog/magic-ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-096",
+      "pages": [
+        51
+      ],
+      "raw": "HeyGen. HeyGen: AI video generation from documents and slides.https://www.heygen.com/, 2025. Converts PDF/PPT content into narrated video.",
+      "links": [
+        "https://www.heygen.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-097",
+      "pages": [
+        51
+      ],
+      "raw": "Wenyi Hong, Weihan Wang, Qingsong Lv, Jiazheng Xu, Wenmeng Yu, Junhui Ji, Yan Wang, Zihan Wang, Yuxiao Dong, Ming Ding, and Jie Tang. Cogagent: A visual language model for gui agents. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.",
+      "links": [],
+      "catalog_id": "WA-0384",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-098",
+      "pages": [
+        51
+      ],
+      "raw": "Anwen Hu, Haiyang Xu, Jiabo Ye, Ming Yan, Liang Zhang, Bo Zhang, Ji Zhang, Qin Jin, Fei Huang, and Jingren Zhou. mplug-docowl 1.5: Unified structure learning for ocr-free document understanding. InFindings of the Association for Computational Linguistics: EMNLP 2024, pp. 3096–3120, 2024.",
+      "links": [],
+      "catalog_id": "WA-0385",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-099",
+      "pages": [
+        51
+      ],
+      "raw": "Anwen Hu, Haiyang Xu, Liang Zhang, Jiabo Ye, Ming Yan, Ji Zhang, Qin Jin, Fei Huang, and Jingren Zhou. mplug-docowl2: High-resolutioncompressingforocr-freemulti-pagedocumentunderstanding. InProceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 5817–5834, 2025a.",
+      "links": [],
+      "catalog_id": "WA-0386",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-100",
+      "pages": [
+        51
+      ],
+      "raw": "Xueyu Hu, Tao Xiong, Biao Yi, Zishu Wei, Ruixuan Xiao, Yurun Chen, Jiasheng Ye, Meiling Tao, Xiangxin Zhou, Ziyu Zhao, Yuhuai Li, Shengze Xu, Shenzhi Wang, Xinchen Xu, Shuofei Qiao, Zhaokai Wang, Kun Kuang, Tieyong Zeng, Liang Wang, Jiwei Li, Yuchen Eleanor Jiang, Wangchunshu Zhou, Guoyin Wang, Keting Yin, Zhou Zhao, Hongxia Yang, Fan Wu, Shengyu Zhang, and Fei Wu. OS agents: A survey on MLLM-based agents for computer, phone and browser use. InProceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 7436–7465, Vienna, Austria, 2025b. Association for Computational Linguistics. URLhttps://aclanthology.org/2025.acl-long.369/.",
+      "links": [
+        "https://aclanthology.org/2025.acl-long.369/"
+      ],
+      "catalog_id": "WA-0387",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-101",
+      "pages": [
+        51
+      ],
+      "raw": "Yiming Huang, Jianwen Luo, Yan Yu, Yitong Zhang, Fangyu Lei, Yifan Wei, Shizhu He, Lifu Huang, Xiao Liu, Jun Zhao, and Kang Liu. Da-code: Agent data science code generation benchmark for large language models. InProceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pp. 13487–13521. Association for Computational Linguistics, 2024. URLhttps://aclanthology.org/2024.emnlp-m ain.748/.",
+      "links": [
+        "https://aclanthology.org/2024.emnlp-main.748/"
+      ],
+      "catalog_id": "WA-0388",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-102",
+      "pages": [
+        51
+      ],
+      "raw": "Yupan Huang, Tengchao Lv, Lei Cui, Yutong Lu, and Furu Wei. LayoutLMv3: Pre-training for document AI with unified text and image masking. InProceedings of the 30th ACM International Conference on Multimedia (MM ’22), pp. 4083–4091, Lisboa, Portugal, 2022. ACM. doi: 10.1145/3503161.3548112. URLhttps: //doi.org/10.1145/3503161.3548112.",
+      "links": [
+        "https://doi.org/10.1145/3503161.3548112"
+      ],
+      "catalog_id": "WA-0355",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-103",
+      "pages": [
+        51
+      ],
+      "raw": "Geoffrey Huntley. The ralph Wiggum technique: A deterministically naive agentic loop.https://github .com/ghuntley/how-to-ralph-wiggum, 2025. Practitioner write-up of a single-prompt agentic loop and its silent-failure mode.",
+      "links": [
+        "https://github.com/ghuntley/how-to-ralph-wiggum"
+      ],
+      "catalog_id": "WA-0480",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-104",
+      "pages": [
+        51
+      ],
+      "raw": "Ideogram. Ideogram: AI image generation with text rendering.https://ideogram.ai/, 2023. Text-to- image model noted for accurate in-image typography.",
+      "links": [
+        "https://ideogram.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-105",
+      "pages": [
+        51
+      ],
+      "raw": "Ironclad. Ironclad AI: Contract lifecycle management and Jurist.https://ironcladapp.com/product/ ai-based-contract-management, 2023. AI-native CLM platform with the Jurist assistant for redlining, drafting, and contract analysis.",
+      "links": [
+        "https://ironcladapp.com/product/ai-based-contract-management"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-106",
+      "pages": [
+        52
+      ],
+      "raw": "Abubakarr Jaye, Nigel Boachie Kumankumah, Chidera Biringa, Anjel Shaileshbhai Patel, Sulaiman Vesal, Dayquan Julienne, Charlotte Siska, Manuel Raúl Meléndez Luján, Anthony Twum-Barimah, Mauricio Velazco, et al. Corpgen: Simulating corporate environments with autonomous digital employees in multi-horizon task environments.arXiv preprint arXiv:2602.14229, 2026.",
+      "links": [],
+      "catalog_id": "WA-0389",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-107",
+      "pages": [
+        52
+      ],
+      "raw": "Jinhao Jiang, Kun Zhou, Zican Dong, Keming Ye, Xin Zhao, and Ji-Rong Wen. Structgpt: A general framework for large language model to reason over structured data. InProceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 2023.",
+      "links": [],
+      "catalog_id": "WA-0390",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-108",
+      "pages": [
+        52
+      ],
+      "raw": "Carlos Jimenez, Kilian Lieret, Karthik Narasimhan, Ofir Press, Alexander Wettig, John Yang, and Shunyu Yao. Swe-agent: Agent-computer interfaces enable automated software engineering. InAdvances in Neural Information Processing Systems (NeurIPS), 2024a.",
+      "links": [],
+      "catalog_id": "WA-0008",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-109",
+      "pages": [
+        52
+      ],
+      "raw": "Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, and Karthik Narasimhan. SWE-bench: Can language models resolve real-world GitHub issues? InThe Twelfth International Conference on Learning Representations, 2024b. URLhttps://openreview.net/forum?id=VTF8yNQM66.",
+      "links": [
+        "https://openreview.net/forum?id=VTF8yNQM66"
+      ],
+      "catalog_id": "WA-0028",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-110",
+      "pages": [
+        52
+      ],
+      "raw": "Drew Johnston, David Holtz, Alex Martin Richmond, Christopher Ong, Prasanna Tambe, and Aaron Chatterji. The shift to agentic ai: Evidence from codex.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0391",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-111",
+      "pages": [
+        52
+      ],
+      "raw": "Julius AI. Julius: AI data analyst. https://julius.ai/ , 2024. AI tool that analyzes, visualizes, and forecasts data from spreadsheets and files via natural language.",
+      "links": [
+        "https://julius.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-112",
+      "pages": [
+        52
+      ],
+      "raw": "KyudanJung,HojunCho,JooyeolYun,SoyoungYang,JaehyeokJang,andJaegulChoo. Talktoyourslides: High- efficiency slide editing via language-driven structured data manipulation.arXiv preprint arXiv:2505.11604, 2025. URLhttps://arxiv.org/abs/2505.11604.",
+      "links": [
+        "https://arxiv.org/abs/2505.11604"
+      ],
+      "catalog_id": "WA-0392",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-113",
+      "pages": [
+        52
+      ],
+      "raw": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models.arXiv preprint arXiv:2001.08361, 2020.",
+      "links": [],
+      "catalog_id": "WA-0393",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-114",
+      "pages": [
+        52
+      ],
+      "raw": "Seungone Kim, Jamin Shin, Yejin Cho, Joel Jang, Shayne Longpre, Hwaran Lee, Sangdoo Yun, Seongjin Shin, Sungdong Kim, James Thorne, and Minjoon Seo. Prometheus: Inducing fine-grained evaluation capability in language models. InThe Twelfth International Conference on Learning Representations, 2024. doi: 10.48550/arXiv.2310.08491. URLhttps://arxiv.org/abs/2310.08491.",
+      "links": [
+        "https://arxiv.org/abs/2310.08491"
+      ],
+      "catalog_id": "WA-0394",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-115",
+      "pages": [
+        52
+      ],
+      "raw": "Jing Yu Koh, Robert Lo, Lawrence Jang, Vikram Duvvur, Ming Chong Lim, Po-Yu Huang, Graham Neubig, Shuyan Zhou, Russ Salakhutdinov, and Daniel Fried. Visualwebarena: Evaluating multimodal agents on realistic visual web tasks. InProceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2024.",
+      "links": [],
+      "catalog_id": "WA-0066",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-116",
+      "pages": [
+        52
+      ],
+      "raw": "Krea AI. Krea: AI creative suite for images, video, and 3d.https://www.krea.ai/, 2024. Real-time AI generation and editing of images, video, and 3D assets across multiple models.",
+      "links": [
+        "https://www.krea.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-117",
+      "pages": [
+        52
+      ],
+      "raw": "Kuaishou Technology. Kling AI: Next-generation AI video generation.https://klingai.com/ , 2024. Kuaishou’s generative model for text-to-video and image-to-video creation.",
+      "links": [
+        "https://klingai.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-118",
+      "pages": [
+        52
+      ],
+      "raw": "Srivatsa Kundurthy, Clara Na, Colton Moraine, Anoushka Mohta, Case Winter, George Fang, John Ling, Emma Strubell, and Zach Kirshner. BlueFin: Benchmarking LLM agents on financial spreadsheets.arXiv preprint arXiv:2605.30907, 2026.",
+      "links": [],
+      "catalog_id": "WA-0233",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-119",
+      "pages": [
+        52
+      ],
+      "raw": "Philippe Laban, Tobias Schnabel, and Jennifer Neville. Llms corrupt your documents when you delegate.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0311",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-120",
+      "pages": [
+        52
+      ],
+      "raw": "Hanyu Lai, Xiao Liu, Yanxiao Zhao, Han Xu, Hanchen Zhang, Bohao Jing, Yanyu Ren, Shuntian Yao, Yuxiao Dong, and Jie Tang. Computerrl: Scaling end-to-end online reinforcement learning for computer use agents. arXiv preprint arXiv:2508.14040, 2025.",
+      "links": [],
+      "catalog_id": "WA-0242",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-121",
+      "pages": [
+        52,
+        53
+      ],
+      "raw": "Elaine Lau, Markus Dücker, Ronak Chaudhary, Hui Wen Goh, Rosemary Wei, Vaibhav Kumar, Saed Qunbar, Guram Gogia, Yi Liu, Scott Millslagle, Nasim Borazjanizadeh, Ulyana Tkachenko, Samuel Eshun Danquah, Collin Schweiker, Vijay Karumathil, Asrith Devalaraju, Varsha Sandadi, Haemi Nam, Punit Arani, Ray Epps, Abdullah Arif, Sahil Bhaiwala, Curtis Northcutt, Skyler Wang, Anish Athalye, Jonas Mueller, and Francisco Guzmán. Bankertoolbench: Evaluating ai agents in end-to-end investment banking workflows.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0231",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-122",
+      "pages": [
+        53
+      ],
+      "raw": "Harrison Lee, Samrat Phatale, Hassan Mansoor, Thomas Mesnard, Johan Ferret, Kellie Lu, Colton Bishop, Ethan Hall, Victor Carbune, Abhinav Rastogi, and Sushant Prakash. Rlaif vs. rlhf: Scaling reinforcement learning from human feedback with ai feedback.ICML, 2023.",
+      "links": [],
+      "catalog_id": "WA-0395",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-123",
+      "pages": [
+        53
+      ],
+      "raw": "LegalOn Technologies. LegalOn: Legal AI for contract review.https://www.legalontech.com/, 2023. AI contract review and redlining driven by attorney-built playbooks for in-house legal teams.",
+      "links": [
+        "https://www.legalontech.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-124",
+      "pages": [
+        53
+      ],
+      "raw": "LexisNexis. Lexis+ with Protégé: Legal AI assistant.https://www.lexisnexis.com/en-us/products /lexis-plus-protege.page, 2024. Personalized legal AI assistant for research, drafting, and workflow automation grounded in authoritative sources.",
+      "links": [
+        "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-125",
+      "pages": [
+        53
+      ],
+      "raw": "Hongxin Li, Jingran Su, Yuntao Chen, Qing Li, and Zhaoxiang Zhang. SheetCopilot: Bringing software productivity to the next level through large language models. InAdvances in Neural Information Processing Systems 36 (NeurIPS), 2023a. URLhttps://openreview.net/forum?id=tfyr2zRVoK.",
+      "links": [
+        "https://openreview.net/forum?id=tfyr2zRVoK"
+      ],
+      "catalog_id": "WA-0005",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-126",
+      "pages": [
+        53
+      ],
+      "raw": "Jinyang Li, Binyuan Hui, Ge Qu, Binhua Li, Jiaxi Yang, Bowen Li, Bailin Wang, Bowen Qin, Rongyu Cao, Ruiying Geng, Nan Huo, Xuanhe Zhou, Chenhao Ma, Guoliang Li, Kevin Chen-Chuan Chang, Fei Huang, Reynold Cheng, and Yongbin Li. Can llm already serve as a database interface? a big bench for large-scale database grounded text-to-sqls. InAdvances in Neural Information Processing Systems (NeurIPS), 2023b.",
+      "links": [],
+      "catalog_id": "WA-0396",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-127",
+      "pages": [
+        53
+      ],
+      "raw": "Peng Li, Yeye He, Cong Yan, Yue Wang, and Surajit Chaudhuri. Auto-tables: Synthesizing multi-step transforma- tions to relationalize tables without using examples.Proceedings of the VLDB Endowment, 16(11):3391–3403, 2023c. doi: 10.14778/3611479.3611534. URLhttps://doi.org/10.14778/3611479.3611534.",
+      "links": [
+        "https://doi.org/10.14778/3611479.3611534"
+      ],
+      "catalog_id": "WA-0397",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-128",
+      "pages": [
+        53
+      ],
+      "raw": "Peng Li, Yeye He, Dror Yashar, Weiwei Cui, Song Ge, Haidong Zhang, Danielle Rifinski Fainman, Dongmei Zhang, and Surajit Chaudhuri. Table-GPT: Table fine-tuned GPT for diverse table tasks.Proceedings of the ACM on Management of Data (SIGMOD), 2(3):Article 176, 2024. doi: 10.1145/3654979. URL https://doi.org/10.1145/3654979.",
+      "links": [
+        "https://doi.org/10.1145/3654979"
+      ],
+      "catalog_id": "WA-0398",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-129",
+      "pages": [
+        53
+      ],
+      "raw": "Pengxiang Li, Zechen Hu, Zirui Shang, Jingrong Wu, Yang Liu, Hui Liu, Zhi Gao, Chenrui Shi, Bofei Zhang, Zihao Zhang, Xiaochuan Shi, Zedong YU, Yuwei Wu, Xinxiao Wu, Yunde Jia, Liuyu Xiang, Zhaofeng He, and Qing Li. Efficient multi-turn rl for gui agents via decoupled training and adaptive data curation.arXiv (Cornell University), 2025.",
+      "links": [],
+      "catalog_id": "WA-0399",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-130",
+      "pages": [
+        53
+      ],
+      "raw": "Xiangyi Li, Yimin Liu, Wenbo Chen, Bingran You, Zonglin Di, Yifeng He, Shenghan Zheng, Kyoung Whan Choe, Jiankai Sun, Shuyi Wang, Chujun Tao, Binxu Li, Xuandong Zhao, Hejia Geng, Xiaojun Wu, Junwei Zhou, Xiaokun Chen, Hanwen Xing, Yubo Li, Qunhong Zeng, Di Wang, Yuanli Wang, Roey Ben Chaim, Penghao Jiang, Haotian Shen, Luyang Kong, Xinyi Liu, Runhui Wang, Xuanqing Liu, Jiachen Li, Xin Lan, Yueqian Lin, Wengao Ye, Junwei He, Songlin Li, Yue Zhang, Yipeng Gao, Yijiang Li, Ze Ma, Liqiang Jing, Tianyu Wang, Kaixin Li, Yiqi Xue, Haoran Lyu, Yizhuo He, Yuchen Tian, Shutong Wu, Bowei Wang, Yixuan Gao, Bo Chen, Litong Liu, Sikai Cheng, Jiajun Bao, Shuaicheng Tong, Shuwen Xu, Terry Yue Zhuo, Tinghan Ye, Qi Qi, Miao Li, Longtai Liao, Zelin Tan, Chang Shi, Xilin Tang, Srinath Tankasala, Boqin Yuan, Yaoyao Qian, Jianhong Tu, Chenguang Wang, Yizhou Sun, Wei Wang, Aaron Taylor, Ziyue Yang, Changkun Guan, Zhikang Dong, Xinyu Zhang, Steven Dillmann, Han chung Lee, and Dawn Song. Skillsbench: Benchmarking how well agent skills work across diverse tasks, 2026a. URLhttps://arxiv.org/abs/2602.12670.",
+      "links": [
+        "https://arxiv.org/abs/2602.12670"
+      ],
+      "catalog_id": "WA-0400",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-131",
+      "pages": [
+        53
+      ],
+      "raw": "Yaxuan Li, Yuxin Zuo, Bingxiang He, Jinqian Zhang, Chaojun Xiao, Cheng Qian, Tianyu Yu, Huan-ang Gao, Wenkai Yang, Zhiyuan Liu, and Ning Ding. Rethinking on-policy distillation of large language models: Phenomenology, mechanism, and recipe.arXiv preprint arXiv:2604.13016, 2026b. doi: 10.48550/arXiv.260 4.13016. URLhttps://arxiv.org/abs/2604.13016.",
+      "links": [
+        "https://arxiv.org/abs/2604.13016"
+      ],
+      "catalog_id": "WA-0276",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-132",
+      "pages": [
+        53
+      ],
+      "raw": "Yuanyang Li, Xue Yang, Longyue Wang, Weihua Luo, and Hongyang Chen. Complexmcp: Evaluation of llm agents in dynamic, interdependent, and large-scale tool sandbox.arXiv preprint arXiv:2605.10787, 2026c.",
+      "links": [],
+      "catalog_id": "WA-0401",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-133",
+      "pages": [
+        53
+      ],
+      "raw": "Jiawei Lin, Jiaqi Guo, Shizhao Sun, Zijiang James Yang, Jian-Guang Lou, and Dongmei Zhang. LayoutPrompter: Awaken the design ability of large language models. InAdvances in Neural Information Processing Systems 36 (NeurIPS), 2023. URLhttps://openreview.net/forum?id=EF56cv8B3b.",
+      "links": [
+        "https://openreview.net/forum?id=EF56cv8B3b"
+      ],
+      "catalog_id": "WA-0402",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-134",
+      "pages": [
+        54
+      ],
+      "raw": "Kevin Qinghong Lin, Linjie Li, Difei Gao, Zhengyuan Yang, Shiwei Wu, Zechen Bai, Stan Weixian Lei, Lijuan Wang, and Mike Zheng Shou. Showui: One vision-language-action model for gui visual agent. InProceedings of the Computer Vision and Pattern Recognition Conference, pp. 19498–19508, 2025.",
+      "links": [],
+      "catalog_id": "WA-0403",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-135",
+      "pages": [
+        54
+      ],
+      "raw": "Lindy AI. Lindy: AI executive assistant and agent builder.https://www.lindy.ai/ , 2023. No-code platform for building AI agents that automate email, scheduling, support, and outreach across many tools.",
+      "links": [
+        "https://www.lindy.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-136",
+      "pages": [
+        54
+      ],
+      "raw": "Qian Liu, Bei Chen, Jiaqi Guo, Morteza Ziyadi, Zeqi Lin, and Weizhu Chen. Tapex: Table pre-training via learning a neural sql executor. InInternational Conference on Learning Representations (ICLR), 2021.",
+      "links": [],
+      "catalog_id": "WA-0404",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-137",
+      "pages": [
+        54
+      ],
+      "raw": "Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, and Jie Tang. AgentBench: Evaluating LLMs as agents. InThe Twelfth International Conference on Learning Representations (ICLR), 2024. URL https://openreview.net/forum?id=zAdUB0aCTQ.",
+      "links": [
+        "https://openreview.net/forum?id=zAdUB0aCTQ"
+      ],
+      "catalog_id": "WA-0405",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-138",
+      "pages": [
+        54
+      ],
+      "raw": "Yang Liu, Dan Iter, Yichong Xu, Shuohang Wang, Ruochen Xu, and Chenguang Zhu. G-eval: Nlg evaluation using gpt-4 with better human alignment. InProceedings of the 2023 conference on empirical methods in natural language processing, pp. 2511–2522, 2023.",
+      "links": [],
+      "catalog_id": "WA-0406",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-139",
+      "pages": [
+        54
+      ],
+      "raw": "NikolaosLivathinos, ChristophAuer, MaksymLysak, AhmedNassar, MicheleDolfi, PanosVagenas, CesarBerrospi Ramis, Matteo Omenetti, Kasper Dinkla, Yusik Kim, Shubham Gupta, Rafael Teixeira de Lima, Valery Weber, Lucas Morin, Ingmar Meijer, Viktor Kuropiatnyk, and Peter W. J. Staar. Docling: An efficient open-source toolkit for ai-driven document conversion.arXiv (Cornell University), 2025.",
+      "links": [],
+      "catalog_id": "WA-0407",
+      "disposition": "added-paper",
+      "editorial_note": "这是arXiv:2501.17887工具包论文，与已收录的arXiv:2408.09869 Docling Technical Report是不同论文；共享项目不合并为同一论文。"
+    },
+    {
+      "ref_id": "AIO-140",
+      "pages": [
+        54
+      ],
+      "raw": "Lovable. Lovable: AI app and website builder.https://lovable.dev/, 2024. Full-stack AI platform that builds and deploys web apps from natural language.",
+      "links": [
+        "https://lovable.dev/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-141",
+      "pages": [
+        54
+      ],
+      "raw": "Weizheng Lu, Jing Zhang, Ju Fan, Zihao Fu, Yueguo Chen, and Xiaoyong Du. Large language model for table processing: a survey.Frontiers of Computer Science, 19(2), January 2025. ISSN 2095-2236. doi: 10.1007/s11704-024-40763-6. URLhttp://dx.doi.org/10.1007/s11704-024-40763-6.",
+      "links": [
+        "http://dx.doi.org/10.1007/s11704-024-40763-6"
+      ],
+      "catalog_id": "WA-0408",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-142",
+      "pages": [
+        54
+      ],
+      "raw": "Yadong Lu, Jianwei Yang, Yelong Shen, and Ahmed Awadallah. Omniparser for pure vision based gui agent, 2024. URLhttps://arxiv.org/abs/2408.00203.",
+      "links": [
+        "https://arxiv.org/abs/2408.00203"
+      ],
+      "catalog_id": "WA-0070",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-143",
+      "pages": [
+        54
+      ],
+      "raw": "Tengchao Lv, Dongdong Zhang, Jiayu Ding, Yilin Jia, Yuzhong Zhao, Yupan Huang, Wenshan Wu, Xiangyang Zhou, Shaohan Huang, Nan Yang, Li Dong, Lei Cui, and Furu Wei. Mind the gap: Can frontier llms pass a standardized office proficiency exam?arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0409",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-144",
+      "pages": [
+        54
+      ],
+      "raw": "Yubo Ma, Yuhang Zang, Liangyu Chen, Meiqi Chen, Yizhu Jiao, Xinze Li, Xinyuan Lu, Ziyu Liu, Yan Ma, Xiaoyi Dong, Pan Zhang, Liangming Pan, Yu-Gang Jiang, Jiaqi Wang, Yixin Cao, and Aixin Sun. MMLongBench-Doc: Benchmarking long-context document understanding with visualizations. InAdvances in Neural Information Processing Systems 37 (NeurIPS) Datasets and Benchmarks Track, 2024a. URLhttps://openreview.net /forum?id=loJM1acwzf.",
+      "links": [
+        "https://openreview.net/forum?id=loJM1acwzf"
+      ],
+      "catalog_id": "WA-0024",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-145",
+      "pages": [
+        54
+      ],
+      "raw": "Zeyao Ma, Bohan Zhang, Jing Zhang, Jifan Yu, Xiaokang Zhang, Xiaohan Zhang, Sijia Luo, Xi Wang, and Jie Tang. SpreadsheetBench: Towards challenging real world spreadsheet manipulation. InAdvances in Neural Information Processing Systems 37 (NeurIPS) Datasets and Benchmarks Track, 2024b. URLhttps: //neurips.cc/virtual/2024/poster/97753.",
+      "links": [
+        "https://neurips.cc/virtual/2024/poster/97753"
+      ],
+      "catalog_id": "WA-0025",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-146",
+      "pages": [
+        54
+      ],
+      "raw": "Zeyao Ma et al. SpreadsheetBench 2: End-to-end business spreadsheet workflows.https://huggingface. co/datasets/KAKA22/SpreadsheetBench-v2, 2026. Dataset release (321 tasks: financial modeling, debugging, and visualization over multi-sheet workbooks); project pagehttps://spreadsheetbench .github.io/; paper forthcoming.",
+      "links": [
+        "https://huggingface.co/datasets/KAKA22/SpreadsheetBench-v2",
+        "https://spreadsheetbench.github.io/"
+      ],
+      "catalog_id": "WA-0481",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-147",
+      "pages": [
+        54
+      ],
+      "raw": "Manus. Manus: A general AI agent.https://manus.im/, 2026. General agent that builds slides, websites, and data artifacts and manages local files.",
+      "links": [
+        "https://manus.im/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-148",
+      "pages": [
+        54
+      ],
+      "raw": "Ahmed Masry, Do Xuan Long, Jia Qing Tan, Shafiq R. Joty, and Enamul Hoque. Chartqa: A benchmark for question answering about charts with visual and logical reasoning. InFindings of the Association for Computational Linguistics: ACL 2022, 2022.",
+      "links": [],
+      "catalog_id": "WA-0042",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-149",
+      "pages": [
+        55
+      ],
+      "raw": "Minesh Mathew, Dimosthenis Karatzas, and C.V. Jawahar. DocVQA: A dataset for VQA on document images. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 2200–2209, 2021. URL https://openaccess.thecvf.com/content/WACV2021/html/Mathew_DocVQA_A_ Dataset_for_VQA_on_Document_Images_WACV_2021_paper.html.",
+      "links": [
+        "https://openaccess.thecvf.com/content/WACV2021/html/Mathew_DocVQA_A_Dataset_for_VQA_on_Document_Images_WACV_2021_paper.html"
+      ],
+      "catalog_id": "WA-0009",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-150",
+      "pages": [
+        55
+      ],
+      "raw": "Meitu. WHEE: AI image and art creation platform.https://www.whee.com/, 2023. Meitu’s AI platform for text-to-image, image-to-image, and AI art on the MiracleVision model.",
+      "links": [
+        "https://www.whee.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-151",
+      "pages": [
+        55
+      ],
+      "raw": "Miaoya. Miaoya Camera: AI portrait generator.https://www.miaoya.cn/, 2023. Alibaba-backed app that builds a digital avatar from user photos to generate AI portrait styles.",
+      "links": [
+        "https://www.miaoya.cn/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-152",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft. Introducing microsoft 365 copilot — your copilot for work.https://blogs.microsoft.co m/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/ , 2023. Official announcement, March 16, 2023.",
+      "links": [
+        "https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/"
+      ],
+      "catalog_id": "WA-0172",
+      "disposition": "resource-alias",
+      "reason": "Same product or implementation; preserve the source URL here without a duplicate catalog row."
+    },
+    {
+      "ref_id": "AIO-153",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft. Copilot for Power BI overview.https://learn.microsoft.com/en-us/power-bi/create -reports/copilot-introduction, 2024. Microsoft Learn overview of Copilot capabilities in Power BI.",
+      "links": [
+        "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction"
+      ],
+      "catalog_id": "WA-0482",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-154",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft. Microsoft Editor: Checks grammar and more in documents, mail, and the web.https://suppor t.microsoft.com/en-us/word/microsoft-editor-checks-grammar-and-more-in-docum ents-mail-and-the-web, 2025a.",
+      "links": [
+        "https://support.microsoft.com/en-us/word/microsoft-editor-checks-grammar-and-more-in-documents-mail-and-the-web"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-155",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft. Copilot in Excel: Your AI assistant for spreadsheets.https://support.microsoft.com/en -us/copilot-excel, 2025b.",
+      "links": [
+        "https://support.microsoft.com/en-us/copilot-excel"
+      ],
+      "catalog_id": "WA-0483",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-156",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft. PowerPoint Designer: Get design ideas for slides.https://support.microsoft.com/en-u s/powerpoint/training/get-design-ideas-for-slides-with-powerpoint-designer , 2025c.",
+      "links": [
+        "https://support.microsoft.com/en-us/powerpoint/training/get-design-ideas-for-slides-with-powerpoint-designer"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-157",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft 365 Blog. Introducing microsoft copilot actions, new agents, and tools to empower it teams, November 2024. URL https://www.microsoft.com/en-us/microsoft-365/blog/2024/11/19/int roducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/ . Published: 2024-11-19.",
+      "links": [
+        "https://www.microsoft.com/en-us/microsoft-365/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-158",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft 365 Blog. Microsoft ignite 2025: Copilot and agents built to power the frontier firm, November 2025a. URL https://www.microsoft.com/en-us/microsoft-365/blog/2025/11/18/microsoft -ignite-2025-copilot-and-agents-built-to-power-the-frontier-firm/ . Published: 2025-11-18.",
+      "links": [
+        "https://www.microsoft.com/en-us/microsoft-365/blog/2025/11/18/microsoft-ignite-2025-copilot-and-agents-built-to-power-the-frontier-firm/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-159",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft 365 Blog. Introducing microsoft 365 copilot tuning, multi-agent orchestration, and more from microsoft build 2025, May 2025b. URLhttps://www.microsoft.com/en-us/microsoft-365/b log/2025/05/19/introducing-microsoft-365-copilot-tuning-multi-agent-orchest ration-and-more-from-microsoft-build-2025/. Published: 2025-05-19.",
+      "links": [
+        "https://www.microsoft.com/en-us/microsoft-365/blog/2025/05/19/introducing-microsoft-365-copilot-tuning-multi-agent-orchestration-and-more-from-microsoft-build-2025/"
+      ],
+      "catalog_id": "WA-0484",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-160",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft 365 Blog. Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available, April 2026. URLhttps://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilot s-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/ . Published: 2026-04-22.",
+      "links": [
+        "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/"
+      ],
+      "catalog_id": "WA-0485",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-161",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft Learn. How the Microsoft 365 Copilot orchestrator chooses actions, January 2026a. URLhttps: //learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/orchestrator . Last updated: 2026-01-23.",
+      "links": [
+        "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/orchestrator"
+      ],
+      "catalog_id": "WA-0486",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-162",
+      "pages": [
+        55
+      ],
+      "raw": "Microsoft Learn. Microsoft 365 Copilot Tuning overview (early access preview), March 2026b. URLhttps: //learn.microsoft.com/en-us/microsoft-365/copilot/copilot-tuning-overview. Last updated: 2026-03-10.",
+      "links": [
+        "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-tuning-overview"
+      ],
+      "catalog_id": "WA-0487",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-163",
+      "pages": [
+        55
+      ],
+      "raw": "Midjourney. Midjourney: AI image generation.https://www.midjourney.com/, 2022. Generative AI service producing images from natural-language prompts via web app and Discord.",
+      "links": [
+        "https://www.midjourney.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-164",
+      "pages": [
+        56
+      ],
+      "raw": "MiniMax. MiniMax Skills: Plug-in skill library for AI coding agents.https://github.com/MiniMax-AI/ skills, 2026. Open-source skill folders includingminimax-docx, minimax-xlsx, minimax-pdf, and pptx-generatorfor office artifact authoring.",
+      "links": [
+        "https://github.com/MiniMax-AI/skills"
+      ],
+      "catalog_id": "WA-0488",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-165",
+      "pages": [
+        56
+      ],
+      "raw": "Monarch Money. Monarch Money: Personal finance with AI assistant.https://www.monarch.com/, 2024. Budgeting and net-worth app with an AI assistant, AI-powered insights, and weekly financial recaps.",
+      "links": [
+        "https://www.monarch.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-166",
+      "pages": [
+        56
+      ],
+      "raw": "Moonshot AI. Kimi K2.6: Long-horizon agentic model with agent swarm.https://www.kimi.com/, 2026. Open-weight model whose Agent Swarm coordinates up to 300 parallel sub-agents across thousands of steps.",
+      "links": [
+        "https://www.kimi.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-167",
+      "pages": [
+        56
+      ],
+      "raw": "Napkin AI. Napkin AI: Visual AI for business storytelling.https://www.napkin.ai/, 2024. Transforms text into diagrams, charts, and infographics for visual storytelling.",
+      "links": [
+        "https://www.napkin.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-168",
+      "pages": [
+        56
+      ],
+      "raw": "Dang Nguyen, Jian Chen, Yu Wang, Gang Wu, Namyong Park, Zhengmian Hu, Hanjia Lyu, Junda Wu, Ryan Aponte, Yu Xia, Xintong Li, Jing Shi, Hongjie Chen, Viet Dac Lai, Zhouhang Xie, Sungchul Kim, Ruiyi Zhang, Tong Yu, Mehrab Tanjim, Nesreen K. Ahmed, Puneet Mathur, Seunghyun Yoon, Lina Yao, Branislav Kveton, Jihyung Kil, Thien Huu Nguyen, Trung Bui, Tianyi Zhou, Ryan A. Rossi, and Franck Dernoncourt. Gui agents: A survey, 2025. URLhttps://arxiv.org/abs/2412.13501.",
+      "links": [
+        "https://arxiv.org/abs/2412.13501"
+      ],
+      "catalog_id": "WA-0410",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-169",
+      "pages": [
+        56
+      ],
+      "raw": "Jingwei Ni, Yihao Liu, Xinpeng Liu, Yutao Sun, Mengyu Zhou, Pengyu Cheng, Dexin Wang, Erchao Zhao, Xiaoxi Jiang, and Guanjun Jiang. Trace2skill: Distill trajectory-local lessons into transferable agent skills.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0411",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-170",
+      "pages": [
+        56
+      ],
+      "raw": "Harsha Nori, Yin Tat Lee, Sheng Zhang, Dean Carignan, Richard Edgar, Nicolo Fusi, Nicholas King, Jonathan Larson, Yuanzhi Li, Weishung Liu, Renqian Luo, Scott Mayer McKinney, Robert Osazuwa Ness, Hoifung Poon, Tao Qin, Naoto Usuyama, Chris White, and Eric Horvitz. Can generalist foundation models outcompete special-purpose tuning? Case study in medicine.arXiv preprint arXiv:2311.16452, 2023. URL https: //arxiv.org/abs/2311.16452.",
+      "links": [
+        "https://arxiv.org/abs/2311.16452"
+      ],
+      "catalog_id": "WA-0412",
+      "disposition": "added-paper",
+      "editorial_note": "医学问答的提示方法，只作专业推理与框架优化背景，不代表临床工作流程验收。"
+    },
+    {
+      "ref_id": "AIO-171",
+      "pages": [
+        56
+      ],
+      "raw": "Notion Labs. Notion: The AI workspace that works for you.https://www.notion.com/, 2023. Official Notion product homepage.",
+      "links": [
+        "https://www.notion.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-172",
+      "pages": [
+        56
+      ],
+      "raw": "nTop. nTop: Computational and generative engineering design.https://www.ntop.com/, 2023. Implicit- modeling computational design software for generative, simulation-driven engineering (formerly nTopology).",
+      "links": [
+        "https://www.ntop.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-173",
+      "pages": [
+        56
+      ],
+      "raw": "Michael Ofengenden, Yunze Man, Ziqi Pang, and Yu-Xiong Wang. PPTArena: A benchmark for agentic PowerPoint editing.arXiv preprint arXiv:2512.03042, 2025. URLhttps://arxiv.org/abs/2512.030 42.",
+      "links": [
+        "https://arxiv.org/abs/2512.03042"
+      ],
+      "catalog_id": "WA-0321",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-174",
+      "pages": [
+        56
+      ],
+      "raw": "OpenAI. Introducing chatgpt agent: Bridging research and action, July 2025a. URLhttps://openai.com /index/introducing-chatgpt-agent/. Published: 2025-07-17.",
+      "links": [
+        "https://openai.com/index/introducing-chatgpt-agent/"
+      ],
+      "catalog_id": "WA-0489",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-175",
+      "pages": [
+        56
+      ],
+      "raw": "OpenAI. ChatGPT desktop. https://openai.com/chatgpt/desktop/ , 2025b. OpenAI desktop application.",
+      "links": [
+        "https://openai.com/chatgpt/desktop/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-176",
+      "pages": [
+        56
+      ],
+      "raw": "OpenAI. OpenAI Codex CLI: A coding agent for the terminal.https://github.com/openai/codex , 2025c. GitHub repository.",
+      "links": [
+        "https://github.com/openai/codex"
+      ],
+      "catalog_id": "WA-0170",
+      "disposition": "resource-alias",
+      "reason": "Same product or implementation; preserve the source URL here without a duplicate catalog row."
+    },
+    {
+      "ref_id": "AIO-177",
+      "pages": [
+        56
+      ],
+      "raw": "OpenAI. Computer-using agent, January 2025d. URLhttps://openai.com/index/computer-using -agent/. Published: 2025-01-23.",
+      "links": [
+        "https://openai.com/index/computer-using-agent/"
+      ],
+      "catalog_id": "WA-0490",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-178",
+      "pages": [
+        56
+      ],
+      "raw": "OpenAI. New tools for building agents, March 2025e. URLhttps://openai.com/index/new-tools-f or-building-agents/. Published: 2025-03-11.",
+      "links": [
+        "https://openai.com/index/new-tools-for-building-agents/"
+      ],
+      "catalog_id": "WA-0491",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-179",
+      "pages": [
+        56
+      ],
+      "raw": "OpenAI. Introducing OpenAI o3 and o4-mini, April 2025f. URLhttps://openai.com/index/introdu cing-o3-and-o4-mini/. Published: 2025-04-16.",
+      "links": [
+        "https://openai.com/index/introducing-o3-and-o4-mini/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-180",
+      "pages": [
+        56
+      ],
+      "raw": "OpenAI. Function calling, 2026a. URLhttps://developers.openai.com/api/docs/guides/func tion-calling. Accessed: 2026-05-20.",
+      "links": [
+        "https://developers.openai.com/api/docs/guides/function-calling"
+      ],
+      "catalog_id": "WA-0492",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-181",
+      "pages": [
+        56
+      ],
+      "raw": "OpenAI. Thenexteraofknowledgework: HowCodexishelpingpeoplenavigatethecomplexityofmodernwork, June 2026b. URL https://cdn.openai.com/pdf/the-next-era-of-knowledge-work.pdf . Published: 2026-06-02.",
+      "links": [
+        "https://cdn.openai.com/pdf/the-next-era-of-knowledge-work.pdf"
+      ],
+      "catalog_id": "WA-0493",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-182",
+      "pages": [
+        57
+      ],
+      "raw": "Rai OpenAI, Rai Josh Achiam, Rai Steven Adler, Rai Sandhini Agarwal, Rai Lama Ahmad, Rai Ilge Akkaya, Rai Florencia Leoni Aleman, Rai Diogo Almeida, Rai Janko Altenschmidt, Rai Sam Altman, Rai Shyamal Anadkat, Rai Red Avila, Rai Igor Babuschkin, Rai Suchir Balaji, Rai Valerie Balcom, Rai Paul Baltescu, Rai Haiming Bao, Rai Mohammad Bavarian, Rai Jeff Belgum, Rai Irwan Bello, Rai Jake Berdine, Rai Gabriel Bernadett-Shapiro, Rai Christopher Berner, Rai Lenny Bogdonoff, Rai Oleg Boiko, Rai Madelaine Boyd, Rai Anna-Luisa Brakman, RaiGregBrockman,RaiTimBrooks,RaiMilesBrundage,RaiKevinButton,RaiTrevorCai,RaiRosieCampbell, Rai Andrew Cann, Rai Brittany Carey, Rai Chelsea Carlson, Rai Rory Carmichael, Rai Brooke Chan, Rai Che Chang, Rai Fotis Chantzis, Rai Derek Chen, Rai Sully Chen, Rai Ruby Chen, Rai Jason Chen, Rai Mark Chen, Rai Ben Chess, Rai Chester Cho, Rai Casey Chu, Rai Hyung Won Chung, Rai Dave Cummings, Rai Jeremiah Currier, Rai Yunxing Dai, Rai Cory Decareaux, Rai Thomas Degry, Rai Noah Deutsch, Rai Damien Deville, Rai Arka Dhar, Rai David Dohan, Rai Steve Dowling, Rai Sheila Dunning, Rai Adrien Ecoffet, Rai Atty Eleti, Rai Tyna Eloundou, Rai David Farhi, Rai Liam Fedus, Rai Niko Felix, Rai Simón Posada Fishman, Rai Juston Forte, Rai Isabella Fulford, Rai Leo Gao, Rai Elie Georges, Rai Christian Gibson, Rai Vik Goel, Rai Tarun Gogineni, Rai Gabriel Goh, Rai Rapha Gontijo-Lopes, Rai Jonathan Gordon, Rai Morgan Grafstein, Rai Scott Gray, Rai Ryan Greene, Rai Joshua Gross, Rai Shixiang Shane Gu, Rai Yufei Guo, Rai Chris Hallacy, Rai Jesse Han, Rai Jeff Harris, Rai Yuchen He, Rai Mike Heaton, Rai Johannes Heidecke, Rai Chris Hesse, Rai Alan Hickey, RaiWadeHickey, RaiPeterHoeschele, RaiBrandonHoughton, RaiKennyHsu, RaiShengliHu, RaiXin Hu, Rai Joost Huizinga, Rai Shantanu Jain, Rai Shawn Jain, Rai Joanne Jang, Rai Angela Jiang, Rai Roger Jiang, Rai Haozhun Jin, Rai Denny Jin, Rai Shino Jomoto, Rai Billie Jonn, Rai Heewoo Jun, Rai Tomer Kaftan, Rai Łukasz Kaiser, Rai Ali Kamali, Rai Ingmar Kanitscheider, Rai Nitish Shirish Keskar, Rai Tabarak Khan, Rai Logan Kilpatrick, Rai Jong Wook Kim, Rai Christina Kim, Rai Yongjik Kim, Rai Jan Hendrik Kirchner, Rai Jamie Kiros, Rai Matt Knight, Rai Daniel Kokotajlo, Rai Łukasz Kondraciuk, Rai Andrew Kondrich, Rai Aris Konstantinidis, Rai Kyle Kosic, Rai Gretchen Krueger, Rai Vishal Kuo, Rai Michael Lampe, Rai Ikai Lan, Rai Teddy Lee, Rai Jan Leike, Rai Jade Leung, Rai Daniel Levy, Rai Chak Ming Li, Rai Rachel Lim, Rai Molly Lin, Rai Stephanie Lin, Rai Mateusz Litwin, Rai Theresa Lopez, Rai Ryan Lowe, Rai Patricia Lue, Rai Anna Makanju, Rai Kim Malfacini, Rai Sam Manning, Rai Todor Markov, Rai Yaniv Markovski, Rai Bianca Martin, Rai Katie Mayer, Rai Andrew Mayne, Rai Bob McGrew, Rai Scott Mayer McKinney, Rai Christine McLeavey, Rai Paul McMillan, Rai Jake McNeil, Rai David Medina, Rai Aalok Mehta, Rai Jacob Menick, Rai Luke Metz, Rai Andrey Mishchenko, Rai Pamela Mishkin, Rai Vinnie Monaco, Rai Evan Morikawa, Rai Daniel Mossing, Rai Tong Mu, Rai Mira Murati, Rai Oleg Murk, Rai David Mély, Rai Ashvin Nair, Rai Reiichiro Nakano, Rai Rajeev Nayak, Rai Arvind Neelakantan, Rai Richard Ngo, Rai Hyeonwoo Noh, Rai Long Ouyang, Rai Cullen O’Keefe, Rai Jakub Pachocki, Rai Alex Paino, Rai Joe Palermo, Rai Ashley Pantuliano, Rai Giambattista Parascandolo, Rai Joel Parish, Rai Emy Parparita, Rai Alex Passos, Rai Mikhail Pavlov, Rai Andrew Peng, Rai Adam Perelman, Rai Filipe de Avila Belbute Peres, Rai Michael Petrov, Rai Henrique Ponde de Oliveira Pinto, Pokorny, Michelle Pokrass, Vitchyr H. Pong, Tolly Powell, Alethea Power, Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae, Aditya Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob Rotsted, Henri Roussez, Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani Santurkar, Girish Sastry, Heather Schmidt, David Schnurr, John Schulman, Daniel Selsam, Kyla Sheppard, Toki Sherbakov, Jessica Shieh, Sarah Shoker, Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan Sitkin, Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher, Felipe Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas Tezak, Madeleine B. Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth Tseng, Preston Tuggle, Nick Turley, Jerry Tworek, Juan Felipe Cerón Uribe, Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll Wainwright, Justin Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ Weinmann, Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave Willner, Clemens Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin Wu, Jeff Wu, Michael Wu, Kai Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan, Wojciech Zaremba, Rowan Zellers, Chong Zhang, Marvin Zhang, Shengjia Zhao, Tianhao Zheng, Juntang Zhuang, William Zhuk, and Barret Zoph. Gpt-4 technical report.arXiv (Cornell University), 2023.",
+      "links": [],
+      "catalog_id": "WA-0413",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-183",
+      "pages": [
+        57
+      ],
+      "raw": "OpenCode Contributors. OpenCode: The open-source coding agent.https://opencode.ai/, 2025. Project site; source athttps://github.com/anomalyco/opencode.",
+      "links": [
+        "https://opencode.ai/",
+        "https://github.com/anomalyco/opencode"
+      ],
+      "catalog_id": "WA-0494",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-184",
+      "pages": [
+        57
+      ],
+      "raw": "Krista Opsahl-Ong, Arnav Singhvi, Jasmine Collins, Ivan Zhou, Cindy Wang, Ashutosh Baheti, Owen Oertell, Jacob Portes, Sam Havens, Erich Elsen, Michael Bendersky, Matei Zaharia, and Xing Chen. Officeqa pro: An enterprise benchmark for end-to-end grounded reasoning.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0273",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-185",
+      "pages": [
+        58
+      ],
+      "raw": "OpusClip. OpusClip: AI video clipping and editing tool.https://www.opus.pro/, 2024. AI that turns long videos into short, captioned clips optimized for social platforms.",
+      "links": [
+        "https://www.opus.pro/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-186",
+      "pages": [
+        58
+      ],
+      "raw": "Addy Osmani. Loop engineering: Designing agentic loops instead of prompts.https://addyosmani.com /blog/loop-engineering/, 2025. Engineering blog.",
+      "links": [
+        "https://addyosmani.com/blog/loop-engineering/"
+      ],
+      "catalog_id": "WA-0495",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-187",
+      "pages": [
+        58
+      ],
+      "raw": "Otter.ai. Otter.ai: AI meeting transcription and notes.https://otter.ai/ , 2023. Real-time meeting transcription, speaker ID, and AI summaries for Zoom, Google Meet, and Teams.",
+      "links": [
+        "https://otter.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-188",
+      "pages": [
+        58
+      ],
+      "raw": "Siru Ouyang, Jun Yan, Yanfei Chen, Rujun Han, Zifeng Wang, Bhavana Dalvi Mishra, Rui Meng, Chun-Liang Li, Yizhu Jiao, Kaiwen Zha, Maohao Shen, Vishy Tirumalashetty, George Lee, Jiawei Han, Tomas Pfister, and Chen-Yu Lee. Skillos: Learning skill curation for self-evolving agents.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0414",
+      "disposition": "added-paper",
+      "editorial_note": "学习的是技能管理策略；外部技能更新和模型参数学习在分类中分别记录。"
+    },
+    {
+      "ref_id": "AIO-189",
+      "pages": [
+        58
+      ],
+      "raw": "Yiming Pan, Chengwei Hu, Xuancheng Huang, Can Huang, Mingming Zhao, Yuean Bi, Xiaohan Zhang, Aohan Zeng, and Linmei Hu. AeSlides: Incentivizing aesthetic layout in LLM-based slide generation via verifiable rewards.arXiv preprint arXiv:2604.22840, 2026. doi: 10.48550/arXiv.2604.22840. URL https://arxiv.org/abs/2604.22840.",
+      "links": [
+        "https://arxiv.org/abs/2604.22840"
+      ],
+      "catalog_id": "WA-0107",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-190",
+      "pages": [
+        58
+      ],
+      "raw": "Raja Parasuraman and Victor Riley. Humans and automation: Use, misuse, disuse, abuse.Human Factors, 39 (2):230–253, 1997.",
+      "links": [],
+      "catalog_id": "WA-0415",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-191",
+      "pages": [
+        58
+      ],
+      "raw": "Shishir G. Patil, Tianjun Zhang, Xin Wang, and Joseph E. Gonzalez. Gorilla: Large language model connected with massive apis, 2023. URLhttps://arxiv.org/abs/2305.15334.",
+      "links": [
+        "https://arxiv.org/abs/2305.15334"
+      ],
+      "catalog_id": "WA-0416",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-192",
+      "pages": [
+        58
+      ],
+      "raw": "Justin Payan, Swaroop Mishra, Mukul Singh, Carina Negreanu, Christian Poelitz, Chitta Baral, Subhro Roy, RasikaChakravarthy, BenjaminVanDurme, andElnazNouri. InstructExcel: Abenchmarkfornaturallanguage instruction in excel. InFindings of the Association for Computational Linguistics: EMNLP 2023, pp. 4026–4043, Singapore, 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.findings-emnlp.265. URLhttps://aclanthology.org/2023.findings-emnlp.265/.",
+      "links": [
+        "https://aclanthology.org/2023.findings-emnlp.265/"
+      ],
+      "catalog_id": "WA-0046",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-193",
+      "pages": [
+        58
+      ],
+      "raw": "Perplexity AI. Comet: a personal AI browser and assistant.https://www.perplexity.ai/comet, 2025. AI-native browser that searches the web, summarizes pages, and autonomously completes browser tasks.",
+      "links": [
+        "https://www.perplexity.ai/comet"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-194",
+      "pages": [
+        58
+      ],
+      "raw": "Fatemeh Pesaran Zadeh, Juyeon Kim, Jin-Hwa Kim, and Gunhee Kim. Text2Chart31: Instruction tuning for chart generation with automatic feedback. InProceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pp. 11459–11480, Miami, Florida, USA, 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.emnlp-main.640. URLhttps://aclanthology.org/2024.emnl p-main.640/.",
+      "links": [
+        "https://aclanthology.org/2024.emnlp-main.640/"
+      ],
+      "catalog_id": "WA-0417",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-195",
+      "pages": [
+        58
+      ],
+      "raw": "Photoroom. Photoroom: AI-powered photo editor and listing studio for product photography. https: //www.photoroom.com/, 2023. AI photo editor for background removal, product shots, and batch image editing.",
+      "links": [
+        "https://www.photoroom.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-196",
+      "pages": [
+        58
+      ],
+      "raw": "Pika Labs. Pika: AI video generation.https://pika.art/, 2023. Generates and edits video from text, images, and footage with effects.",
+      "links": [
+        "https://pika.art/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-197",
+      "pages": [
+        58
+      ],
+      "raw": "PptxGenJS. PptxGenJS documentation, 2026. URL https://gitbrent.github.io/PptxGenJS/ . Accessed: 2026-05-20.",
+      "links": [
+        "https://gitbrent.github.io/PptxGenJS/"
+      ],
+      "catalog_id": "WA-0496",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-198",
+      "pages": [
+        58
+      ],
+      "raw": "PTC. Onshape AI Advisor: Generative AI design assistant.https://www.ptc.com/en/news/2025/p tc-announces-onshape-ai-advisor-and-onshape-government , 2025. Generative AI assistant embedded in Onshape providing real-time CAD and PDM guidance.",
+      "links": [
+        "https://www.ptc.com/en/news/2025/ptc-announces-onshape-ai-advisor-and-onshape-government"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-199",
+      "pages": [
+        58
+      ],
+      "raw": "Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, Sihan Zhao, Lauren Hong, Runchu Tian, Ruobing Xie, Jie Zhou, Mark Gerstein, Dahai Li, Zhiyuan Liu, and Maosong Sun. ToolLLM: Facilitating large language models to master 16000+ real-world APIs. InThe Twelfth International Conference on Learning Representations (ICLR), 2024. URLhttps://openreview.n et/forum?id=dHng2O0Jjr.",
+      "links": [
+        "https://openreview.net/forum?id=dHng2O0Jjr"
+      ],
+      "catalog_id": "WA-0166",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-200",
+      "pages": [
+        59
+      ],
+      "raw": "Yujia Qin, Yining Ye, Junjie Fang, Haoming Wang, Shihao Liang, Shizuo Tian, Junda Zhang, Jiahao Li, Yunxin Li, Shijue Huang, Wanjun Zhong, Kuanye Li, Jiale Yang, Yu Miao, Woyu Lin, Longxiang Liu, Xu Jiang, Qianli Ma, Jingyu Li, Xiaojun Xiao, Kai Cai, Chuang Li, Yaowei Zheng, Chaolin Jin, Chen Li, Xiao Zhou, Minchao Wang, Haoli Chen, Zhaojian Li, Haihua Yang, Haifeng Liu, Feng Lin, Tao Peng, Xin Liu, and Guang Shi. UI-TARS: Pioneering automated GUI interaction with native agents.arXiv preprint arXiv:2501.12326, 2025. URLhttps://arxiv.org/abs/2501.12326.",
+      "links": [
+        "https://arxiv.org/abs/2501.12326"
+      ],
+      "catalog_id": "WA-0297",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-201",
+      "pages": [
+        59
+      ],
+      "raw": "Qoder. Qoder: An autonomous development desktop AI coding assistant.https://qoder.com/, 2025. Product page.",
+      "links": [
+        "https://qoder.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-202",
+      "pages": [
+        59
+      ],
+      "raw": "Quadratic. Quadratic: TheAIspreadsheet. https://www.quadratichq.com/, 2025. AI-nativespreadsheet supporting formulas, Python, SQL, and JavaScript with live data connections.",
+      "links": [
+        "https://www.quadratichq.com/"
+      ],
+      "catalog_id": "WA-0497",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-203",
+      "pages": [
+        59
+      ],
+      "raw": "Quora. Poe: Unified access to AI chatbots.https://poe.com/, 2023. Platform giving users unified access to multiple AI chatbots and models in a single interface.",
+      "links": [
+        "https://poe.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-204",
+      "pages": [
+        59
+      ],
+      "raw": "Vipul Raheja, Dhruv Kumar, Ryan Koo, and Dongyeop Kang. CoEdIT: Text editing by task-specific instruction tuning. InFindings of the Association for Computational Linguistics: EMNLP 2023, pp. 5274–5291, Singapore, 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.findings-emnlp.350. URL https://aclanthology.org/2023.findings-emnlp.350/.",
+      "links": [
+        "https://aclanthology.org/2023.findings-emnlp.350/"
+      ],
+      "catalog_id": "WA-0241",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-205",
+      "pages": [
+        59
+      ],
+      "raw": "Vipul Raheja, Dimitris Alikaniotis, Vivek Kulkarni, Bashar Alhafni, and Dhruv Kumar. mEdIT: Multilingual text editing via instruction tuning. InProceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. URLhttps://arxiv.org/abs/2402.16472.",
+      "links": [
+        "https://arxiv.org/abs/2402.16472"
+      ],
+      "catalog_id": "WA-0418",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-206",
+      "pages": [
+        59
+      ],
+      "raw": "Read AI. Read AI: AI meeting assistant and notetaker. https://www.read.ai/ , 2023. Real-time transcription, summaries, and action items across Zoom, Teams, and Google Meet.",
+      "links": [
+        "https://www.read.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-207",
+      "pages": [
+        59
+      ],
+      "raw": "Recraft. Recraft: AI design platform for vector and raster art.https://www.recraft.ai/, 2024. AI design platform generating raster and vector images, mockups, and custom reusable styles.",
+      "links": [
+        "https://www.recraft.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-208",
+      "pages": [
+        59
+      ],
+      "raw": "Houxing Ren, Mingjie Zhan, Zimu Lu, Ke Wang, Yunqiao Yang, Haotian Hou, and Hongsheng Li. Towards robust real-world spreadsheet understanding with multi-agent multi-format reasoning. InProceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 1906–1933, 2026.",
+      "links": [],
+      "catalog_id": "WA-0061",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-209",
+      "pages": [
+        59
+      ],
+      "raw": "Replit. Replit Agent: AI software development agent.https://replit.com/ai, 2024. Autonomous AI agent that builds, tests, and deploys full applications from natural-language prompts.",
+      "links": [
+        "https://replit.com/ai"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-210",
+      "pages": [
+        59
+      ],
+      "raw": "Rows. Rows AI: AI-powered spreadsheet and data analyst.https://rows.com/ai, 2024. Spreadsheet with a built-in AI analyst to get, transform, and analyze data without formulas.",
+      "links": [
+        "https://rows.com/ai"
+      ],
+      "catalog_id": "WA-0498",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-211",
+      "pages": [
+        59
+      ],
+      "raw": "Runway. Introducing Runway Gen-4, 2025. URLhttps://runwayml.com/research/introducing-r unway-gen-4. Controllable video generation with consistent characters, scenes, and objects.",
+      "links": [
+        "https://runwayml.com/research/introducing-runway-gen-4"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-212",
+      "pages": [
+        59
+      ],
+      "raw": "Jon Saad-Falcon, Joe Barrow, Alexa F. Siu, Ani Nenkova, Ryan A. Rossi, and Franck Dernoncourt. PDFTriage: Question answering over long, structured documents.arXiv preprint arXiv:2309.08872, 2023. URLhttps: //arxiv.org/abs/2309.08872.",
+      "links": [
+        "https://arxiv.org/abs/2309.08872"
+      ],
+      "catalog_id": "WA-0419",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-213",
+      "pages": [
+        59
+      ],
+      "raw": "Timo Schick, Jane Dwivedi-Yu, Zhengbao Jiang, Fabio Petroni, Patrick Lewis, Gautier Izacard, Qingfei You, Christoforos Nalmpantis, Edouard Grave, and Sebastian Riedel. PEER: A collaborative language model.arXiv preprint arXiv:2208.11663, 2022. URLhttps://arxiv.org/abs/2208.11663. Also accepted at ICLR 2023.",
+      "links": [
+        "https://arxiv.org/abs/2208.11663"
+      ],
+      "catalog_id": "WA-0278",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-214",
+      "pages": [
+        59
+      ],
+      "raw": "Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Eric Hambro, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. Toolformer: Language models can teach themselves to use tools. In Advances in Neural Information Processing Systems 36 (NeurIPS), 2023. URLhttps://openreview.net /forum?id=Yacmpz84TH.",
+      "links": [
+        "https://openreview.net/forum?id=Yacmpz84TH"
+      ],
+      "catalog_id": "WA-0001",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-215",
+      "pages": [
+        59
+      ],
+      "raw": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy optimization algorithms.arXiv preprint arXiv:1707.06347, 2017.",
+      "links": [],
+      "catalog_id": "WA-0420",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-216",
+      "pages": [
+        60
+      ],
+      "raw": "Yijia Shao, Yucheng Jiang, Theodore A. Kanell, Peter Xu, Omar Khattab, and Monica S. Lam. Assisting in writing Wikipedia-like articles from scratch with large language models. InProceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024a. URLhttps://arxiv.org/abs/2402.14207.",
+      "links": [
+        "https://arxiv.org/abs/2402.14207"
+      ],
+      "catalog_id": "WA-0421",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-217",
+      "pages": [
+        60
+      ],
+      "raw": "Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Mingchuan Zhang, Y. K. Li, Y. Wu, and Daya Guo. Deepseekmath: Pushing the limits of mathematical reasoning in open language models.arXiv (Cornell University), 2024b.",
+      "links": [],
+      "catalog_id": "WA-0422",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-218",
+      "pages": [
+        60
+      ],
+      "raw": "Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu, and Yueting Zhuang. HuggingGPT: Solving AI tasks with ChatGPT and its friends in Hugging Face. InAdvances in Neural Information Processing Systems 36 (NeurIPS), 2023. URLhttps://openreview.net/forum?id=yHdTscY6Ci.",
+      "links": [
+        "https://openreview.net/forum?id=yHdTscY6Ci"
+      ],
+      "catalog_id": "WA-0423",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-219",
+      "pages": [
+        60
+      ],
+      "raw": "Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu Yao. Reflexion: Language agents with verbal reinforcement learning. InAdvances in Neural Information Processing Systems 36 (NeurIPS), 2023. URLhttps://openreview.net/forum?id=vAElhFcKW6.",
+      "links": [
+        "https://openreview.net/forum?id=vAElhFcKW6"
+      ],
+      "catalog_id": "WA-0092",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-220",
+      "pages": [
+        60
+      ],
+      "raw": "Lei Shu, Liangchen Luo, Jayakumar Hoskere, Yun Zhu, Yinxiao Liu, Simon Tong, Jindong Chen, and Lei Meng. RewriteLM: An instruction-tuned large language model for text rewriting. InProceedings of the AAAI Conference on Artificial Intelligence, 2024. URLhttps://arxiv.org/abs/2305.15685.",
+      "links": [
+        "https://arxiv.org/abs/2305.15685"
+      ],
+      "catalog_id": "WA-0424",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-221",
+      "pages": [
+        60
+      ],
+      "raw": "Mukul Singh, José Cambronero, Sumit Gulwani, Vu Le, Carina Negreanu, Elnaz Nouri, Mohammad Raza, and Gust Verbruggen. FormaT5: Abstention and examples for conditional table formatting with natural language.Proceedings of the VLDB Endowment, 17(3):497–510, 2023. doi: 10.14778/3632093.3632111. URLhttps://doi.org/10.14778/3632093.3632111.",
+      "links": [
+        "https://doi.org/10.14778/3632093.3632111"
+      ],
+      "catalog_id": "WA-0425",
+      "disposition": "added-paper",
+      "editorial_note": "arXiv书目页可读，但PDF接口返回404；单位从VLDB正式论文首页复核。"
+    },
+    {
+      "ref_id": "AIO-222",
+      "pages": [
+        60
+      ],
+      "raw": "Robert M. Solow. We’d better watch out.The New York Times Book Review, pp. 36, July 1987. Review of S. S. Cohen and J. Zysman, Manufacturing Matters: The Myth of the Post-Industrial Economy.",
+      "links": [],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-223",
+      "pages": [
+        60
+      ],
+      "raw": "Linxin Song, Yutong Dai, Viraj Prabhu, Jieyu Zhang, Taiwei Shi, Li Li, Junnan Li, Silvio Savarese, Zeyuan Chen, Jieyu Zhao, Ran Xu, and Caiming Xiong. Coact-1: Computer-using multi-agent system with coding actions. ArXiv.org, 2025.",
+      "links": [],
+      "catalog_id": "WA-0426",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-224",
+      "pages": [
+        60
+      ],
+      "raw": "Mingyang Song and Mao Zheng. A survey of on-policy distillation for large language models.arXiv preprint arXiv:2604.00626, 2026. doi: 10.48550/arXiv.2604.00626. URLhttps://arxiv.org/abs/2604.006 26.",
+      "links": [
+        "https://arxiv.org/abs/2604.00626"
+      ],
+      "catalog_id": "WA-0427",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-225",
+      "pages": [
+        60
+      ],
+      "raw": "Spellbook. Spellbook: AI contract review and drafting.https://spellbook.com/, 2023. AI assistant that drafts and reviews contracts inside Microsoft Word for transactional lawyers.",
+      "links": [
+        "https://spellbook.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-226",
+      "pages": [
+        60
+      ],
+      "raw": "StackBlitz. Bolt.new: AI app builder.https://bolt.new/, 2024. Browser-based AI builder that generates and deploys full-stack web and mobile apps from a prompt.",
+      "links": [
+        "https://bolt.new/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-227",
+      "pages": [
+        60
+      ],
+      "raw": "Aofeng Su, Aowen Wang, Chao Ye, Chen Zhou, Ga Zhang, Gang Chen, Guangcheng Zhu, Haobo Wang, Haokai Xu, Hao Chen, Haoze Li, Haoxuan Lan, Jiaming Tian, Jing Yuan, Junbo Zhao, Junlin Zhou, Kaizhe Shou, Liangyu Zha, Lin Long, Liyao Li, Pengzuo Wu, Qi Zhang, Qingyi Huang, Saisai Yang, Tao Zhang, Wentao Ye, Wufang Zhu, Xiaomeng Hu, Xijun Gu, Xinjie Sun, Xiang Li, Yuhang Yang, and Zhiqing Xiao. TableGPT2: A large multimodal model with tabular data integration.arXiv preprint arXiv:2411.02059, 2024. URL https://arxiv.org/abs/2411.02059.",
+      "links": [
+        "https://arxiv.org/abs/2411.02059"
+      ],
+      "catalog_id": "WA-0428",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-228",
+      "pages": [
+        60
+      ],
+      "raw": "Edward Sun, Yufang Hou, Dakuo Wang, Yunfeng Zhang, and Nancy X. R. Wang. D2S: Document-to-slide generation via query-based text summarization. InProceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT), pp. 1405–1418. Association for Computational Linguistics, 2021. doi: 10.18653/v1/2021.naacl-main.111. URL https://aclanthology.org/2021.naacl-main.111/.",
+      "links": [
+        "https://aclanthology.org/2021.naacl-main.111/"
+      ],
+      "catalog_id": "WA-0429",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-229",
+      "pages": [
+        60
+      ],
+      "raw": "Suno. Suno: AI music generator.https://suno.com/, 2024. Generates complete original songs with vocals, lyrics, and production from a text prompt.",
+      "links": [
+        "https://suno.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-230",
+      "pages": [
+        60
+      ],
+      "raw": "Synthesia. Synthesia: AI video platform with avatars.https://www.synthesia.io/, 2024. Generates AI videos from text using realistic AI avatars and multilingual voiceovers.",
+      "links": [
+        "https://www.synthesia.io/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-231",
+      "pages": [
+        61
+      ],
+      "raw": "Tableau. Tableau Agent: Trusted AI built into the Tableau experience.https://www.tableau.com/prod ucts/tableau-agent, 2024. Official Tableau product page for the generative AI assistant used across data preparation, exploration, visualization, and consumption.",
+      "links": [
+        "https://www.tableau.com/products/tableau-agent"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-232",
+      "pages": [
+        61
+      ],
+      "raw": "Zirui Tang, Xuanhe Zhou, Yumou Liu, Linchun Li, Weizheng Wang, Hongzhang Huang, Jun Zhou, Jiachen Song, Shaoli Yu, Jinqi Wang, Zihang Zhou, Hongyi Zhou, Yuting Lv, Jinyang Li, Jiashuo Liu, Ruoyu Chen, Chunwei Liu, and GuoLiang Li. Workspace-bench 1.0: Benchmarking ai agents on workspace tasks with large-scale file dependencies.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0019",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-233",
+      "pages": [
+        61
+      ],
+      "raw": "5 Team, Aohan Zeng, Xin Lv, Zhenyu Hou, Zhengxiao Du, Qinkai Zheng, Bin Chen, Da Yin, Chendi Ge, Chengxing Xie, Cunxiang Wang, Gengzheng Pan, Hao Zeng, Haoke Zhang, Haoran Wang, Huilong Chen, Jiajie Zhang, Jian Jiao, Jiaqi Guo, Jingsen Wang, Jingzhao Du, Jinzhu Wu, Kedong Wang, Lei Li, Lin Fan, Lucen Zhong, Mingdao Liu, Mingming Zhao, Pengfan Du, Qian Dong, Rui Lu, Shuang-Li, Shulin Cao, Song Liu, Ting Jiang, Xiaodong Chen, Xiaohan Zhang, Xuancheng Huang, Xuezhen Dong, Yabo Xu, Yao Wei, Yifan An, Yilin Niu, Yitong Zhu, Yuanhao Wen, Yukuo Cen, Yushi Bai, Zhongpei Qiao, Zihan Wang, Zikang Wang, Zilin Zhu, Ziqiang Liu, Zixuan Li, Bojie Wang, Bosi Wen, Can Huang, Changpeng Cai, Chao Yu, Chenghua Huang, Chengwei Hu, Chenhui Zhang, Chenzheng Zhu, Congfeng Yin, Daoyan Lin, Dayong Yang, Di Wang, Ding Ai, Erle Zhu, Fangzhou Yi, Feiyu Chen, Guohong Wen, Hailong Sun, Haisha Zhao, Haiyi Hu, Hanchen Zhang, Hanrui Liu, Hanyu Zhang, Hao Peng, Hao Tai, Haobo Zhang, He Liu, Hongwei Wang, Hongxi Yan, Hongyu Ge, Huanpeng Chu, Jia’ni Zhao, Jiachen Wang, Jiajing Zhao, Jiamin Ren, Jiapeng Wang, Jiaxin Zhang, Jiayi Gui, Jiayue Zhao, Jijie Li, Jing An, Jing Li, Jingwei Yuan, Jinhua Du, Jinxin Liu, Junkai Zhi, Junwen Duan, Kaiyue Zhou, Kangjian Wei, Ke Wang, Keyun Luo, Laiqiang Zhang, Leigang Sha, Liang Xu, Lindong Wu, Lintao Ding, Lu Chen, Minghao Li, Nianyi Lin, Pan Ta, Qiang Zou, Rongjun Song, Ruiqi Yang, Shangqing Tu, Shangtong Yang, Shaoxiang Wu, Shengyan Zhang, Shijie Li, Shuang Li, Shuyi Fan, Wei Qin, Wei Tian, Weining Zhang, Wenbo Yu, Wenjie Liang, Xiang Kuang, Xiangmeng Cheng, Xiangyang Li, Xiaoquan Yan, Xiaowei Hu, Xiaoying Ling, Xing Fan, Xingye Xia, Xinyuan Zhang, Xinze Zhang, Xirui Pan, Xunkai Zhang, Yandong Wu, Yanfu Li, Yidong Wang, Yifan Zhu, Yijun Tan, Yilin Zhou, Yiming Pan, Ying Zhang, Yinpei Su, Yong Yan, Yonglin Tan, Yuean Bi, Yuhan Shen, Yuhao Yang, Yujiang Li, Yunan Liu, Yunqing Wang, Yuntao Li, Yurong Wu, Yutao Zhang, Yuxi Duan, Yuxuan Zhang, Zezhen Liu, Zhengtao Jiang, Zhenhe Yan, Zheyu Zhang, Zhixiang Wei, Zhuo Chen, Zhuoer Feng, Zijun Yao, Ziwei Chai, Ziyuan Wang, Zuzhou Zhang, Bin Xu, Minlie Huang, Hongning Wang, Juanzi Li, and Yuxiao Dong. Glm-5: from vibe coding to agentic engineering.arXiv (Cornell University), 2026a.",
+      "links": [],
+      "catalog_id": "WA-0430",
+      "disposition": "added-paper",
+      "editorial_note": "来源书目作者串以“5 Team”开头；采用官方arXiv模型报告元数据，不照抄异常作者串。"
+    },
+    {
+      "ref_id": "AIO-234",
+      "pages": [
+        61
+      ],
+      "raw": "Gemini Team. Gemini: A family of highly capable multimodal models.arXiv (Cornell University), 2023.",
+      "links": [],
+      "catalog_id": "WA-0431",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-235",
+      "pages": [
+        61,
+        62
+      ],
+      "raw": "Kimi Team, Tongtong Bai, Yifan Bai, Yiping Bao, S. H. Cai, Yuan Cao, Y. Charles, H. S. Che, Cheng Chen, Guanduo Chen, Huarong Chen, Jia Chen, Jiahao Chen, Jianlong Chen, Jun Chen, Kefan Chen, Liang Chen, Ruijue Chen, Xinhao Chen, Yanru Chen, Yanxu Chen, Yicun Chen, Yimin Chen, Yingjiang Chen, Yuankun Chen, Yujie Chen, Yutian Chen, Zhirong Chen, Ziwei Chen, Dazhi Cheng, Minghan Chu, Jialei Cui, Jiaqi Deng, Muxi Diao, Hao Ding, Mengfan Dong, Mengnan Dong, Yuxin Dong, Yuhao Dong, Angang Du, Chenzhuang Du, Dikang Du, Lingxiao Du, Yulun Du, Yu Fan, Shengjun Fang, Qiulin Feng, Yichen Feng, Garimugai Fu, Kelin Fu, Hongcheng Gao, Tong Gao, Yuyao Ge, Shangyi Geng, Chengyang Gong, Xiaochen Gong, Zhuoma Gongque, Qizheng Gu, Xinran Gu, Yicheng Gu, Longyu Guan, Yuanying Guo, Xiaoru Hao, Weiran He, Wenyang He, Yunjia He, Chao Hong, Hao Hu, Jiaxi Hu, Yangyang Hu, Zhenxing Hu, Ke Huang, Ruiyuan Huang, Weixiao Huang, Zhiqi Huang, Tao Jiang, Zhejun Jiang, Xinyi Jin, Yu Jing, Guokun Lai, Aidi Li, C. Li, Fang Li, Guanghe Li, Guanyu Li, Haitao Li, Haoyang Li, Jia Li, Jingwei Li, Junxiong Li, Lincan Li, Mo Li, Weihong Li, Wentao Li, Xinhang Li, Xinhao Li, Yang Li, Yanhao Li, Yiwei Li, Yuxiao Li, Zhaowei Li, Zheming Li, Weilong Liao, Jiawei Lin, Xiaohan Lin, Zhishan Lin, Zichao Lin, Cheng Liu, Chenyu Liu, Hongzhang Liu, Liang Liu, Shaowei Liu, Shudong Liu, Shuran Liu, Tianwei Liu, Tianyu Liu, Weizhou Liu, Xiangyan Liu, Yangyang Liu, Yanming Liu, Yibo Liu, Yuanxin Liu, Yue Liu, Zhengying Liu, Zhongnuo Liu, Enzhe Lu, Haoyu Lu, Zhiyuan Lu, Junyu Luo, Tongxu Luo, Yashuo Luo, Long Ma, Yingwei Ma, Shaoguang Mao, Yuan Mei, Xin Men, Fanqing Meng, Zhiyong Meng, Yibo Miao, Minqing Ni, Kun Ouyang, Siyuan Pan, Bo Pang, Yuchao Qian, Ruoyu Qin, Zeyu Qin, Jiezhong Qiu, Bowen Qu, Zeyu Shang, Youbo Shao, Tianxiao Shen, Zhennan Shen, Juanfeng Shi, Lidong Shi, Shengyuan Shi, Feifan Song, Pengwei Song, Tianhui Song, Xiaoxi Song, Hongjin Su, Jianlin Su, Zhaochen Su, Lin Sui, Jinsong Sun, Junyao Sun, Tongyu Sun, Flood Sung, Yunpeng Tai, Chuning Tang, Heyi Tang, Xiaojuan Tang, Zhengyang Tang, Jiawen Tao, Shiyuan Teng, Chaoran Tian, Pengfei Tian, Ao Wang, Bowen Wang, Chensi Wang, Chuang Wang, Congcong Wang, Dingkun Wang, Dinglu Wang, Dongliang Wang, Feng Wang, Hailong Wang, Haiming Wang, Hengzhi Wang, Huaqing Wang, Hui Wang, Jiahao Wang, Jinhong Wang, Jiuzheng Wang, Kaixin Wang, Linian Wang, Qibin Wang, Shengjie Wang, Shuyi Wang, Si Wang, Wei Wang, Xiaochen Wang, Xinyuan Wang, Yao Wang, Yejie Wang, Yipu Wang, Yiqin Wang, Yucheng Wang, Yuzhi Wang, Zhaoji Wang, Zhaowei Wang, Zhengtao Wang, Zhexu Wang, Zihan Wang, Zizhe Wang, Chu Wei, Ming Wei, Chuan Wen, Zichen Wen, Chengjie Wu, Haoning Wu, Junyan Wu, Rucong Wu, Wenhao Wu, Yuefeng Wu, Yuhao Wu, Yuxin Wu, Zijian Wu, Chenjun Xiao, Jin Xie, Xiaotong Xie, Yuchong Xie, Yifei Xin, Bowei Xing, Boyu Xu, Jianfan Xu, Jing Xu, Jinjing Xu, L. H. Xu, Lin Xu, Suting Xu, Weixin Xu, Xinbo Xu, Xinran Xu, Yangchuan Xu, Yichang Xu, Yuemeng Xu, Zelai Xu, Ziyao Xu, Junjie Yan, Yuzi Yan, Guangyao Yang, Hao Yang, Junwei Yang, Kai Yang, Ningyuan Yang, Ruihan Yang, Xiaofei Yang, Xinlong Yang, Ying Yang, Zhen Yang, Zhilin Yang, Zonghan Yang, Haotian Yao, Dan Ye, Wenjie Ye, Zhuorui Ye, Bohong Yin, Chengzhen Yu, Longhui Yu, Tao Yu, Tianxiang Yu, Enming Yuan, Mengjie Yuan, Xiaokun Yuan, Yang Yue, Weihao Zeng, Dunyuan Zha, Haobing Zhan, Dehao Zhang, Hao Zhang, Jin Zhang, Puqi Zhang, Qiao Zhang, Rui Zhang, Xiaobin Zhang, Y. Zhang, Yadong Zhang, Yangkun Zhang, Yichi Zhang, Yizhi Zhang, Yongting Zhang, Yu Zhang, Yushun Zhang, Yutao Zhang, Yutong Zhang, Zheng Zhang, Chenguang Zhao, Feifan Zhao, Jinxiang Zhao, Shuai Zhao, Xiangyu Zhao, Yikai Zhao, Zijia Zhao, Huabin Zheng, Ruihan Zheng, Shaojie Zheng, Tengyang Zheng, Junfeng Zhong, Longguang Zhong, Weiming Zhong, M. Zhou, Runjie Zhou, Xinyu Zhou, Zaida Zhou, Jinguo Zhu, Liya Zhu, Xinhao Zhu, Yuxuan Zhu, Zhen Zhu, Jingze Zhuang, Weiyu Zhuang, Ying Zou, and Xinxing Zu. Kimi k2.5: Visual agentic intelligence.arXiv (Cornell University), 2026b.",
+      "links": [],
+      "catalog_id": "WA-0432",
+      "disposition": "added-paper",
+      "editorial_note": "单位按报告首页Kimi Team记录；没有根据作者个人背景扩展单位。"
+    },
+    {
+      "ref_id": "AIO-236",
+      "pages": [
+        62
+      ],
+      "raw": "Tencent. Tencent Yuanqi: AI agent creation and distribution platform.https://yuanqi.tencent.com/, 2024. Zero-code platform on the Hunyuan model for building and distributing AI agents across WeChat, QQ, and Tencent Cloud.",
+      "links": [
+        "https://yuanqi.tencent.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-237",
+      "pages": [
+        62
+      ],
+      "raw": "Tencent. QClaw: One-click local OpenClaw deployment with messaging-app control.https://qclawsg.qq .com/, 2026. Personal local AI agent with one-click OpenClaw deployment and WeChat/QQ remote task control.",
+      "links": [
+        "https://qclawsg.qq.com/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-238",
+      "pages": [
+        62
+      ],
+      "raw": "Tencent Cloud. WorkBuddy: An AI-native desktop agent for office work.https://www.workbuddy.ai/, 2026. Multi-agent desktop office agent producing reports, decks, and spreadsheets with enterprise tool integration.",
+      "links": [
+        "https://www.workbuddy.ai/"
+      ],
+      "catalog_id": "WA-0499",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-239",
+      "pages": [
+        62
+      ],
+      "raw": "TestFit. TestFit: AI real estate feasibility platform.https://www.testfit.io/, 2023. Generative-design platform that produces and optimizes building site plans and feasibility analyses.",
+      "links": [
+        "https://www.testfit.io/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-240",
+      "pages": [
+        62
+      ],
+      "raw": "Rubèn Tito, Dimosthenis Karatzas, and Ernest Valveny. Hierarchical multimodal transformers for multipage DocVQA.Pattern Recognition, 144:109834, 2023. doi: 10.1016/j.patcog.2023.109834. URL https: //doi.org/10.1016/j.patcog.2023.109834.",
+      "links": [
+        "https://doi.org/10.1016/j.patcog.2023.109834"
+      ],
+      "catalog_id": "WA-0433",
+      "disposition": "added-paper",
+      "editorial_note": "题名、作者与DOI已核对；本轮未获得可直接核验的单位页，单位留空。"
+    },
+    {
+      "ref_id": "AIO-241",
+      "pages": [
+        62
+      ],
+      "raw": "Tome App AI. Tome App AI: AI presentation maker.https://tomeapp.ai/, 2023.",
+      "links": [
+        "https://tomeapp.ai/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-242",
+      "pages": [
+        62
+      ],
+      "raw": "Uizard. Uizard: AI-powered UI design. https://uizard.io/ , 2023. AI UI design tool that generates wireframes, mockups, and prototypes from prompts and sketches.",
+      "links": [
+        "https://uizard.io/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-243",
+      "pages": [
+        62
+      ],
+      "raw": "Annie Vella and Kelly Blincoe. The impact of AI coding assistants on software engineering: A longitudinal study.arXiv preprint arXiv:2605.23135, 2026. URLhttps://arxiv.org/abs/2605.23135.",
+      "links": [
+        "https://arxiv.org/abs/2605.23135"
+      ],
+      "catalog_id": "WA-0434",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-244",
+      "pages": [
+        62
+      ],
+      "raw": "Bin Wang, Chao Xu, Xiaomeng Zhao, Linke Ouyang, Fan Wu, Zhiyuan Zhao, Rui Xu, Kaiwen Liu, Yuan Qu, Fukai Shang, Bo Zhang, Liqun Wei, Zhihao Sui, Wei Li, Botian Shi, Yu Qiao, Dahua Lin, and Conghui He. Mineru: An open-source solution for precise document content extraction.arXiv (Cornell University), 2024a.",
+      "links": [],
+      "catalog_id": "WA-0354",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-245",
+      "pages": [
+        62
+      ],
+      "raw": "Dongsheng Wang, Natraj Raman, Mathieu Sibue, Zhiqiang Ma, Petr Babkin, Simerjot Kaur, Yulong Pei, Armineh Nourbakhsh, and Xiaomo Liu. DocLLM: A layout-aware generative language model for multimodal document understanding. InProceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Vol- ume 1: Long Papers), pp. 8529–8548, Bangkok, Thailand, 2024b. Association for Computational Linguistics. doi: 10.18653/v1/2024.acl-long.463. URLhttps://aclanthology.org/2024.acl-long.463/.",
+      "links": [
+        "https://aclanthology.org/2024.acl-long.463/"
+      ],
+      "catalog_id": "WA-0435",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-246",
+      "pages": [
+        62
+      ],
+      "raw": "WeixuanWang, DonggeHan, DanielMadrigalDiaz, JinXu, VictorRühle, andSaravanRajmohan. Odysseybench: Evaluating llm agents on long-horizon complex office application workflows.arXiv preprint arXiv:2508.09124, 2025. doi: 10.48550/arXiv.2508.09124. URLhttps://arxiv.org/abs/2508.09124.",
+      "links": [
+        "https://arxiv.org/abs/2508.09124"
+      ],
+      "catalog_id": "WA-0272",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-247",
+      "pages": [
+        63
+      ],
+      "raw": "Xingyao Wang, Yangyi Chen, Lifan Yuan, Yizhe Zhang, Yunzhu Li, Hao Peng, and Heng Ji. Executable code actions elicit better LLM agents. InProceedings of the 41st International Conference on Machine Learning, 2024c. URLhttps://proceedings.mlr.press/v235/wang24h.html.",
+      "links": [
+        "https://proceedings.mlr.press/v235/wang24h.html"
+      ],
+      "catalog_id": "WA-0080",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-248",
+      "pages": [
+        63
+      ],
+      "raw": "Zilong Wang, Yuedong Cui, Li Zhong, Zimin Zhang, Da Yin, Bill Yuchen Lin, and Jingbo Shang. Of- ficebench: Benchmarking language agents across multiple applications for office automation.arXiv preprint arXiv:2407.19056, 2024d. doi: 10.48550/arXiv.2407.19056. URLhttps://arxiv.org/abs/2407.1 9056.",
+      "links": [
+        "https://arxiv.org/abs/2407.19056"
+      ],
+      "catalog_id": "WA-0057",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-249",
+      "pages": [
+        63
+      ],
+      "raw": "ZilongWang,HaoZhang,Chun-LiangLi,JulianMartinEisenschlos,VincentPerot,ZifengWang,LeslyMiculicich, Yasuhisa Fujii, Jingbo Shang, Chen-Yu Lee, and Tomas Pfister. Chain-of-table: Evolving tables in the reasoning chain for table understanding. InThe Twelfth International Conference on Learning Representations (ICLR), 2024e. URLhttps://openreview.net/forum?id=4L0xnS4GQM.",
+      "links": [
+        "https://openreview.net/forum?id=4L0xnS4GQM"
+      ],
+      "catalog_id": "WA-0436",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-250",
+      "pages": [
+        63
+      ],
+      "raw": "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H. Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, and William Fedus. Emergent abilities of large language models.Transactions on Machine Learning Research, 2022.",
+      "links": [],
+      "catalog_id": "WA-0437",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-251",
+      "pages": [
+        63
+      ],
+      "raw": "Haohan Weng, Danqing Huang, Yu Qiao, Zheng Hu, Chin-Yew Lin, Tong Zhang, and C. L. Philip Chen. Desigen: A pipeline for controllable design template generation. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024. URLhttps://arxiv.org/abs/2403.09093.",
+      "links": [
+        "https://arxiv.org/abs/2403.09093"
+      ],
+      "catalog_id": "WA-0438",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-252",
+      "pages": [
+        63
+      ],
+      "raw": "Werk24. Werk24: AI feature extraction for technical drawings.https://werk24.io/, 2023. API that parses technical drawings to extract PMI, GD&T, tolerances, and threads as structured JSON.",
+      "links": [
+        "https://werk24.io/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-253",
+      "pages": [
+        63
+      ],
+      "raw": "Wix. Wix AI website builder.https://www.wix.com/ai-website-builder , 2024. Builds complete websites with business tools from a natural-language description via an AI agent.",
+      "links": [
+        "https://www.wix.com/ai-website-builder"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-254",
+      "pages": [
+        63
+      ],
+      "raw": "Xianjie Wu, Jian Yang, Linzheng Chai, Ge Zhang, Jiaheng Liu, Xinrun Du, Di Liang, Daixin Shu, Xianfu Cheng, Tianzhen Sun, Guanglin Niu, Tongliang Li, and Zhoujun Li. TableBench: A comprehensive and complex benchmark for table question answering. InProceedings of the AAAI Conference on Artificial Intelligence, volume 39, pp. 25497–25506, 2025. doi: 10.1609/aaai.v39i24.34739. URLhttps://ojs.aaai.org/i ndex.php/AAAI/article/view/34739.",
+      "links": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/34739"
+      ],
+      "catalog_id": "WA-0439",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-255",
+      "pages": [
+        63
+      ],
+      "raw": "Tianbao Xie, Danyang Zhang, Jixuan Chen, Xiaochuan Li, Siheng Zhao, Ruisheng Cao, Toh Jing Hua, Zhoujun Cheng, Dongchan Shin, Fangyu Lei, Yitao Liu, Yiheng Xu, Shuyan Zhou, Silvio Savarese, Caiming Xiong, Victor Zhong, and Tao Yu. OSWorld: Benchmarking multimodal agents for open-ended tasks in real computer environments. InAdvances in Neural Information Processing Systems 37 (NeurIPS) Datasets and Benchmarks Track, 2024. URLhttps://openreview.net/forum?id=tN61DTr4Ed.",
+      "links": [
+        "https://openreview.net/forum?id=tN61DTr4Ed"
+      ],
+      "catalog_id": "WA-0004",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-256",
+      "pages": [
+        63
+      ],
+      "raw": "Frank F. Xu, Yufan Song, Boxuan Li, Yuxuan Tang, Kritanjali Jain, Mengxue Bao, Zora Z. Wang, Xuhui Zhou, Zhitong Guo, Murong Cao, Mingyang Yang, Hao Yang Lu, Amaad Martin, Zhe Su, Leander Maksimov, Yujie Du, Qiuyu Liu, Yuekang Wang, Yueqi Tang, Robert Wang, Shuyan Yao, Ye Liu, Steven Y. Ou, Robert L. Russell, Frank Tang, Russ Salakhutdinov, Diyi Yang, Shunyu Yao, Ofir Press, and Graham Neubig. TheAgentCompany: Benchmarking LLM agents on consequential real world tasks, 2024. URLhttps://arxiv.org/abs/24 12.14161.",
+      "links": [
+        "https://arxiv.org/abs/2412.14161"
+      ],
+      "catalog_id": "WA-0020",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-257",
+      "pages": [
+        63
+      ],
+      "raw": "Renjun Xu and Yang Yan. Agent skills for large language models: Architecture, acquisition, security, and the path forward, 2026. URLhttps://arxiv.org/abs/2602.12430.",
+      "links": [
+        "https://arxiv.org/abs/2602.12430"
+      ],
+      "catalog_id": "WA-0440",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-258",
+      "pages": [
+        63
+      ],
+      "raw": "Yang Xu, Yiheng Xu, Tengchao Lv, Lei Cui, Furu Wei, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha Zhang, Wanxiang Che, Min Zhang, and Lidong Zhou. LayoutLMv2: Multi-modal pre-training for visually-rich document understanding. InProceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pp. 2579–2591. Association for Computational Linguistics, 2021. doi: 10.18653/v1/2021.acl-long.201. URL https://aclanthology.org/2021.acl-long.201/.",
+      "links": [
+        "https://aclanthology.org/2021.acl-long.201/"
+      ],
+      "catalog_id": "WA-0441",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-259",
+      "pages": [
+        63
+      ],
+      "raw": "Y Combinator. StackAI: The enterprise AI transformation platform, 2023. URLhttps://www.ycombinato r.com/companies/stackai. Y Combinator company profile, Winter 2023.",
+      "links": [
+        "https://www.ycombinator.com/companies/stackai"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-260",
+      "pages": [
+        64
+      ],
+      "raw": "Y Combinator. Capacitive: AI agent building for knowledge workers, 2024a. URLhttps://www.ycom binator.com/launches/NdC-capacitive-ai-agent-building-for-knowledge-workers . Launch YC profile.",
+      "links": [
+        "https://www.ycombinator.com/launches/NdC-capacitive-ai-agent-building-for-knowledge-workers"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-261",
+      "pages": [
+        64
+      ],
+      "raw": "Y Combinator. Melder: AI formulas and document support for Microsoft Excel, 2024b. URLhttps://www. ycombinator.com/companies/melder. Y Combinator company profile, Fall 2024.",
+      "links": [
+        "https://www.ycombinator.com/companies/melder"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-262",
+      "pages": [
+        64
+      ],
+      "raw": "Y Combinator. Requests for startups: Make something agents want, 2025a. URLhttps://www.ycombina tor.com/rfs. Y Combinator request for startups on agent-first software.",
+      "links": [
+        "https://www.ycombinator.com/rfs"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-263",
+      "pages": [
+        64
+      ],
+      "raw": "Y Combinator. Altrina: The SOP automation platform, 2025b. URLhttps://www.ycombinator.com/co mpanies/altrina. Y Combinator company profile.",
+      "links": [
+        "https://www.ycombinator.com/companies/altrina"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-264",
+      "pages": [
+        64
+      ],
+      "raw": "Y Combinator. Unsiloed AI: Api for parsing multimodal unstructured data, 2025c. URLhttps://www.ycom binator.com/companies/unsiloed-ai. Y Combinator company profile and launch page.",
+      "links": [
+        "https://www.ycombinator.com/companies/unsiloed-ai"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-265",
+      "pages": [
+        64
+      ],
+      "raw": "Y Combinator. Workflow automation startups funded by Y Combinator, 2026. URLhttps://www.ycom binator.com/companies/industry/workflow-automation. Startup directory snapshot accessed June 2026.",
+      "links": [
+        "https://www.ycombinator.com/companies/industry/workflow-automation"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-266",
+      "pages": [
+        64
+      ],
+      "raw": "Yibo Yang, Fei Lei, Yixuan Sun, Yantao Zeng, Chengguang Lv, Jiancao Hong, Jiaojiao Tian, Tianyu Qiu, Xin Wang, Yanbing Chen, Yanjie Li, Zheng Pan, Xiaochen Zhou, Guanzhou Chen, Haoran Lv, Yuning Xu, Yue Ou, Haodong Liu, Shiqi He, Anya Jia, Yulei Xin, Huan Wu, Liang Liu, Jiaye Ge, Jianxin Dong, Dahua Lin, and Wenxiu Sun. Aidabench: Ai data analytics benchmark.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0442",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-267",
+      "pages": [
+        64
+      ],
+      "raw": "Yuhao Yang, Zhen Yang, Zi-Yi Dou, Anh Nguyen, Keen You, Omar Attia, Andrew Szot, Michael Feng, Ram Ramrakhya, Alexander Toshev, Chao Huang, Yinfei Yang, and Zhe Gan. Ultracua: A foundation model for computer use agents with hybrid action.arXiv (Cornell University), 2025.",
+      "links": [],
+      "catalog_id": "WA-0443",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-268",
+      "pages": [
+        64
+      ],
+      "raw": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. ReAct: Synergizing reasoning and acting in language models. InThe Eleventh International Conference on Learning Representations (ICLR), 2023. URLhttps://openreview.net/forum?id=WE_vluYUL-X.",
+      "links": [
+        "https://openreview.net/forum?id=WE_vluYUL-X"
+      ],
+      "catalog_id": "WA-0081",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-269",
+      "pages": [
+        64
+      ],
+      "raw": "Jiabo Ye, Anwen Hu, Haiyang Xu, Qinghao Ye, Ming Yan, Yuhao Dan, Chenlin Zhao, Guohai Xu, Chenliang Li, Junfeng Tian, Qian Qi, Ji Zhang, and Fei Huang. mPLUG-DocOwl: Modularized multimodal large language model for document understanding.arXiv preprint arXiv:2307.02499, 2023a. URL https: //arxiv.org/abs/2307.02499.",
+      "links": [
+        "https://arxiv.org/abs/2307.02499"
+      ],
+      "catalog_id": "WA-0444",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-270",
+      "pages": [
+        64
+      ],
+      "raw": "Yunhu Ye, Binyuan Hui, Min Yang, Binhua Li, Fei Huang, and Yongbin Li. Large language models are versatile decomposers: Decomposing evidence and questions for table-based reasoning. InProceedings of the 46th InternationalACMSIGIRConferenceonResearchandDevelopmentinInformationRetrieval(SIGIR),pp.174–184. ACM, 2023b. doi: 10.1145/3539618.3591708. URLhttps://doi.org/10.1145/3539618.3591708.",
+      "links": [
+        "https://doi.org/10.1145/3539618.3591708"
+      ],
+      "catalog_id": "WA-0445",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-271",
+      "pages": [
+        64
+      ],
+      "raw": "Thomson Yen, Julian Poeltl, Harshith Srinivas Gear, Yilin Meng, Joshua Fan, Adam Shen, Yili Liu, Ali Bauyrzhan, Siri Du, Haoyang Liu, Daniel Guetta, and Hongseok Namkoong. MBABench: Evaluating LLM agents on end-to-end spreadsheet tasks in finance.arXiv preprint arXiv:2605.22664, 2026. URLhttps://arxiv.or g/abs/2605.22664.",
+      "links": [
+        "https://arxiv.org/abs/2605.22664"
+      ],
+      "catalog_id": "WA-0446",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-272",
+      "pages": [
+        64
+      ],
+      "raw": "Ori Yoran, Samuel Joseph Amouyal, Chaitanya Malaviya, Ben Bogin, Ofir Press, and Jonathan Berant. As- sistantBench: Can web agents solve realistic and time-consuming tasks? InProceedings of the 2024 Con- ference on Empirical Methods in Natural Language Processing (EMNLP), pp. 8938–8968, Miami, Florida, USA, 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.emnlp-main.505. URL https://aclanthology.org/2024.emnlp-main.505/.",
+      "links": [
+        "https://aclanthology.org/2024.emnlp-main.505/"
+      ],
+      "catalog_id": "WA-0228",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-273",
+      "pages": [
+        64
+      ],
+      "raw": "Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, and Dragomir Radev. Spider: A large-scale human-labeled dataset for complex and cross-domain semantic parsing and text-to-SQL task. InProceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 3911–3921, Brussels, Belgium, 2018. Association for Computational Linguistics. doi: 10.18653/v1/D18-1425. URLhttps://aclanthology.org/D18-142 5/.",
+      "links": [
+        "https://aclanthology.org/D18-1425/"
+      ],
+      "catalog_id": "WA-0447",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-274",
+      "pages": [
+        65
+      ],
+      "raw": "Z.AI. GLM Slide/Poster Agent (beta) overview.https://docs.z.ai/guides/agents/slide , 2026. Accessed: 2026-05-21.",
+      "links": [
+        "https://docs.z.ai/guides/agents/slide"
+      ],
+      "catalog_id": "WA-0500",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-275",
+      "pages": [
+        65
+      ],
+      "raw": "Z.ai. Z.ai: Inspiring AGI to benefit humanity.https://www.zhipuai.cn/en, 2026. Official Zhipu AI/Z.ai homepage used as a stable source for this product-family reference.",
+      "links": [
+        "https://www.zhipuai.cn/en"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-276",
+      "pages": [
+        65
+      ],
+      "raw": "Zapier. Zapier Agents: Autonomous AI teammates.https://zapier.com/agents, 2025. AI agents that act as goal-oriented teammates connecting to thousands of apps to build and run workflows.",
+      "links": [
+        "https://zapier.com/agents"
+      ],
+      "catalog_id": "WA-0501",
+      "disposition": "added-resource"
+    },
+    {
+      "ref_id": "AIO-277",
+      "pages": [
+        65
+      ],
+      "raw": "Wenzheng Zeng, Mingyu Ouyang, Langyuan Cui, and Hwee Tou Ng. SlideTailor: Personalized presentation slide generation for scientific papers. InProceedings of the AAAI Conference on Artificial Intelligence, volume 40, pp. 34584–34592, 2026. doi: 10.1609/aaai.v40i41.40758. URLhttps://arxiv.org/abs/2512.20292.",
+      "links": [
+        "https://arxiv.org/abs/2512.20292"
+      ],
+      "catalog_id": "WA-0448",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-278",
+      "pages": [
+        65
+      ],
+      "raw": "Chaoyun Zhang, Liqun Li, Shilin He, Xu Zhang, Bo Qiao, Si Qin, Minghua Ma, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, and Qi Zhang. Ufo: A ui-focused agent for windows os interaction, 2024a. URL https://arxiv.org/abs/2402.07939.",
+      "links": [
+        "https://arxiv.org/abs/2402.07939"
+      ],
+      "catalog_id": "WA-0449",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-279",
+      "pages": [
+        65
+      ],
+      "raw": "Chaoyun Zhang, He Huang, Chiming Ni, Jian Mu, Si Qin, Shilin He, Lu Wang, Fangkai Yang, Pu Zhao, Chao Du, Liqun Li, Yu Kang, Zhao Jiang, Suzhen Zheng, Rujia Wang, Jiaxu Qian, Minghua Ma, Jian-Guang Lou, Qingwei Lin, Saravan Rajmohan, and Dongmei Zhang. Ufo2: The desktop agentos.arXiv (Cornell University), 2025a.",
+      "links": [],
+      "catalog_id": "WA-0084",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-280",
+      "pages": [
+        65
+      ],
+      "raw": "Le Zhang, Yixiong Xiao, Xinjiang Lu, Jingjia Cao, Yusai Zhao, Jingbo Zhou, Lang An, Zikan Feng, Wanxiang Sha, Yu Shi, Congxi Xiao, Jian Xiong, Yankai Zhang, Hua Wu, and Haifeng Wang. Omegause: Building a general-purpose gui agent for autonomous task execution.arXiv preprint arXiv:2601.20380, 2026. URL https://arxiv.org/abs/2601.20380.",
+      "links": [
+        "https://arxiv.org/abs/2601.20380"
+      ],
+      "catalog_id": "WA-0450",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-281",
+      "pages": [
+        65
+      ],
+      "raw": "Tianshu Zhang, Xiang Yue, Yifei Li, and Huan Sun. TableLlama: Towards open large generalist models for tables. InProceedings of the 2024 Conference of the North American Chapter of the Association for ComputationalLinguistics: HumanLanguageTechnologies(Volume1: LongPapers),pp.6024–6044.Association for Computational Linguistics, 2024b. doi: 10.18653/v1/2024.naacl-long.335. URLhttps://aclantho logy.org/2024.naacl-long.335/.",
+      "links": [
+        "https://aclanthology.org/2024.naacl-long.335/"
+      ],
+      "catalog_id": "WA-0451",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-282",
+      "pages": [
+        65
+      ],
+      "raw": "Wenqi Zhang, Yongliang Shen, Zeqi Tan, Guiyang Hou, Weiming Lu, and Yueting Zhuang. Data-copilot: Bridging billions of data and humans with autonomous workflow.arXiv preprint arXiv:2306.07209, 2023. URLhttps://arxiv.org/abs/2306.07209.",
+      "links": [
+        "https://arxiv.org/abs/2306.07209"
+      ],
+      "catalog_id": "WA-0452",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-283",
+      "pages": [
+        65
+      ],
+      "raw": "Zhilin Zhang, Xiang Zhang, Jiaqi Wei, Yiwei Xu, and Chenyu You. PosterGen: Aesthetic-aware paper-to-poster generation via multi-agent LLMs.arXiv preprint arXiv:2508.17188, 2025b. URLhttps://arxiv.org/ab s/2508.17188. Accepted to CVPR 2026 Findings.",
+      "links": [
+        "https://arxiv.org/abs/2508.17188"
+      ],
+      "catalog_id": "WA-0453",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-284",
+      "pages": [
+        65
+      ],
+      "raw": "Wei Zhao, Zhitao Hou, Siyuan Wu, Yan Gao, Haoyu Dong, Yao Wan, Hongyu Zhang, Yulei Sui, and Haidong Zhang. Nl2formula: Generating spreadsheet formulas from natural language queries. InFindings of the Association for Computational Linguistics: EACL 2024, pp. 2377–2388. Association for Computational Linguistics, 2024. doi: 10.18653/v1/2024.findings-eacl.158. URLhttps://aclanthology.org/2024. findings-eacl.158/.",
+      "links": [
+        "https://aclanthology.org/2024.findings-eacl.158/"
+      ],
+      "catalog_id": "WA-0454",
+      "disposition": "added-paper"
+    },
+    {
+      "ref_id": "AIO-285",
+      "pages": [
+        65
+      ],
+      "raw": "Hao Zheng, Xinyan Guan, Hao Kong, Wenkai Zhang, Jia Zheng, Weixiang Zhou, Hongyu Lin, Yaojie Lu, Xianpei Han, and Le Sun. PPTAgent: Generating and evaluating presentations beyond text-to-slides. InProceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 14413–14429, Suzhou, China, 2025. Association for Computational Linguistics. doi: 10.18653/v1/2025.emnlp-main.728. URL https://aclanthology.org/2025.emnlp-main.728/. Introduces both the PPTAgent system and the PPTEval evaluation framework.",
+      "links": [
+        "https://aclanthology.org/2025.emnlp-main.728/"
+      ],
+      "catalog_id": "WA-0006",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-286",
+      "pages": [
+        65
+      ],
+      "raw": "Hao Zheng, Guozhao Mo, Xinru Yan, Qianhao Yuan, Wenkai Zhang, Xuanang Chen, Yaojie Lu, Hongyu Lin, Xianpei Han, and Le Sun. Deeppresenter: Environment-grounded reflection for agentic presentation generation.arXiv (Cornell University), 2026.",
+      "links": [],
+      "catalog_id": "WA-0039",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-287",
+      "pages": [
+        65
+      ],
+      "raw": "Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica. Judging LLM-as-a-judge with MT-Bench and chatbot arena. InAdvances in Neural Information Processing Systems 36, 2023. doi: 10.48550/arXiv.2306.05685. URLhttps://arxiv.org/abs/2306.05685.",
+      "links": [
+        "https://arxiv.org/abs/2306.05685"
+      ],
+      "catalog_id": "WA-0167",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-288",
+      "pages": [
+        66
+      ],
+      "raw": "Zhipu AI. AutoGLM and AutoClaw: Browser and desktop agents on the GLM foundation.https://www.zh ipuai.cn/, 2026. AutoClaw packages a local agent client with a built-in office-automation skill library.",
+      "links": [
+        "https://www.zhipuai.cn/"
+      ],
+      "catalog_id": null,
+      "disposition": "source-only-resource",
+      "reason": "Non-paper product, directory, media-generation marketing, or general release. Preserved for source completeness; outside the selected technical resources and academic paper list."
+    },
+    {
+      "ref_id": "AIO-289",
+      "pages": [
+        66
+      ],
+      "raw": "Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Yonatan Bisk, Daniel Fried, Uri Alon, and Graham Neubig. Webarena: A realistic web environment for building autonomous agents. InThe Twelfth International Conference on Learning Representations (ICLR), 2023.",
+      "links": [],
+      "catalog_id": "WA-0003",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-290",
+      "pages": [
+        66
+      ],
+      "raw": "Ruiyan Zhu, Xi Cheng, Ke Liu, Brian Zhu, Daniel Jin, Neeraj Parihar, Zhoutian Xu, and Oliver Gao. Sheetmind: An end-to-end llm-powered multi-agent framework for spreadsheet automation.arXiv (Cornell University), 2025.",
+      "links": [],
+      "catalog_id": "WA-0455",
+      "disposition": "added-paper",
+      "editorial_note": "同一arXiv:2506.12339在后续版本改题为“SheetMind: Actions Set Accuracy, Agents Set the Failure Mode”；保留来源旧题名作为别名，不另计论文。"
+    },
+    {
+      "ref_id": "AIO-291",
+      "pages": [
+        66
+      ],
+      "raw": "Mingchen Zhuge, Changsheng Zhao, Dylan Ashley, Wenyi Wang, Dmitrii Khizbullin, Yunyang Xiong, Zechun Liu, Ernie Chang, Raghuraman Krishnamoorthi, Yuandong Tian, Yangyang Shi, Vikas Chandra, and Jürgen Schmidhuber. Agent-as-a-judge: Evaluate agents with agents.arXiv preprint arXiv:2410.10934, 2024. doi: 10.48550/arXiv.2410.10934. URLhttps://arxiv.org/abs/2410.10934.",
+      "links": [
+        "https://arxiv.org/abs/2410.10934"
+      ],
+      "catalog_id": "WA-0168",
+      "disposition": "existing"
+    },
+    {
+      "ref_id": "AIO-292",
+      "pages": [
+        66
+      ],
+      "raw": "Anni Zou, Wenhao Yu, Hongming Zhang, Kaixin Ma, Deng Cai, Zhuosheng Zhang, Hai Zhao, and Dong Yu. Docbench: A benchmark for evaluating llm-based document reading systems. InProceedings of the 4th International Workshop on Knowledge-Augmented Methods for Natural Language Processing, pp. 359–373, 2025.",
+      "links": [],
+      "catalog_id": "WA-0339",
+      "disposition": "existing"
+    }
+  ]
+}

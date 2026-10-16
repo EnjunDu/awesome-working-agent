@@ -122,6 +122,7 @@ def render_readme(records,taxonomy):
     for p in resources:lines.append(f'| {esc(p["title"])} | [Source]({p["url"]}) |')
     lines+=['',
       '**Curation.** Entries are reconciled against primary paper or official project sources and deduplicated across versions and aliases. Years use the first confirmed public release when available. Bibliographic verification is separate from full-paper reading; detailed evidence and limitations are recorded in the Excel. This is an evolving narrative-review collection.','',
+      '**Literature sources.** The [AI Office bibliography crosswalk](data/literature_sources/ai_office_2026.json) accounts for all 292 references in [The Evolution of AI Office](https://www.alphaxiv.org/abs/2609.evolution-ai-office-agents), including non-paper references outside this collection. The [work-form research crosswalk](data/literature_sources/work_forms_2026.json) records 11 additional candidates, primary-source matches, and classification corrections.','',
       f'**Open metadata:** {len(pending)} identities await confirmation and are omitted from the lists; {sum(p["verification_status"]=="metadata-only" for p in papers)} paper affiliations remain incomplete. See [Contributing](CONTRIBUTING.md) for the maintenance workflow.',''
     ]
     output='\n'.join(lines)
