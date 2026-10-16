@@ -12,3 +12,8 @@ desktop.ini
 .idea/
 .vscode/
 *.swp
+
+# Generated inspection files and Python caches
+*.inspect.ndjson
+__pycache__/
+*.pyc

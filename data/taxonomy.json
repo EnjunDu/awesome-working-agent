@@ -1,0 +1,59 @@
+{
+  "version": "0.1",
+  "date": "2026-10-16",
+  "categories": [
+    {"id":"artifact","name":"Artifact-Centric Agents","zh":"工作产物生成与编辑","scope":"Create or edit a spreadsheet, slide deck, or document. Use workspace when discovering dependencies across deliverables is central. Read-only understanding belongs in related foundations.","examples":["SheetCopilot","SpreadsheetBench","PPTAgent","DeepPresenter"]},
+    {"id":"workspace","name":"Workspace & Cross-Artifact Agents","zh":"工作空间与跨文件工作","scope":"Discover and connect files, applications, and deliverables in a workspace; occupational work packages.","examples":["Workspace-Bench","OfficeBench","GDPval","APEX-Agents"]},
+    {"id":"computer-use","name":"Computer-Use & Application Agents","zh":"计算机与应用操作","scope":"GUI grounding, web navigation, desktop and mobile control. A GUI interface alone does not override a more distinctive work objective.","examples":["OSWorld","WebArena","SeeClick","AndroidWorld"]},
+    {"id":"tool-enterprise","name":"Tool, API & Enterprise Workflow Agents","zh":"工具调用与企业流程","scope":"Function calling, tool-mediated work, stateful business processes, and user-tool interaction.","examples":["Toolformer","ReAct","AppWorld","ToolSandbox","tau-bench","CRMArena"]},
+    {"id":"persistent","name":"Persistent & Long-Horizon Work Agents","zh":"持续责任与长期工作","scope":"Memory, asynchronous work, proactive assistance, personalization, and long-horizon evaluation. Execution length does not itself prove persistent responsibility.","examples":["MemGPT","LongMemEval","Proactive Agent","TimeArena"]},
+    {"id":"harness","name":"Harnesses, Training & Optimization","zh":"运行框架、训练与优化","scope":"Execution platforms and cross-domain environment, data, model, harness, and joint optimization. Domain-specific methods stay in their work category; optimization mechanism is recorded independently.","examples":["OpenHands","AutoGen","AFlow","GEPA","HiPER","SkillRL"]},
+    {"id":"verification","name":"Verification, Judging & Recovery","zh":"验证、评判与恢复","scope":"Feedback, self-correction, evaluators, state validity, recovery, and transaction guarantees.","examples":["Self-Refine","CRITIC","Reflexion","Agent-as-a-Judge","SagaLLM"]},
+    {"id":"safety","name":"Safety, Injection & Authorization","zh":"安全、注入与授权","scope":"Prompt injection, harmful tool use, permission boundaries, delegation, and side-effect control.","examples":["AgentDojo","InjecAgent","ToolEmu","AgentHarm"]},
+    {"id":"related","name":"Related Foundations & Work Impact","zh":"相关基础与工作影响","scope":"Document/answer-only tasks, planning foundations, coordination and database theory, productivity and occupational studies. Retain as context and distinguish from end-to-end working-agent evidence.","examples":["DocVQA","FinQA","TAT-QA","PlanBench","Future of Work with AI Agents"]},
+    {"id":"swe-science","name":"Software, Data Science & Research Agents","zh":"软件、数据科学与科研工作","scope":"Software development, executable data analysis, ML experiments, and research replication. Record an interface or optimization tag separately.","examples":["SWE-bench","SWE-agent","DSBench","ScienceAgentBench","PaperBench"]}
+  ],
+  "kinds": [
+    {"id":"Method","zh":"方法","definition":"A proposed agent, algorithm, training recipe, or optimization method."},
+    {"id":"Benchmark","zh":"评测","definition":"A task set, dataset, evaluation protocol, or benchmark environment."},
+    {"id":"Framework","zh":"框架","definition":"A reusable runtime, platform, or research infrastructure with a paper."},
+    {"id":"Survey","zh":"综述","definition":"A literature survey or roadmap."},
+    {"id":"Background","zh":"背景研究","definition":"Foundational theory or an empirical work-impact study."},
+    {"id":"Product/Resource","zh":"产品或资源","definition":"Documentation, a product page, or a resource without an identified research paper. Excluded from the paper count."}
+  ],
+  "capabilities": [
+    {"id":"perception","zh":"感知与理解","section":"4.1"},
+    {"id":"reasoning","zh":"推理与决策","section":"4.2"},
+    {"id":"planning","zh":"规划","section":"4.3"},
+    {"id":"coordination","zh":"协作与协调","section":"4.3"},
+    {"id":"execution","zh":"执行","section":"4.4"},
+    {"id":"state-management","zh":"状态管理","section":"4.4"},
+    {"id":"memory","zh":"记忆","section":"4.4;5.3.3;7.2"},
+    {"id":"verification","zh":"验证","section":"4.5;6.2"},
+    {"id":"recovery","zh":"恢复与重规划","section":"4.5"},
+    {"id":"learning","zh":"学习与优化（辅助研究标签）","section":"5","auxiliary":true}
+  ],
+  "optimization_types": [
+    {"id":"environment-synthesis","zh":"任务与环境合成","section":"5.1.1","examples":["NexForge","GraphForge","WorkGenesis","EnvScaler"]},
+    {"id":"trajectory-curation","zh":"轨迹收集与筛选","section":"5.1.2","examples":["SEE","OpenThoughts-Agent","CurateEvo"]},
+    {"id":"reward-verification","zh":"奖励与验证信号","section":"5.1.3","examples":["Spreadsheet-RL","AeSlides","Learning to Present"]},
+    {"id":"mid-training-sft","zh":"中期训练与监督微调","section":"5.2.1","examples":["daVinci-Dev","TrajLong","Function-Aware FIM"]},
+    {"id":"agentic-rl","zh":"智能体强化学习","section":"5.2.2","examples":["HiPER","Adaptive Milestone Reward","ReTool"]},
+    {"id":"on-policy-distillation","zh":"同策略蒸馏","section":"5.2.3","examples":["TCOD","SOD","Skill-SD"]},
+    {"id":"self-improving-training","zh":"自改进模型训练","section":"5.2.4","examples":["Socratic-SWE","Self-Retrospection Distillation"]},
+    {"id":"tool-interface","zh":"接口与工具优化","section":"5.3.1","examples":["SWE-agent","JTPRO","Beyond Prompts"]},
+    {"id":"prompt-workflow","zh":"提示与工作流优化","section":"5.3.2","examples":["AFlow","GEPA","Meta-Harness"]},
+    {"id":"memory-skill","zh":"记忆与技能优化","section":"5.3.3","examples":["Agent Workflow Memory","ReasoningBank","SkillOpt"]},
+    {"id":"model-harness-coupling","zh":"模型与运行框架耦合优化","section":"5.4","examples":["UI-Copilot","SkillRL","Optimas"]}
+  ],
+  "verification_statuses": ["verified","metadata-only","pending"],
+  "reading_statuses": ["未分配","待读","阅读中","已读"],
+  "principles": [
+    "One academic paper is counted once. Multi-role papers may have several kinds, capabilities, optimization types and survey sections.",
+    "Choose one primary category for browsing. It is an editorial assignment, not an author's claim or a ranking of autonomy.",
+    "Separate work form, work persistence, and work-world openness. Do not infer a persistent obligation from elapsed execution time, file count, or application count.",
+    "Capability tags on benchmarks describe what tasks probe, not a demonstrated capability of any model.",
+    "Affiliations describe paper-time participating organizations, not current employment or necessarily every affiliation. Cite front matter or the official project.",
+    "This is a provisional narrative-review taxonomy. Discuss terminology changes with examples and update the vocabulary before reclassifying records."
+  ]
+}
