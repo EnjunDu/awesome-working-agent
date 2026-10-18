@@ -1,5 +1,0 @@
-# Junhao Shen
-
-## Ideas
-
-## Notes

@@ -1,5 +1,0 @@
-# Zishan Xu
-
-## Ideas
-
-## Notes

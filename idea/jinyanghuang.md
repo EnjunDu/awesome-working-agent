@@ -1,5 +1,0 @@
-# Jinyang Huang
-
-## Ideas
-
-## Notes
