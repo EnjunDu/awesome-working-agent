@@ -68,6 +68,11 @@ def validate(records,taxonomy):
         if not isinstance(claims,list) or any(x not in vocabulary(taxonomy,'section3_claims') for x in claims):errors.append(f'{tag}: unknown Section 3 claim')
         if claims and not p.get('section3_evidence_url'):errors.append(f'{tag}: Section 3 claims need an evidence URL')
         if p.get('section3_priority','') not in ['', 'A','B','F']:errors.append(f'{tag}: invalid Section 3 writing priority')
+        if p.get('section5_primary_node') and (p['section5_primary_node'] not in node_codes or not p['section5_primary_node'].startswith('5.')):errors.append(f'{tag}: invalid Section 5 source section')
+        if p.get('arxiv_id') and not re.fullmatch(r'\d{4}\.\d{4,5}',p['arxiv_id']):errors.append(f'{tag}: invalid arXiv identifier')
+        if p.get('first_public_date'):
+            try:datetime.date.fromisoformat(p['first_public_date'])
+            except ValueError:errors.append(f'{tag}: invalid first-public date')
         if p.get('primary_category') not in allowed['categories']: errors.append(f'{tag}: unknown category')
         for k in p.get('kind','').split(';'):
             if k.strip() not in allowed['kinds']: errors.append(f'{tag}: unknown kind {k}')
@@ -135,6 +140,7 @@ def render_readme(records,taxonomy):
       '**Curation.** Entries are reconciled against primary paper or official project sources and deduplicated across versions and aliases. Years use the first confirmed public release when available. Bibliographic verification is separate from full-paper reading; detailed evidence and limitations are recorded in the Excel. This is an evolving narrative-review collection.','',
       '**Literature sources.** The [AI Office bibliography crosswalk](data/literature_sources/ai_office_2026.json) accounts for all 292 references in [The Evolution of AI Office](https://www.alphaxiv.org/abs/2609.evolution-ai-office-agents), including non-paper references outside this collection. The [work-form research crosswalk](data/literature_sources/work_forms_2026.json) records 11 additional candidates, primary-source matches, and classification corrections.','',
       'The [Section 3 evidence pack](data/literature_sources/section3_2026.json) maps 76 papers to 18 writing claims and preserves 40 citation audits. The Excel separates publication status, evidence locations, and task-specific scope. A [BibTeX collection](data/literature_sources/section3_2026.bib) is also available.','',
+      'The [Section 5 reconciliation](data/literature_sources/section5_2026.json) merges 127 optimization references into the master Excel: 40 additions and 87 enriched entries. It retains executor-weight updates, harness optimization targets, task environments, publication snapshots, and version notes. The original [Section 5 workbook](section5-paper-list.xlsx) is retained as a source snapshot; maintain ongoing edits in the master Excel.','',
       f'**Open metadata:** {len(pending)} identities await confirmation and are omitted from the lists; {sum(p["verification_status"]=="metadata-only" for p in papers)} paper affiliations remain incomplete. See [Contributing](CONTRIBUTING.md) for the maintenance workflow.',''
     ]
     output='\n'.join(lines)
@@ -213,7 +219,7 @@ def import_xlsx(path,existing,taxonomy):
                         value=[x if x in vocab else reverse.get(x,x) for x in value]
                 elif FIELD_SPEC[field].get('format')=='year':value=int(float(value)) if value else None
                 elif field=='kind':value=';'.join(x.strip() for x in value.split(';'))
-                elif field=='checked_on' and value:
+                elif FIELD_SPEC[field].get('format')=='date' and value:
                     if re.fullmatch(r'\d+(?:\.\d+)?',value):
                         value=(datetime.datetime(1899,12,30)+datetime.timedelta(days=float(value))).date().isoformat()
                     else:value=datetime.datetime.fromisoformat(value.replace('Z','+00:00')).date().isoformat()

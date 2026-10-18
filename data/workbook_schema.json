@@ -1,5 +1,5 @@
 {
-  "version": "0.3",
+  "version": "0.4",
   "fields": [
     {"key":"id","label":"ID","width":14},
     {"key":"short_name","label":"简称","width":25},
@@ -50,6 +50,18 @@
     {"key":"section3_support_scope","label":"Section3支持任务与子集","width":85},
     {"key":"bib_keys","label":"BibTeX引用键","width":52,"format":"list"},
     {"key":"section3_citation_audit","label":"Section3原引文审计","width":90},
-    {"key":"section3_priority","label":"Section3写作优先级","width":22}
+    {"key":"section3_priority","label":"Section3写作优先级","width":22},
+    {"key":"section5_primary_node","label":"Section5主归属","width":20},
+    {"key":"section5_priority","label":"Section5阅读建议","width":24},
+    {"key":"section5_detailed_type","label":"Section5方法细类","width":52},
+    {"key":"section5_optimization_mechanism","label":"Section5具体优化机制","width":64},
+    {"key":"executor_weight_update","label":"执行模型权重更新","width":40},
+    {"key":"harness_update_target","label":"外壳更新对象","width":54},
+    {"key":"task_environment","label":"任务与工作环境","width":48},
+    {"key":"arxiv_id","label":"arXiv编号","width":20},
+    {"key":"first_public_date","label":"首次公开日期","width":18,"format":"date"},
+    {"key":"section5_publication_status","label":"Section5来源发表状态","width":42},
+    {"key":"section5_evidence","label":"Section5证据与不确定性","width":94},
+    {"key":"section5_version_note","label":"Section5版本与题名说明","width":78}
   ]
 }

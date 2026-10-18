@@ -4,7 +4,7 @@
 
 > From answering questions to completing digital work: papers on artifacts, workspaces, tools, computer use, persistent responsibilities, and the systems that make them reliable.
 
-**475 papers, surveys, and foundational studies** · **50 non-paper resources** · Updated **2026-10-16**
+**515 papers, surveys, and foundational studies** · **50 non-paper resources** · Updated **2026-10-18**
 
 [Excel paper list](paper_list.xlsx) · [Classification guide](docs/taxonomy.md) · [Contributing](CONTRIBUTING.md) · [Catalog data](data/papers.json)
 
@@ -26,7 +26,9 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **Adaptive Auto-Harness**: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams | 2026 | [Paper](https://arxiv.org/abs/2606.01770) · [Code](https://github.com/A-EVO-Lab/a-evolve/tree/release/adaptive-auto-harness) |
 | **ADMIRE**: Adaptive Milestone Reward for GUI Agents | 2026 | [Paper](https://arxiv.org/abs/2602.11524) |
 | **AeSlides**: Incentivizing Aesthetic Layout in LLM-Based Slide Generation via Verifiable Rewards | 2026 | [Paper](https://arxiv.org/abs/2604.22840) · [Code](https://github.com/ympan0508/aeslides) |
-| **Agent World Model**: Infinity Synthetic Environments for Agentic Reinforcement Learning | 2026 | [Paper](https://arxiv.org/abs/2602.10090) · [Code](https://github.com/Snowflake-Labs/agent-world-model) |
+| **AEvo**: Harnessing Agentic Evolution | 2026 | [Paper](https://arxiv.org/abs/2605.13821) |
+| **Agent Lightning v1.0**: Towards Harnessed Agentic RL | 2026 | [Paper](https://arxiv.org/abs/2608.17528) |
+| **Agent World Model**: Infinity Synthetic Environments for Agentic Reinforcement Learning | 2026 | [Paper](https://arxiv.org/abs/2602.10090) · [Code](https://github.com/Snowflake-Labs/agent-world-model) · [Publication](https://proceedings.mlr.press/v306/wang26jh.html) |
 | **AgentMercury**: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale | 2026 | [Paper](https://arxiv.org/abs/2608.20634) · [Data](https://huggingface.co/datasets/Minbyul/AgentMercury-corpus-sample) |
 | **Anchor**: Mitigating Artifact Drift in Agent Benchmark Generation | 2026 | [Paper](https://arxiv.org/abs/2605.26321) |
 | **Atomix**: Timely, Transactional Tool Use for Reliable Agentic Workflows | 2026 | [Paper](https://arxiv.org/abs/2602.14849) · [Code](https://github.com/mpi-dsg/atomix) |
@@ -34,6 +36,7 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **AutoRPA**: Efficient GUI Automation through LLM-Driven Code Synthesis from Interactions | 2026 | [Paper](https://arxiv.org/abs/2605.21082) |
 | **C-World**: A Computer Use Agent Environment Creator | 2026 | [Paper](https://arxiv.org/abs/2601.06328v2) · [Code](https://github.com/Ziqiao-git/ToolGym) |
 | **ChronoMem**: Version Control and Semantic Rollback for Large Language Model Agent Memory | 2026 | [Paper](https://arxiv.org/abs/2607.27773) |
+| **Co-Harness**: Co-Evolving Harnesses and Model Weights for LLM Agents | 2026 | [Paper](https://arxiv.org/abs/2607.22688) |
 | **CODESKILL**: Learning Self-Evolving Skills for Coding Agents | 2026 | [Paper](https://arxiv.org/abs/2605.25430) |
 | **CogEvol**: Towards Efficient and Reliable Learning Environment Generation | 2026 | [Paper](https://arxiv.org/abs/2608.30968) · [Code](https://github.com/CogEvol/CogEvol-4B) |
 | **Component Routing**: Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents | 2026 | [Paper](https://arxiv.org/abs/2610.01787) |
@@ -52,11 +55,11 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **Function-Aware FIM**: Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models | 2026 | [Paper](https://arxiv.org/abs/2607.12463) · [Code](https://github.com/TIGER-AI-Lab/FIM-Midtraining) |
 | **GHD / The Next Screenshot Knows**: The Next Screenshot Knows: Gated Hindsight Distillation for Mobile GUI Agents | 2026 | [Paper](https://arxiv.org/abs/2608.06065) |
 | **GraphForge**: Training Working Agents with Graph-Anchored Workspace Synthesis | 2026 | [Paper](https://arxiv.org/abs/2609.38923) · [Data](https://huggingface.co/datasets/groundhogLLM/GraphForge-SFT-2169-clean) |
-| **Guided-OPD**: On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents | 2026 | [Paper](https://arxiv.org/abs/2606.15912) |
-| **HiPER**: Hierarchical Reinforcement Learning with Explicit Credit Assignment for Large Language Model Agents | 2026 | [Paper](https://arxiv.org/abs/2602.16165) · [Code](https://github.com/JonP07/HiPER-agent) |
+| **Guided-OPD**: On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents | 2026 | [Paper](https://arxiv.org/abs/2606.15912) · [Code](https://github.com/Zzzz-166/Guided-OPD) |
+| **HiPER**: Hierarchical Reinforcement Learning with Explicit Credit Assignment for Large Language Model Agents | 2026 | [Paper](https://arxiv.org/abs/2602.16165) · [Code](https://github.com/JonP07/HiPER-agent) · [Publication](https://proceedings.mlr.press/v306/peng26h.html) |
 | **InfiAgent**: An Infinite-Horizon Framework for General-Purpose Autonomous Agents | 2026 | [Paper](https://arxiv.org/abs/2601.03204) · [Code](https://github.com/ChenglinPoly/infiAgent) |
 | **JIT-Agent**: Scaling Harness Intelligence via Just-in-Time Harness Evolution | 2026 | [Paper](https://arxiv.org/abs/2608.25593) · [Code](https://github.com/bingreeky/JIT) |
-| **JTPRO**: A Joint Tool-Prompt Reflective Optimization Framework for Language Agents | 2026 | [Paper](https://arxiv.org/abs/2604.19821) |
+| **JTPRO**: A Joint Tool-Prompt Reflective Optimization Framework for Language Agents | 2026 | [Paper](https://arxiv.org/abs/2604.19821) · [Publication](https://aclanthology.org/2026.findings-acl.2017/) |
 | **LiteGUI**: Lightweight GUI Agents via Multi-Solution Guided Distillation and Dual-Level Reinforcement Learning | 2026 | [Paper](https://arxiv.org/abs/2605.07505) |
 | **MESH-Harness**: Self-Improving Agent Harnesses via Bandit-Guided Compositional Evolution | 2026 | [Paper](https://arxiv.org/abs/2610.05300) |
 | **Meta-Harness**: End-to-End Optimization of Model Harnesses | 2026 | [Paper](https://arxiv.org/abs/2603.28052) · [Code](https://github.com/stanford-iris-lab/meta-harness-tbench2-artifact) |
@@ -73,7 +76,7 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **Revisiting DAgger** in the Era of LLM-Agents | 2026 | [Paper](https://arxiv.org/abs/2605.12913) |
 | **RHO**: Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference | 2026 | [Paper](https://arxiv.org/abs/2606.05922) · [Code](https://github.com/wbopan/retro-harness) |
 | **Rollback-Induced Reflection**: Rollback the World, Keep the Reflection: Rollback-Induced Reflection for Long-Horizon LLM Agents | 2026 | [Paper](https://arxiv.org/abs/2609.18304) |
-| **SDPO**: Reinforcement Learning via Self-Distillation | 2026 | [Paper](https://arxiv.org/abs/2601.20802) · [Code](https://github.com/lasgroup/SDPO) |
+| **SDPO**: Reinforcement Learning via Self-Distillation | 2026 | [Paper](https://arxiv.org/abs/2601.20802) · [Code](https://github.com/lasgroup/SDPO) · [Publication](https://proceedings.mlr.press/v306/hubotter26a.html) |
 | **SEE**: Structure-aware Exploring & Exploiting for Long-horizon GUI Agent Trajectory Synthesis | 2026 | [Paper](https://arxiv.org/abs/2607.18046) · [Code](https://github.com/Zhh-Fan/SEE-Structure-aware-Exploring-Exploiting-for-Long-horizon-GUI-Agent-Trajectory-Synthesis) |
 | **Self-Healing Orchestrators**: Self-Healing Agentic Orchestrators for Reliable Tool-Augmented Large Language Model Systems | 2026 | [Paper](https://arxiv.org/abs/2606.01416) |
 | **SIA**: Self Improving AI with Harness & Weight Updates | 2026 | [Paper](https://arxiv.org/abs/2605.27276) |
@@ -108,9 +111,12 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **Who Verifies the Verifier?** Co-Evolving Inspectable Graders with Self-Improving Agents | 2026 | [Paper](https://arxiv.org/abs/2610.11464) |
 | **WorkGenesis**: Building the Worlds That Teach Agents to Work | 2026 | [Paper](https://arxiv.org/abs/2609.39325) |
 | **Workspace Optimization / DreamTeam**: Workspace Optimization: How to Train Your Agent | 2026 | [Paper](https://arxiv.org/abs/2605.09650) |
-| **ACE**: Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models | 2025 | [Paper](https://arxiv.org/abs/2510.04618) · [Code](https://github.com/ace-agent/ace) |
+| **ACE**: Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models | 2025 | [Paper](https://arxiv.org/abs/2510.04618) · [Code](https://github.com/ace-agent/ace) · [Publication](https://openreview.net/pdf?id=eC4ygDs02R) |
+| **Agent Lightning**: Train ANY AI Agents with Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2508.03680) · [Code](https://github.com/microsoft/agent-lightning) |
 | **Agent S2**: A Compositional Generalist-Specialist Framework for Computer Use Agents | 2025 | [Paper](https://arxiv.org/abs/2504.00906) · [Code](https://github.com/simular-ai/Agent-S) |
+| **Agent-R1**: A Unified and Modular Framework for Agentic Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2511.14460) · [Code](https://github.com/AgentR1/Agent-R1) |
 | **AgentDebug**: Where LLM Agents Fail and How They can Learn From Failures | 2025 | [Paper](https://arxiv.org/abs/2509.25370) · [Code](https://github.com/ulab-uiuc/AgentDebug) |
+| **AgentGym-RL**: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL | 2025 | [Paper](https://arxiv.org/abs/2509.08755) · [Code](https://github.com/woooodyy/AgentGym-RL) · [Publication](https://openreview.net/pdf/d8e15fc2cabf98ead8ffbe0d8e6ad1b2764a3d28.pdf) |
 | **Authenticated Delegation** and Authorized AI Agents | 2025 | [Paper](https://arxiv.org/abs/2501.09674) |
 | **AutoPresent / SlidesBench**: AutoPresent: Designing Structured Visuals from Scratch | 2025 | [Paper](https://arxiv.org/abs/2501.00912) · [Code](https://github.com/para-lost/AutoPresent) · [Publication](https://openaccess.thecvf.com/content/CVPR2025/html/Ge_AutoPresent_Designing_Structured_Visuals_from_Scratch_CVPR_2025_paper.html) |
 | **CoAct-1**: Computer-using Multi-Agent System with Coding Actions | 2025 | [Paper](https://arxiv.org/abs/2508.03923) · [Code](https://github.com/SalesforceAIResearch/CoAct-1) |
@@ -119,7 +125,7 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **DGAP**: Discriminator-Guided Embodied Planning for LLM Agent | 2025 | [Paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/e6f2b968c4ee8ba260cd7077e39590dd-Abstract-Conference.html) |
 | **Docling Toolkit**: Docling: An Efficient Open-Source Toolkit for AI-driven Document Conversion | 2025 | [Paper](https://arxiv.org/abs/2501.17887) |
 | **EnterpriseBench**: Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterprise Environments | 2025 | [Paper](https://aclanthology.org/2025.emnlp-main.466/) |
-| **GEPA**: Reflective Prompt Evolution Can Outperform Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2507.19457) · [Code](https://github.com/gepa-ai/gepa) |
+| **GEPA**: Reflective Prompt Evolution Can Outperform Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2507.19457) · [Code](https://github.com/gepa-ai/gepa) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0e9e708b6f48e14fd0ac29e167413f76-Abstract-Conference.html) |
 | **GoalAct**: Enhancing LLM-Based Agents via Global Planning and Hierarchical Execution | 2025 | [Paper](https://arxiv.org/abs/2504.16563) |
 | **GUI-Actor**: Coordinate-Free Visual Grounding for GUI Agents | 2025 | [Paper](https://arxiv.org/abs/2506.03143) · [Code](https://github.com/microsoft/GUI-Actor) · [Publication](https://proceedings.neurips.cc/paper_files/paper/2025/hash/16130af940e9dabb43c726119bd3b42e-Abstract-Conference.html) |
 | **HiAgent**: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model | 2025 | [Paper](https://aclanthology.org/2025.acl-long.1575/) |
@@ -127,42 +133,55 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **MAP**: A brain-inspired agentic architecture to improve planning with LLMs | 2025 | [Paper](https://www.nature.com/articles/s41467-025-63804-5) |
 | **Mem0**: Building Production-Ready AI Agents with Scalable Long-Term Memory | 2025 | [Paper](https://arxiv.org/abs/2504.19413) · [Code](https://github.com/mem0ai/mem0) |
 | **MLGym**: A New Framework and Benchmark for Advancing AI Research Agents | 2025 | [Paper](https://arxiv.org/abs/2502.14499) · [Code](https://github.com/facebookresearch/MLGym) |
-| **Optimas**: Optimizing Compound AI Systems with Globally Aligned Local Rewards | 2025 | [Paper](https://arxiv.org/abs/2507.03041) |
+| **Optimas**: Optimizing Compound AI Systems with Globally Aligned Local Rewards | 2025 | [Paper](https://arxiv.org/abs/2507.03041) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f21a5fedfbcb55406ddaf51cf90d494a-Abstract-Conference.html) |
 | **Plan-and-Act**: Improving Planning of Agents for Long-Horizon Tasks | 2025 | [Paper](https://arxiv.org/abs/2503.09572) |
 | **PosterGen**: Aesthetic-Aware Multi-Modal Paper-to-Poster Generation via Multi-Agent LLMs | 2025 | [Paper](https://arxiv.org/abs/2508.17188) |
 | **PPTAgent**: Generating and Evaluating Presentations Beyond Text-to-Slides | 2025 | [Paper](https://arxiv.org/abs/2501.03936) · [Code](https://github.com/icip-cas/PPTAgent) · [Publication](https://aclanthology.org/2025.emnlp-main.728/) |
 | **PPTArena**: A Benchmark for PowerPoint Editing | 2025 | [Paper](https://arxiv.org/abs/2512.03042) · [Code](https://github.com/michaelofengend/PPTArena) |
 | **PreGenie**: An Agentic Framework for High-quality Visual Presentation Generation | 2025 | [Paper](https://arxiv.org/abs/2505.21660) · [Publication](https://aclanthology.org/2025.findings-emnlp.165/) |
 | **Process Reward Models That Think** | 2025 | [Paper](https://arxiv.org/abs/2504.16828) |
-| **R2E-Gym**: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents | 2025 | [Paper](https://arxiv.org/abs/2504.07164) |
-| **ReasoningBank**: Scaling Agent Self-Evolving with Reasoning Memory | 2025 | [Paper](https://arxiv.org/abs/2509.25140) · [Code](https://github.com/google-research/reasoning-bank) |
-| **ReTool**: Reinforcement Learning for Strategic Tool Use in LLMs | 2025 | [Paper](https://arxiv.org/abs/2504.11536) |
+| **R1-Searcher**: Incentivizing the Search Capability in LLMs via Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2503.05592) · [Code](https://github.com/RUCAIBox/R1-Searcher) |
+| **R2E-Gym**: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents | 2025 | [Paper](https://arxiv.org/abs/2504.07164) · [Publication](https://openreview.net/pdf?id=7evvwwdo3z) |
+| **ReasoningBank**: Scaling Agent Self-Evolving with Reasoning Memory | 2025 | [Paper](https://arxiv.org/abs/2509.25140) · [Code](https://github.com/google-research/reasoning-bank) · [Publication](https://openreview.net/pdf/25563ee680c408f3ad91eab8c7b4ec9ab05b7193.pdf) |
+| **ReTool**: Reinforcement Learning for Strategic Tool Use in LLMs | 2025 | [Paper](https://arxiv.org/abs/2504.11536) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2026/hash/4038c9208dfc22644c60ad39c24e5c53-Abstract-Conference.html) |
 | **Routine**: A Structural Planning Framework for LLM Agent System in Enterprise | 2025 | [Paper](https://arxiv.org/abs/2507.14447) |
 | **SagaLLM**: Context Management, Validation, and Transaction Guarantees for Multi-Agent LLM Planning | 2025 | [Paper](https://arxiv.org/abs/2503.11951) |
+| **Search-R1**: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2503.09516) · [Code](https://github.com/PeterGriffinJin/Search-R1) · [Publication](https://openreview.net/pdf?id=Rwhi91ideu) |
 | **SheetMind**: Actions Set Accuracy, Agents Set the Failure Mode | 2025 | [Paper](https://arxiv.org/abs/2506.12339) |
 | **SlideTailor**: Personalized Presentation Slide Generation for Scientific Papers | 2025 | [Paper](https://arxiv.org/abs/2512.20292) |
+| **SSR（Self-play SWE-RL）**: Toward Training Superintelligent Software Agents through Self-Play SWE-RL | 2025 | [Paper](https://arxiv.org/abs/2512.18552) · [Publication](https://proceedings.mlr.press/v306/wei26x.html) |
+| **SWE-RL**: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution | 2025 | [Paper](https://arxiv.org/abs/2502.18449) · [Code](https://github.com/facebookresearch/swe-rl) · [Publication](https://proceedings.nips.cc/paper_files/paper/2025/hash/7107d4d2e837bde2171c6b71b5bde954-Abstract-Conference.html) |
+| **SWE-smith**: Scaling Data for Software Engineering Agents | 2025 | [Paper](https://arxiv.org/abs/2504.21798) · [Publication](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8b86cf5ace600c48fd188efbb8dedec8-Abstract-Datasets_and_Benchmarks_Track.html) |
 | **SyncMind**: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering | 2025 | [Paper](https://arxiv.org/abs/2502.06994) · [Code](https://github.com/xhguo7/SyncMind) · [Data](https://huggingface.co/datasets/xuehang/SyncBench) |
 | **Talk to Your Slides**: High-Efficiency Slide Editing via Language-Driven Structured Data Manipulation | 2025 | [Paper](https://arxiv.org/abs/2505.11604) |
 | **Tool-to-Agent Retrieval**: Bridging Tools and Agents for Scalable LLM Multi-Agent Systems | 2025 | [Paper](https://arxiv.org/abs/2511.01854) |
 | **Toolathlon**: The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution | 2025 | [Paper](https://arxiv.org/abs/2510.25726) · [Code](https://github.com/hkust-nlp/Toolathlon) |
 | **ToolMaker**: LLM Agents Making Agent Tools | 2025 | [Paper](https://aclanthology.org/2025.acl-long.1266/) |
+| **ToRL**: Scaling Tool-Integrated RL | 2025 | [Paper](https://arxiv.org/abs/2503.23383) · [Code](https://github.com/GAIR-NLP/ToRL) |
 | **UFO2**: The Desktop AgentOS | 2025 | [Paper](https://arxiv.org/abs/2504.14603) · [Code](https://github.com/microsoft/UFO/) |
-| **UI-TARS**: Pioneering Automated GUI Interaction with Native Agents | 2025 | [Paper](https://arxiv.org/abs/2501.12326) |
+| **UI-TARS**: Pioneering Automated GUI Interaction with Native Agents | 2025 | [Paper](https://arxiv.org/abs/2501.12326) · [Code](https://github.com/bytedance/UI-TARS) |
 | **UltraCUA**: A Foundation Model for Computer Use Agents with Hybrid Action | 2025 | [Paper](https://arxiv.org/abs/2510.17790) |
+| **WebAgent-R1**: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2505.16421) · [Code](https://github.com/weizhepei/WebAgent-R1) · [Publication](https://aclanthology.org/2025.emnlp-main.401/) |
 | **WorkTeam**: Constructing Workflows from Natural Language with Multi-Agents | 2025 | [Paper](https://arxiv.org/abs/2503.22473) · [Publication](https://aclanthology.org/2025.naacl-industry.3/) |
 | **Zep**: A Temporal Knowledge Graph Architecture for Agent Memory | 2025 | [Paper](https://arxiv.org/abs/2501.13956) · [Code](https://github.com/getzep/graphiti) |
-| **ADAS**: Automated Design of Agentic Systems | 2024 | [Paper](https://arxiv.org/abs/2408.08435) |
+| **ADAS**: Automated Design of Agentic Systems | 2024 | [Paper](https://arxiv.org/abs/2408.08435) · [Code](https://github.com/ShengranHu/ADAS) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2025/hash/36b7acf6f6010652b3f2a433774a66fe-Abstract-Conference.html) |
 | **AFlow**: Automating Agentic Workflow Generation | 2024 | [Paper](https://arxiv.org/abs/2410.10762) · [Code](https://github.com/FoundationAgents/AFlow) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2025/hash/5492ecbce4439401798dcd2c90be94cd-Abstract-Conference.html) |
 | **Agent Q**: Advanced Reasoning and Learning for Autonomous AI Agents | 2024 | [Paper](https://arxiv.org/abs/2408.07199) |
 | **Agent S**: An Open Agentic Framework that Uses Computers Like a Human | 2024 | [Paper](https://arxiv.org/abs/2410.08164) · [Code](https://github.com/simular-ai/Agent-S) |
 | **Agent-as-a-Judge**: Evaluate Agents with Agents | 2024 | [Paper](https://arxiv.org/abs/2410.10934) |
+| **Agent-FLAN**: Designing Data and Methods of Effective Agent Tuning for Large Language Models | 2024 | [Paper](https://arxiv.org/abs/2403.12881) · [Code](https://github.com/InternLM/Agent-FLAN) · [Publication](https://aclanthology.org/2024.findings-acl.557/) |
 | **AgentBoard**: An Analytical Evaluation Board of Multi-turn LLM Agents | 2024 | [Paper](https://arxiv.org/abs/2401.13178) |
+| **AgentGen**: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation | 2024 | [Paper](https://arxiv.org/abs/2408.00764) · [Publication](https://doi.org/10.1145/3690624.3709321) |
+| **AgentGym**: Evolving Large Language Model-based Agents across Diverse Environments | 2024 | [Paper](https://arxiv.org/abs/2406.04151) · [Code](https://github.com/WooooDyy/AgentGym) |
+| **AgentInstruct (Microsoft)**: AgentInstruct: Toward Generative Teaching with Agentic Flows | 2024 | [Paper](https://arxiv.org/abs/2407.03502) |
 | **Agentless**: Demystifying LLM-based Software Engineering Agents | 2024 | [Paper](https://arxiv.org/abs/2407.01489) · [Code](https://github.com/OpenAutoCoder/Agentless) |
-| **AgentSquare**: Automatic LLM Agent Search in Modular Design Space | 2024 | [Paper](https://arxiv.org/abs/2410.06153) |
+| **AgentOptimizer**: Offline Training of Language Model Agents with Functions as Learnable Weights | 2024 | [Paper](https://arxiv.org/abs/2402.11359) · [Publication](https://proceedings.mlr.press/v235/zhang24cd.html) |
+| **AgentSquare**: Automatic LLM Agent Search in Modular Design Space | 2024 | [Paper](https://arxiv.org/abs/2410.06153) · [Code](https://github.com/tsinghua-fib-lab/AgentSquare) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2025/hash/0ae94013da7cd459402fd77874e09ee3-Abstract-Conference.html) |
 | **AgentTrek**: Agent Trajectory Synthesis via Guiding Replay with Web Tutorials | 2024 | [Paper](https://arxiv.org/abs/2412.09605) |
 | **AsyncLM**: Asynchronous LLM Function Calling | 2024 | [Paper](https://arxiv.org/abs/2412.07017) |
 | **AutoCodeRover**: Autonomous Program Improvement | 2024 | [Paper](https://arxiv.org/abs/2404.05427) |
-| **AWM**: Agent Workflow Memory | 2024 | [Paper](https://arxiv.org/abs/2409.07429) · [Code](https://github.com/zorazrw/agent-workflow-memory) |
+| **AWM**: Agent Workflow Memory | 2024 | [Paper](https://arxiv.org/abs/2409.07429) · [Code](https://github.com/zorazrw/agent-workflow-memory) · [Publication](https://proceedings.mlr.press/v267/wang25bx.html) |
+| **BetterTogether**: Fine-Tuning and Prompt Optimization: Two Great Steps that Work Better Together | 2024 | [Paper](https://arxiv.org/abs/2407.10930) · [Publication](https://aclanthology.org/2024.emnlp-main.597/) |
 | **BrowserGym**: The BrowserGym Ecosystem for Web Agent Research | 2024 | [Paper](https://arxiv.org/abs/2412.05467) · [Code](https://github.com/ServiceNow/BrowserGym) |
 | **Chain-of-Table**: Evolving Tables in the Reasoning Chain for Table Understanding | 2024 | [Paper](https://arxiv.org/abs/2401.04398) |
 | **CodeAct**: Executable Code Actions Elicit Better LLM Agents | 2024 | [Paper](https://arxiv.org/abs/2402.01030) · [Code](https://github.com/xingyaoww/code-act) |
@@ -170,14 +189,16 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **ColPali / ViDoRe**: ColPali: Efficient Document Retrieval with Vision Language Models | 2024 | [Paper](https://arxiv.org/abs/2407.01449) · [Code](https://github.com/illuin-tech/colpali) |
 | **Data Interpreter**: An LLM Agent For Data Science | 2024 | [Paper](https://arxiv.org/abs/2402.18679) · [Code](https://github.com/geekan/MetaGPT) |
 | **DesiGen**: A Pipeline for Controllable Design Template Generation | 2024 | [Paper](https://arxiv.org/abs/2403.09093) |
-| **DigiRL**: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning | 2024 | [Paper](https://arxiv.org/abs/2406.11896) |
+| **DigiRL**: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning | 2024 | [Paper](https://arxiv.org/abs/2406.11896) · [Code](https://github.com/DigiRL-agent/digirl) · [Publication](https://papers.nips.cc/paper_files/paper/2024/file/1704ddd0bb89f159dfe609b32c889995-Paper-Conference.pdf) |
 | **Docling** Technical Report | 2024 | [Paper](https://arxiv.org/abs/2408.09869) · [Code](https://github.com/DS4SD/docling) |
 | **DocLLM**: A Layout-Aware Generative Language Model for Multimodal Document Understanding | 2024 | [Paper](https://aclanthology.org/2024.acl-long.463/) |
+| **DynaSaur**: Large Language Agents Beyond Predefined Actions | 2024 | [Paper](https://arxiv.org/abs/2411.01747) · [Code](https://github.com/adobe-research/dynasaur) · [Publication](https://openreview.net/pdf?id=lv0cJ2pWVd) |
 | **Graph-enhanced Asynchronous Planning**: Graph-enhanced Large Language Models in Asynchronous Plan Reasoning | 2024 | [Paper](https://arxiv.org/abs/2402.02805) |
 | **M-LongDoc**: A Benchmark For Multimodal Super-Long Document Understanding And A Retrieval-Aware Tuning Framework | 2024 | [Paper](https://arxiv.org/abs/2411.06176) |
 | **Magentic-One**: A Generalist Multi-Agent System for Solving Complex Tasks | 2024 | [Paper](https://arxiv.org/abs/2411.04468) · [Code](https://github.com/microsoft/autogen) |
 | **mEdIT**: Multilingual Text Editing via Instruction Tuning | 2024 | [Paper](https://arxiv.org/abs/2402.16472) |
 | **MinerU**: An Open-Source Solution for Precise Document Content Extraction | 2024 | [Paper](https://arxiv.org/abs/2409.18839) · [Code](https://github.com/opendatalab/MinerU) |
+| **MIPRO**: Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs | 2024 | [Paper](https://arxiv.org/abs/2406.11695) · [Publication](https://aclanthology.org/2024.emnlp-main.525/) |
 | **mPLUG-DocOwl 1.5**: Unified Structure Learning for OCR-free Document Understanding | 2024 | [Paper](https://arxiv.org/abs/2403.12895) |
 | **mPLUG-DocOwl2**: High-resolution Compressing for OCR-free Multi-page Document Understanding | 2024 | [Paper](https://arxiv.org/abs/2409.03420) · [Code](https://github.com/X-PLUG/mPLUG-DocOwl) |
 | **NL2Formula**: Generating Spreadsheet Formulas from Natural Language Queries | 2024 | [Paper](https://aclanthology.org/2024.findings-eacl.158/) |
@@ -192,18 +213,22 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **SpreadsheetLLM**: Encoding Spreadsheets for Large Language Models | 2024 | [Paper](https://arxiv.org/abs/2407.09025) |
 | **SpreadsheetLLM**: Encoding Spreadsheets for Large Language Models | 2024 | [Paper](https://aclanthology.org/2024.emnlp-main.1154/) |
 | **STORM**: Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models | 2024 | [Paper](https://arxiv.org/abs/2402.14207) |
-| **SWE-agent**: Agent-Computer Interfaces Enable Automated Software Engineering | 2024 | [Paper](https://arxiv.org/abs/2405.15793) |
-| **SWE-Gym**: Training Software Engineering Agents and Verifiers with SWE-Gym | 2024 | [Paper](https://arxiv.org/abs/2412.21139) · [Code](https://github.com/SWE-Gym/SWE-Gym) |
+| **SWE-agent**: Agent-Computer Interfaces Enable Automated Software Engineering | 2024 | [Paper](https://arxiv.org/abs/2405.15793) · [Publication](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html) |
+| **SWE-Gym**: Training Software Engineering Agents and Verifiers with SWE-Gym | 2024 | [Paper](https://arxiv.org/abs/2412.21139) · [Code](https://github.com/SWE-Gym/SWE-Gym) · [Publication](https://proceedings.mlr.press/v267/pan25g.html) |
 | **TableGPT2**: A Large Multimodal Model with Tabular Data Integration | 2024 | [Paper](https://arxiv.org/abs/2411.02059) |
 | **TableLlama**: Towards Open Large Generalist Models for Tables | 2024 | [Paper](https://aclanthology.org/2024.naacl-long.335/) |
 | **Text2Chart31**: Instruction Tuning for Chart Generation with Automatic Feedback | 2024 | [Paper](https://aclanthology.org/2024.emnlp-main.640/) |
+| **TextGrad**: Optimizing generative AI by backpropagating language model feedback | 2024 | [Paper](https://arxiv.org/abs/2406.07496) · [Code](https://github.com/zou-group/textgrad) · [Publication](https://www.nature.com/articles/s41586-025-08661-4) |
+| **Trace** is the Next AutoDiff: Generative Optimization with Rich Feedback, Execution Traces, and LLMs | 2024 | [Paper](https://arxiv.org/abs/2406.16218) · [Publication](https://papers.nips.cc/paper_files/paper/2024/hash/83ba7056bce2c3c3c27e17397cf3e1f0-Abstract-Conference.html) |
 | **UFO**: A UI-Focused Agent for Windows OS Interaction | 2024 | [Paper](https://arxiv.org/abs/2402.07939) · [Code](https://github.com/microsoft/UFO) |
 | **UGround**: Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents | 2024 | [Paper](https://arxiv.org/abs/2410.05243) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ca0e369689dadb25a5345ba9755ad6f-Abstract-Conference.html) |
-| **WebRL**: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning | 2024 | [Paper](https://arxiv.org/abs/2411.02337) |
+| **WebRL**: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning | 2024 | [Paper](https://arxiv.org/abs/2411.02337) · [Code](https://github.com/THUDM/WebRL) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2025/hash/c66e1fcc9691aae706250638f36f681b-Abstract-Conference.html) |
 | **WebVoyager**: Building an End-to-End Web Agent with Large Multimodal Models | 2024 | [Paper](https://arxiv.org/abs/2401.13919) |
 | **Windows Agent Arena**: Evaluating Multi-Modal OS Agents at Scale | 2024 | [Paper](https://arxiv.org/abs/2409.08264) · [Code](https://github.com/microsoft/WindowsAgentArena) |
+| **AgentTuning**: Enabling Generalized Agent Abilities for LLMs | 2023 | [Paper](https://arxiv.org/abs/2310.12823) · [Code](https://github.com/THUDM/AgentTuning) · [Publication](https://aclanthology.org/2024.findings-acl.181/) |
 | **Auto-Tables**: Synthesizing Multi-Step Transformations to Relationalize Tables without Using Examples | 2023 | [Paper](https://arxiv.org/abs/2307.14565) |
 | **AutoGen**: Enabling Next-Gen LLM Applications via Multi-Agent Conversation | 2023 | [Paper](https://arxiv.org/abs/2308.08155) · [Code](https://github.com/microsoft/autogen) |
+| **BPO**: Black-Box Prompt Optimization: Aligning Large Language Models without Model Training | 2023 | [Paper](https://arxiv.org/abs/2311.04155) · [Code](https://github.com/thu-coai/BPO) · [Publication](https://aclanthology.org/2024.acl-long.176/) |
 | **CAMEL**: Communicative Agents for "Mind" Exploration of Large Language Model Society | 2023 | [Paper](https://arxiv.org/abs/2303.17760) |
 | **ChatDev**: Communicative Agents for Software Development | 2023 | [Paper](https://arxiv.org/abs/2307.07924) |
 | **CoEdIT**: Text Editing by Task-Specific Instruction Tuning | 2023 | [Paper](https://arxiv.org/abs/2305.09857) |
@@ -211,15 +236,18 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **CRITIC**: Large Language Models Can Self-Correct with Tool-Interactive Critiquing | 2023 | [Paper](https://arxiv.org/abs/2305.11738) · [Code](https://github.com/microsoft/ProphetNet/tree/master/CRITIC) |
 | **Data-Copilot**: Bridging Billions of Data and Humans with Autonomous Workflow | 2023 | [Paper](https://arxiv.org/abs/2306.07209) |
 | **Dater**: Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning | 2023 | [Paper](https://arxiv.org/abs/2301.13808) |
-| **ExpeL**: LLM Agents Are Experiential Learners | 2023 | [Paper](https://arxiv.org/abs/2308.10144) |
+| **DSPy**: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines | 2023 | [Paper](https://arxiv.org/abs/2310.03714) · [Code](https://github.com/stanfordnlp/dspy) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2024/hash/f1cf02ce09757f57c3b93c0db83181e0-Abstract-Conference.html) |
+| **EvoPrompt**: Connecting Large Language Models with Evolutionary Algorithms Yields Powerful Prompt Optimizers | 2023 | [Paper](https://arxiv.org/abs/2309.08532) · [Code](https://github.com/beeevita/EvoPrompt) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2024/hash/9156b0f6dfa9bbd18c79cc459ef5d61c-Abstract-Conference.html) |
+| **ExpeL**: LLM Agents Are Experiential Learners | 2023 | [Paper](https://arxiv.org/abs/2308.10144) · [Code](https://github.com/LeapLabTHU/ExpeL) · [Publication](https://ojs.aaai.org/index.php/AAAI/article/download/29936/31635) |
 | **FireAct**: Toward Language Agent Fine-tuning | 2023 | [Paper](https://arxiv.org/abs/2310.05915) |
 | **FormaT5**: Abstention and Examples for Conditional Table Formatting with Natural Language | 2023 | [Paper](https://arxiv.org/abs/2310.17306) |
 | **G-Eval**: NLG Evaluation using GPT-4 with Better Human Alignment | 2023 | [Paper](https://arxiv.org/abs/2303.16634) |
 | **Generative Agents**: Interactive Simulacra of Human Behavior | 2023 | [Paper](https://arxiv.org/abs/2304.03442) |
+| **GKD**: On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes | 2023 | [Paper](https://arxiv.org/abs/2306.13649) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2024/hash/5be69a584901a26c521c2b51e40a4c20-Abstract-Conference.html) |
 | **Gorilla**: Large Language Model Connected with Massive APIs | 2023 | [Paper](https://arxiv.org/abs/2305.15334) |
 | **Hi-VT5 / MP-DocVQA**: Hierarchical Multimodal Transformers for Multipage DocVQA | 2023 | [Paper](https://doi.org/10.1016/j.patcog.2023.109834) |
 | **HuggingGPT**: Solving AI Tasks with ChatGPT and its Friends in Hugging Face | 2023 | [Paper](https://arxiv.org/abs/2303.17580) · [Code](https://github.com/microsoft/JARVIS) |
-| **LATS**: Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models | 2023 | [Paper](https://arxiv.org/abs/2310.04406) · [Code](https://github.com/andyz245/LanguageAgentTreeSearch) |
+| **LATS**: Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models | 2023 | [Paper](https://arxiv.org/abs/2310.04406) · [Code](https://github.com/andyz245/LanguageAgentTreeSearch) · [Publication](https://proceedings.mlr.press/v235/zhou24r.html) |
 | **LayoutGPT**: Compositional Visual Planning and Generation with Large Language Models | 2023 | [Paper](https://arxiv.org/abs/2305.15393) · [Code](https://github.com/weixi-feng/LayoutGPT) |
 | **LayoutPrompter**: TextDiffuser-2: Unleashing the Power of Language Models for Text Rendering | 2023 | [Paper](https://arxiv.org/abs/2311.16465) |
 | **LLM+P**: Empowering Large Language Models with Optimal Planning Proficiency | 2023 | [Paper](https://arxiv.org/abs/2304.11477) |
@@ -228,25 +256,30 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **MetaGPT**: Meta Programming for A Multi-Agent Collaborative Framework | 2023 | [Paper](https://arxiv.org/abs/2308.00352) · [Code](https://github.com/geekan/MetaGPT) |
 | **mPLUG-DocOwl**: Modularized Multimodal Large Language Model for Document Understanding | 2023 | [Paper](https://arxiv.org/abs/2307.02499) |
 | **MT-Bench / Chatbot Arena**: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena | 2023 | [Paper](https://arxiv.org/abs/2306.05685) · [Code](https://github.com/lm-sys/FastChat/tree/main/llm-judge) |
+| **OPRO**: Large Language Models as Optimizers | 2023 | [Paper](https://arxiv.org/abs/2309.03409) · [Code](https://github.com/google-deepmind/opro) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2024/hash/3339f19c5fcee3ad74502947a32be9e6-Abstract-Conference.html) |
 | **PAL**: Program-aided Language Models | 2023 | [Paper](https://proceedings.mlr.press/v202/gao23f.html) |
 | **PDFTriage**: Question Answering over Long, Structured Documents | 2023 | [Paper](https://arxiv.org/abs/2309.08872) |
 | **Prometheus**: Inducing Fine-grained Evaluation Capability in Language Models | 2023 | [Paper](https://arxiv.org/abs/2310.08491) |
-| **Reflexion**: Language Agents with Verbal Reinforcement Learning | 2023 | [Paper](https://arxiv.org/abs/2303.11366) · [Code](https://github.com/noahshinn/reflexion) |
+| **PromptAgent**: Strategic Planning with Language Models Enables Expert-level Prompt Optimization | 2023 | [Paper](https://arxiv.org/abs/2310.16427) · [Code](https://github.com/XinyuanWangCS/PromptAgent) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2024/hash/686a3f32067838c8dbb68da6e9e3cf69-Abstract-Conference.html) |
+| **Promptbreeder**: Self-Referential Self-Improvement via Prompt Evolution | 2023 | [Paper](https://arxiv.org/abs/2309.16797) · [Publication](https://proceedings.mlr.press/v235/fernando24a.html) |
+| **ProTeGi**: Automatic Prompt Optimization with “Gradient Descent” and Beam Search | 2023 | [Paper](https://arxiv.org/abs/2305.03495) · [Code](https://github.com/microsoft/LMOps/tree/main/prompt_optimization) · [Publication](https://aclanthology.org/2023.emnlp-main.494/) |
+| **Reflexion**: Language Agents with Verbal Reinforcement Learning | 2023 | [Paper](https://arxiv.org/abs/2303.11366) · [Code](https://github.com/noahshinn/reflexion) · [Publication](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html) |
 | **RewriteLM**: An Instruction-Tuned Large Language Model for Text Rewriting | 2023 | [Paper](https://arxiv.org/abs/2305.15685) |
 | **RLAIF vs. RLHF**: Scaling Reinforcement Learning from Human Feedback with AI Feedback | 2023 | [Paper](https://arxiv.org/abs/2309.00267) |
-| **Self-Refine**: Iterative Refinement with Self-Feedback | 2023 | [Paper](https://arxiv.org/abs/2303.17651) · [Code](https://github.com/madaan/self-refine) |
+| **Self-Refine**: Iterative Refinement with Self-Feedback | 2023 | [Paper](https://arxiv.org/abs/2303.17651) · [Code](https://github.com/madaan/self-refine) · [Publication](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html) |
 | **SheetCopilot**: Bringing Software Productivity to the Next Level through Large Language Models | 2023 | [Paper](https://arxiv.org/abs/2305.19308) · [Code](https://github.com/BraveGroup/SheetCopilot) · [Publication](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0ff30c4bf31db0119a6219e0d250e037-Abstract.html) |
 | **StructGPT**: A General Framework for Large Language Model to Reason over Structured Data | 2023 | [Paper](https://arxiv.org/abs/2305.09645) |
 | **Table-GPT**: Table-tuned GPT for Diverse Table Tasks | 2023 | [Paper](https://arxiv.org/abs/2310.09263) |
 | **ToolEmu**: Identifying the Risks of LM Agents with an LM-Emulated Sandbox | 2023 | [Paper](https://arxiv.org/abs/2309.15817) |
-| **Toolformer**: Language Models Can Teach Themselves to Use Tools | 2023 | [Paper](https://arxiv.org/abs/2302.04761) |
-| **ToolLLM / ToolBench**: ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs | 2023 | [Paper](https://arxiv.org/abs/2307.16789) · [Code](https://github.com/OpenBMB/ToolBench) |
-| **Voyager**: An Open-Ended Embodied Agent with Large Language Models | 2023 | [Paper](https://arxiv.org/abs/2305.16291) |
+| **Toolformer**: Language Models Can Teach Themselves to Use Tools | 2023 | [Paper](https://arxiv.org/abs/2302.04761) · [Publication](https://proceedings.neurips.cc/paper_files/paper/2023/file/d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf) |
+| **ToolLLM / ToolBench**: ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs | 2023 | [Paper](https://arxiv.org/abs/2307.16789) · [Code](https://github.com/OpenBMB/ToolBench) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2024/hash/28e50ee5b72e90b50e7196fde8ea260e-Abstract-Conference.html) |
+| **Voyager**: An Open-Ended Embodied Agent with Large Language Models | 2023 | [Paper](https://arxiv.org/abs/2305.16291) · [Publication](https://openreview.net/pdf?id=ehfRiF0R3a) |
 | **BINDER**: Binding Language Models in Symbolic Languages | 2022 | [Paper](https://arxiv.org/abs/2210.02875) |
 | **LayoutLMv3**: Pre-training for Document AI with Unified Text and Image Masking | 2022 | [Paper](https://arxiv.org/abs/2204.08387) · [Code](https://aka.ms/layoutlmv3) |
 | **PEER**: A Collaborative Language Model | 2022 | [Paper](https://arxiv.org/abs/2208.11663) |
 | **Program of Thoughts** Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks | 2022 | [Paper](https://arxiv.org/abs/2211.12588) |
-| **ReAct**: Synergizing Reasoning and Acting in Language Models | 2022 | [Paper](https://arxiv.org/abs/2210.03629) · [Code](https://github.com/ysymyth/ReAct) |
+| **ReAct**: Synergizing Reasoning and Acting in Language Models | 2022 | [Paper](https://arxiv.org/abs/2210.03629) · [Code](https://github.com/ysymyth/ReAct) · [Publication](https://openreview.net/pdf?id=WE_vluYUL-X) |
+| **RLPrompt**: Optimizing Discrete Text Prompts with Reinforcement Learning | 2022 | [Paper](https://arxiv.org/abs/2205.12548) · [Code](https://github.com/mingkaid/rl-prompt) · [Publication](https://aclanthology.org/2022.emnlp-main.222/) |
 | **Codex / HumanEval**: Evaluating Large Language Models Trained on Code | 2021 | [Paper](https://arxiv.org/abs/2107.03374) |
 | **D2S**: Document-to-Slide Generation Via Query-Based Text Summarization | 2021 | [Paper](https://aclanthology.org/2021.naacl-main.111/) |
 | **DOC2PPT**: Automatic Presentation Slides Generation from Scientific Documents | 2021 | [Paper](https://arxiv.org/abs/2101.11796) |
@@ -463,7 +496,7 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **Advances and Challenges in Foundation Agents**: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems | 2025 | [Paper](https://arxiv.org/abs/2504.01990) · [Code](https://github.com/FoundationAgents/awesome-foundation-agents) |
 | **Agent Evaluation and Benchmarking Survey**: Evaluation and Benchmarking of LLM Agents: A Survey | 2025 | [Paper](https://arxiv.org/abs/2507.21504) |
 | **Anthropic Economic Index**: Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations | 2025 | [Paper](https://arxiv.org/abs/2503.04761) |
-| **DeepSeek-R1**: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2501.12948) |
+| **DeepSeek-R1**: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning | 2025 | [Paper](https://arxiv.org/abs/2501.12948) · [Publication](https://www.nature.com/articles/s41586-025-09422-z) |
 | **Future of Work with AI Agents**: Auditing Automation and Augmentation Potential across the U.S. Workforce | 2025 | [Paper](https://arxiv.org/abs/2506.06576) |
 | **Great Models Think Alike** and this Undermines AI Oversight | 2025 | [Paper](https://arxiv.org/abs/2502.04313) · [Code](https://github.com/model-similarity/lm-similarity) |
 | **Levels of Autonomy** for AI Agents | 2025 | [Paper](https://arxiv.org/abs/2506.12469) |
@@ -485,23 +518,30 @@ Browse the three paper lists below. The companion Excel provides the detailed ma
 | **GUI Agents Survey**: GUI Agents: A Survey | 2024 | [Paper](https://arxiv.org/abs/2412.13501) |
 | **LLM Agent Planning Survey**: Understanding the planning of LLM agents: A survey | 2024 | [Paper](https://arxiv.org/abs/2402.02716) |
 | **Self-Preference in LLM Evaluators**: LLM Evaluators Recognize and Favor Their Own Generations | 2024 | [Paper](https://arxiv.org/abs/2404.13076) |
+| **Self-Rewarding LM**: Self-Rewarding Language Models | 2024 | [Paper](https://arxiv.org/abs/2401.10020) · [Publication](https://proceedings.mlr.press/v235/yuan24d.html) |
 | **Tool Learning Survey**: Tool Learning with Large Language Models: A Survey | 2024 | [Paper](https://arxiv.org/abs/2405.17935) · [Code](https://github.com/quchangle1/LLM-Tool-Survey) |
 | **CoALA**: Cognitive Architectures for Language Agents | 2023 | [Paper](https://arxiv.org/abs/2309.02427) · [Code](https://github.com/ysymyth/awesome-language-agents) |
+| **Eureka**: Human-Level Reward Design via Coding Large Language Models | 2023 | [Paper](https://arxiv.org/abs/2310.12931) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2024/file/70c26937fbf3d4600b69a129031b66ec-Paper-Conference.pdf) |
 | **Gemini**: A Family of Highly Capable Multimodal Models | 2023 | [Paper](https://arxiv.org/abs/2312.11805) |
 | **GPT-4** Technical Report | 2023 | [Paper](https://arxiv.org/abs/2303.08774) |
 | **GPTs are GPTs**: An Early Look at the Labor Market Impact Potential of Large Language Models | 2023 | [Paper](https://arxiv.org/abs/2303.10130) |
+| **Let's Verify Step by Step** | 2023 | [Paper](https://arxiv.org/abs/2305.20050) · [Publication](https://proceedings.iclr.cc/paper_files/paper/2024/file/aca97732e30bcf1303bc22ac3924fd16-Paper-Conference.pdf) |
 | **LLM Autonomous Agents Survey**: A Survey on Large Language Model based Autonomous Agents | 2023 | [Paper](https://arxiv.org/abs/2308.11432) |
 | **Productivity Effects of Generative AI**: Experimental evidence on the productivity effects of generative artificial intelligence | 2023 | [Paper](https://doi.org/10.1126/science.adh2586) |
 | **Sparks of AGI**: Sparks of Artificial General Intelligence: Early experiments with GPT-4 | 2023 | [Paper](https://arxiv.org/abs/2303.12712) |
 | **The Rise and Potential of LLM Agents**: The Rise and Potential of Large Language Model Based Agents: A Survey | 2023 | [Paper](https://arxiv.org/abs/2309.07864) |
+| **APE**: Large Language Models Are Human-Level Prompt Engineers | 2022 | [Paper](https://arxiv.org/abs/2211.01910) · [Code](https://github.com/keirp/automatic_prompt_engineer) · [Publication](https://openreview.net/pdf?id=92gvk82DE-) |
 | **Emergent Abilities** of Large Language Models | 2022 | [Paper](https://arxiv.org/abs/2206.07682) |
 | **Reward Model Overoptimization**: Scaling Laws for Reward Model Overoptimization | 2022 | [Paper](https://arxiv.org/abs/2210.10760) |
+| **Self-Instruct**: Aligning Language Models with Self-Generated Instructions | 2022 | [Paper](https://arxiv.org/abs/2212.10560) · [Code](https://github.com/yizhongw/self-instruct) · [Publication](https://aclanthology.org/2023.acl-long.754/) |
+| **STaR**: Bootstrapping Reasoning With Reasoning | 2022 | [Paper](https://arxiv.org/abs/2203.14465) · [Publication](https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html) |
 | **Foundation Models**: On the Opportunities and Risks of Foundation Models | 2021 | [Paper](https://arxiv.org/abs/2108.07258) |
 | **GPT-3**: Language Models are Few-Shot Learners | 2020 | [Paper](https://arxiv.org/abs/2005.14165) |
 | **Scaling Laws** for Neural Language Models | 2020 | [Paper](https://arxiv.org/abs/2001.08361) |
 | **Productivity J-Curve**: The Productivity J-Curve: How Intangibles Complement General Purpose Technologies | 2018 | [Paper](https://doi.org/10.1257/mac.20180386) |
 | **PPO**: Proximal Policy Optimization Algorithms | 2017 | [Paper](https://arxiv.org/abs/1707.06347) |
 | **RL from Human Preferences**: Deep reinforcement learning from human preferences | 2017 | [Paper](https://arxiv.org/abs/1706.03741) |
+| **DAgger**: A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning | 2010 | [Paper](https://arxiv.org/abs/1011.0686) · [Publication](https://proceedings.mlr.press/v15/ross11a.html) |
 | **Provenance in Databases**: Why, How, and Where | 2009 | [Paper](https://doi.org/10.1561/1900000006) |
 | **Life Beyond Distributed Transactions** | 2007 | [Paper](https://doi.org/10.1145/3012426.3025012) |
 | **Case Handling**: a new paradigm for business process support | 2005 | [Paper](https://doi.org/10.1016/j.datak.2004.07.003) |
@@ -576,5 +616,7 @@ Products, documentation, and standalone projects without an identified paper. Th
 **Literature sources.** The [AI Office bibliography crosswalk](data/literature_sources/ai_office_2026.json) accounts for all 292 references in [The Evolution of AI Office](https://www.alphaxiv.org/abs/2609.evolution-ai-office-agents), including non-paper references outside this collection. The [work-form research crosswalk](data/literature_sources/work_forms_2026.json) records 11 additional candidates, primary-source matches, and classification corrections.
 
 The [Section 3 evidence pack](data/literature_sources/section3_2026.json) maps 76 papers to 18 writing claims and preserves 40 citation audits. The Excel separates publication status, evidence locations, and task-specific scope. A [BibTeX collection](data/literature_sources/section3_2026.bib) is also available.
+
+The [Section 5 reconciliation](data/literature_sources/section5_2026.json) merges 127 optimization references into the master Excel: 40 additions and 87 enriched entries. It retains executor-weight updates, harness optimization targets, task environments, publication snapshots, and version notes. The original [Section 5 workbook](section5-paper-list.xlsx) is retained as a source snapshot; maintain ongoing edits in the master Excel.
 
 **Open metadata:** 0 identities await confirmation and are omitted from the lists; 9 paper affiliations remain incomplete. See [Contributing](CONTRIBUTING.md) for the maintenance workflow.

@@ -1,4 +1,4 @@
-# Manuscript classification v0.3
+# Manuscript classification v0.4
 
 The public awesome list uses three broad paper groups. The companion Excel carries the detailed authoring classification, following the revised manuscript outline and the 2026-10-16 literature supplement. Classification is an editorial judgment about how a source supports the survey, not an author's claim about the paper.
 
@@ -46,6 +46,10 @@ Source priorities A, B, and F mean main-text choice, supporting or boundary evid
 Work forms depend on the delegated task and the evaluated setting. Grounding coordinates and function-call syntax do not establish a successful state change. Workflow generation or prediction does not establish business workflow execution. Given-context and full-workspace settings from the same paper can support different forms. The five forms are not assumed to be mutually exclusive or a strict capability ranking.
 
 ## Optimization mechanisms
+
+The Section 5 source adds 127 chapter-specific uses. Its primary destination is retained separately in Excel column AY, so an existing paper's use in another chapter remains visible. Three existing Chapter 5 destinations are refined: EnterpriseLab to trajectory curation (5.1.2), CogEvol to supervised training (5.2.1), and UI-Mate to agentic reinforcement learning (5.2.2). Their earlier destinations remain secondary uses. The source's legacy capability chapter 4 is mapped to the active 2.3.1–2.3.5 sections.
+
+Columns AZ to BJ preserve source reading suggestions, concrete methods and optimization mechanisms, executor-weight updates, harness targets, environments, identifiers, dates, publication snapshots, evidence limits, and version notes. These source details complement the controlled research-type vocabulary; they do not introduce a new category for every paper. Training a prompt or harness designer is distinct from updating the downstream executor, and optimizing multiple harness components does not by itself establish joint model-weight training.
 
 | Mechanism | Section |
 | --- | --- |
