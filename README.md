@@ -1,64 +1,18 @@
 # Awesome Work Agents
 
-> Research on agents that turn goals into accepted digital work: answers, artifacts, application changes, workflows, and responsibilities that continue over time.
+A curated collection of papers, benchmarks, tools, and resources on **work agents**: AI systems that perform digital work across documents, applications, and workspaces. Topics include office productivity, enterprise workflows, software engineering, scientific research, agent optimization, memory, and evaluation.
 
-A curated reading list accompanying **Work Agents: Systems, Capabilities, and Optimization**. The collection connects office productivity, enterprise operations, software engineering, scientific research, computer use, and the systems that make delegated work reliable.
+This collection accompanies **Work Agents: Systems, Capabilities, and Optimization**. See the [project homepage](https://enjundu.com/blog/working_agents) for the survey and an overview of the research.
 
-**560 research papers and foundational studies** · **59 official resources** · **393/393 manuscript references covered** · Updated **2026-10-26**
+![Work Agents: Systems, Capabilities, and Optimization](assets/work-agents-cover.png)
 
-Companion survey: **Work Agents: Systems, Capabilities, and Optimization** · [Project homepage](https://enjundu.com/blog/working_agents)
+## Contents
 
-Synced from the 26 October 2026 manuscript, Overleaf revision `cd93ce69fb42badb061ca7ac3dcc5b20748d0a0b`.
-
-[Start Here](#start-here) · [Survey Perspective](#survey-perspective) · [Agents, Methods & Systems](#agents-methods--systems) · [Benchmarks & Evaluation](#benchmarks--evaluation) · [Surveys & Foundations](#surveys--foundations) · [Resources](#resources) · [Contributing](#contributing)
-
-![A system view of work agents: task, model, harness, workspace, work outcome, and verification](assets/system-view.png)
-
-## Start Here
-
-| Research question | Entry points |
-| --- | --- |
-| How do models become working systems? | [ReAct](https://arxiv.org/abs/2210.03629), [SWE-agent](https://arxiv.org/abs/2405.15793), [OpenHands](https://arxiv.org/abs/2407.16741) |
-| How do agents create and edit native work products? | [SheetCopilot](https://arxiv.org/abs/2305.19308), [PPTAgent](https://arxiv.org/abs/2501.03936), [DeepPresenter](https://arxiv.org/abs/2602.22839) |
-| How do agents work across tools and workspaces? | [AppWorld](https://arxiv.org/abs/2407.18901), [TheAgentCompany](https://arxiv.org/abs/2412.14161), [Workspace-Bench](https://arxiv.org/abs/2605.03596) |
-| How are experience, models, and harnesses improved? | [Agent World Model](https://arxiv.org/abs/2602.10090), [SWE-Gym](https://arxiv.org/abs/2412.21139), [GEPA](https://arxiv.org/abs/2507.19457), [Co-Harness](https://arxiv.org/abs/2607.22688) |
-| What evidence establishes successful work? | [OSWorld](https://arxiv.org/abs/2404.07972), [SpreadsheetBench](https://arxiv.org/abs/2406.14991), [GDPval](https://arxiv.org/abs/2510.04374) |
-| How are state and experience maintained? | [SyncMind](https://arxiv.org/abs/2502.06994), [A-MEM](https://arxiv.org/abs/2502.12110), [Memory-R1](https://arxiv.org/abs/2508.19828) |
-
-## Survey Perspective
-
-A **work agent** uses a foundation model and a runtime **harness** to pursue an objective in a stateful workspace under task requirements, resources, permissions, and constraints. Its outcome may be an answer, an editable artifact, a business-state change, a completed process, or an obligation maintained over time. Verification connects that outcome to the requirements of the task.
-
-<details>
-<summary><strong>Research map: work conditions, work forms, capabilities, optimization, and evaluation</strong></summary>
-
-**Two independent work conditions.** *Persistence* describes how long delegated responsibility remains open across feedback, stages, waiting periods, and events. *Openness* describes how much of the relevant work world must be discovered and updated during execution, including objects, dependencies, interfaces, permissions, and other actors. A short task can involve an unfamiliar workspace; a recurring duty can operate in a fixed environment.
-
-**Five work forms.** These describe the scope and organization of delegated work. They are not a ranking of intelligence or autonomy, and a task can combine more than one form.
-
-| Work form | What the agent is responsible for |
-| --- | --- |
-| Conversation level | Produce an informational result grounded in the relevant evidence. |
-| Action level | Make and check a local change to a work object or application state. |
-| Task level | Coordinate dependent actions and intermediate results toward an objective. |
-| Workflow level | Advance work through stages, procedural requirements, approvals, and handoffs. |
-| Workspace level | Discover relevant objects and follow their dependencies, sources, and versions; preserve consistency when updating related objects. |
-
-**Capabilities.** Perception and understanding establish task-relevant objects and evidence; reasoning and decision making apply knowledge and constraints; planning and coordination organize dependencies and participants; execution and state management connect actions to committed effects; verification, recovery, and replanning check and repair the work. Workspace understanding is needed throughout this process.
-
-**Optimization.** The survey follows experience through training environments, trajectory curation, and reward signals; model learning through supervised training, reinforcement learning, distillation, and self-improvement; harness improvements to tools, interfaces, prompts, workflows, memory, and skills; and coupled updates to models and harnesses. Updating a harness designer and updating the downstream executor are different interventions.
-
-**Evaluation.** Read results through the chain **requested work → observable evidence → judgment procedure → reported metric**. Answers, native artifacts, application state, and workflow traces expose different properties. Reported success depends on the model, harness, environment, verifier, and budget used. Acceptance, repeated-run reliability, cost, human review effort, and downstream usefulness answer different questions.
-
-**Frontiers.** Personal agents sustain unfinished goals between requests; human digital twins represent a particular person's judgments; organizational systems coordinate responsibilities and handoffs. These demands guide environment design, memory, initiative, adaptation, and verification. Two interacting loops deliver current work and improve future capability.
-
-The manuscript organizes these topics as **§2 Foundation**, **§3 Work Forms**, **§4 Optimization**, **§5 Evaluation and Resources**, and **§6 Frontiers**. The public lists below use three broad paper groups; the *Focus* column helps readers find a work domain without reproducing every manuscript subsection.
-
-</details>
-
-**How to read the lists.** Superscripts such as <sup>[17]</sup> identify references in the **26 October 2026 manuscript**. All **393 numbered references** are represented, including official documentation and project pages under Resources. Earlier supplementary reading is retained without a superscript. Each work appears once; multiple cited versions can share an entry, while materially different benchmark versions are named separately.
-
-**Year.** Use the formal publication year when an identified conference or journal version is cited; otherwise use the cited preprint/version year. Supplementary reading uses its identified publication year or first public release year. A later revision can therefore carry a different year from the first arXiv submission. **n.d.** means the source is undated; an access date is not treated as a publication year. Publication, code, data, and official-source links retain their distinct labels.
+- [Agents, Methods & Systems](#agents-methods--systems)
+- [Benchmarks & Evaluation](#benchmarks--evaluation)
+- [Surveys & Foundations](#surveys--foundations)
+- [Resources](#resources)
+- [Contributing](#contributing)
 
 ## Agents, Methods & Systems
 
@@ -709,8 +663,4 @@ Official product pages, engineering reports, documentation, evaluation infrastru
 
 ## Contributing
 
-Suggestions and corrections are welcome through [GitHub issues](https://github.com/EnjunDu/awesome-working-agent/issues) or [pull requests](https://github.com/EnjunDu/awesome-working-agent/pulls). Include the full title, the publication or cited-version year, a short focus label, and a primary paper or official source. Add author-maintained code, data, and publication links when available. Check titles, aliases, and versions before adding an entry.
-
-Keep the three broad paper groups and sort entries by descending year, then alphabetically; place undated resources last. Classify by the main contribution: a benchmark paper belongs under Benchmarks & Evaluation, while a training method that reports benchmark results belongs under Agents, Methods & Systems. Product announcements, documentation, and project-only references belong under Resources.
-
-**Coverage.** This update was checked against all 393 numbered references in the 26 October 2026 manuscript. Superscripts provide a direct reference-number crosswalk. Additional relevant literature from earlier curation remains available. The manuscript source and citation order were checked against that revision; the reference superscripts match its bibliography. The overview illustration is reproduced from the companion manuscript; linked works and resources belong to their respective authors and maintainers.
+Contributions are welcome! Open an [issue](https://github.com/EnjunDu/awesome-working-agent/issues) or submit a [pull request](https://github.com/EnjunDu/awesome-working-agent/pulls) to suggest papers, resources, or corrections.
