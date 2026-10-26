@@ -635,51 +635,51 @@ Official product pages, engineering reports, documentation, evaluation infrastru
 | **Pi**: A Minimal, Extensible Coding Agent Harness <sup>[323]</sup> | 2026 | Learning & agent harnesses | [Source](https://github.com/earendil-works/pi) |
 | **Anthropic Research system**: How we built our multi-agent research system <sup>[132]</sup> | 2025 | Tools & business workflows | [Source](https://www.anthropic.com/research/multi-agent-research-system) |
 | **Microsoft 365 Copilot Tuning and Multi-Agent Orchestration** | 2025 | Learning & agent harnesses | [Source](https://www.microsoft.com/en-us/microsoft-365/blog/2025/05/19/introducing-microsoft-365-copilot-tuning-multi-agent-orchestration-and-more-from-microsoft-build-2025/) |
-| **AA-AnalystAgent** | n.d. | Reasoning, evidence & work impact | [Source](https://artificialanalysis.ai/evaluations/aa-analyst-agent) |
-| **AA-Briefcase v1.1: Agentic Knowledge Work Benchmark** | n.d. | Workspaces & occupational work | [Source](https://artificialanalysis.ai/evaluations/aa-briefcase) · [Code](https://github.com/ArtificialAnalysis/Stirrup) · [Data](https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite) |
-| **Adobe Acrobat AI Assistant** | n.d. | Workspaces & occupational work | [Source](https://www.adobe.com/acrobat/generative-ai-pdf.html) |
-| **Airtable Omni: AI-Native App Builder and Assistant** | n.d. | Workspaces & occupational work | [Source](https://www.airtable.com/newsroom/introducing-the-ai-native-airtable) |
-| **Announcing the Agent2Agent Protocol (A2A)** | n.d. | Learning & agent harnesses | [Source](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) |
-| **BigLaw Bench** | n.d. | Reasoning, evidence & work impact | [Source](https://github.com/harveyai/biglaw-bench) |
-| **Claude Code Overview** <sup>[12]</sup> | n.d. | Learning & agent harnesses | [Source](https://code.claude.com/docs/en/overview) · [Code](https://github.com/anthropics/claude-code) |
-| **Claude Cowork: Agentic AI for Knowledge Work** | n.d. | Workspaces & occupational work | [Source](https://www.anthropic.com/product/claude-cowork) |
-| **Codex Manual** <sup>[11]</sup> | n.d. | Learning & agent harnesses | [Source](https://developers.openai.com/codex/codex-manual.md) · [Code](https://github.com/openai/codex) |
-| **Computer-Using Agent** | n.d. | Workspaces & occupational work | [Source](https://openai.com/index/computer-using-agent/) |
-| **Copilot for Power BI Overview** | n.d. | Workspaces & occupational work | [Source](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction) |
-| **Copilot in Excel** | n.d. | Workspaces & occupational work | [Source](https://support.microsoft.com/en-us/copilot-excel) |
-| **Dynamic Workflows: Orchestrate Subagents at Scale** | n.d. | Learning & agent harnesses | [Source](https://code.claude.com/docs/en/workflows) |
-| **Equipping Agents for the Real World with Agent Skills** | n.d. | Learning & agent harnesses | [Source](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) · [Code](https://github.com/anthropics/skills) |
-| **Excel Modeling Benchmark** | n.d. | Spreadsheets, slides & documents | [Source](https://www.vals.ai/benchmarks/emb) |
-| **Function Calling** | n.d. | Learning & agent harnesses | [Source](https://developers.openai.com/api/docs/guides/function-calling) |
-| **GLM Slide and Poster Agent Documentation** | n.d. | Workspaces & occupational work | [Source](https://docs.z.ai/guides/agents/slide) |
-| **Google Workspace Studio: Agents for Everyday Work** | n.d. | Workspaces & occupational work | [Source](https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work) |
-| **How the Microsoft 365 Copilot Orchestrator Chooses Actions** | n.d. | Learning & agent harnesses | [Source](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/orchestrator) |
-| **Introducing ChatGPT Agent: Bridging Research and Action** | n.d. | Workspaces & occupational work | [Source](https://openai.com/index/introducing-chatgpt-agent/) |
-| **Introducing Claude Design by Anthropic Labs** | n.d. | Workspaces & occupational work | [Source](https://www.anthropic.com/news/claude-design-anthropic-labs) |
-| **Introducing Computer Use** | n.d. | Workspaces & occupational work | [Source](https://www.anthropic.com/news/3-5-models-and-computer-use/) |
-| **Introducing the Model Context Protocol** | n.d. | Learning & agent harnesses | [Source](https://www.anthropic.com/news/model-context-protocol) |
-| **Loop Engineering: Designing Agentic Loops** | n.d. | Learning & agent harnesses | [Source](https://addyosmani.com/blog/loop-engineering/) |
-| **MedCode** <sup>[293]</sup> | n.d. | Reasoning, evidence & work impact | [Source](https://www.vals.ai/benchmarks/medcode) |
-| **MedScribe** <sup>[294]</sup> | n.d. | Spreadsheets, slides & documents | [Source](https://www.vals.ai/benchmarks/medscribe) |
-| **Microsoft 365 Copilot Tuning Overview** | n.d. | Learning & agent harnesses | [Source](https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-tuning-overview) |
-| **MiniMax Skills: Office Artifact Skills for Coding Agents** | n.d. | Learning & agent harnesses | [Source](https://github.com/MiniMax-AI/skills) |
-| **New Tools for Building Agents** | n.d. | Learning & agent harnesses | [Source](https://openai.com/index/new-tools-for-building-agents/) |
-| **NotebookLM: AI-Powered Research and Note-Taking** | n.d. | Workspaces & occupational work | [Source](https://notebooklm.google.com/) |
-| **OpenCode: The Open-Source Coding Agent** | n.d. | Workspaces & occupational work | [Source](https://opencode.ai/) |
-| **PinchBench** | n.d. | Workspaces & occupational work | [Source](https://github.com/pinchbench/skill) |
-| **PptxGenJS Documentation** | n.d. | Learning & agent harnesses | [Source](https://gitbrent.github.io/PptxGenJS/) |
-| **Quadratic: The AI Spreadsheet** | n.d. | Workspaces & occupational work | [Source](https://www.quadratichq.com/) |
-| **Rows AI: Spreadsheet and Data Analyst** | n.d. | Workspaces & occupational work | [Source](https://rows.com/ai) |
-| **SpreadsheetBench v2: Business Spreadsheet Workflows** | n.d. | Workspaces & occupational work | [Source](https://huggingface.co/datasets/KAKA22/SpreadsheetBench-v2) |
-| **Tax Agent Bench** | n.d. | Reasoning, evidence & work impact | [Source](https://www.vals.ai/benchmarks/tax_agent_bench) · [Code](https://github.com/vals-ai/tax-agent-bench) |
-| **The Next Era of Knowledge Work** | n.d. | Workspaces & occupational work | [Source](https://cdn.openai.com/pdf/the-next-era-of-knowledge-work.pdf) |
-| **The O*NET Content Model** <sup>[347]</sup> | n.d. | Reasoning, evidence & work impact | [Source](https://www.onetcenter.org/content.html) |
-| **The Ralph Wiggum Technique** | n.d. | Learning & agent harnesses | [Source](https://github.com/ghuntley/how-to-ralph-wiggum) |
-| **We are Changing our Developer Productivity Experiment Design** | n.d. | Reasoning, evidence & work impact | [Source](https://metr.org/blog/2026-02-24-uplift-update/) |
-| **What 81,000 People Want from AI** | n.d. | Workspaces & occupational work | [Source](https://www.anthropic.com/features/81k-interviews) |
-| **WorkBuddy: A Desktop Agent for Office Work** | n.d. | Workspaces & occupational work | [Source](https://www.workbuddy.ai/) |
-| **Wukong: An AI-Native Agentic Platform for Enterprises** | n.d. | Workspaces & occupational work | [Source](https://www.alibabagroup.com/en-US/document-1971078136456019968) |
-| **Zapier Agents: Autonomous AI Teammates** | n.d. | Workspaces & occupational work | [Source](https://zapier.com/agents) |
+| **AA-AnalystAgent** | 2026 | Reasoning, evidence & work impact | [Source](https://artificialanalysis.ai/evaluations/aa-analyst-agent) |
+| **AA-Briefcase v1.1: Agentic Knowledge Work Benchmark** | 2026 | Workspaces & occupational work | [Source](https://artificialanalysis.ai/evaluations/aa-briefcase) · [Code](https://github.com/ArtificialAnalysis/Stirrup) · [Data](https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite) |
+| **Adobe Acrobat AI Assistant** | 2024 | Workspaces & occupational work | [Source](https://www.adobe.com/acrobat/generative-ai-pdf.html) |
+| **Airtable Omni: AI-Native App Builder and Assistant** | 2025 | Workspaces & occupational work | [Source](https://www.airtable.com/newsroom/introducing-the-ai-native-airtable) |
+| **Announcing the Agent2Agent Protocol (A2A)** | 2025 | Learning & agent harnesses | [Source](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) |
+| **BigLaw Bench** | 2024 | Reasoning, evidence & work impact | [Source](https://github.com/harveyai/biglaw-bench) |
+| **Claude Code Overview** <sup>[12]</sup> | 2025 | Learning & agent harnesses | [Source](https://code.claude.com/docs/en/overview) · [Code](https://github.com/anthropics/claude-code) |
+| **Claude Cowork: Agentic AI for Knowledge Work** | 2026 | Workspaces & occupational work | [Source](https://www.anthropic.com/product/claude-cowork) |
+| **Codex Manual** <sup>[11]</sup> | - | Learning & agent harnesses | [Source](https://developers.openai.com/codex/codex-manual.md) · [Code](https://github.com/openai/codex) |
+| **Computer-Using Agent** | 2025 | Workspaces & occupational work | [Source](https://openai.com/index/computer-using-agent/) |
+| **Copilot for Power BI Overview** | 2023 | Workspaces & occupational work | [Source](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction) |
+| **Copilot in Excel** | 2023 | Workspaces & occupational work | [Source](https://support.microsoft.com/en-us/copilot-excel) |
+| **Dynamic Workflows: Orchestrate Subagents at Scale** | 2026 | Learning & agent harnesses | [Source](https://code.claude.com/docs/en/workflows) |
+| **Equipping Agents for the Real World with Agent Skills** | 2025 | Learning & agent harnesses | [Source](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) · [Code](https://github.com/anthropics/skills) |
+| **Excel Modeling Benchmark** | 2026 | Spreadsheets, slides & documents | [Source](https://www.vals.ai/benchmarks/emb) |
+| **Function Calling** | 2023 | Learning & agent harnesses | [Source](https://developers.openai.com/api/docs/guides/function-calling) |
+| **GLM Slide and Poster Agent Documentation** | - | Workspaces & occupational work | [Source](https://docs.z.ai/guides/agents/slide) |
+| **Google Workspace Studio: Agents for Everyday Work** | 2025 | Workspaces & occupational work | [Source](https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work) |
+| **How the Microsoft 365 Copilot Orchestrator Chooses Actions** | 2023 | Learning & agent harnesses | [Source](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/orchestrator) |
+| **Introducing ChatGPT Agent: Bridging Research and Action** | 2025 | Workspaces & occupational work | [Source](https://openai.com/index/introducing-chatgpt-agent/) |
+| **Introducing Claude Design by Anthropic Labs** | 2026 | Workspaces & occupational work | [Source](https://www.anthropic.com/news/claude-design-anthropic-labs) |
+| **Introducing Computer Use** | 2024 | Workspaces & occupational work | [Source](https://www.anthropic.com/news/3-5-models-and-computer-use/) |
+| **Introducing the Model Context Protocol** | 2024 | Learning & agent harnesses | [Source](https://www.anthropic.com/news/model-context-protocol) |
+| **Loop Engineering: Designing Agentic Loops** | 2026 | Learning & agent harnesses | [Source](https://addyosmani.com/blog/loop-engineering/) |
+| **MedCode** <sup>[293]</sup> | 2026 | Reasoning, evidence & work impact | [Source](https://www.vals.ai/benchmarks/medcode) |
+| **MedScribe** <sup>[294]</sup> | 2026 | Spreadsheets, slides & documents | [Source](https://www.vals.ai/benchmarks/medscribe) |
+| **Microsoft 365 Copilot Tuning Overview** | 2025 | Learning & agent harnesses | [Source](https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-tuning-overview) |
+| **MiniMax Skills: Office Artifact Skills for Coding Agents** | 2026 | Learning & agent harnesses | [Source](https://github.com/MiniMax-AI/skills) |
+| **New Tools for Building Agents** | 2025 | Learning & agent harnesses | [Source](https://openai.com/index/new-tools-for-building-agents/) |
+| **NotebookLM: AI-Powered Research and Note-Taking** | 2023 | Workspaces & occupational work | [Source](https://notebooklm.google.com/) |
+| **OpenCode: The Open-Source Coding Agent** | 2025 | Workspaces & occupational work | [Source](https://opencode.ai/) |
+| **PinchBench** | 2026 | Workspaces & occupational work | [Source](https://github.com/pinchbench/skill) |
+| **PptxGenJS Documentation** | 2016 | Learning & agent harnesses | [Source](https://gitbrent.github.io/PptxGenJS/) |
+| **Quadratic: The AI Spreadsheet** | 2023 | Workspaces & occupational work | [Source](https://www.quadratichq.com/) |
+| **Rows AI: Spreadsheet and Data Analyst** | 2023 | Workspaces & occupational work | [Source](https://rows.com/ai) |
+| **SpreadsheetBench v2: Business Spreadsheet Workflows** | 2026 | Workspaces & occupational work | [Source](https://huggingface.co/datasets/KAKA22/SpreadsheetBench-v2) |
+| **Tax Agent Bench** | 2026 | Reasoning, evidence & work impact | [Source](https://www.vals.ai/benchmarks/tax_agent_bench) · [Code](https://github.com/vals-ai/tax-agent-bench) |
+| **The Next Era of Knowledge Work** | 2026 | Workspaces & occupational work | [Source](https://cdn.openai.com/pdf/the-next-era-of-knowledge-work.pdf) |
+| **The O*NET Content Model** <sup>[347]</sup> | 1995 | Reasoning, evidence & work impact | [Source](https://www.onetcenter.org/content.html) |
+| **The Ralph Wiggum Technique** | 2026 | Learning & agent harnesses | [Source](https://github.com/ghuntley/how-to-ralph-wiggum) |
+| **We are Changing our Developer Productivity Experiment Design** | 2026 | Reasoning, evidence & work impact | [Source](https://metr.org/blog/2026-02-24-uplift-update/) |
+| **What 81,000 People Want from AI** | 2026 | Workspaces & occupational work | [Source](https://www.anthropic.com/features/81k-interviews) |
+| **WorkBuddy: A Desktop Agent for Office Work** | 2026 | Workspaces & occupational work | [Source](https://www.workbuddy.ai/) |
+| **Wukong: An AI-Native Agentic Platform for Enterprises** | 2026 | Workspaces & occupational work | [Source](https://www.alibabagroup.com/en-US/document-1971078136456019968) |
+| **Zapier Agents: Autonomous AI Teammates** | 2025 | Workspaces & occupational work | [Source](https://zapier.com/agents) |
 
 ## Contributing
 
