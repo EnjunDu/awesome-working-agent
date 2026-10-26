@@ -1,10 +1,30 @@
-# Awesome Work Agents
+<h1 align="center">Work Agents: Systems, Capabilities, and Optimization</h1>
 
-A curated collection of papers, benchmarks, tools, and resources on **work agents**: AI systems that perform digital work across documents, applications, and workspaces. Topics include office productivity, enterprise workflows, software engineering, scientific research, agent optimization, memory, and evaluation.
+<p align="center">
+  <a href="https://enjundu.com/blog/working_agents">
+    <img src="https://img.shields.io/badge/project-homepage-2E86DE" alt="Project homepage">
+  </a>
+  <a href="https://github.com/EnjunDu/awesome-working-agent">
+    <img src="https://img.shields.io/badge/awesome-work_agents-black?logo=github" alt="Awesome Work Agents">
+  </a>
+  <a href="https://github.com/EnjunDu/awesome-working-agent/pulls">
+    <img src="https://img.shields.io/badge/contributions-welcome-green" alt="Contributions welcome">
+  </a>
+</p>
 
-This collection accompanies **Work Agents: Systems, Capabilities, and Optimization**. See the [project homepage](https://enjundu.com/blog/working_agents) for the survey and an overview of the research.
+`Work Agents` are AI systems that combine **foundation models** with **runtime harnesses** to carry out delegated digital work in stateful workspaces. They use tools, interact with applications, and coordinate workflows to produce answers, editable artifacts, and changes to workspace state.
 
-![Work Agents: Systems, Capabilities, and Optimization](assets/work-agents-cover.png)
+This repository is the companion reading list for **Work Agents: Systems, Capabilities, and Optimization**. It brings together research across office productivity, enterprise operations, software engineering, scientific research, and computer use:
+
+- **Agents, methods, and systems** — architectures, training methods, environments, memory, and agent harnesses.
+- **Benchmarks and evaluation** — task suites and evaluation methods for digital work.
+- **Surveys and resources** — foundational studies, open-source tools, and official documentation.
+
+Visit the [project homepage](https://enjundu.com/blog/working_agents) for the survey and project overview.
+
+<p align="center">
+  <img src="assets/work-agents-cover.png" alt="Work Agents: Systems, Capabilities, and Optimization" width="100%">
+</p>
 
 ## Contents
 
