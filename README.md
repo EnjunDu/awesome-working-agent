@@ -513,8 +513,8 @@ Benchmarks, datasets, evaluation environments, and protocols for measuring task 
 | **HotpotQA**: A Dataset for Diverse, Explainable Multi-hop Question Answering <sup>[19]</sup> | 2018 | Reasoning, evidence & work impact | [Paper](https://arxiv.org/abs/1809.09600) · [Code](https://github.com/hotpotqa/hotpot) · [Publication](https://aclanthology.org/D18-1259/) |
 | **Spider**: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task | 2018 | Workspaces & occupational work | [Paper](https://aclanthology.org/D18-1425/) |
 | **SQuAD**: 100,000+ Questions for Machine Comprehension of Text <sup>[18]</sup> | 2016 | Reasoning, evidence & work impact | [Paper](https://arxiv.org/abs/1606.05250) · [Publication](https://aclanthology.org/D16-1264/) |
-| **JobBench**: Aligning Agent Work With Human Will <sup>[314]</sup> | n.d. | Workspaces & occupational work | [Paper](https://arxiv.org/abs/2605.26329) · [Code](https://github.com/Job-Bench/job-bench-eval) · [Data](https://huggingface.co/datasets/JobBench/job-bench) |
-| **Legal Research Bench**: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents <sup>[291]</sup> | n.d. | Reasoning, evidence & work impact | [Paper](https://arxiv.org/abs/2610.00609) · [Code](https://github.com/vals-ai/legal-research-bench) · [Benchmark](https://www.vals.ai/benchmarks/legal_research) |
+| **JobBench**: Aligning Agent Work With Human Will <sup>[314]</sup> | 2026 | Workspaces & occupational work | [Paper](https://arxiv.org/abs/2605.26329) · [Code](https://github.com/Job-Bench/job-bench-eval) · [Data](https://huggingface.co/datasets/JobBench/job-bench) |
+| **Legal Research Bench**: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents <sup>[291]</sup> | 2026 | Reasoning, evidence & work impact | [Paper](https://arxiv.org/abs/2610.00609) · [Code](https://github.com/vals-ai/legal-research-bench) · [Benchmark](https://www.vals.ai/benchmarks/legal_research) |
 
 ## Surveys & Foundations
 
