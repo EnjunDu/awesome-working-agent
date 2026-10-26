@@ -619,8 +619,6 @@ Research syntheses, foundation-model reports, conceptual foundations, reasoning 
 
 Official product pages, engineering reports, documentation, evaluation infrastructure, and project resources. These entries are excluded from the research-paper count. **59 entries.**
 
-Resource years identify the dated publication or documented release/origin of the referenced product, feature, project, or model; they do not necessarily date the current web page. Codex Manual and GLM Slide and Poster Agent Documentation remain `n.d.` because their publication years could not be verified from dated primary sources (checked 2026-10-26).
-
 | Resource | Year | Focus | Links |
 | --- | --- | --- | --- |
 | **Agentic Capabilities in Word, Excel, and PowerPoint** | 2026 | Workspaces & occupational work | [Source](https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/) |
@@ -645,7 +643,7 @@ Resource years identify the dated publication or documented release/origin of th
 | **BigLaw Bench** | 2024 | Reasoning, evidence & work impact | [Source](https://github.com/harveyai/biglaw-bench) |
 | **Claude Code Overview** <sup>[12]</sup> | 2025 | Learning & agent harnesses | [Source](https://code.claude.com/docs/en/overview) · [Code](https://github.com/anthropics/claude-code) |
 | **Claude Cowork: Agentic AI for Knowledge Work** | 2026 | Workspaces & occupational work | [Source](https://www.anthropic.com/product/claude-cowork) |
-| **Codex Manual** <sup>[11]</sup> | n.d. | Learning & agent harnesses | [Source](https://developers.openai.com/codex/codex-manual.md) · [Code](https://github.com/openai/codex) |
+| **Codex Manual** <sup>[11]</sup> | - | Learning & agent harnesses | [Source](https://developers.openai.com/codex/codex-manual.md) · [Code](https://github.com/openai/codex) |
 | **Computer-Using Agent** | 2025 | Workspaces & occupational work | [Source](https://openai.com/index/computer-using-agent/) |
 | **Copilot for Power BI Overview** | 2023 | Workspaces & occupational work | [Source](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction) |
 | **Copilot in Excel** | 2023 | Workspaces & occupational work | [Source](https://support.microsoft.com/en-us/copilot-excel) |
@@ -653,7 +651,7 @@ Resource years identify the dated publication or documented release/origin of th
 | **Equipping Agents for the Real World with Agent Skills** | 2025 | Learning & agent harnesses | [Source](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) · [Code](https://github.com/anthropics/skills) |
 | **Excel Modeling Benchmark** | 2026 | Spreadsheets, slides & documents | [Source](https://www.vals.ai/benchmarks/emb) |
 | **Function Calling** | 2023 | Learning & agent harnesses | [Source](https://developers.openai.com/api/docs/guides/function-calling) |
-| **GLM Slide and Poster Agent Documentation** | n.d. | Workspaces & occupational work | [Source](https://docs.z.ai/guides/agents/slide) |
+| **GLM Slide and Poster Agent Documentation** | - | Workspaces & occupational work | [Source](https://docs.z.ai/guides/agents/slide) |
 | **Google Workspace Studio: Agents for Everyday Work** | 2025 | Workspaces & occupational work | [Source](https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work) |
 | **How the Microsoft 365 Copilot Orchestrator Chooses Actions** | 2023 | Learning & agent harnesses | [Source](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/orchestrator) |
 | **Introducing ChatGPT Agent: Bridging Research and Action** | 2025 | Workspaces & occupational work | [Source](https://openai.com/index/introducing-chatgpt-agent/) |
