@@ -14,6 +14,9 @@
 </p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2610.35845">
+    <img src="https://img.shields.io/badge/arXiv-2610.35845-b31b1b" alt="arXiv">
+  </a>
   <a href="https://enjundu.com/blog/working_agents">
     <img src="https://img.shields.io/badge/project-homepage-2E86DE" alt="Project homepage">
   </a>
@@ -33,7 +36,7 @@ This repository is the companion reading list for **Work Agents: Systems, Capabi
 - **Benchmarks and evaluation** — task suites and evaluation methods for digital work.
 - **Surveys and resources** — foundational studies, open-source tools, and official documentation.
 
-Visit the [project homepage](https://enjundu.com/blog/working_agents) for the survey and project overview.
+Read the survey on [arXiv](https://arxiv.org/abs/2610.35845), and visit the [project homepage](https://enjundu.com/blog/working_agents) for the project overview.
 
 <p align="center">
   <img src="assets/work-agents-cover.png" alt="Work Agents: Systems, Capabilities, and Optimization" width="100%">
@@ -710,8 +713,10 @@ If you find this survey or reading list useful, please cite:
   title        = {Work Agents: Systems, Capabilities,
                   and Optimization},
   year         = {2026},
-  howpublished = {Survey manuscript},
-  url          = {https://enjundu.com/blog/working_agents/}
+  eprint       = {2610.35845},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  url          = {https://arxiv.org/abs/2610.35845}
 }
 ```
 
