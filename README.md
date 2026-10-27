@@ -1,6 +1,19 @@
 <h1 align="center">Work Agents: Systems, Capabilities, and Optimization</h1>
 
 <p align="center">
+  Zishan Xu<sup>1*</sup>, Enjun Du<sup>2,3*</sup>, Mingqi Gao<sup>4*</sup>, Cheng Yang<sup>3</sup>, Junhao Shen<sup>5</sup>, Zirong Chen<sup>4</sup>, Zhiyuan Yao<sup>6</sup>, Yifu Guo<sup>7</sup>, Yuquan Lu<sup>7</sup>, Jinyang Huang<sup>8</sup>, Zhengxi Lu<sup>6</sup>, Siyi Liu<sup>3</sup>, Ziyu Zheng<sup>2</sup>, Yongqi Zhang<sup>3†</sup>, Difan Zou<sup>2†</sup>, Weiwen Liu<sup>1†</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>Shanghai Jiao Tong University &nbsp; <sup>2</sup>The University of Hong Kong &nbsp; <sup>3</sup>The Hong Kong University of Science and Technology (Guangzhou) &nbsp; <sup>4</sup>Tsinghua University<br>
+  <sup>5</sup>The Chinese University of Hong Kong &nbsp; <sup>6</sup>Zhejiang University &nbsp; <sup>7</sup>Sun Yat-sen University &nbsp; <sup>8</sup>Central South University
+</p>
+
+<p align="center">
+  <sup>*</sup>Equal contribution &nbsp; <sup>†</sup>Corresponding authors
+</p>
+
+<p align="center">
   <a href="https://enjundu.com/blog/working_agents">
     <img src="https://img.shields.io/badge/project-homepage-2E86DE" alt="Project homepage">
   </a>
@@ -32,6 +45,7 @@ Visit the [project homepage](https://enjundu.com/blog/working_agents) for the su
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Surveys & Foundations](#surveys--foundations)
 - [Resources](#resources)
+- [Citation](#citation)
 - [Contributing](#contributing)
 
 ## Agents, Methods & Systems
@@ -680,6 +694,26 @@ Official product pages, engineering reports, documentation, evaluation infrastru
 | **WorkBuddy: A Desktop Agent for Office Work** | 2026 | Workspaces & occupational work | [Source](https://www.workbuddy.ai/) |
 | **Wukong: An AI-Native Agentic Platform for Enterprises** | 2026 | Workspaces & occupational work | [Source](https://www.alibabagroup.com/en-US/document-1971078136456019968) |
 | **Zapier Agents: Autonomous AI Teammates** | 2025 | Workspaces & occupational work | [Source](https://zapier.com/agents) |
+
+## Citation
+
+If you find this survey or reading list useful, please cite:
+
+```bibtex
+@misc{workagents2026,
+  author       = {Zishan Xu and Enjun Du and Mingqi Gao and
+                  Cheng Yang and Junhao Shen and Zirong Chen and
+                  Zhiyuan Yao and Yifu Guo and Yuquan Lu and
+                  Jinyang Huang and Zhengxi Lu and Siyi Liu and
+                  Ziyu Zheng and Yongqi Zhang and Difan Zou and
+                  Weiwen Liu},
+  title        = {Work Agents: Systems, Capabilities,
+                  and Optimization},
+  year         = {2026},
+  howpublished = {Survey manuscript},
+  url          = {https://enjundu.com/blog/working_agents/}
+}
+```
 
 ## Contributing
 
