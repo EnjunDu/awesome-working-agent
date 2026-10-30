@@ -53,7 +53,7 @@ Read the survey on [arXiv](https://arxiv.org/abs/2610.35845), and visit the [pro
 
 ## Agents, Methods & Systems
 
-Agents, learning methods, training environments, and runtime systems for producing work outcomes and improving capability. **278 entries.**
+Agents, learning methods, training environments, and runtime systems for producing work outcomes and improving capability. **279 entries.**
 
 | Paper | Year | Focus | Links |
 | --- | --- | --- | --- |
@@ -163,6 +163,7 @@ Agents, learning methods, training environments, and runtime systems for produci
 | **VIGA**: Vision-as-Inverse-Graphics Agent via Interleaved Multimodal Reasoning <sup>[130]</sup> | 2026 | CAD & visual design | [Paper](https://link.springer.com/chapter/10.1007/978-3-032-37464-6_30) · [Publication](https://arxiv.org/abs/2601.11109) · [Code](https://github.com/Fugtemypt123/VIGA) · [Data](https://huggingface.co/datasets/DietCoke4671/blenderbench) · [Website](https://fugtemypt123.github.io/VIGA-website/) |
 | **Who Verifies the Verifier?** Co-Evolving Inspectable Graders with Self-Improving Agents <sup>[385]</sup> | 2026 | Verification & recovery | [Paper](https://arxiv.org/abs/2610.11464) |
 | **WorkBorne**: Discovering Agentic Tasks from Real-World Artifact Transitions <sup>[161]</sup> | 2026 | Workspaces & occupational work | [Paper](https://arxiv.org/abs/2610.14915) |
+| **WorkFactory**: Turning Professional Intents into Executable Work for Scalable Agent Training | 2026 | Workspaces & occupational work | [Paper](https://arxiv.org/abs/2610.37161) · [Project](https://github.com/IQuestLab/WorkFactory) |
 | **WorkForge**: Scaling Verifiable Environments for Long-horizon Work Agents <sup>[160]</sup> | 2026 | Workspaces & occupational work | [Paper](https://arxiv.org/abs/2610.04906) |
 | **WorkGenesis**: Building the Worlds That Teach Agents to Work <sup>[144]</sup> | 2026 | Workspaces & occupational work | [Paper](https://arxiv.org/abs/2609.39325) |
 | **WorkRover**: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution <sup>[168]</sup> | 2026 | Workspaces & occupational work | [Paper](https://arxiv.org/abs/2610.18067) |
